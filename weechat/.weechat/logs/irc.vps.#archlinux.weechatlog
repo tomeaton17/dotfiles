@@ -16157,3 +16157,12 @@
 2017-11-07 17:21:20	-->	netlar (~netlar@ip68-5-250-122.oc.oc.cox.net) has joined #archlinux
 2017-11-07 17:21:40	<--	yohnnyjoe (~yohnnyjoe@c-73-129-2-10.hsd1.dc.comcast.net) has quit (Ping timeout: 268 seconds)
 2017-11-07 17:21:44	autofsckk	Namarrgon: well i would like to talk an share ideas of different services more than a specific one, is more of knowing guys with more experience and ask for advice but ill do what you tell me thanks
+2017-11-07 17:22:52	earnestly	Namarrgon: Solution was "nuke from orbit"
+2017-11-07 17:23:12	Namarrgon	i always wonder how the keyring gets into such a state
+2017-11-07 17:23:40	Namarrgon	and how to debug it properly
+2017-11-07 17:23:58	<--	rhabbachi (~rhabbachi@196.179.248.162) has quit (Quit: rhabbachi)
+2017-11-07 17:24:05	<--	heday (~fheday@dhcp0D84.kent.ac.uk) has quit (Ping timeout: 240 seconds)
+2017-11-07 17:24:08	autofsckk	bin_bash: i have a problem with a vps, apache+php-fpm  something is wrong with  owner and/or permissions because with wordpress it cant update because is now writable wp-content, i already tried at #php-fpm but no response, i want to also increase security in my install, thats why i would like to talk with more experienced admins
+2017-11-07 17:24:20	bin_bash	autofsckk: an archlinux vps?
+2017-11-07 17:24:26	autofsckk	yes
+2017-11-07 17:24:29	koell	hi
