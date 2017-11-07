@@ -1,0 +1,1681 @@
+2017-11-03 15:27:47	-->	tomeaton17 (~tomeaton1@129.ip-91-134-134.eu) has joined ##machinelearning
+2017-11-03 15:27:47	--	Topic for ##machinelearning is "Machine Learning | Use https://riot.im/app/#/room/#freenode_##machinelearning:matrix.org to stay connected. | Rules: No small talk. Technical talk only. No public logging. Offtopic chat only in ##ml-ot | About: https://j.mp/ChannelGitHub | Related: ##AGI ##it-group #keras ##nlp #nupic #pydata #scikit-learn ##statistics #tensorflow"
+2017-11-03 15:27:47	--	Topic set by RandIter (sid32215@gateway/web/irccloud.com/x-xxpounlyvxhsuvrq) on Sun, 08 Oct 2017 03:40:01
+2017-11-03 15:27:47	--	Channel ##machinelearning: 414 nicks (2 ops, 2 voices, 410 normals)
+2017-11-03 15:27:49	--	Channel created on Sun, 03 Jan 2010 19:26:39
+2017-11-03 15:28:31	-->	quant4242 (~Thunderbi@p200300632814BD8C75888402EEB042E5.dip0.t-ipconnect.de) has joined ##machinelearning
+2017-11-03 15:29:11	<--	SiegeLord (~sl@c-73-158-190-212.hsd1.ca.comcast.net) has quit (Quit: It's a joke, it's all a joke.)
+2017-11-03 15:29:58	-->	cagomez (~cagomez@sb0-cf9a61b1.dsl.impulse.net) has joined ##machinelearning
+2017-11-03 15:31:45	-->	asmcoder (~asmcoder@2405:204:322e:a601:c5e7:a01e:d173:a9c6) has joined ##machinelearning
+2017-11-03 15:32:02	-->	maelcum (~horst@200116b84252c3009c1535de04946de4.dip.versatel-1u1.de) has joined ##machinelearning
+2017-11-03 15:32:31	<--	RebelCoder (~rebelCode@95.143.115.254) has quit (Quit: Leaving)
+2017-11-03 15:35:15	-->	multifractal (~multifrac@194.73.87.179) has joined ##machinelearning
+2017-11-03 15:35:51	-->	eyqs (~eyqs@d75-157-231-238.bchsia.telus.net) has joined ##machinelearning
+2017-11-03 15:39:08	<--	keer4n (~keer4n@49.244.70.57) has quit (Ping timeout: 240 seconds)
+2017-11-03 15:39:52	-->	neoncontrails (~neoncontr@2602:306:31a7:a1a0:2533:4d3f:89b5:3786) has joined ##machinelearning
+2017-11-03 15:41:32	-->	keer4n (~keer4n@49.244.48.123) has joined ##machinelearning
+2017-11-03 15:41:33	-->	vlad_smirnov (~Thunderbi@vm462260.vps.masterhost.ru) has joined ##machinelearning
+2017-11-03 15:43:59	-->	toad_ (~torstein@84-52-234.108.3p.ntebredband.no) has joined ##machinelearning
+2017-11-03 15:44:05	<--	eyqs (~eyqs@d75-157-231-238.bchsia.telus.net) has quit (Ping timeout: 240 seconds)
+2017-11-03 15:44:14	<--	neoncontrails (~neoncontr@2602:306:31a7:a1a0:2533:4d3f:89b5:3786) has quit (Ping timeout: 246 seconds)
+2017-11-03 15:44:30	<--	jkhl (~j@host86-168-253-36.range86-168.btcentralplus.com) has quit (Ping timeout: 246 seconds)
+2017-11-03 15:44:39	-->	rumbler3_ (~rumbler31@c-76-100-127-232.hsd1.md.comcast.net) has joined ##machinelearning
+2017-11-03 15:46:38	-->	TotalOblivion (~Henry_D@unaffiliated/totaloblivion) has joined ##machinelearning
+2017-11-03 15:46:41	<--	maelcum (~horst@200116b84252c3009c1535de04946de4.dip.versatel-1u1.de) has quit (Quit: Konversation terminated!)
+2017-11-03 15:48:13	<--	storrgie (~storrgie@znc.epiphyte.network) has quit (Quit: Bye)
+2017-11-03 15:49:01	-->	eyqs (~eyqs@d75-157-231-238.bchsia.telus.net) has joined ##machinelearning
+2017-11-03 15:49:19	-->	maelcum (~horst@200116b84252c30085841a8aeba22019.dip.versatel-1u1.de) has joined ##machinelearning
+2017-11-03 15:49:21	<--	rumbler3_ (~rumbler31@c-76-100-127-232.hsd1.md.comcast.net) has quit (Ping timeout: 248 seconds)
+2017-11-03 15:49:26	-->	sivi (~sivanlang@213.57.209.161) has joined ##machinelearning
+2017-11-03 15:51:06	-->	storrgie (~storrgie@45.63.10.204) has joined ##machinelearning
+2017-11-03 15:53:27	<--	eyqs (~eyqs@d75-157-231-238.bchsia.telus.net) has quit (Ping timeout: 240 seconds)
+2017-11-03 15:54:19	-->	heebo (~user@80.87.25.58) has joined ##machinelearning
+2017-11-03 15:54:25	-->	neoncontrails (~neoncontr@2602:306:31a7:a1a0:603e:eac4:3091:9ab9) has joined ##machinelearning
+2017-11-03 15:54:45	<--	bluebear_ (~dluhos@80.95.97.194) has quit (Quit: Leaving.)
+2017-11-03 15:57:12	-->	p-i- (~Ohmu@113.53.204.86) has joined ##machinelearning
+2017-11-03 15:57:12	<--	pi- (~Ohmu@node-oz1.pool-118-173.dynamic.totbb.net) has quit (Disconnected by services)
+2017-11-03 15:57:19	<--	whenisnever (~whenisnev@94.155.32.30) has quit (Quit: WeeChat 1.9.1)
+2017-11-03 15:58:55	<--	TotalOblivion (~Henry_D@unaffiliated/totaloblivion) has quit (Read error: Connection reset by peer)
+2017-11-03 15:58:59	<--	crazycoder (~Damiano@net-188-152-20-216.cust.vodafonedsl.it) has quit (Remote host closed the connection)
+2017-11-03 16:02:20	<--	smuten (~manon@46.10.238.204) has quit (Quit: leaving)
+2017-11-03 16:03:05	-->	Deacyde (~Deacyde@unaffiliated/deacyde) has joined ##machinelearning
+2017-11-03 16:06:49	-->	TotalOblivion (~Henry_D@unaffiliated/totaloblivion) has joined ##machinelearning
+2017-11-03 16:11:26	<--	mson (uid110608@gateway/web/irccloud.com/x-hxxidlwpahhnfdft) has quit (Quit: Connection closed for inactivity)
+2017-11-03 16:12:35	<--	neoncontrails (~neoncontr@2602:306:31a7:a1a0:603e:eac4:3091:9ab9) has quit (Ping timeout: 246 seconds)
+2017-11-03 16:18:06	-->	GuidovanPossum_ (~chatzilla@ip68-2-90-24.ph.ph.cox.net) has joined ##machinelearning
+2017-11-03 16:19:31	<--	GuidovanPossum (~chatzilla@2600:8800:1c89:3ccf:b8b1:3a41:5090:b919) has quit (Ping timeout: 252 seconds)
+2017-11-03 16:19:41	--	GuidovanPossum_ is now known as GuidovanPossum
+2017-11-03 16:22:27	<--	maelcum (~horst@200116b84252c30085841a8aeba22019.dip.versatel-1u1.de) has quit (Quit: Konversation terminated!)
+2017-11-03 16:22:27	<--	toad_ (~torstein@84-52-234.108.3p.ntebredband.no) has quit (Ping timeout: 240 seconds)
+2017-11-03 16:23:08	<--	vlad_smirnov (~Thunderbi@vm462260.vps.masterhost.ru) has quit (Ping timeout: 240 seconds)
+2017-11-03 16:25:24	-->	maelcum (~horst@200116b84252c30025867f6dfcb5158f.dip.versatel-1u1.de) has joined ##machinelearning
+2017-11-03 16:26:14	<--	asmcoder (~asmcoder@2405:204:322e:a601:c5e7:a01e:d173:a9c6) has quit (Ping timeout: 246 seconds)
+2017-11-03 16:27:05	<--	kingsley (~kingsley@174-21-6-46.tukw.qwest.net) has quit (Ping timeout: 240 seconds)
+2017-11-03 16:27:58	-->	polnts (~nuasmeer@213.55.95.139) has joined ##machinelearning
+2017-11-03 16:30:36	multifractal	I have to determine whether images are of real colour documents, or greyscale photocopies. Assuming there is some (albeit fairly minimal) background bordering the documents...
+2017-11-03 16:30:46	-->	lgmoneda (~user@186.215.172.10) has joined ##machinelearning
+2017-11-03 16:30:53	multifractal	My first thought is to compute colour histograms and feed them into SVM?
+2017-11-03 16:31:05	multifractal	Because maybe deep learning is overkill for this task.
+2017-11-03 16:31:14	multifractal	Any thoughts?
+2017-11-03 16:32:26	-->	nast (~nast@64.137.182.14) has joined ##machinelearning
+2017-11-03 16:33:22	multifractal	I only have a small handful of greyscale printout images for training/val/test... But on the other hand greyscale images are easy to synthesize for training networks.
+2017-11-03 16:33:43	multifractal	Perhaps pre-trained network features into SVM could work?
+2017-11-03 16:33:51	multifractal	Have I missed any obvious approaches?
+2017-11-03 16:35:09	<--	maelcum (~horst@200116b84252c30025867f6dfcb5158f.dip.versatel-1u1.de) has quit (Quit: Konversation terminated!)
+2017-11-03 16:35:34	<--	naf (~no@unaffiliated/naf) has quit (K-Lined)
+2017-11-03 16:36:03	<--	heebo (~user@80.87.25.58) has left ##machinelearning ("ERC (IRC client for Emacs 25.3.1)")
+2017-11-03 16:36:07	-->	maelcum (~horst@200116b84252c300f1c1dc285687a675.dip.versatel-1u1.de) has joined ##machinelearning
+2017-11-03 16:36:21	<--	sivi (~sivanlang@213.57.209.161) has quit (Quit: sivi)
+2017-11-03 16:38:02	<--	maelcum (~horst@200116b84252c300f1c1dc285687a675.dip.versatel-1u1.de) has quit (Client Quit)
+2017-11-03 16:39:02	-->	asmcoder (~asmcoder@2405:204:322e:a601:4c21:db58:c42b:a704) has joined ##machinelearning
+2017-11-03 16:39:34	-->	neoncontrails (~neoncontr@2602:306:31a7:a1a0:5475:8d76:71dc:ce57) has joined ##machinelearning
+2017-11-03 16:39:47	-->	maelcum (~horst@200116b84252c300c09fb1d8f02dc6ee.dip.versatel-1u1.de) has joined ##machinelearning
+2017-11-03 16:42:57	-->	jas_ass (~jas@37.0.53.31) has joined ##machinelearning
+2017-11-03 16:44:17	-->	sivi (~sivanlang@213.57.209.161) has joined ##machinelearning
+2017-11-03 16:44:22	<--	neoncontrails (~neoncontr@2602:306:31a7:a1a0:5475:8d76:71dc:ce57) has quit (Ping timeout: 258 seconds)
+2017-11-03 16:44:27	<--	beanbagula (~bean_bag@80.169.113.162) has quit (Ping timeout: 240 seconds)
+2017-11-03 16:45:21	-->	rumbler3_ (~rumbler31@c-76-100-127-232.hsd1.md.comcast.net) has joined ##machinelearning
+2017-11-03 16:45:30	-->	neoncontrails (~neoncontr@2602:306:31a7:a1a0:e528:b0a4:4112:1320) has joined ##machinelearning
+2017-11-03 16:47:51	-->	mson (uid110608@gateway/web/irccloud.com/x-pjzzofknlvnhhgvg) has joined ##machinelearning
+2017-11-03 16:50:41	<--	rumbler3_ (~rumbler31@c-76-100-127-232.hsd1.md.comcast.net) has quit (Ping timeout: 240 seconds)
+2017-11-03 16:52:24	-->	ziyourenxiang (~ziyourenx@unaffiliated/ziyourenxiang) has joined ##machinelearning
+2017-11-03 16:53:32	<--	Mottengrotte (~Mottengro@195.50.176.6) has quit (Quit: Mottengrotte)
+2017-11-03 16:53:54	-->	unixpickle (~unixpickl@50.224.230.166) has joined ##machinelearning
+2017-11-03 16:55:12	<--	oc2k1 (~oc2k1@62-193-39-77.as16211.net) has quit (Ping timeout: 246 seconds)
+2017-11-03 16:55:13	<--	two2theheadPC0 (~RDaneelOl@unaffiliated/two2thehead) has quit (Quit: Leaving)
+2017-11-03 16:56:14	-->	ertes (~ertes@haskell/developer/ertes) has joined ##machinelearning
+2017-11-03 16:58:09	<--	multifractal (~multifrac@194.73.87.179) has quit (Remote host closed the connection)
+2017-11-03 16:58:39	-->	xkapastel (uid17782@gateway/web/irccloud.com/x-nhsntgcvlltkwcph) has joined ##machinelearning
+2017-11-03 16:59:57	<--	polnts (~nuasmeer@213.55.95.139) has quit (Ping timeout: 240 seconds)
+2017-11-03 17:02:10	-->	damke_ (~damke@unaffiliated/damke) has joined ##machinelearning
+2017-11-03 17:02:46	<--	neoncontrails (~neoncontr@2602:306:31a7:a1a0:e528:b0a4:4112:1320) has quit (Ping timeout: 258 seconds)
+2017-11-03 17:03:02	<--	mikecmpbll (~mikecmpbl@ruby/staff/mikecmpbll) has quit (Ping timeout: 260 seconds)
+2017-11-03 17:03:08	<--	ziyourenxiang (~ziyourenx@unaffiliated/ziyourenxiang) has quit (Ping timeout: 240 seconds)
+2017-11-03 17:03:41	<--	rumbullion (~castillob@2600:1:f51c:5199:19c6:46ab:3c3f:a12e) has quit (Ping timeout: 246 seconds)
+2017-11-03 17:04:21	<--	damke (~damke@unaffiliated/damke) has quit (Ping timeout: 240 seconds)
+2017-11-03 17:05:47	-->	rumbullion (~castillob@2600:1:f51f:4f43:ff98:baf2:ef5d:37c9) has joined ##machinelearning
+2017-11-03 17:07:23	-->	energizer (~energizer@unaffiliated/energizer) has joined ##machinelearning
+2017-11-03 17:11:26	<--	bha1 (~Adium@5.57.21.48) has quit (Quit: Leaving.)
+2017-11-03 17:12:35	<--	shiyaz (~shiyaz@148.253.134.213) has quit (Ping timeout: 240 seconds)
+2017-11-03 17:12:57	-->	two2theheadPC0 (~RDaneelOl@unaffiliated/two2thehead) has joined ##machinelearning
+2017-11-03 17:15:55	-->	neoncontrails (~neoncontr@99-26-122-26.lightspeed.sndgca.sbcglobal.net) has joined ##machinelearning
+2017-11-03 17:20:25	-->	causative (~halberd@unaffiliated/halberd) has joined ##machinelearning
+2017-11-03 17:25:21	<--	Fantonaut (~tadaaa@nat-wh-wz4-12.rz.uni-karlsruhe.de) has quit (Remote host closed the connection)
+2017-11-03 17:27:59	<--	jas_ass (~jas@37.0.53.31) has quit (Quit: This computer has gone to sleep)
+2017-11-03 17:28:05	<--	TotalOblivion (~Henry_D@unaffiliated/totaloblivion) has quit (Remote host closed the connection)
+2017-11-03 17:28:15	-->	jas_ass (~jas@37.0.53.31) has joined ##machinelearning
+2017-11-03 17:28:32	-->	TotalOblivion (~Henry_D@unaffiliated/totaloblivion) has joined ##machinelearning
+2017-11-03 17:28:35	<--	TotalOblivion (~Henry_D@unaffiliated/totaloblivion) has quit (Remote host closed the connection)
+2017-11-03 17:28:50	--	irc: disconnected from server
+2017-11-03 18:07:43	-->	tomeaton17 (~tomeaton1@129.ip-91-134-134.eu) has joined ##machinelearning
+2017-11-03 18:07:43	--	Topic for ##machinelearning is "Machine Learning | Use https://riot.im/app/#/room/#freenode_##machinelearning:matrix.org to stay connected. | Rules: No small talk. Technical talk only. No public logging. Offtopic chat only in ##ml-ot | About: https://j.mp/ChannelGitHub | Related: ##AGI ##it-group #keras ##nlp #nupic #pydata #scikit-learn ##statistics #tensorflow"
+2017-11-03 18:07:43	--	Topic set by RandIter (sid32215@gateway/web/irccloud.com/x-xxpounlyvxhsuvrq) on Sun, 08 Oct 2017 03:40:01
+2017-11-03 18:07:43	--	Channel ##machinelearning: 416 nicks (2 ops, 2 voices, 412 normals)
+2017-11-03 18:07:43	***	Buffer Playback...
+2017-11-03 18:07:43	iamas97	[17:33:08] hii
+2017-11-03 18:07:43	iamas97	[17:33:22] my name is Aquib
+2017-11-03 18:07:43	iamas97	[17:33:42] I'm beginner in ML
+2017-11-03 18:07:43	iamas97	[17:34:04] I want to know how to start it?
+2017-11-03 18:07:43	iamas97	[17:34:29] can anyone suggest me anything?
+2017-11-03 18:07:43	@RandIter	[17:39:35] Uber Open Sources Pyro, a Deep Probabilistic Programming Language (https://eng.uber.com/pyro/)
+2017-11-03 18:07:43	+ML-helper[bot]	[17:39:36] [ Uber Open Sources Pyro, a Deep Probabilistic Programming Language ]
+2017-11-03 18:07:43	@RandIter	[17:39:59] iamas97: are you a good programmer? It is a requirement.
+2017-11-03 18:07:43	iamas97	[17:40:33] yes
+2017-11-03 18:07:43	@RandIter	[17:43:18] http://pyro.ai
+2017-11-03 18:07:43	+ML-helper[bot]	[17:43:18] [ Pyro ]
+2017-11-03 18:07:43	garit	[17:56:09] Where can i find the collection of very small tasks, so that there are very large number of them that a ML in theory can do, to test some models on their ability to adapt rather than to solve a particular problem?
+2017-11-03 18:07:43	***	Playback Complete.
+2017-11-03 18:07:56	--	Channel created on Sun, 03 Jan 2010 19:26:39
+2017-11-03 18:08:13	-->	jcalla (~jcallaha@cpe-24-163-98-108.nc.res.rr.com) has joined ##machinelearning
+2017-11-03 18:09:13	--	irc: disconnected from server
+2017-11-03 18:09:36	-->	tomeaton17 (~tomeaton1@129.ip-91-134-134.eu) has joined ##machinelearning
+2017-11-03 18:09:36	--	Topic for ##machinelearning is "Machine Learning | Use https://riot.im/app/#/room/#freenode_##machinelearning:matrix.org to stay connected. | Rules: No small talk. Technical talk only. No public logging. Offtopic chat only in ##ml-ot | About: https://j.mp/ChannelGitHub | Related: ##AGI ##it-group #keras ##nlp #nupic #pydata #scikit-learn ##statistics #tensorflow"
+2017-11-03 18:09:36	--	Topic set by RandIter (sid32215@gateway/web/irccloud.com/x-xxpounlyvxhsuvrq) on Sun, 08 Oct 2017 03:40:01
+2017-11-03 18:09:36	--	Channel ##machinelearning: 417 nicks (2 ops, 2 voices, 413 normals)
+2017-11-03 18:09:49	--	Channel created on Sun, 03 Jan 2010 19:26:39
+2017-11-03 18:11:31	-->	Fantonaut (~tadaaa@nat-wh-wz4-12.rz.uni-karlsruhe.de) has joined ##machinelearning
+2017-11-03 18:14:16	<--	smccarthy (~smccarthy@64.202.160.233) has quit (Remote host closed the connection)
+2017-11-03 18:15:26	-->	Krowar (~Krowar@178-83-158-231.dynamic.hispeed.ch) has joined ##machinelearning
+2017-11-03 18:16:35	<--	jan64 (~jan64@79.184.157.55.ipv4.supernova.orange.pl) has quit (Ping timeout: 240 seconds)
+2017-11-03 18:20:05	<--	Krowar (~Krowar@178-83-158-231.dynamic.hispeed.ch) has quit (Ping timeout: 240 seconds)
+2017-11-03 18:20:15	<--	Laie (~User@121.131.184.208) has quit (Ping timeout: 248 seconds)
+2017-11-03 18:20:21	-->	rsstag (~castillob@2600:1:f555:1790:98c3:172e:b75:28be) has joined ##machinelearning
+2017-11-03 18:21:16	<--	finkata__ (~finkata@gateway/tor-sasl/finkata) has quit (Read error: Connection reset by peer)
+2017-11-03 18:22:10	<--	rumbullion (~castillob@2600:1:f51f:4f43:ff98:baf2:ef5d:37c9) has quit (Ping timeout: 252 seconds)
+2017-11-03 18:22:43	-->	finkata__ (~finkata@gateway/tor-sasl/finkata) has joined ##machinelearning
+2017-11-03 18:22:44	-->	smccarthy (~smccarthy@ip-216-69-191-1.ip.secureserver.net) has joined ##machinelearning
+2017-11-03 18:25:49	-->	raynold (uid201163@gateway/web/irccloud.com/x-wpzgkylsvzmuamdk) has joined ##machinelearning
+2017-11-03 18:27:08	<--	cagomez (~cagomez@sb0-cf9a61b1.dsl.impulse.net) has quit (Remote host closed the connection)
+2017-11-03 18:27:23	-->	cagomez (~cagomez@sb0-cf9a61b1.dsl.impulse.net) has joined ##machinelearning
+2017-11-03 18:31:15	<--	maelcum (~horst@200116b84252c300691135fe8b577a70.dip.versatel-1u1.de) has quit (Quit: Konversation terminated!)
+2017-11-03 18:33:30	-->	maelcum (~horst@200116b84252c3001d52e3b0202f3718.dip.versatel-1u1.de) has joined ##machinelearning
+2017-11-03 18:37:06	-->	Krowar (~Krowar@178-83-158-231.dynamic.hispeed.ch) has joined ##machinelearning
+2017-11-03 18:39:17	-->	rumbullion (~castillob@2600:1:f50d:1ec6:2047:e90a:67d7:cc49) has joined ##machinelearning
+2017-11-03 18:40:35	<--	rsstag (~castillob@2600:1:f555:1790:98c3:172e:b75:28be) has quit (Ping timeout: 264 seconds)
+2017-11-03 18:42:48	<--	nast (~nast@64.137.182.14) has quit (Quit: Leaving)
+2017-11-03 18:44:18	<--	p3rs3us (~jduro@143.167.53.205) has quit (Quit: Leaving)
+2017-11-03 18:44:21	<--	damke_ (~damke@unaffiliated/damke) has quit (Ping timeout: 240 seconds)
+2017-11-03 18:47:13	-->	tttb (~tttb@host81-149-123-12.in-addr.btopenworld.com) has joined ##machinelearning
+2017-11-03 18:47:56	-->	beanbagula (~bean_bag@2a00:23c5:4b04:9200:978:a54c:bf5b:bed2) has joined ##machinelearning
+2017-11-03 18:50:48	<--	jfelchner (~jfelchner@cpe-70-113-92-26.austin.res.rr.com) has quit (Quit: zzzzzzzzzzzz..........)
+2017-11-03 18:52:35	<--	Krowar (~Krowar@178-83-158-231.dynamic.hispeed.ch) has quit (Remote host closed the connection)
+2017-11-03 18:55:31	-->	muelleme (~muelleme@dslb-088-073-038-104.088.073.pools.vodafone-ip.de) has joined ##machinelearning
+2017-11-03 18:58:04	-->	neuroproc (~neuroproc@134.17.147.165) has joined ##machinelearning
+2017-11-03 18:59:27	<--	rumbullion (~castillob@2600:1:f50d:1ec6:2047:e90a:67d7:cc49) has quit (Read error: Connection reset by peer)
+2017-11-03 18:59:54	-->	rumbullion (~castillob@2600:1:f50d:1ec6:2047:e90a:67d7:cc49) has joined ##machinelearning
+2017-11-03 19:09:36	-->	eyqs (~eyqs@dhcp-128-189-235-45.ubcsecure.wireless.ubc.ca) has joined ##machinelearning
+2017-11-03 19:09:51	<--	smccarthy (~smccarthy@ip-216-69-191-1.ip.secureserver.net) has quit (Remote host closed the connection)
+2017-11-03 19:12:13	<--	beanbagula (~bean_bag@2a00:23c5:4b04:9200:978:a54c:bf5b:bed2) has quit (Ping timeout: 252 seconds)
+2017-11-03 19:13:15	-->	beanbagula (~bean_bag@2a00:23c5:4b04:9200:978:a54c:bf5b:bed2) has joined ##machinelearning
+2017-11-03 19:13:56	-->	Krowar (~Krowar@178-83-158-231.dynamic.hispeed.ch) has joined ##machinelearning
+2017-11-03 19:15:30	<--	tombusby (~tombusby@gateway/tor-sasl/tombusby) has quit (Remote host closed the connection)
+2017-11-03 19:16:35	-->	jfelchner (~jfelchner@ec2-52-20-239-31.compute-1.amazonaws.com) has joined ##machinelearning
+2017-11-03 19:16:54	<--	oneark (uid254801@gateway/web/irccloud.com/x-svwvpnowylhxnqfe) has quit (Quit: Connection closed for inactivity)
+2017-11-03 19:17:21	<--	unixpickle (~unixpickl@50.224.230.166) has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+2017-11-03 19:17:30	<--	jfelchner (~jfelchner@ec2-52-20-239-31.compute-1.amazonaws.com) has quit (Client Quit)
+2017-11-03 19:18:17	<--	Krowar (~Krowar@178-83-158-231.dynamic.hispeed.ch) has quit (Ping timeout: 252 seconds)
+2017-11-03 19:19:11	-->	tombusby (~tombusby@gateway/tor-sasl/tombusby) has joined ##machinelearning
+2017-11-03 19:21:26	<--	mson (uid110608@gateway/web/irccloud.com/x-pjzzofknlvnhhgvg) has quit (Quit: Connection closed for inactivity)
+2017-11-03 19:22:49	-->	Mike111 (~Mike@5.155.168.20) has joined ##machinelearning
+2017-11-03 19:23:10	<--	Mike111 (~Mike@5.155.168.20) has quit (Max SendQ exceeded)
+2017-11-03 19:25:05	<--	Mike11 (~Mike@unaffiliated/mike11) has quit (Ping timeout: 246 seconds)
+2017-11-03 19:25:18	<--	cagomez (~cagomez@sb0-cf9a61b1.dsl.impulse.net) has quit (Remote host closed the connection)
+2017-11-03 19:25:42	<--	muelleme (~muelleme@dslb-088-073-038-104.088.073.pools.vodafone-ip.de) has quit (Ping timeout: 246 seconds)
+2017-11-03 19:25:48	-->	cagomez (~cagomez@sb0-cf9a61b1.dsl.impulse.net) has joined ##machinelearning
+2017-11-03 19:26:45	-->	whenisne1 (~whenisnev@176-12-28-168.pon.spectrumnet.bg) has joined ##machinelearning
+2017-11-03 19:27:40	<--	beanbagula (~bean_bag@2a00:23c5:4b04:9200:978:a54c:bf5b:bed2) has quit (Ping timeout: 258 seconds)
+2017-11-03 19:28:10	<--	tttb (~tttb@host81-149-123-12.in-addr.btopenworld.com) has quit (Quit: Leaving)
+2017-11-03 19:29:18	--	whenisne1 is now known as whenisnever
+2017-11-03 19:30:07	<--	cagomez (~cagomez@sb0-cf9a61b1.dsl.impulse.net) has quit (Ping timeout: 248 seconds)
+2017-11-03 19:38:23	<--	jas_ass (~jas@37.0.53.31) has quit (Quit: This computer has gone to sleep)
+2017-11-03 19:38:34	-->	smccarthy (~smccarthy@ip68-3-157-142.ph.ph.cox.net) has joined ##machinelearning
+2017-11-03 19:39:38	<--	smccarthy (~smccarthy@ip68-3-157-142.ph.ph.cox.net) has quit (Remote host closed the connection)
+2017-11-03 19:39:38	<--	keer4n (~keer4n@49.244.48.123) has quit (Ping timeout: 240 seconds)
+2017-11-03 19:39:38	-->	smccarthy (~smccarthy@64.202.160.233) has joined ##machinelearning
+2017-11-03 19:41:09	-->	jas_ass (~jas@37.0.53.31) has joined ##machinelearning
+2017-11-03 19:41:14	-->	keer4n (~keer4n@49.244.86.52) has joined ##machinelearning
+2017-11-03 19:46:49	Lyote	garit: How about the UCI ML repository? http://archive.ics.uci.edu/ml/datasets.html
+2017-11-03 19:46:52	+ML-helper[bot]	[ UCI Machine Learning Repository: Data Sets ]
+2017-11-03 19:48:56	<--	SilentNauscopy (~manjaro-k@031011129197.dynamic-zab-04.vectranet.pl) has quit (Quit: Konversation terminated!)
+2017-11-03 19:50:59	<--	whenisnever (~whenisnev@176-12-28-168.pon.spectrumnet.bg) has quit (Ping timeout: 246 seconds)
+2017-11-03 19:54:19	-->	unixpickle (~unixpickl@50.224.230.166) has joined ##machinelearning
+2017-11-03 19:59:43	--	rofl_ is now known as jcarpenter2
+2017-11-03 20:03:08	-->	whenisnever (~whenisnev@176-12-28-168.pon.spectrumnet.bg) has joined ##machinelearning
+2017-11-03 20:03:17	<--	ertes (~ertes@haskell/developer/ertes) has quit (Ping timeout: 260 seconds)
+2017-11-03 20:09:42	-->	cagomez (~cagomez@sb0-cf9a61b1.dsl.impulse.net) has joined ##machinelearning
+2017-11-03 20:10:43	-->	f32 (~chatzilla@ip-58-28-153-186.static-xdsl.xnet.co.nz) has joined ##machinelearning
+2017-11-03 20:14:16	-->	vlad_smirnov (~Thunderbi@vm462260.vps.masterhost.ru) has joined ##machinelearning
+2017-11-03 20:15:58	<--	neoncontrails (~neoncontr@99-26-122-26.lightspeed.sndgca.sbcglobal.net) has quit (Remote host closed the connection)
+2017-11-03 20:17:58	-->	uks (~uksio@p2003008DAC27541C24B2081199BA9E07.dip0.t-ipconnect.de) has joined ##machinelearning
+2017-11-03 20:18:24	-->	beanbagula (~bean_bag@2a00:23c5:4b04:9200:978:a54c:bf5b:bed2) has joined ##machinelearning
+2017-11-03 20:19:06	-->	muelleme (~muelleme@dslb-088-073-038-104.088.073.pools.vodafone-ip.de) has joined ##machinelearning
+2017-11-03 20:20:14	-->	Krowar (~Krowar@178-83-158-231.dynamic.hispeed.ch) has joined ##machinelearning
+2017-11-03 20:20:15	<--	Krowar (~Krowar@178-83-158-231.dynamic.hispeed.ch) has quit (Remote host closed the connection)
+2017-11-03 20:20:18	<--	uksio (~uksio@p2003008DAC275437B06758851281C710.dip0.t-ipconnect.de) has quit (Ping timeout: 246 seconds)
+2017-11-03 20:20:31	-->	Krowar (~Krowar@178-83-158-231.dynamic.hispeed.ch) has joined ##machinelearning
+2017-11-03 20:20:59	<--	unixpickle (~unixpickl@50.224.230.166) has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+2017-11-03 20:21:58	-->	no742617000027 (~no7426170@2a02:8109:8a00:4d64:c1bc:2c95:c83a:fab8) has joined ##machinelearning
+2017-11-03 20:23:24	-->	epocS60 (~epocS60@pool-96-250-224-81.nycmny.fios.verizon.net) has joined ##machinelearning
+2017-11-03 20:29:35	-->	vlad_smirnov1 (~Thunderbi@vm462260.vps.masterhost.ru) has joined ##machinelearning
+2017-11-03 20:30:58	<--	vlad_smirnov (~Thunderbi@vm462260.vps.masterhost.ru) has quit (Remote host closed the connection)
+2017-11-03 20:30:58	--	vlad_smirnov1 is now known as vlad_smirnov
+2017-11-03 20:32:07	<--	Elyx0 (~Elyx0@unaffiliated/elyx0) has quit (Quit: Elyx0)
+2017-11-03 20:44:41	-->	c0rw1n_ (~c0rw1n@cpc109847-bagu17-2-0-cust223.1-3.cable.virginm.net) has joined ##machinelearning
+2017-11-03 20:46:47	<--	jcalla (~jcallaha@cpe-24-163-98-108.nc.res.rr.com) has quit (Quit: Leaving)
+2017-11-03 20:48:31	<--	muelleme (~muelleme@dslb-088-073-038-104.088.073.pools.vodafone-ip.de) has quit (Ping timeout: 255 seconds)
+2017-11-03 20:48:37	-->	geshtu (~geshtu@ip174-66-192-51.cl.ri.cox.net) has joined ##machinelearning
+2017-11-03 20:49:28	<--	beanbagula (~bean_bag@2a00:23c5:4b04:9200:978:a54c:bf5b:bed2) has quit (Ping timeout: 240 seconds)
+2017-11-03 20:50:29	<--	vlad_smirnov (~Thunderbi@vm462260.vps.masterhost.ru) has quit (Remote host closed the connection)
+2017-11-03 20:50:46	-->	alyce (~Alyce_Son@c110-20-162-147.rivrw10.nsw.optusnet.com.au) has joined ##machinelearning
+2017-11-03 20:51:39	-->	sw1 (~sw1@2601:43:200:5c30:f1f1:b9bb:de58:70da) has joined ##machinelearning
+2017-11-03 20:51:46	<--	eyqs (~eyqs@dhcp-128-189-235-45.ubcsecure.wireless.ubc.ca) has quit (Ping timeout: 252 seconds)
+2017-11-03 20:51:53	<--	rumbullion (~castillob@2600:1:f50d:1ec6:2047:e90a:67d7:cc49) has quit (Ping timeout: 246 seconds)
+2017-11-03 20:52:15	-->	rumbullion (~castillob@2600:1:f50d:1ec6:bc12:2485:cf2f:67db) has joined ##machinelearning
+2017-11-03 20:55:27	<--	alyce (~Alyce_Son@c110-20-162-147.rivrw10.nsw.optusnet.com.au) has quit (Ping timeout: 248 seconds)
+2017-11-03 20:55:31	-->	eyqs (~eyqs@dhcp-128-189-235-45.ubcsecure.wireless.ubc.ca) has joined ##machinelearning
+2017-11-03 20:57:37	<--	whenisnever (~whenisnev@176-12-28-168.pon.spectrumnet.bg) has quit (Ping timeout: 248 seconds)
+2017-11-03 21:02:13	<--	sw1 (~sw1@2601:43:200:5c30:f1f1:b9bb:de58:70da) has quit (Ping timeout: 252 seconds)
+2017-11-03 21:02:23	<--	eyqs (~eyqs@dhcp-128-189-235-45.ubcsecure.wireless.ubc.ca) has quit (Ping timeout: 248 seconds)
+2017-11-03 21:03:34	<--	quant4242 (~Thunderbi@p200300632814BD8C75888402EEB042E5.dip0.t-ipconnect.de) has quit (Quit: quant4242)
+2017-11-03 21:03:55	<--	okuu (~pyon@unaffiliated/pyon) has quit (Quit: unyu~)
+2017-11-03 21:05:08	-->	okuu (~pyon@unaffiliated/pyon) has joined ##machinelearning
+2017-11-03 21:09:07	-->	nutzz (557a1e19@gateway/web/freenode/ip.85.122.30.25) has joined ##machinelearning
+2017-11-03 21:09:49	nutzz	What bias value should I use for a basic perceptron that recognizes the digit 4?
+2017-11-03 21:09:58	<--	rejuvyesh (~rejuvyesh@unaffiliated/rejuvyesh) has quit (Quit: WeeChat 1.4)
+2017-11-03 21:11:10	garit	nutzz: what is a bias value?
+2017-11-03 21:11:50	nutzz	garit: a part of the perceptron formula :D
+2017-11-03 21:12:14	nutzz	the value for my activation function is w . x + b
+2017-11-03 21:12:24	garit	I thought perceptron is a bunch of neurons
+2017-11-03 21:12:35	nutzz	you were right
+2017-11-03 21:12:37	-->	ozcanesen (~textual@128.135.98.161) has joined ##machinelearning
+2017-11-03 21:12:39	<--	rumbullion (~castillob@2600:1:f50d:1ec6:bc12:2485:cf2f:67db) has quit (Quit: -a- IRC for Android 2.1.36)
+2017-11-03 21:14:51	nutzz	garit: x is a vector of size 784 with values of 1 or 0, pixels of the image. w is the weights vector
+2017-11-03 21:15:14	garit	Right, and what is bias?
+2017-11-03 21:15:28	nutzz	4?
+2017-11-03 21:15:41	garit	How do you apply it?
+2017-11-03 21:15:42	nutzz	since I try to classify the digit 4?
+2017-11-03 21:16:01	nutzz	I add it to the dot product of the w and x vectors
+2017-11-03 21:16:15	garit	do you have just 1 output?
+2017-11-03 21:16:36	nutzz	yes, I have to tell wether the tested data was a 4 or not
+2017-11-03 21:16:41	garit	usually you would make 10 outputs for 10 numbers
+2017-11-03 21:16:47	nutzz	nope
+2017-11-03 21:16:52	nutzz	I have to implement 10 perceptrons
+2017-11-03 21:16:57	nutzz	1 for each digit
+2017-11-03 21:17:12	garit	each digit is completely different anyway
+2017-11-03 21:17:57	garit	do you have 10 separate perceptions or you dont and dont want to make them?
+2017-11-03 21:18:30	nutzz	garit, nope
+2017-11-03 21:18:45	nutzz	I just want to make the perceptron that classifies the digit 4 work
+2017-11-03 21:19:38	garit	do you want the same perceptron  recognize the digit 3?
+2017-11-03 21:19:40	nutzz	garit: so, is 4 a good bias value for my purpose?
+2017-11-03 21:19:44	nutzz	nope
+2017-11-03 21:19:53	nutzz	it should recognize only the digit 4
+2017-11-03 21:19:55	garit	then dont use any bias
+2017-11-03 21:20:03	nutzz	ok
+2017-11-03 21:20:22	nutzz	the I should check in the activation function if the predicted value is a 4?
+2017-11-03 21:20:25	garit	(At least i don't see a point in it so far)
+2017-11-03 21:20:29	nutzz	and that's all?
+2017-11-03 21:20:57	garit	nutzz: if output is 1 digit 4 is detected, if output is 0, digit 4 is not detected
+2017-11-03 21:21:37	-->	johnflux (~johnflux@konversation/developer/JohnFlux) has joined ##machinelearning
+2017-11-03 21:21:44	<--	epocS60 (~epocS60@pool-96-250-224-81.nycmny.fios.verizon.net) has quit
+2017-11-03 21:22:33	nutzz	garit: the max value of the w . x is guaranteed to be always <= than 1?
+2017-11-03 21:23:11	garit	nutzz: depends on algorithm, its called normalization i think
+2017-11-03 21:23:26	garit	its a good thing (usually) when it is <=1
+2017-11-03 21:23:52	<--	smccarthy (~smccarthy@64.202.160.233) has quit
+2017-11-03 21:26:12	-->	rejuvyesh (~rejuvyesh@unaffiliated/rejuvyesh) has joined ##machinelearning
+2017-11-03 21:27:51	<--	lgmoneda (~user@186.215.172.10) has quit (Remote host closed the connection)
+2017-11-03 21:28:27	<--	gugah (~gugah@116-214-231-201.fibertel.com.ar) has quit (Ping timeout: 260 seconds)
+2017-11-03 21:29:47	Lyote	nutzz: You learn the bias alongside your weights. You don't set it beforehand.
+2017-11-03 21:30:56	-->	unixpickle (~unixpickl@50.224.230.166) has joined ##machinelearning
+2017-11-03 21:35:56	-->	nunatak (~nunatak@unaffiliated/nunatak) has joined ##machinelearning
+2017-11-03 21:36:05	-->	araml (~araml@unaffiliated/araml) has joined ##machinelearning
+2017-11-03 21:37:15	<--	ozcanesen (~textual@128.135.98.161) has quit (Quit: ozcanesen)
+2017-11-03 21:37:23	<--	sivi (~sivanlang@213.57.209.161) has quit (Quit: sivi)
+2017-11-03 21:40:36	<--	jas_ass (~jas@37.0.53.31) has quit (Quit: This computer has gone to sleep)
+2017-11-03 21:45:57	-->	beanbagula (~bean_bag@2a00:23c5:4b04:9200:978:a54c:bf5b:bed2) has joined ##machinelearning
+2017-11-03 21:48:41	<--	govg (~govg@unaffiliated/govg) has quit (Ping timeout: 240 seconds)
+2017-11-03 21:53:43	-->	crazycoder (~Damiano@net-188-152-20-216.cust.dsl.teletu.it) has joined ##machinelearning
+2017-11-03 22:03:05	-->	smccarthy (~smccarthy@64.202.160.233) has joined ##machinelearning
+2017-11-03 22:06:15	-->	Noldorin (~noldorin@unaffiliated/noldorin) has joined ##machinelearning
+2017-11-03 22:07:33	nutzz	garit: I've wrote the perceptron for recognizing the digit 4 https://pastebin.com/raw/8qFGVP8g it only works on 4933 out of 50000 cases. Do you know any way to improve it?
+2017-11-03 22:07:34	+ML-helper[bot]	[ (text/plain; charset=utf-8) 800.0bytes ]
+2017-11-03 22:09:37	<--	Deacyde (~Deacyde@unaffiliated/deacyde) has quit (Ping timeout: 248 seconds)
+2017-11-03 22:09:50	<--	Fantonaut (~tadaaa@nat-wh-wz4-12.rz.uni-karlsruhe.de) has quit (Remote host closed the connection)
+2017-11-03 22:10:06	-->	gugah (~gugah@116-214-231-201.fibertel.com.ar) has joined ##machinelearning
+2017-11-03 22:11:26	mooj	hey does anyone understand what role Pyro plays in the machine learning ecosystem?
+2017-11-03 22:11:27	johnflux	nutzz: plot your train and validation set results after each iteration
+2017-11-03 22:11:39	mooj	ref: https://eng.uber.com/pyro/
+2017-11-03 22:11:40	+ML-helper[bot]	[ Uber Open Sources Pyro, a Deep Probabilistic Programming Language ]
+2017-11-03 22:11:42	Lyote	nutzz: I'm surprised that even works for 4933 cases.
+2017-11-03 22:11:59	nutzz	just a second
+2017-11-03 22:12:17	<--	neuroproc (~neuroproc@134.17.147.165) has quit (Ping timeout: 248 seconds)
+2017-11-03 22:12:23	Lyote	Your loss function is crazy specific.
+2017-11-03 22:12:36	mooj	Lyote: you shouldnt be surprised.  ten digits, 50,000 examples.  5000 examples per digit.  its essentially just random chance
+2017-11-03 22:13:01	<--	Douhet (~Douhet@unaffiliated/douhet) has quit (Ping timeout: 240 seconds)
+2017-11-03 22:13:37	garit	nutzz: invert your answer, you will get 90% right
+2017-11-03 22:13:45	mooj	lol
+2017-11-03 22:14:22	Lyote	mooj: Ah, right.
+2017-11-03 22:15:00	Lyote	There's still really severe problems with that code.
+2017-11-03 22:15:05	-->	Rodya_ (~Rodya_@2601:46:4001:e0b4:957b:19fb:3f66:780b) has joined ##machinelearning
+2017-11-03 22:16:17	-->	mson (uid110608@gateway/web/irccloud.com/x-nugrytfocdgaruct) has joined ##machinelearning
+2017-11-03 22:16:47	nutzz	Lyote: why do I need to print the trin set after each iteration?
+2017-11-03 22:17:03	nutzz	I mean the values of the pixels won't change
+2017-11-03 22:17:27	<--	realz (~realz@unaffiliated/realazthat) has quit (Ping timeout: 260 seconds)
+2017-11-03 22:17:51	Lyote	What?
+2017-11-03 22:18:06	-->	X-tonic_ (~X-tonic@2a02:a210:2202:2280:349a:68a5:2393:4acf) has joined ##machinelearning
+2017-11-03 22:18:15	nutzz	you said to print the train and validation set
+2017-11-03 22:18:24	nutzz	plot*
+2017-11-03 22:18:32	-->	Douhet (~Douhet@unaffiliated/douhet) has joined ##machinelearning
+2017-11-03 22:18:46	Lyote	That wasn't me, but mooj recommended you output your results.
+2017-11-03 22:18:53	johnflux	well I did
+2017-11-03 22:19:00	Lyote	Erm, oops.
+2017-11-03 22:19:00	johnflux	not the images - but the accuarcy
+2017-11-03 22:19:03	johnflux	accuracy
+2017-11-03 22:19:09	nutzz	the weights?
+2017-11-03 22:19:22	johnflux	the percentage of images that are correct classified
+2017-11-03 22:19:36	nutzz	oh, ok
+2017-11-03 22:19:38	nutzz	just a second
+2017-11-03 22:20:52	mooj	nutzz: in general when developing a model, I find it helpful to create a 'dumb' heuristic in parallel for you to measure your results against
+2017-11-03 22:21:28	mooj	ie: for something like classification of 5000 examples of the digit '4' out of 50000, a 'dumb' heuristic could be something like 'assume every example is not a '4'
+2017-11-03 22:21:39	mooj	and that'll get 90% accuracy
+2017-11-03 22:22:00	mooj	for other tasks, you might do things like just simply taking the mean of the objectives
+2017-11-03 22:22:39	mooj	then, your next goal is to get your model to overfit a simple dataset - ie: getting very high accuracy on the training set, but low on the test set
+2017-11-03 22:22:57	causative	nutzz, your activation function only outputs 1 if the dot product is *exactly* 4.0000, which is basically not going to happen
+2017-11-03 22:23:08	mooj	that will demonstrate that the model has capacity to learn the feature space to some extent
+2017-11-03 22:23:24	mooj	then you get the fun task of reducing overfitting and encouraging generalization
+2017-11-03 22:23:36	causative	it would be better to output 1 if the dot product is greater than, say, 1
+2017-11-03 22:23:45	causative	0 otherwise
+2017-11-03 22:24:47	causative	also since your activation function apparently always outputs 0, why aren't you classifying 90% correctly already?
+2017-11-03 22:25:07	causative	probably there's something wrong with your interpretation of the results vector
+2017-11-03 22:25:28	nutzz	causative, If I do the > 1 condition what will I do when I will try to implement 9 other perceptrons for digits 1, 2, 3, 5, 6, 7, 8, 9, 0
+2017-11-03 22:25:57	causative	you would have 9 other perceptrons with their own weight vectors
+2017-11-03 22:26:12	nutzz	I don't get it, if inp != 4 doesn't it mean that it isn't a match for 4?
+2017-11-03 22:26:37	<--	ImQ009 (~ImQ009@unaffiliated/imq009) has quit (Quit: Leaving)
+2017-11-03 22:26:52	-->	Mike11 (~Mike@unaffiliated/mike11) has joined ##machinelearning
+2017-11-03 22:27:01	causative	inp is the dot product of the weight vector w, which is a partially random vector, with the i'th test case
+2017-11-03 22:27:08	causative	it's never going to be *exactly* any particular value
+2017-11-03 22:27:13	causative	or almost never
+2017-11-03 22:28:28	nutzz	causative, but it I change te condition to inp > 1 then what the condition will look like for the 5digit perceptron?
+2017-11-03 22:28:32	causative	I suspect result[i] is actually the digit 0 through 9, your target value is not result[i], it's whether result[i] is 4 when output is 1
+2017-11-03 22:28:43	nutzz	yes
+2017-11-03 22:29:17	garit	causative: as i get him, he has just 1 output, and just 1 number to detect - number 4 (all other are ignored)
+2017-11-03 22:29:24	causative	in your current code, activation() essentially always returns 0, and you count it as correct if that equals result[i] so you are counting it correct if the test case was the digit 0
+2017-11-03 22:31:17	-->	jas_ass (~jas@37.0.53.31) has joined ##machinelearning
+2017-11-03 22:31:30	nutzz	causative: sorry, that was dumb
+2017-11-03 22:32:02	causative	you should make another vector, called perhaps results_4, that has a 1 when result is 4, and a 0 when result is anything else
+2017-11-03 22:33:58	nutzz	and count the 0 and 1 for displaying the percentages
+2017-11-03 22:35:18	jaggz	yesterday I posted in here that a change from relu to tanh caused my model to not converge.  This may not be true, as I put it back and it's still not converging, but I haven't figured out what else was changed that caused it yet.
+2017-11-03 22:35:24	jaggz	not a big deal, but figured I'd mention it.
+2017-11-03 22:39:13	causative	nutzz, also you only do one iteration, all_classified will be set to False
+2017-11-03 22:42:11	nutzz	right
+2017-11-03 22:44:47	mooj	also important to consider the range of your activation functions
+2017-11-03 22:45:04	<--	wavy (~wavy@CPE00113277e109-CMac202e7593f0.cpe.net.cable.rogers.com) has quit (Quit: Leaving)
+2017-11-03 22:45:06	mooj	for example: i have in the past made the silly mistake of
+2017-11-03 22:45:23	mooj	trying to predict an objective that can have negative values, using only sigmoid activation
+2017-11-03 22:45:39	nutzz	That's what I have now
+2017-11-03 22:45:40	nutzz	https://pastebin.com/raw/XW62uxi3
+2017-11-03 22:45:40	+ML-helper[bot]	[ (text/plain; charset=utf-8) 776.0bytes ]
+2017-11-03 22:45:54	<--	no742617000027 (~no7426170@2a02:8109:8a00:4d64:c1bc:2c95:c83a:fab8) has quit (Quit: no742617000027)
+2017-11-03 22:46:04	nutzz	it detects 1797 out of 9719 cases
+2017-11-03 22:46:24	mooj	its always a funny feeling to realize that youve accidentally constrained your predictions to (0,1) when really they need to be able to span a wider range
+2017-11-03 22:46:40	nutzz	range between 0 and 4, right?
+2017-11-03 22:46:46	mooj	huh?
+2017-11-03 22:47:19	nutzz	dumb question, sorry, you mean values in (0, 1)
+2017-11-03 22:47:26	nutzz	not 0 and 1 exclusively?
+2017-11-03 22:47:39	mooj	correct
+2017-11-03 22:48:06	nutzz	but how do I know which value
+2017-11-03 22:48:20	mooj	for example, if you are doing a regression where your objective values can take on any positive or negative number, but you use a sigmoid activation for your final layer, you will get rekt
+2017-11-03 22:48:20	nutzz	checking if it is 4 or not is easy
+2017-11-03 22:49:14	causative	do what I said, if it outputs a value >1 then you say it is predicting a 4
+2017-11-03 22:49:23	nutzz	ok
+2017-11-03 22:49:41	nutzz	wtf
+2017-11-03 22:49:51	causative	that's how a perceptron works
+2017-11-03 22:49:52	nutzz	7917  out of9719
+2017-11-03 22:50:22	nutzz	but I don't get it, how the perceptron for digit 5 will be different from this one?
+2017-11-03 22:50:46	causative	well, you would also have a bias input for a real perceptron, but perhaps not necessary right now
+2017-11-03 22:50:50	<--	crayon (~crayon@unaffiliated/crayon) has quit (Ping timeout: 258 seconds)
+2017-11-03 22:51:10	causative	the perceptron for 5 will be trained differently
+2017-11-03 22:51:22	nutzz	how?
+2017-11-03 22:51:37	causative	because it will be wrong when it fails to fire when the result is 5, or when it fires when the result is not 5
+2017-11-03 22:51:52	causative	the perceptron for 4 will be wrong when it fails to fire when the result is 4, or when it fires when the result is not 4
+2017-11-03 22:52:23	causative	"fires" = outputs a 1
+2017-11-03 22:52:32	nutzz	ok, I get this
+2017-11-03 22:53:05	nutzz	but I mean, shouldn't I have some 4 hardcoded value in the perceptron that recognizez digit 4?
+2017-11-03 22:53:47	nutzz	I mean how does this perceptron even know that 4 is the desired digit?
+2017-11-03 22:55:54	-->	neoncontrails (~neoncontr@wsip-70-167-79-72.sd.sd.cox.net) has joined ##machinelearning
+2017-11-03 22:56:30	causative	because you're giving it images of the digit 4, and telling it that it's wrong if it doesn't output 1 when it sees such an image
+2017-11-03 22:56:46	<--	Quitta (~Quitta@ptr-gpve83wc2gatfch7vfq.18120a2.ip6.access.telenet.be) has quit (Ping timeout: 255 seconds)
+2017-11-03 22:57:07	nutzz	ok, but I'm telling it if it is wrong the inp > 1
+2017-11-03 22:57:21	nutzz	this condition will apply for 3, 5, 6.. as well, right?
+2017-11-03 22:58:38	causative	it will apply differently because the perceptron for 3 will be judged on a different result vector than the perceptron for 4
+2017-11-03 23:00:10	nutzz	ok, I think I am dumb, but the code for perceptrons 1, 2, 3...9 are going to be identical with the code for perceptron 4?
+2017-11-03 23:00:30	causative	only the results vector will be different
+2017-11-03 23:03:42	-->	davr0s (~textual@host86-157-69-50.range86-157.btcentralplus.com) has joined ##machinelearning
+2017-11-03 23:04:15	-->	mikecmpbll (~mikecmpbl@ruby/staff/mikecmpbll) has joined ##machinelearning
+2017-11-03 23:04:43	nutzz	causative: but I am going to use the same training sets for all these perceptrons
+2017-11-03 23:05:18	causative	read what I said about making a "results_4" vector, that would be your results vector for a perceptron that recognizes 4
+2017-11-03 23:05:29	nutzz	ok
+2017-11-03 23:06:08	causative	bye
+2017-11-03 23:06:15	nutzz	thanks
+2017-11-03 23:06:40	<--	X-tonic_ (~X-tonic@2a02:a210:2202:2280:349a:68a5:2393:4acf) has quit (Ping timeout: 255 seconds)
+2017-11-03 23:07:07	<--	rtur (~rtur@2a02:c207:3001:4991::1) has quit (Ping timeout: 255 seconds)
+2017-11-03 23:09:16	-->	rtur (~rtur@mail.rtur.org) has joined ##machinelearning
+2017-11-03 23:09:19	-->	alyce (~Alyce_Son@c110-20-162-147.rivrw10.nsw.optusnet.com.au) has joined ##machinelearning
+2017-11-03 23:10:23	<--	causative (~halberd@unaffiliated/halberd) has quit (Ping timeout: 248 seconds)
+2017-11-03 23:10:31	-->	crayon (~crayon@unaffiliated/crayon) has joined ##machinelearning
+2017-11-03 23:16:16	<--	xkapastel (uid17782@gateway/web/irccloud.com/x-nhsntgcvlltkwcph) has quit (Quit: Connection closed for inactivity)
+2017-11-03 23:16:49	<--	crazycoder (~Damiano@net-188-152-20-216.cust.dsl.teletu.it) has quit (Remote host closed the connection)
+2017-11-03 23:21:48	<--	jas_ass (~jas@37.0.53.31) has quit (Quit: This computer has gone to sleep)
+2017-11-03 23:26:59	-->	eyqs (~eyqs@dhcp-128-189-238-48.ubcsecure.wireless.ubc.ca) has joined ##machinelearning
+2017-11-03 23:27:15	<--	asmcoder (~asmcoder@2405:204:322e:a601:4c21:db58:c42b:a704) has quit (Ping timeout: 258 seconds)
+2017-11-03 23:27:36	-->	xkapastel (uid17782@gateway/web/irccloud.com/x-qsofhyqzznocrtxl) has joined ##machinelearning
+2017-11-03 23:27:58	garit	Lyote: (sorry, missed a message) thanks, thats a good dataset. I just hoped it would be available as one meta-dataset with ability to set up every test at once somehow. But this will do too
+2017-11-03 23:29:34	<--	nutzz (557a1e19@gateway/web/freenode/ip.85.122.30.25) has quit (Ping timeout: 260 seconds)
+2017-11-03 23:32:12	<--	cagomez (~cagomez@sb0-cf9a61b1.dsl.impulse.net) has quit (Remote host closed the connection)
+2017-11-03 23:32:41	<--	johnflux (~johnflux@konversation/developer/JohnFlux) has quit (Ping timeout: 240 seconds)
+2017-11-03 23:32:44	-->	cagomez (~cagomez@sb0-cf9a61b1.dsl.impulse.net) has joined ##machinelearning
+2017-11-03 23:37:13	<--	cagomez (~cagomez@sb0-cf9a61b1.dsl.impulse.net) has quit (Ping timeout: 258 seconds)
+2017-11-03 23:38:28	@RandIter	(repost) https://eng.uber.com/pyro/
+2017-11-03 23:38:29	+ML-helper[bot]	[ Uber Open Sources Pyro, a Deep Probabilistic Programming Language ]
+2017-11-03 23:38:41	@RandIter	(repost) http://pyro.ai/
+2017-11-03 23:38:41	+ML-helper[bot]	[ Pyro ]
+2017-11-03 23:38:58	@RandIter	https://github.com/uber/pyro
+2017-11-03 23:38:59	+ML-helper[bot]	[ GitHub - uber/pyro: Deep universal probabilistic programming with Python and PyTorch ]
+2017-11-03 23:39:08	-->	Deacyde (~Deacyde@unaffiliated/deacyde) has joined ##machinelearning
+2017-11-03 23:39:13	mooj	do you understand the tl;dr of pyro, RandIter?
+2017-11-03 23:39:31	<--	smccarthy (~smccarthy@64.202.160.233) has quit (Remote host closed the connection)
+2017-11-03 23:39:33	<--	f32 (~chatzilla@ip-58-28-153-186.static-xdsl.xnet.co.nz) has quit (Remote host closed the connection)
+2017-11-03 23:39:35	<--	keer4n (~keer4n@49.244.86.52) has quit (Ping timeout: 240 seconds)
+2017-11-03 23:39:51	@RandIter	checking, but historically there have been many such languages
+2017-11-03 23:40:05	@RandIter	allowing for probabilistic reasoning over knowledge bases
+2017-11-03 23:40:20	-->	cagomez (~cagomez@sb0-cf9a61b1.dsl.impulse.net) has joined ##machinelearning
+2017-11-03 23:40:35	-->	Orpheon (~Orpheon@80-218-33-65.dclient.hispeed.ch) has joined ##machinelearning
+2017-11-03 23:41:56	-->	keer4n (~keer4n@49.244.75.139) has joined ##machinelearning
+2017-11-03 23:46:32	@RandIter	mooj: one thing I will say is that knowledge base representation is important. It can be pure fact based, probability based, some relational or non-relational structure, or just natural language. but you need something.
+2017-11-03 23:48:27	<--	alyce (~Alyce_Son@c110-20-162-147.rivrw10.nsw.optusnet.com.au) has quit (Ping timeout: 240 seconds)
+2017-11-03 23:49:55	-->	Laie (~User@121.131.184.208) has joined ##machinelearning
+2017-11-03 23:51:59	-->	rumbler31 (~rumbler31@c-76-100-127-232.hsd1.md.comcast.net) has joined ##machinelearning
+2017-11-03 23:54:06	<--	p-i- (~Ohmu@113.53.204.86) has quit (Remote host closed the connection)
+2017-11-03 23:56:25	<--	Mike11 (~Mike@unaffiliated/mike11) has quit (Quit: Leaving.)
+2017-11-03 23:56:49	<--	rumbler31 (~rumbler31@c-76-100-127-232.hsd1.md.comcast.net) has quit (Ping timeout: 248 seconds)
+2017-11-03 23:57:51	-->	sw1 (~sw1@2601:43:200:5c30:f1f1:b9bb:de58:70da) has joined ##machinelearning
+2017-11-03 23:57:52	<--	nunatak (~nunatak@unaffiliated/nunatak) has quit (Quit: Leaving)
+2017-11-04 00:00:01	<--	jrabe (irc@janikrabe.com) has quit
+2017-11-04 00:00:27	<--	cagomez (~cagomez@sb0-cf9a61b1.dsl.impulse.net) has quit (Remote host closed the connection)
+2017-11-04 00:00:33	<--	maelcum (~horst@200116b84252c3001d52e3b0202f3718.dip.versatel-1u1.de) has quit (Quit: Konversation terminated!)
+2017-11-04 00:00:37	-->	jrabe (irc@janikrabe.com) has joined ##machinelearning
+2017-11-04 00:00:59	-->	cagomez (~cagomez@sb0-cf9a61b1.dsl.impulse.net) has joined ##machinelearning
+2017-11-04 00:01:32	-->	localhorse (~me@2a02:810c:c7c0:5d98:1521:c8f0:6d60:cc3a) has joined ##machinelearning
+2017-11-04 00:03:27	<--	araml (~araml@unaffiliated/araml) has quit (Ping timeout: 240 seconds)
+2017-11-04 00:05:27	<--	cagomez (~cagomez@sb0-cf9a61b1.dsl.impulse.net) has quit (Ping timeout: 240 seconds)
+2017-11-04 00:13:12	-->	bithon (~bithon@unaffiliated/bithon) has joined ##machinelearning
+2017-11-04 00:16:43	-->	araml (~araml@unaffiliated/araml) has joined ##machinelearning
+2017-11-04 00:17:19	<--	looplabs (looplabs@188.172.155.54) has quit (Read error: Connection reset by peer)
+2017-11-04 00:17:29	-->	looplabs (looplabs@188.172.155.54) has joined ##machinelearning
+2017-11-04 00:20:49	<--	Rodya_ (~Rodya_@2601:46:4001:e0b4:957b:19fb:3f66:780b) has quit (Remote host closed the connection)
+2017-11-04 00:22:14	-->	f32 (~chatzilla@ip-58-28-153-186.static-xdsl.xnet.co.nz) has joined ##machinelearning
+2017-11-04 00:22:22	-->	pressure679 (~naamik@host-194-177-243-74.adsl.gl) has joined ##machinelearning
+2017-11-04 00:23:00	-->	Rodya_ (~Rodya_@2601:46:4001:e0b4:957b:19fb:3f66:780b) has joined ##machinelearning
+2017-11-04 00:23:21	<--	Orpheon (~Orpheon@80-218-33-65.dclient.hispeed.ch) has quit (Remote host closed the connection)
+2017-11-04 00:24:31	--	irc: disconnected from server
+2017-11-04 11:04:37	-->	tomeaton17 (~tomeaton1@129.ip-91-134-134.eu) has joined ##machinelearning
+2017-11-04 11:04:37	--	Topic for ##machinelearning is "Machine Learning | Use https://riot.im/app/#/room/#freenode_##machinelearning:matrix.org to stay connected. | Rules: No small talk. Technical talk only. No public logging. Offtopic chat only in ##ml-ot | About: https://j.mp/ChannelGitHub | Related: ##AGI ##it-group #keras ##nlp #nupic #pydata #scikit-learn ##statistics #tensorflow"
+2017-11-04 11:04:37	--	Topic set by RandIter (sid32215@gateway/web/irccloud.com/x-xxpounlyvxhsuvrq) on Sun, 08 Oct 2017 03:40:01
+2017-11-04 11:04:37	--	Channel ##machinelearning: 403 nicks (2 ops, 2 voices, 399 normals)
+2017-11-04 11:04:37	***	Buffer Playback...
+2017-11-04 11:04:37	mooj	[00:41:44] RandIter: can you explain what is meant by knowledge base representation and how that relates to probabilistic reasoning?
+2017-11-04 11:04:37	garit	[00:43:54] I suspect by a knowledge base he mean whatever way is used to represent the memory - a bunch of formulas, a graph, a list with pairs of data, states of NN, images, rules for decision trees, or mix of the above
+2017-11-04 11:04:37	garit	[00:44:47] and probabilistic reasoning is when this knowledge is applied to a problem, with come chance (not 100% like with math), gives a correct answer, that you cant easily check
+2017-11-04 11:04:37	garit	[00:44:55] some*
+2017-11-04 11:04:37	mooj	[00:46:44] i foresee that this could be complicated even by data access considerations like synchronicity if multiple knowledge bases are referenced for a given request
+2017-11-04 11:04:37	mooj	[00:46:47] is that correct?
+2017-11-04 11:04:37	garit	[00:48:19] I suspect he didnt mean this part of a problem to be mentioned. but in my opinion its just a trade off. Speed+cost VS consistency
+2017-11-04 11:04:37	@RandIter	[01:07:15] mooj: apart from the above, I can only encourage you to refer to an AI textbook.
+2017-11-04 11:04:37	efm	[01:25:48] https://www.montrealdeclaration-responsibleai.com/the-declaration
+2017-11-04 11:04:37	+ML-helper[bot]	[01:25:49] [ Declaration of Montréal for a responsible development of AI ]
+2017-11-04 11:04:37	@RandIter	[01:30:56] pip installable: https://pypi.python.org/pypi/pyro-ppl/
+2017-11-04 11:04:37	+ML-helper[bot]	[01:30:57] [ pyro-ppl 0.1.0 : Python Package Index ]
+2017-11-04 11:04:37	jaggz	[01:38:45] https://devblogs.nvidia.com/parallelforall/increase-performance-gpu-boost-k80-autoboost/
+2017-11-04 11:04:37	jaggz	[01:42:07] "Should we develop AI technology which is able to sense a person's well-being?"
+2017-11-04 11:04:37	jaggz	[01:42:16] kinda a useless question I think
+2017-11-04 11:04:37	garit	[01:42:42] Was reading an interesting article where author was panicking about AI(yeah, even this may be interesting on occasion). He asked this question: what is the easiest task that you can think off, that definitely will not be made in next 2 years?
+2017-11-04 11:04:37	jaggz	[01:43:24] odd mini-max problem posed there :)
+2017-11-04 11:04:37	garit	[01:43:38] Answers were turing test 90% pass (as opposite to modern ~55% pass), and a robo-hand putting dishes in a dish washer reliably
+2017-11-04 11:04:37	jaggz	[01:43:58] what?
+2017-11-04 11:04:37	garit	[01:44:30] jaggz: i need more context to answer your question
+2017-11-04 11:04:37	jaggz	[01:44:38] RandIter, these important ai questions; are they appropriate discussion for here?
+2017-11-04 11:04:37	jaggz	[01:44:46] e.g.: Must we fight against the phenomenon of attention-seeking which has accompanied advances in AI?
+2017-11-04 11:04:37	jaggz	[01:44:52] to what are they referring?
+2017-11-04 11:04:37	@RandIter	[01:45:17] Not appropriate. Use ##AGI
+2017-11-04 11:04:37	piklu	[02:34:34] Hi
+2017-11-04 11:04:37	piklu	[02:34:52] I have a list of numbers / strings and corresponding output
+2017-11-04 11:04:37	piklu	[02:35:07] can I use machine learning to predict the function - but describe it as well.
+2017-11-04 11:04:37	piklu	[02:35:10] For instance see this :
+2017-11-04 11:04:37	piklu	[02:35:19] 1, 2, 3 in one list
+2017-11-04 11:04:37	piklu	[02:35:24] and 10, 20, 30 in another
+2017-11-04 11:04:37	piklu	[02:35:34] should provide me y = x * 10
+2017-11-04 11:04:37	piklu	[02:36:03] Or something like  " john, rocky, rocky, john, baby "
+2017-11-04 11:04:37	piklu	[02:36:13] and " 10, 5, 5, 10, 2 "
+2017-11-04 11:04:37	piklu	[02:36:54] should provide me something like   y = ( case john = 10, rocky = 5, baby =2 end )
+2017-11-04 11:04:37	piklu	[02:37:13] basically trying to predict the function but in language
+2017-11-04 11:04:37	@RandIter	[02:44:00] piklu: you're asking for nothing more than linear regression coefficients in both of your examples
+2017-11-04 11:04:37	piklu	[02:44:36] @RandIter - kind of. Actually I need to reconcile shit load of data
+2017-11-04 11:04:37	piklu	[02:44:45] I am thinking of doing it automatically.
+2017-11-04 11:04:37	@RandIter	[02:45:11] Thus far the two examples you gave are both suitable for linear regression, although the second one doesn't even need it
+2017-11-04 11:04:37	piklu	[02:45:56] @RandIter : There are 2 files, each one of them is supposed to match each other, but for certain reasons not match equally, because they came from different streams of huge pipleline....
+2017-11-04 11:04:37	piklu	[02:46:14] @RandIter : these files have hundreds of columns and can be joined using keys
+2017-11-04 11:04:37	@RandIter	[02:46:53] you need a correlation id
+2017-11-04 11:04:37	piklu	[02:46:56] I want to run a ML algorithm on each column to spit out patterns that can be used to match data, these functions if simple will lead to a human not coming up with these patterns.
+2017-11-04 11:04:37	piklu	[02:56:16] @RandIter : Can decision tree be used too?
+2017-11-04 11:04:37	@RandIter	[02:57:30] piklu: It would be needlessly large
+2017-11-04 11:04:37	@RandIter	[02:58:03] What you're trying to do seems super vague.
+2017-11-04 11:04:37	piklu	[02:58:43] @RandIter : What other algorithm produce human understandable models like decision tree and linear regression?
+2017-11-04 11:04:37	@RandIter	[03:00:17] Why don't you get cleaner data
+2017-11-04 11:04:37	@RandIter	[03:00:33] Why do you have to live with such crappy data and weird patterns
+2017-11-04 11:04:37	@RandIter	[03:01:03] No other algo that is good
+2017-11-04 11:04:37	nutzz	[03:01:20] Earlier I've asked a few questions about implementing 10 different perceptrons for recognizing digits from 0 to 9. Each perceptron should recognize only 1 digit. Here is my full code. It seems to work on 100% on the cases in the test_set. Is it normal to have 100% rate?
+2017-11-04 11:04:37	nutzz	[03:01:23] https://pastebin.com/y0Ng6Vrj
+2017-11-04 11:04:37	+ML-helper[bot]	[03:01:24] [ nutzz - Pastebin.com ]
+2017-11-04 11:04:37	unixpickle	[03:02:09] nutzz: you likely have an error somewhere. Linear models can't get even close to 100%.
+2017-11-04 11:04:37	causative	[03:02:21] are you using MNIST?
+2017-11-04 11:04:37	nutzz	[03:02:25] yes
+2017-11-04 11:04:37	causative	[03:02:32] ya it's an error
+2017-11-04 11:04:37	unixpickle	[03:02:42] nutzz: I'd expect ~90%, tops
+2017-11-04 11:04:37	nutzz	[03:02:43] a programming error?
+2017-11-04 11:04:37	unixpickle	[03:02:46] yeah
+2017-11-04 11:04:37	@RandIter	[03:02:50] how big is your test set
+2017-11-04 11:04:37	nutzz	[03:03:00] 50000 elements
+2017-11-04 11:04:37	nutzz	[03:03:05] in the training set
+2017-11-04 11:04:37	nutzz	[03:03:55] could be the fact that the initial values of the weights is (0, 0, 0, 0, 0, 0, 0, 0, 0, 0)?
+2017-11-04 11:04:37	unixpickle	[03:05:04] nutzz: how are you testing the classifier? It looks like you check if the 3 perceptron is on for all the 3's, and every time 3 is on, you say you got it right.
+2017-11-04 11:04:37	causative	[03:05:18] you're only increasing "it" when result[i] == value, you should increase "it" at every iteration
+2017-11-04 11:04:37	causative	[03:05:32] looks like your perceptrons are always returning 1
+2017-11-04 11:04:37	nutzz	[03:05:51] yes, but I want to see how many of the 3s in the test_set I got right
+2017-11-04 11:04:37	unixpickle	[03:06:14] nutzz: in order to evaluate a classifier, your classifier has to choose it's best guess for the class. It can't say "i think it's a 3, or a 4, or a 5...", cause then it could just guess every class and get 100% accuracy
+2017-11-04 11:04:37	causative	[03:06:16] if they always return 1, then whenever there is a 3, it will say there's a 3, and it will be right, so it will be correct on all positive instances
+2017-11-04 11:04:37	causative	[03:06:26] and wrong on all negative instances (examples where it is not 3)
+2017-11-04 11:04:37	unixpickle	[03:07:04] my guess is that right now the model can trivially cheat by outputting all 1's, since it's not forced to choose
+2017-11-04 11:04:37	nutzz	[03:07:31] and how do I force it to choose?
+2017-11-04 11:04:37	unixpickle	[03:08:11] nutzz: go through each digit and pick the perceptron with the highest output. Use that as the "prediction", and only count the classifier as right if the prediction matches the label.
+2017-11-04 11:04:37	nutzz	[03:08:43] ok, I'll do that
+2017-11-04 11:04:37	causative	[03:10:18] your calculations involving "b" are wrong, you're just adding b to the weight vector every time
+2017-11-04 11:04:37	causative	[03:10:38] and setting the result back to the weight vector
+2017-11-04 11:04:37	causative	[03:13:05] and you aren't using b in the actual activation calculation
+2017-11-04 11:04:37	nutzz	[03:15:23] https://pastebin.com/raw/aFnnpvtQ
+2017-11-04 11:04:37	+ML-helper[bot]	[03:15:24] [ (text/plain; charset=utf-8) 1.3KB ]
+2017-11-04 11:04:37	nutzz	[03:15:41] I removed v from my calculations
+2017-11-04 11:04:37	nutzz	[03:15:45] b*
+2017-11-04 11:04:37	nutzz	[03:16:00] but now I seem to get like 20% rate for all
+2017-11-04 11:04:37	piklu	[03:23:25] @RandIter : I can not get clean data. The whole activity is about finding what are differences between these 2 datasets.
+2017-11-04 11:04:37	piklu	[03:23:46] RandIter : Our transformations vs historically done through SAS/Mainframes
+2017-11-04 11:04:37	nutzz	[03:28:43] I use b in the activation function  21             output = activation(z + b), but nothing changed
+2017-11-04 11:04:37	nutzz	[03:35:52] here is the full code again https://pastebin.com/raw/eBQn6K4J
+2017-11-04 11:04:37	+ML-helper[bot]	[03:35:53] [ (text/plain; charset=utf-8) 1.3KB ]
+2017-11-04 11:04:37	nutzz	[03:36:18] causative: Now I take the bias in to the consideration, but nothing changed
+2017-11-04 11:04:37	causative	[03:43:06] you're still adding b to w on every training iteration
+2017-11-04 11:04:37	causative	[03:43:19] w = np.add(np.multiply(test[i], (result[i] - output) * eta), b)
+2017-11-04 11:04:37	nutzz	[03:43:31] but, isn't that the way it should be?
+2017-11-04 11:04:37	nutzz	[03:43:53] nope, sorry
+2017-11-04 11:04:37	piklu	[03:44:49] @RandIter : Linear regressor won't take string values, right ??
+2017-11-04 11:04:37	piklu	[03:44:57] I will have to encode them
+2017-11-04 11:04:37	nutzz	[03:46:21] causative: Removed the b from the assignment to w and nothing happens https://pastebin.com/3DN7SZJd
+2017-11-04 11:04:37	+ML-helper[bot]	[03:46:22] [ [Python] dsjhdskjhfsd - Pastebin.com ]
+2017-11-04 11:04:37	causative	[03:48:41] https://en.wikipedia.org/wiki/Perceptron#Learning_algorithm
+2017-11-04 11:04:37	+ML-helper[bot]	[03:48:41] [ Perceptron - Wikipedia ]
+2017-11-04 11:04:37	causative	[03:49:01] you want to change w, not set it to a completely new value
+2017-11-04 11:04:37	nutzz	[03:52:43] causative: It still gives the same result https://pastebin.com/9DYKJ5qt.
+2017-11-04 11:04:37	+ML-helper[bot]	[03:52:43] [ dssdfsdf - Pastebin.com ]
+2017-11-04 11:04:37	causative	[04:04:44] nutzz, you don't store b after training, you discard it.  also you only do 1 training iteration which may not be enough, and you initialize b strangely
+2017-11-04 11:04:37	@RandIter	[04:07:33] Can't help a noob who can't even test properly and believes he is getting 100%.
+2017-11-04 11:04:37	nutzz	[04:07:53] I admit, I am an idiot
+2017-11-04 11:04:37	nutzz	[04:08:20] I got enrolled in a ML course and trying to pass
+2017-11-04 11:04:37	@RandIter	[04:08:48] piklu: I am pissed off by your examples and problem because you have two different examples, and failed to give a sufficiently realistic and through examples of your various input streams.
+2017-11-04 11:04:37	piklu	[04:08:59] :(
+2017-11-04 11:04:37	@RandIter	[04:11:35] nutzz: Testing a model is not even ML. Training it is. If you can't even test the model properly, that's a more fundamental problem.
+2017-11-04 11:04:37	nutzz	[04:11:50] sorry
+2017-11-04 11:04:37	nutzz	[04:12:36] it 6:00 AM and I am awake for like 20 hours
+2017-11-04 11:04:37	nutzz	[04:19:46] RandIter: But what's wrong in my test now?
+2017-11-04 11:04:37	@RandIter	[04:20:19] Are you still getting 100%?
+2017-11-04 11:04:37	nutzz	[04:20:41] no
+2017-11-04 11:04:37	nutzz	[04:21:39] I've printed the number of iterations and number of matched cases for each digit and for each perceptron
+2017-11-04 11:04:37	nutzz	[04:21:44] that's the result
+2017-11-04 11:04:37	nutzz	[04:21:45] https://pastebin.com/raw/EhMiQLy6
+2017-11-04 11:04:37	+ML-helper[bot]	[04:21:45] [ (text/plain; charset=utf-8) 2.0KB ]
+2017-11-04 11:04:37	nutzz	[04:21:50] it is around 10%
+2017-11-04 11:04:37	nutzz	[04:22:29] and that's the full code https://pastebin.com/raw/TN06BSDn
+2017-11-04 11:04:37	+ML-helper[bot]	[04:22:30] [ (text/plain; charset=utf-8) 1.3KB ]
+2017-11-04 11:04:37	nutzz	[05:25:25] I've changed the biases such that the bias for each digit is equal to the sum of the black pixel from a randomly chosen element from the array https://pastebin.com/raw/8Q3BP1uh
+2017-11-04 11:04:37	+ML-helper[bot]	[05:25:26] [ (text/plain; charset=utf-8) 1.4KB ]
+2017-11-04 11:04:37	nutzz	[07:40:08] RandIter: You said that I was testing my perceptrons the wrong way. Just take a quick look at this code https://pastebin.com/raw/VeXKU5rc. After I train my perceptrons and I have the weights and biases for each perceptron, I try to multiply the weights vector with the pixels vector of the tested digit. Then, depending of the value of the activation function, I decide if the predicted value matched the label. What is wrong in t
+2017-11-04 11:04:37	+ML-helper[bot]	[07:40:09] [ (text/plain; charset=utf-8) 1.6KB ]
+2017-11-04 11:04:37	garit	[09:20:40] What are some easy tasks that ML will not solve in next 2 years?
+2017-11-04 11:04:37	mooj	[09:21:05] i can give you the exact answer to that
+2017-11-04 11:04:37	mooj	[09:21:09] in two years.
+2017-11-04 11:04:37	garit	[09:22:00] That i can do myself too :P
+2017-11-04 11:04:37	mooj	[09:25:04] yeah, i just mean...the answers to that are either extremely speculative or pointless
+2017-11-04 11:04:37	mooj	[09:25:47] you know?  like ml wont be able to create a simulation of the universe down to the atom level
+2017-11-04 11:04:37	mooj	[09:26:03] but arbitrary tasks that are generally still assigned to humans?
+2017-11-04 11:04:37	garit	[09:26:26] but i did specify 'easiest task' to avoid this pitfall
+2017-11-04 11:04:37	mooj	[09:26:45] ah, i missed that
+2017-11-04 11:04:37	mooj	[09:28:25] yeah i honestly have no idea
+2017-11-04 11:04:37	mooj	[09:28:38] i mean even right now, ml is solving a lot of 'hard' problems
+2017-11-04 11:04:37	Saherkn97	[09:29:57] i am beginner
+2017-11-04 11:04:37	Saherkn97	[09:30:18] i want to know how to start ML
+2017-11-04 11:04:37	Saherkn97	[09:30:31] can anyone suggest me?
+2017-11-04 11:04:37	garit	[09:30:32] Question is which of them are hard enough to not to be solved in next 2 years. For example starcraft probably will be solved in 2 years. So is robo car. What cant? Probably a chatbot with high % of turing test pass
+2017-11-04 11:04:37	mooj	[09:30:58] im not so sure about the turing chatbot
+2017-11-04 11:04:37	garit	[09:31:07] Saherkn97: you may start some online courses, like coursera or khan akademy
+2017-11-04 11:04:37	mooj	[09:31:23] Saherkn97: https://www.coursera.org/learn/machine-learning
+2017-11-04 11:04:37	+ML-helper[bot]	[09:31:26] [ Machine Learning | Coursera ]
+2017-11-04 11:04:37	Saherkn97	[09:32:35] what basic knowledge will need
+2017-11-04 11:04:37	mooj	[09:33:03] you will need to know how to learn
+2017-11-04 11:04:37	mooj	[09:33:26] or at least, learn how to learn along the way :)
+2017-11-04 11:04:37	mooj	[09:33:51] common tools in ml are things like linear algebra, probability, statistics, calculus
+2017-11-04 11:04:37	garit	[09:36:09] Saherkn97: math(convolution, groups, pigeonhole principle, clusterization, regression, correlation), programming(minimum, and some idea how cpu and gpu works to estimate the speed), information theory(noise, complexity, entropy)
+2017-11-04 11:04:37	Saherkn97	[09:38:06] Thanks
+2017-11-04 11:04:37	acresearch	[10:16:12] people, i have a newby question, what is the relationship between 1.loss fundtion 2.rss 3.gradient decent    they are all used in logistic regression, and they all seem to acheive the same goal, (reaching the best fit line across the data)
+2017-11-04 11:04:37	garit	[10:22:39] acresearch: what is rss?
+2017-11-04 11:04:37	garit	[10:23:56] Loss function is how far your model's answers from ideal. Gradient descent is an attempt to change your model's answers so that they are closer to ideal
+2017-11-04 11:04:37	spawk	[10:37:56] acresearch: your loss function is the thing you want to minimize to fit your model. RSS is a particular loss function (although it's not the one you use in logistic regression), and gradient descent is an algorithm for minimizing loss functions.
+2017-11-04 11:04:37	promach	[10:57:16] For ReLU, "When x = 0 the slope is undefined at that point, but this problem is taken care of during implementation by picking either the left or the right gradient."  could anyone elaborate onn this statement ?
+2017-11-04 11:04:37	promach	[10:57:27] https://www.learnopencv.com/understanding-activation-functions-in-deep-learning/
+2017-11-04 11:04:37	+ML-helper[bot]	[10:57:28] [ Understanding Activation Functions in Deep Learning | Learn OpenCV ]
+2017-11-04 11:04:37	Trixis	[11:00:05] promach: well youd take the limit of the differential as x->0+ or  x->0-
+2017-11-04 11:04:37	***	Playback Complete.
+2017-11-04 11:04:48	--	Channel created on Sun, 03 Jan 2010 19:26:39
+2017-11-04 11:06:01	<--	alyce (~Alyce_Son@c110-20-162-147.rivrw10.nsw.optusnet.com.au) has quit (Ping timeout: 240 seconds)
+2017-11-04 11:06:51	promach	Trivis: https://wikimedia.org/api/rest_v1/media/math/render/svg/2b7ae55ba14c7ab5d170d0b484465b670bb38823
+2017-11-04 11:06:52	+ML-helper[bot]	[ (image/svg+xml) 3.5KB ]
+2017-11-04 11:08:34	-->	pressure679 (~naamik@host-194-177-243-74.adsl.gl) has joined ##machinelearning
+2017-11-04 11:09:04	promach	so why  When x = 0 the slope is undefined at that point  ?
+2017-11-04 11:09:20	promach	Trixis
+2017-11-04 11:09:55	garit	Because slope is 0 and 1 at the same time, promach
+2017-11-04 11:09:57	Trixis	because limit from the right of the differential is not equal to the limit from the left ...
+2017-11-04 11:10:32	<--	jan64 (~jan64@79.184.142.227.ipv4.supernova.orange.pl) has quit (Read error: Connection reset by peer)
+2017-11-04 11:10:59	garit	promach: your formula isnt relu, its a step function
+2017-11-04 11:11:20	garit	in here slope is 0 on a left and 0 on a right and inf at the 0
+2017-11-04 11:11:30	-->	^^MAg^^ (mag@entropy.be) has joined ##machinelearning
+2017-11-04 11:11:30	--	^^MAg^^ is now known as mag_
+2017-11-04 11:11:37	<--	Phah11 (~Phah1@p54BA7BA8.dip0.t-ipconnect.de) has quit (Ping timeout: 255 seconds)
+2017-11-04 11:12:38	-->	jan64 (~jan64@79.184.142.227.ipv4.supernova.orange.pl) has joined ##machinelearning
+2017-11-04 11:12:58	--	irc: disconnected from server
+2017-11-06 09:52:17	-->	tomeaton17 (~tomeaton1@129.ip-91-134-134.eu) has joined ##machinelearning
+2017-11-06 09:52:17	--	Topic for ##machinelearning is "Machine Learning | Use https://riot.im/app/#/room/#freenode_##machinelearning:matrix.org to stay connected. | Rules: No small talk. Technical talk only. No public logging. Offtopic chat only in ##ml-ot | About: https://j.mp/ChannelGitHub | Related: ##AGI ##it-group #keras ##nlp #nupic #pydata #scikit-learn ##statistics #tensorflow"
+2017-11-06 09:52:17	--	Topic set by RandIter (sid32215@gateway/web/irccloud.com/x-xxpounlyvxhsuvrq) on Sun, 08 Oct 2017 03:40:01
+2017-11-06 09:52:17	--	Channel ##machinelearning: 362 nicks (2 ops, 2 voices, 358 normals)
+2017-11-06 09:52:17	***	Buffer Playback...
+2017-11-06 09:52:17	garit	[11:14:17] promach: step function: y=0 if x<0, y=1 if x=>0; relu: y=0 if x<0, y=x if x=>0
+2017-11-06 09:52:17	garit	[11:14:44] y=0 VS y=x  is a difference
+2017-11-06 09:52:17	garit	[11:14:52] y=1 VS y=x  is a difference *
+2017-11-06 09:52:17	promach	[11:28:08] garit: please refer to https://en.wikipedia.org/wiki/Activation_function#Comparison_of_activation_functions
+2017-11-06 09:52:17	+ML-helper[bot]	[11:28:09] [ Activation function - Wikipedia ]
+2017-11-06 09:52:17	garit	[11:30:50] promach: https://wikimedia.org/api/rest_v1/media/math/render/svg/2b7ae55ba14c7ab5d170d0b484465b670bb38823 - this is a binary step,not relu
+2017-11-06 09:52:17	+ML-helper[bot]	[11:30:50] [ (image/svg+xml) 3.5KB ]
+2017-11-06 09:52:17	promach	[11:35:29] garit: so the wikipedia is wrong
+2017-11-06 09:52:17	promach	[11:35:31] ?
+2017-11-06 09:52:17	promach	[11:35:57] have you seen the table ?
+2017-11-06 09:52:17	promach	[11:35:59] https://en.wikipedia.org/wiki/Activation_function#Comparison_of_activation_functions
+2017-11-06 09:52:17	+ML-helper[bot]	[11:36:00] [ Activation function - Wikipedia ]
+2017-11-06 09:52:17	garit	[11:36:09] Where exactly? So fari see no difference in what i say and what is there
+2017-11-06 09:52:17	garit	[11:36:46] promach: yes. Relu looks like this: _/ and binary step looks like this: _|**
+2017-11-06 09:52:17	garit	[11:37:30] https://wikimedia.org/api/rest_v1/media/math/render/svg/2b7ae55ba14c7ab5d170d0b484465b670bb38823 - this formula is either height 0 or height 1. So it also looks like this: _|**
+2017-11-06 09:52:17	+ML-helper[bot]	[11:37:30] [ (image/svg+xml) 3.5KB ]
+2017-11-06 09:52:17	garit	[11:48:09] promach: you simply copied from a wrong place. There is no error in wikipedia
+2017-11-06 09:52:17	promach	[11:50:03] garit: did I copy wrongly ? ReLU is the 7th entry in the table
+2017-11-06 09:52:17	garit	[11:50:28] Yes.and you copied second formula
+2017-11-06 09:52:17	garit	[11:50:57] Middle part of a formula,bottom. 1 is replaced with x
+2017-11-06 09:52:17	promach	[12:23:41] garit: huh ?  1 is replaced with x  ?
+2017-11-06 09:52:17	garit	[12:24:27] https://wikimedia.org/api/rest_v1/media/math/render/svg/2b7ae55ba14c7ab5d170d0b484465b670bb38823 - you gave
+2017-11-06 09:52:17	+ML-helper[bot]	[12:24:28] [ (image/svg+xml) 3.5KB ]
+2017-11-06 09:52:17	garit	[12:26:16] Relu https://wikimedia.org/api/rest_v1/media/math/render/svg/1d25c25758581789c97cdf80d52bf82bbfd0f237 from wiki
+2017-11-06 09:52:17	+ML-helper[bot]	[12:26:17] [ (image/svg+xml) 3.3KB ]
+2017-11-06 09:52:17	garit	[12:26:29] they are different.
+2017-11-06 09:52:17	garit2	[12:33:32] promach: do you see the difference?
+2017-11-06 09:52:17	promach	[12:50:52] garit2: so, the table is wrong ? wait
+2017-11-06 09:52:17	garit2	[12:52:49] promach: everything is right.
+2017-11-06 09:52:17	garit2	[12:53:05] you just copied a formula from a wrong place.
+2017-11-06 09:52:17	garit2	[12:53:34] you wanted to copy from a line 6, copied from a line 2. Your mistake of selecting a right line.no mistake in a table.
+2017-11-06 09:52:17	promach	[12:55:34] https://wikimedia.org/api/rest_v1/media/math/render/svg/2b7ae55ba14c7ab5d170d0b484465b670bb38823 - this formula is either height 0 or height 1. So it also looks like this: _|**    ????
+2017-11-06 09:52:17	+ML-helper[bot]	[12:55:34] [ (image/svg+xml) 3.5KB ]
+2017-11-06 09:52:17	promach	[12:55:52] this is the derivative for ReLU
+2017-11-06 09:52:17	garit2	[12:56:22] Yes, its 0 or 1
+2017-11-06 09:52:17	promach	[13:01:09] "When x = 0 the slope is undefined at that point, but this problem is taken care of during implementation by picking either the left or the right gradient." --> so, this statement from https://www.learnopencv.com/understanding-activation-functions-in-deep-learning/ is wrong ?
+2017-11-06 09:52:17	+ML-helper[bot]	[13:01:11] [ Understanding Activation Functions in Deep Learning | Learn OpenCV ]
+2017-11-06 09:52:17	garit2	[13:04:16] promach: it is right.
+2017-11-06 09:52:17	garit2	[13:04:28] I just thought you wanted to show the function itself, not it derivative
+2017-11-06 09:52:17	promach	[13:05:00] garit2: but slope at x=0  equals to 1
+2017-11-06 09:52:17	garit2	[13:05:02] and it happened to fit some other activation function. I missed the part where it supposed to be a derivative, and not an activation function itself
+2017-11-06 09:52:17	garit2	[13:05:43] promach: this part is wrong, slope is undefined at x=0
+2017-11-06 09:52:17	promach	[13:06:59] garit2: so, slope is defined at 1 at x=0 ?
+2017-11-06 09:52:17	garit2	[13:07:17] no, its infinite
+2017-11-06 09:52:17	promach	[13:07:32] huh ?
+2017-11-06 09:52:17	garit2	[13:07:41] ah, wait, we talk about relu
+2017-11-06 09:52:17	garit2	[13:08:05] ok.slope at x=0 is 0 and 1 at the same time
+2017-11-06 09:52:17	promach	[13:08:49] why ?
+2017-11-06 09:52:17	garit2	[13:09:18] Because if you check x=-0.001 slope is 0, and if you check x=+0.001 slope is 1
+2017-11-06 09:52:17	promach	[13:09:57] I see
+2017-11-06 09:52:17	Trixis	[13:11:10] promach: have you done basic calculus?
+2017-11-06 09:52:17	promach	[13:12:10] yeah, but I think I need to study it again
+2017-11-06 09:52:17	promach	[13:12:23] seems like https://en.wikipedia.org/wiki/Activation_function#Comparison_of_activation_functions has the wrong limit for ReLU
+2017-11-06 09:52:17	+ML-helper[bot]	[13:12:24] [ Activation function - Wikipedia ]
+2017-11-06 09:52:17	Trixis	[13:12:25] ah, right
+2017-11-06 09:52:17	promach	[13:12:34] please correct me if I am wrong
+2017-11-06 09:52:17	shoky	[13:15:19] wrong limit?
+2017-11-06 09:52:17	promach	[13:15:37] should be >0 instead >=0
+2017-11-06 09:52:17	garit2	[13:16:28] shoky: relu derivative
+2017-11-06 09:52:17	shoky	[13:16:38] oh
+2017-11-06 09:52:17	garit2	[13:16:48] Seems wrong to me
+2017-11-06 09:52:17	shoky	[13:17:01] yeah, i suppose it is
+2017-11-06 09:52:17	promach	[13:27:21] garit2: should be >0 instead >=0 , am I right ?
+2017-11-06 09:52:17	garit2	[13:27:46] promach: either (> and <) or (=> and <=)
+2017-11-06 09:52:17	garit2	[13:27:57] but not just from one side, i think
+2017-11-06 09:52:17	shoky	[13:28:18] only > and <  is technically correct, i believe
+2017-11-06 09:52:17	shoky	[13:29:04] i.e. derivative is undefined at 0, it's not equal to both 0 and 1
+2017-11-06 09:52:17	promach	[14:14:38] shoky: ok, thanks
+2017-11-06 09:52:17	jaggz	[14:23:25] what makes the derivative?
+2017-11-06 09:52:17	jaggz	[14:23:51] something takes the function and derivates?
+2017-11-06 09:52:17	jaggz	[14:24:03] tensorflow/theano for instance?
+2017-11-06 09:52:17	shoky	[14:32:09] jaggz: i think, for individual nodes the gradient function is already specified (in code)
+2017-11-06 09:52:17	shoky	[14:33:59] tf/theano do the job of applying the chain rule through the graph
+2017-11-06 09:52:17	shoky	[14:34:23] thats prolly super-simplifying it - i don't really know the details
+2017-11-06 09:52:17	jaggz	[14:54:24] shoky, but they have to do this stuff stepwise anyway right
+2017-11-06 09:52:17	jaggz	[14:55:01] and undefined doesn't help.. maybe they just do 0.. this has gotta be written somewhere .. hmm
+2017-11-06 09:52:17	jiffe	[15:06:56] man I really have this cuda crap, every time I do an update it breaks and it takes days/weeks to fix
+2017-11-06 09:52:17	shoky	[15:08:37] jaggz: seems like for e.g. tf's relu, the op and its gradient are defined here  https://github.com/tensorflow/tensorflow/blob/48be6a56d5c49d019ca049f8c48b2df597594343/tensorflow/core/kernels/relu_op_functor.h
+2017-11-06 09:52:17	+ML-helper[bot]	[15:08:38] [ tensorflow/relu_op_functor.h at 48be6a56d5c49d019ca049f8c48b2df597594343 · tensorflow/tensorflow · GitHub ]
+2017-11-06 09:52:17	shoky	[15:08:55] features.cwiseMax(static_cast<T>(0));   <--  relu
+2017-11-06 09:52:17	shoky	[15:09:56] and for the gradient:  // NOTE: When the activation is exactly zero, we do not propagate the associated gradient value
+2017-11-06 09:52:17	shoky	[15:10:21] not sure what you mean by "stepwise"
+2017-11-06 09:52:17	shoky	[15:13:14] er that's the .h file,  there's also relu_op_functor.cpp  with more stuff, e.g. for relu gradient:  "Return the lhs (incoming gradient) if the rhs (input feature) > 0 otherwise return 0"
+2017-11-06 09:52:17	jaggz	[16:05:08] shoky, piecewise
+2017-11-06 09:52:17	shoky	[16:10:30] well, yeah, but gradients for each piece is already defined
+2017-11-06 09:52:17	teurastaja	[16:44:55] hey, ive seen neural turing machines, neural stack machines, and now ive seen lots of tree models of neural networks. help
+2017-11-06 09:52:17	teurastaja	[16:46:53] can one just use recurrent networks and concatenate the leaves of non terminating nodes? how? what is missing?
+2017-11-06 09:52:17	teurastaja	[16:48:01] why are there so many models for tree neural networks? have i reached the end of contemporary research?
+2017-11-06 09:52:17	teurastaja	[16:55:45] hello?
+2017-11-06 09:52:17	hxzenberg[m]1	[17:09:56] ping
+2017-11-06 09:52:17	cfoch-al1	[17:22:37] hello
+2017-11-06 09:52:17	spawk	[17:22:58] teurastaja: what do you mean so many models?
+2017-11-06 09:52:17	lermain	[17:24:53] hi. Has anybody here heard of "Hands-On Machine Learning with Scikit-Learn and TensorFlow"?
+2017-11-06 09:52:17	cfoch-al1	[17:27:00] Does papers usually include source code?
+2017-11-06 09:52:17	cfoch-al1	[17:27:06] *Do
+2017-11-06 09:52:17	acresearch	[17:54:43] hey people, how do you choose between linear, ridge, lasso? whether to ManMaxScalar or not,,, is there a type of data that clearly determins which model to use? or do you guys just use the one that gives the best score by trial and error?
+2017-11-06 09:52:17	@RandIter	[17:57:24] acresearch: there is some intuition behind their use cases
+2017-11-06 09:52:17	@RandIter	[17:57:28] also behind the scaling
+2017-11-06 09:52:17	acresearch	[17:57:40] RandIter: hmmmm i see
+2017-11-06 09:52:17	@RandIter	[17:57:46] I forget what
+2017-11-06 09:52:17	acresearch	[17:58:13] RandIter: and it is usually that features are very spread out right?
+2017-11-06 09:52:17	@RandIter	[17:59:42] Yeah, I like the feature values to be well distributed between 0 and 1, but I don't always use minmax scaling
+2017-11-06 09:52:17	acresearch	[18:00:10] RandIter: hmmm i see
+2017-11-06 09:52:17	@RandIter	[18:00:14] If most of your features are closer to the min, you'll be in trouble if you use minmax scaling, right?
+2017-11-06 09:52:17	acresearch	[18:00:28] true
+2017-11-06 09:52:17	teddy_error	[18:05:07]  https://twitter.com/thismanslife/status/926396340904562688
+2017-11-06 09:52:17	+ML-helper[bot]	[18:05:08] [ James Mellers on Twitter: "Upscale an image 4X. Neural network "hallucinates" missing details.This is WITCHCRAFT. Seriously. https://t.co/R4FMVGoxuJ https://t.co/UlPYCiBh0K" ]
+2017-11-06 09:52:17	teddy_error	[18:05:48] (You're all witches)
+2017-11-06 09:52:17	jason__	[18:15:57] any other fellow lame Windows tensorflow GPU users? pip install tensorflow-gpu used to work beautifully, but now I'm getting cuDNN errors if I try to run any sort of convnet on GPU
+2017-11-06 09:52:17	jason__	[18:18:42] older versions of tensorflow (1.0.0) work fine still
+2017-11-06 09:52:17	Ploppz	[19:37:35] cross-validation to find best C for LogisticRegression.. on different runs it found 100, 1000 and 10000000... I randomly shuffle in advance. I have 104 classes and 9000 data points. Could the problem be class imbalance within each fold?
+2017-11-06 09:52:17	@RandIter	[19:38:27] is it a single class per point or multiple classes per point?
+2017-11-06 09:52:17	Ploppz	[19:38:47] single per point
+2017-11-06 09:52:17	@RandIter	[19:40:33] what is your CV strategy
+2017-11-06 09:52:17	Ploppz	[19:43:53] RandIter: what do you mean? I use 7-fold cross-validation. I made a function that shuffles the input data before iterating over each fold training on (n_folds-1) folds and validating on 1 fold. It takes the average of the validation errors.
+2017-11-06 09:52:17	spawk	[19:46:49] have you tried stratifying your classes across folds?
+2017-11-06 09:52:17	@RandIter	[19:48:37] Ploppz: so what's going wrong? You jumped from 1e3 to 1e7
+2017-11-06 09:52:17	spawk	[19:48:40] you can check the validation error variance across folds, if that is high your cross validation results are probably not very reliable
+2017-11-06 09:52:17	@RandIter	[19:49:13] This is some lame small dataset
+2017-11-06 09:52:17	Ploppz	[19:49:30] good idea spawk, thanks
+2017-11-06 09:52:17	@RandIter	[19:49:54] It should be obvious that the variance will be high
+2017-11-06 09:52:17	@RandIter	[19:50:51] spawk: but why are they not reliable? it is being averaged, right?
+2017-11-06 09:52:17	Ploppz	[19:51:47] indeed
+2017-11-06 09:52:17	Ploppz	[19:52:15] but intuitively I think if the folds disagree, the split is not that good?
+2017-11-06 09:52:17	@RandIter	[19:52:38] are you at least using some regularization your LR
+2017-11-06 09:52:17	@RandIter	[19:52:43] *in your
+2017-11-06 09:52:17	@RandIter	[19:52:45] I guess you are.
+2017-11-06 09:52:17	spawk	[19:52:56] RandIter: cross validation gives you one noisy observation of your generalization error per fold. their mean converges like 1/sqrt(n_folds) so if their variance is high then your estimate of the mean also has high variance
+2017-11-06 09:52:17	Ploppz	[19:53:11] I'm using sklearn's LogisticRegression. It does regularization indeed
+2017-11-06 09:52:17	@RandIter	[19:53:39] spawk: ok thx
+2017-11-06 09:52:17	@RandIter	[19:54:08] He can use a different CV strategy
+2017-11-06 09:52:17	spawk	[19:54:12] this also suggests trying more folds if the variance across folds is high
+2017-11-06 09:52:17	@RandIter	[19:54:14] using randomized folds
+2017-11-06 09:52:17	Ploppz	[19:54:15] What does that entail, RandIter ?
+2017-11-06 09:52:17	Ploppz	[19:54:35] the folds are already randomized..? (I shuffle the data in advance)
+2017-11-06 09:52:17	spawk	[19:55:07] you could try stratifying the classes
+2017-11-06 09:52:17	spawk	[19:55:14] try to balance classes within folds
+2017-11-06 09:52:17	@RandIter	[19:55:14] what does this mean
+2017-11-06 09:52:17	@RandIter	[19:55:17] ok
+2017-11-06 09:52:17	Ploppz	[19:55:36] spawk: Alright thanks
+2017-11-06 09:52:17	spawk	[19:55:42] e.g. still randomize, but deal examples per class into folds in random order
+2017-11-06 09:52:17	@RandIter	[19:55:43] Ploppz: so instead of averaging across 7, you can average across 30, but you can create the training and validation sets randomly
+2017-11-06 09:52:17	@RandIter	[19:55:55] Ploppz: without replaecment
+2017-11-06 09:52:17	@RandIter	[19:56:13] And yea this is independent of what spawk suggested
+2017-11-06 09:52:17	spawk	[19:56:42] yeah, more folds is also a good idea
+2017-11-06 09:52:17	spawk	[19:56:50] assuming you can afford it
+2017-11-06 09:52:17	Ploppz	[19:57:04] create training and validation sets randomly.. for each iteration?
+2017-11-06 09:52:17	@RandIter	[19:57:15] yes, although i've never done it
+2017-11-06 09:52:17	@RandIter	[19:57:21] but bagging comes close
+2017-11-06 09:52:17	spawk	[19:57:35] bootstrapping
+2017-11-06 09:52:17	Ploppz	[19:57:44] Well yeah I'm doing best-first subset selection of 168 features and .. in 2 days I have gotten 10 features and I need more. 30 folds will take too long time :/
+2017-11-06 09:52:17	@RandIter	[19:58:15] is there a natural hierarchy among your 104 classes
+2017-11-06 09:52:17	spawk	[19:58:20] what are you doing with 9k examples of 170 features that takes 2 days?
+2017-11-06 09:52:17	spawk	[19:58:29] 104 classes*
+2017-11-06 09:52:17	@RandIter	[19:59:24] must be running on macbook air from 2012
+2017-11-06 09:52:17	Ploppz	[19:59:37] Ryzen 5 1600 c: c: :)
+2017-11-06 09:52:17	Ploppz	[20:00:22] the alg is: start with selected_features = []. Iteratively do { for each feature f, CV a simple LogReg model using (selected_features + f). Then add the feature with best CV score to selected_features}
+2017-11-06 09:52:17	Ploppz	[20:00:49] So to add one feature I have to do CV n_feature times....
+2017-11-06 09:52:17	Ploppz	[20:01:06] (it took longer before because I had 360 features.. I have pruned it)
+2017-11-06 09:52:17	@RandIter	[20:01:08] why are you doing this weird feature selection
+2017-11-06 09:52:17	Ploppz	[20:01:21] because.. I read about it I think
+2017-11-06 09:52:17	@RandIter	[20:01:49] I'd skip it to start
+2017-11-06 09:52:17	Ploppz	[20:01:52] What is a good subset selection algorithm then?
+2017-11-06 09:52:17	@RandIter	[20:01:57] just use all
+2017-11-06 09:52:17	@RandIter	[20:02:01] how many features do you have
+2017-11-06 09:52:17	Ploppz	[20:02:10] 168 that I think are useful
+2017-11-06 09:52:17	@RandIter	[20:02:10] You can do it later.
+2017-11-06 09:52:17	Ploppz	[20:02:14] may be useful*
+2017-11-06 09:52:17	@RandIter	[20:02:19] How many in all
+2017-11-06 09:52:17	@RandIter	[20:02:40] i.e. if you selected them all
+2017-11-06 09:52:17	Ploppz	[20:02:44] Well 360 extracted features. Originally there were 12 time signals, but I reduced them to mean, variance and fourier series.
+2017-11-06 09:52:17	Ploppz	[20:03:01] 12 time signals of 200 values each -> 2400 features.
+2017-11-06 09:52:17	@RandIter	[20:04:06] so what if you use 2400
+2017-11-06 09:52:17	@RandIter	[20:06:01] also, 104 is not divisible by 12. Are your classes even independent?
+2017-11-06 09:52:17	Ploppz	[20:06:52] Each data point has 12 time signals associated with it. It doesn't need to be divisible by 12
+2017-11-06 09:52:17	@RandIter	[20:07:42] I know, but obviously you're doing some time series prediction.
+2017-11-06 09:52:17	@RandIter	[20:08:13] Anyway
+2017-11-06 09:52:17	Ploppz	[20:10:35] by the way my subset selection algorithm is called 'forward selection'
+2017-11-06 09:52:18	@RandIter	[20:11:54] You don't even have a baseline optimal performance score without the feature selection
+2017-11-06 09:52:18	@RandIter	[20:12:02] (as I understood)
+2017-11-06 09:52:18	@RandIter	[20:12:16] so why are you jumping to f.s.
+2017-11-06 09:52:18	spawk	[20:13:44] forward selection just means growing the set of features without ever removing them, it's not a name for the particular procedure you are following
+2017-11-06 09:52:18	Ploppz	[20:14:18] spawk: well I am doing that. Is there a better way? I read that it entails "adding the feature that decreases the CV error the most"
+2017-11-06 09:52:18	spawk	[20:15:50] yes you add one feature at a time by choosing the "best" one in some way
+2017-11-06 09:52:18	spawk	[20:16:21] usually I hear about this in lasso because there are efficient algorithms for doing forward selection in lasso
+2017-11-06 09:52:18	@RandIter	[20:16:45] I think it's foolish to do f.s. over a limited sample of 9000 that is really not even big enough to be representative of a population
+2017-11-06 09:52:18	spawk	[20:17:26] imo feature selection is most important when you have few examples
+2017-11-06 09:52:18	spawk	[20:18:11] bad features add noise and if you have few examples that noise tends to not average out
+2017-11-06 09:52:18	spawk	[20:18:47] but there are certainly more efficient ways to gauge feature importance than what you're doing
+2017-11-06 09:52:18	Ploppz	[20:18:53] forgot to mention I do polynomial expansion ^2 and ^3 of mean and variance. So far mean and mean^2 have been included in the best features. Perhaps I will just discard variance and mean^3
+2017-11-06 09:52:18	Ploppz	[20:19:03] spawk: can you point me to some?
+2017-11-06 09:52:18	spawk	[20:20:49] Ploppz: I like the this one personally: https://www.stat.berkeley.edu/~breiman/randomforest2001.pdf
+2017-11-06 09:52:18	+ML-helper[bot]	[20:20:50] [  (application/pdf, 33 pages) 120.9KB ]
+2017-11-06 09:52:18	spawk	[20:20:55] (see page 19)
+2017-11-06 09:52:18	spawk	[20:22:00] but if you google for feature selection I'm sure you'll find lots of things
+2017-11-06 09:52:18	spawk	[20:22:05] it's not an area I know well
+2017-11-06 09:52:18	spawk	[20:22:12] but I like the random forest approach because I like random forests
+2017-11-06 09:52:18	spawk	[20:24:36] I think if it like: fit a (randomized) decision tree to your training data and then for each feature you compute the increase in test error you get by shuffling that feature
+2017-11-06 09:52:18	spawk	[20:24:42] and then you bootstrap that estimate
+2017-11-06 09:52:18	acresearch	[20:24:45] people, i am trying to understand what is cross-validation used for,   it is just to see how sensitive a model parameter is on the dataset? or is it used to choose the best parameter value for a particular model?
+2017-11-06 09:52:18	spawk	[20:24:50] s/estimate/number
+2017-11-06 09:52:18	spawk	[20:25:12] acresearch: do you understand why you use a test set and a train set instead of just using all your data all the time?
+2017-11-06 09:52:18	acresearch	[20:25:34] spawk: yes i understand the train/test split and why it is used
+2017-11-06 09:52:18	acresearch	[20:25:40] spawk: is this related to it?
+2017-11-06 09:52:18	spawk	[20:25:45] acresearch: well cross validation is used for the same reason
+2017-11-06 09:52:18	acresearch	[20:25:55] spawk: hmm
+2017-11-06 09:52:18	spawk	[20:26:05] acresearch: it's basically a way of trading more computation for getting more data to train on
+2017-11-06 09:52:18	acresearch	[20:26:14] spawk: let this sink in for a moment
+2017-11-06 09:52:18	acresearch	[20:26:49] spawk: oh ok  it is just like making several train/test splits     with several folds to rotate through the entire dataset ha?
+2017-11-06 09:52:18	spawk	[20:27:26] yes exactly
+2017-11-06 09:52:18	spawk	[20:27:48] it's really useful when you don't have a lot of data because you get to train on everything (just not all at once)
+2017-11-06 09:52:18	acresearch	[20:28:27] spawk: i see
+2017-11-06 09:52:18	@RandIter	[20:29:21] If you've a lot of data, I don't see that you need CV at all
+2017-11-06 09:52:18	acresearch	[20:29:24] and this is used to find a better .score() ha?
+2017-11-06 09:52:18	acresearch	[20:29:42] oh ok     so for small data sets
+2017-11-06 09:52:18	@RandIter	[20:29:56] acresearch: yes. as spawk was saying, you get to use more training data, so you get a better score
+2017-11-06 09:52:18	spawk	[20:30:05] i think of CV as a way of trading computation for more training data
+2017-11-06 09:52:18	spawk	[20:30:11] if you don't need more training data then you don't need CV
+2017-11-06 09:52:18	acresearch	[20:30:42] i see
+2017-11-06 09:52:18	@RandIter	[20:30:48] acresearch: without CV, with a small dataset, you'd have too much variance
+2017-11-06 09:52:18	@RandIter	[20:31:00] so you'd get high scores on the validation set, but poor scores on the test set
+2017-11-06 09:52:18	acresearch	[20:31:09] ok it makes sence now
+2017-11-06 09:52:18	campitor	[21:22:33] hi everyone, I have a SVM, K-Means, FCM, and RandomForest implementations, How can I check and see if they are working ok, and if the implementation is ok?
+2017-11-06 09:52:18	campitor	[21:23:53] I have tried feeding them stuff like sin(rnd) and see if they can predict , svm and random forest are doing fine, but k-means can't predict anything
+2017-11-06 09:52:18	campitor	[21:24:06] is it possible the implementation is flaud?
+2017-11-06 09:52:18	brand0	[21:27:24] campitor, k-means is one of the simplest unsupervised algorithms
+2017-11-06 09:52:18	brand0	[21:28:27] you should be able to check if your algorithm is working correctly based on some simple test cases
+2017-11-06 09:52:18	campitor	[21:35:15] so sorry brand0
+2017-11-06 09:52:18	campitor	[21:35:27] I am on a very unstable conncetion
+2017-11-06 09:52:18	campitor	[21:35:40] brand0 you should be able to check if your algorithm is working correctly based on some simple test cases
+2017-11-06 09:52:18	campitor	[21:35:49] ^ this is the last mesage i got from you
+2017-11-06 09:52:18	brand0	[21:36:23] yes that's all i said campitor
+2017-11-06 09:52:18	brand0	[21:36:40] there are known scenarios for k-means for when it should work well and when it should fail to converge
+2017-11-06 09:52:18	brand0	[21:36:51] or fail to converge to a good solution
+2017-11-06 09:52:18	campitor	[21:37:59] the algorithm reads data in the form of (a b c d e) (f g h i j) and it is supposed to learn 1 or 2, 2 meaning yes, 1 meaning no. SVM and RandomForest are giving me 0.99 accuracy in predicting new samples, but my k-means shows very low number like 0.5 or lower
+2017-11-06 09:52:18	campitor	[21:38:24] how can i test it to see if it is working at all?!
+2017-11-06 09:52:18	brand0	[21:39:28] i'm a little confused
+2017-11-06 09:52:18	brand0	[21:39:38] k-means is a clustering algorithm
+2017-11-06 09:52:18	brand0	[21:39:49] it's going to give you groupings of data points which are most similar to eachother
+2017-11-06 09:52:18	campitor	[21:40:49] so you mean for my data k-means and fcm should not be even used or attempted in the first place?!
+2017-11-06 09:52:18	@RandIter	[21:41:16] no shit
+2017-11-06 09:52:18	campitor	[21:41:43] i am sorry if I confused you brand0 I am not very good at explaining :(
+2017-11-06 09:52:18	kingsley	[21:43:07] campitor: I like the test data for abalone. A tutorial on how to train scikit-learn algorithms for it was on the web. It had charts showing what to expect. Maybe you could feed the abalone data to your algorithms, and compare their output to the tutorial's.
+2017-11-06 09:52:18	brand0	[21:43:09] campitor, it sounds like you want a binary classifier
+2017-11-06 09:52:18	brand0	[21:43:10] you can use kmeans as one, but you need to be asking "which group is this data point most similar to"
+2017-11-06 09:52:18	brand0	[21:43:11] or, which mean is this point closest to
+2017-11-06 09:52:18	@RandIter	[21:43:49] brand0: is that different from k-NN then
+2017-11-06 09:52:18	brand0	[21:44:06] k-NN is which data points is this new point closest to, so it's similar
+2017-11-06 09:52:18	brand0	[21:44:17] k-means is which mean of points is this closest to
+2017-11-06 09:52:18	@RandIter	[21:44:23] right
+2017-11-06 09:52:18	campitor	[21:45:55] brand0: are SVM constructs and RandomForest doing this automatically?
+2017-11-06 09:52:18	brand0	[21:46:25] yes campitor, they're directly learning the outputs from your targets
+2017-11-06 09:52:18	brand0	[21:47:11] k-means doesn't even use class labels, it's a purely input-data driven algorithm
+2017-11-06 09:52:18	campitor	[21:47:48] Is there someway I could tell k-means or FCM to get help from SVM or randomForest for deciding about data points and such? or do I have to designate them myself?
+2017-11-06 09:52:18	campitor	[21:48:02] brand0: ok, I got it k-means doesn't even use class labels, it's a purely input-data driven algorithm
+2017-11-06 09:52:18	campitor	[21:48:07] Got it
+2017-11-06 09:52:18	brand0	[21:48:32] with k-means you're just asking a different question from the data
+2017-11-06 09:52:18	campitor	[21:48:49] so is it best to just use svm and randomforest in my report, or do you think I should get k-means and fcm to work too?
+2017-11-06 09:52:18	campitor	[21:48:58] would they give better results?
+2017-11-06 09:52:18	brand0	[21:49:11] svm and rf are natural binary classifiers
+2017-11-06 09:52:18	campitor	[21:49:12] like 99% accuracy, considering my data?
+2017-11-06 09:52:18	brand0	[21:49:58] you may be able to get good results with k-means, you'd need to alter your approach a bit. you'd need to cluster your data and then look at the class labels of the clusters and make an inference from that
+2017-11-06 09:52:18	campitor	[21:50:00] cause rf is giving like 100% for my data
+2017-11-06 09:52:18	brand0	[21:52:11] that's not surprising for toy data
+2017-11-06 09:52:18	campitor	[21:53:02] yes, the data is toy, but I expected k-means to at least give me 70-80, but now I see that I have been doing it all wrong
+2017-11-06 09:52:18	campitor	[21:53:23] Also I am guessing using kmeans later would be a bit more complicated, considering right now I can export my svmconstruct easily into python, or java and use it there. no problems
+2017-11-06 09:52:18	campitor	[21:53:54] but now with clustring and everything I think I better stick with svm and rf
+2017-11-06 09:52:18	brand0	[21:54:27] yeah that's what i would suggest campitor
+2017-11-06 09:52:18	brand0	[21:54:35] svm and rf are solid choices
+2017-11-06 09:52:18	campitor	[21:54:54] do you think they would suffice for a college report?
+2017-11-06 09:52:18	campitor	[21:55:03] from a linguistics student?
+2017-11-06 09:52:18	campitor	[21:56:21] All I am really worried about is if k-means might give better results, and my professor telling me why did you not use k-means!
+2017-11-06 09:52:18	campitor	[21:56:54] I want to be able to tell him svm was giving me far better results with much less hassle
+2017-11-06 09:52:18	brand0	[22:03:56] you won't know if k-means will work better until you try, but you can't beat 100% campitor
+2017-11-06 09:52:18	Trixis	[22:20:28] it'd be quite surprising if k means managed to beat random forests / SVMs in classification
+2017-11-06 09:52:18	ackpacket	[22:39:54] Trixis, what would you define as beat?
+2017-11-06 09:52:18	Trixis	[22:40:58] shoudl've been more specific, it'd be quite surprising for k-means to outperform random forests / SVMs with an appropriate kernel choice in binary classification
+2017-11-06 09:52:18	Trixis	[22:43:19] still a very vague, statement, sure :p
+2017-11-06 09:52:18	mooj	[01:18:15] anyone got a good reference to the pros/cons between adam/adadelta?  i generally understand the math, but i dont have a good feel for where one might be more appropriate than the other
+2017-11-06 09:52:18	mooj	[01:32:17] alternatively - are there any special considerations i should give to choice of optimizer if i know that my loss function is noisy?
+2017-11-06 09:52:18	tyukigrew[m]	[01:48:13] Just thinking out loud mooj - I guess you'd want smaller constants for how important the previous gradients and momentums are but "remember" them for a longer range?
+2017-11-06 09:52:18	tyukigrew[m]	[01:48:42] I don't see how that would make any difference to the choice of optimizer though
+2017-11-06 09:52:18	mooj	[01:52:28] hmm
+2017-11-06 09:52:18	mooj	[01:52:39] well i mean different optimizers handle things like momentum differently
+2017-11-06 09:52:18	tyukigrew[m]	[01:55:12] You know a lot more than I do about this - I'm just working of very high level understandings of different optimizers
+2017-11-06 09:52:18	jason__	[02:02:48] I personally don't think there's much point in investing a lot of time/thought into the different optimizers. I think most people tend to pick one and stick with it, or select it as part of a hyperparameter search if you have the resources.
+2017-11-06 09:52:18	mooj	[02:04:23] :/
+2017-11-06 09:52:18	mooj	[02:04:48] i find value in understand how my hammers work
+2017-11-06 09:52:18	mooj	[02:04:53] understanding*
+2017-11-06 09:52:18	jason__	[02:05:19] you can understand how they work and still have no idea which one will perform better
+2017-11-06 09:52:18	mooj	[02:05:45] hence what im trying to figure out :)
+2017-11-06 09:52:18	jason__	[02:07:51] I just don't really think there's any great insight or intuition to be obtained. It's one of those things that you'll probably need to rely on empirical results for.
+2017-11-06 09:52:18	mooj	[02:09:53] in general, I find that if my intuition of a solution is poor, it is because i don't understand the problem well enough
+2017-11-06 09:52:18	mooj	[02:12:22] although for an individual case, it may be sufficient or even cheaper to just try different options and see what sticks to the wall, i think its more beneficial in the long run to build fundamental understanding, even if it costs more time and effort
+2017-11-06 09:52:18	mooj	[02:15:23] otherwise, i suppose one's mental schemas may be prone to overfitting
+2017-11-06 09:52:18	jason__	[02:15:54] My point is I think it practically impossible to gain intuition into stochastic optimization of non-convex functions in ~50 million dimensional space.
+2017-11-06 09:52:18	jason__	[02:16:01] unless that's all you want to think about for like 4 years
+2017-11-06 09:52:18	jason__	[02:16:04] and maybe even then
+2017-11-06 09:52:18	mooj	[02:16:57] so maybe someone has already done that thinking and shared his conclusions online somewhere..
+2017-11-06 09:52:18	mooj	[02:17:30] most of the resources ive found so far though seem to focus entirely on the mathematical formulation though
+2017-11-06 09:52:18	p-i-[m]	[02:18:01] Why wouldn't the same intuition you apply in three dimensions extend?
+2017-11-06 09:52:18	brand0	[02:18:08] i agree that choice of optimizer is a pick one and go or empirically choose between x and y optimizers
+2017-11-06 09:52:18	jason__	[02:18:31] because intuitions in 3D don't extend to higher dimensions
+2017-11-06 09:52:18	jason__	[02:18:39] there's a paper about that
+2017-11-06 09:52:18	mooj	[02:18:44] link?
+2017-11-06 09:52:18	brand0	[02:19:05] correct, also choice of most optimal optimizer depends on data and weights, etc
+2017-11-06 09:52:18	p-i-[m]	[02:19:46] There's a nice example of the relative volume of the unit spheroid inside the unit cuboid
+2017-11-06 09:52:18	p-i-[m]	[02:20:04] As the dimension rises it shoots to 0 very fast
+2017-11-06 09:52:18	jason__	[02:20:21] yeah I can't recall the name of the paper
+2017-11-06 09:52:18	p-i-[m]	[02:20:44] I remember there is one paper that compares all of these Optimisation techniques
+2017-11-06 09:52:18	p-i-[m]	[02:20:59] Shouldn't be too hard to dig out
+2017-11-06 09:52:18	mooj	[02:21:17] i think i know which one youre talking about pi
+2017-11-06 09:52:18	mooj	[02:21:28] i was studying it a couple weeks ago
+2017-11-06 09:52:18	brand0	[02:21:52] choice of advanced optimizer in NNs is akin to ant colony vs swarm optimization in genetic optimization
+2017-11-06 09:52:18	brand0	[02:21:53] there's no good way to answer it generically
+2017-11-06 09:52:18	mooj	[02:22:36] this one, right? https://arxiv.org/pdf/1609.04747.pdf
+2017-11-06 09:52:18	+ML-helper[bot]	[02:22:36] [ [1609.04747] An overview of gradient descent optimization algorithms ] | https://arxiv.org/abs/1609.04747
+2017-11-06 09:52:18	p-i-[m]	[02:22:51] yup
+2017-11-06 09:52:18	brand0	[02:23:20] it being?
+2017-11-06 09:52:18	mooj	[02:23:53] choice of optimizer
+2017-11-06 09:52:18	p-i-[m]	[02:23:53] brand0: which optimiser to choose
+2017-11-06 09:52:18	p-i-[m]	[02:24:26] I guess the answer is it doesn't massively matter
+2017-11-06 09:52:18	mooj	[02:25:10] i think it does what what im trying to do
+2017-11-06 09:52:18	mooj	[02:25:39] and i might need to make an adjustment to an existing optimization technique
+2017-11-06 09:52:18	brand0	[02:25:40] for the most part choice of optimizer is less important than the parameters themselves as they just control speed of convergence
+2017-11-06 09:52:18	mooj	[02:25:55] but i dont know if thats accurate, hence why im trying to understand them better
+2017-11-06 09:52:18	jason__	[02:27:33] This is the only paper I've read that I feel like has gave me any sort of insight into how optimizing deep networks works: https://arxiv.org/pdf/1412.0233.pdf
+2017-11-06 09:52:18	+ML-helper[bot]	[02:27:34] [ [1412.0233] The Loss Surfaces of Multilayer Networks ] | https://arxiv.org/abs/1412.0233
+2017-11-06 09:52:18	mooj	[02:27:57] i'll give it a read. thanks
+2017-11-06 09:52:18	jason__	[02:28:12] but it's a hard read because they literally use some mathematical model from quantum mechanics
+2017-11-06 09:52:18	mooj	[02:28:28] good thing i went to grad school for qm :D
+2017-11-06 09:52:18	jason__	[02:28:31] so you just have to pick out the insights
+2017-11-06 09:52:18	jason__	[02:28:36] ah well there you go
+2017-11-06 09:52:18	mooj	[02:28:39] lol
+2017-11-06 09:52:18	jason__	[02:29:09] hopefully you're familiar with Ising spin-glass Hamiltonians. Whatever that is.
+2017-11-06 09:52:18	mooj	[02:29:32] yep!  i did a fun little research project on n-dimensional ising lattices :D
+2017-11-06 09:52:18	mooj	[02:32:20] what a funny coincidence
+2017-11-06 09:52:18	mooj	[02:58:16] does anyone have academic access to this article? https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.61.259
+2017-11-06 09:52:18	+ML-helper[bot]	[02:58:17] [ Phys. Rev. Lett. 61, 259 (1988) - Chaos in Random Neural Networks ]
+2017-11-06 09:52:18	brand0	[03:00:42] i might mooj
+2017-11-06 09:52:18	@RandIter	[03:01:34] mooj: BTW, I imagine you read https://github.com/p-i-/machinelearning-IRC-freenode/blob/master/ReadingGroup/logs/2017.06.18_FeynmanMachines
+2017-11-06 09:52:18	+ML-helper[bot]	[03:01:35] [ machinelearning-IRC-freenode/2017.06.18_FeynmanMachines at master · p-i-/machinelearning-IRC-freenode · GitHub ]
+2017-11-06 09:52:18	@RandIter	[03:02:08] FM uses chaos theory too
+2017-11-06 09:52:18	mooj	[03:02:12] i havent yet.  i'll take a look
+2017-11-06 09:52:18	mooj	[03:02:14] thanks for the link
+2017-11-06 09:52:18	brand0	[03:05:13] i have a feeling a NN article from the 80s is going to be very disappointing mooj
+2017-11-06 09:52:18	mooj	[03:05:27] lol probably
+2017-11-06 09:52:18	mooj	[03:05:38] but it might be nice context
+2017-11-06 09:52:18	@RandIter	[03:08:45] mooj: scihub has the full pdf. lol
+2017-11-06 09:52:18	mooj	[03:09:25] beautiful.  thanks rand
+2017-11-06 09:52:18	@RandIter	[03:10:00] just paste the url in the scihub box
+2017-11-06 09:52:18	@RandIter	[03:10:16] and ofc never paste any scihub link here
+2017-11-06 09:52:18	brand0	[03:11:42] weird, for some reason my credentials to the univ only have that journal up until 1969
+2017-11-06 09:52:18	mooj	[03:12:51] o.O
+2017-11-06 09:52:18	mooj	[03:12:57] its all good, i got the paper
+2017-11-06 09:52:18	mooj	[03:44:17] has anyone here played with bayesian optimization of neural networks?
+2017-11-06 09:52:18	mooj	[06:33:23] there is something very wrong with what i have built
+2017-11-06 09:52:18	mooj	[06:33:35] it cant learn addition
+2017-11-06 09:52:18	brand0	[06:37:17] most likely mooj :P
+2017-11-06 09:52:18	mooj	[06:37:54] yeah...now i just have to try to figure out where it went wrong
+2017-11-06 09:52:18	mooj	[06:38:15] frustrating.
+2017-11-06 09:52:18	mooj	[06:57:14] alright well
+2017-11-06 09:52:18	mooj	[06:57:23] maybe one of you guys can spot the gotcha
+2017-11-06 09:52:18	mooj	[06:57:28] https://pastebin.com/BsXukHJP
+2017-11-06 09:52:18	+ML-helper[bot]	[06:57:29] [ [Python] import functools import numpy as np import tensorflow as tf import time impo - Pastebin.com ]
+2017-11-06 09:52:18	mooj	[06:57:40] im sure its something really dumb
+2017-11-06 09:52:18	mooj	[06:58:53] with that configuration, it should easily just be able to assign a value of 1 to each weight, 0 to the bias, and get 0 loss
+2017-11-06 09:52:18	mooj	[06:59:06] but....clearly ive created a monster instead
+2017-11-06 09:52:18	jason__	[07:06:49] you need to call this_model.optimize() somewhere and then fetch the result of that
+2017-11-06 09:52:18	jason__	[07:07:06] this_model.optimize is a function not a tensor/operation/whatever
+2017-11-06 09:52:18	mooj	[07:07:35] eh, doesnt it do that in line 168?
+2017-11-06 09:52:18	jason__	[07:07:45] not unless my understanding is wrong
+2017-11-06 09:52:18	jason__	[07:07:52] which maybe it is, since I would expect it to throw an error
+2017-11-06 09:52:18	jason__	[07:08:31] but I think you want to fetch the result of that function
+2017-11-06 09:52:18	jason__	[07:08:41] you're actually fetching the function itself which doesn't make sense?
+2017-11-06 09:52:18	jason__	[07:09:30] so if I'm correct the reason it's not learning addition is you're not actually performing an update :P
+2017-11-06 09:52:18	mooj	[07:09:44] eh
+2017-11-06 09:52:18	mooj	[07:10:04] but the weights are changing?
+2017-11-06 09:52:18	mooj	[07:11:25] in what appears to be a 'convergent' way.  but it just fails horribly
+2017-11-06 09:52:18	jason__	[07:13:01] what do the weights go to?
+2017-11-06 09:52:18	jason__	[07:13:27] there's only like 3 of them right?
+2017-11-06 09:52:18	mooj	[07:13:37] 2 weights, 1 bias
+2017-11-06 09:52:18	jason__	[07:13:54] yeah so what are their values after training and 'converging'?
+2017-11-06 09:52:18	mooj	[07:14:27] bad
+2017-11-06 09:52:18	mooj	[07:14:28] https://imgur.com/a/9zhpB
+2017-11-06 09:52:18	+ML-helper[bot]	[07:14:29] [ Imgur: The most awesome images on the Internet ]
+2017-11-06 09:52:18	mooj	[07:14:41] plot is the loss
+2017-11-06 09:52:18	joshua_	[07:17:41] make your optimizer simpler, and turn the learning rate way down
+2017-11-06 09:52:18	mooj	[07:18:02] simpler than adam?
+2017-11-06 09:52:18	joshua_	[07:18:50] yeah, choose just gradient descent, since you only have one variable; exciting adaptive optimziers matter only when you have many layers
+2017-11-06 09:52:18	mooj	[07:19:14] well sure.  but adam should still work for this
+2017-11-06 09:52:18	brand0	[07:19:25] shouldn't the bias be an additional column not added to the weights matrix?
+2017-11-06 09:52:18	joshua_	[07:19:37] it should, yeah, but there are more parameters to tune, and so you might as well simplify as much as possible
+2017-11-06 09:52:18	joshua_	[07:20:21] (to that end, I would also go instantiate all the tensorflow ops by hand in a straight line, because staring at 10 tensorflow ops scattered around 200 lines of python is the kind of thing that makes one's head hurt)
+2017-11-06 09:52:18	joshua_	[07:20:54] "too high learning rate" does not seem like the problem though, given as it is not oscillating all over the place.  hmm.
+2017-11-06 09:52:18	mooj	[07:21:01] yeah...but my goal is to learn how to build the model in the class
+2017-11-06 09:52:18	joshua_	[07:21:16] well, start with making the model work
+2017-11-06 09:52:18	mooj	[07:21:19] brand0: the class defines the network on a per-neuron basis
+2017-11-06 09:52:18	mooj	[07:21:51] so its more like weight vectors for each non-input neuron, and a single bias for each
+2017-11-06 09:52:18	mooj	[07:22:04] joshua_: thats what im trying to do lol
+2017-11-06 09:52:18	joshua_	[07:22:18] may also be good to validate the data and see if something is unexpectedly wrong there -- print each one as you go, etc
+2017-11-06 09:52:18	mooj	[07:22:23] its easy enough to set this up the "normal" way
+2017-11-06 09:52:18	mooj	[07:22:34] not what im trying to do though
+2017-11-06 09:52:18	jason__	[07:22:42] The model could literally be like 3 lines of code. Get that to work and then refactor it.
+2017-11-06 09:52:18	joshua_	[07:22:46] +1
+2017-11-06 09:52:18	joshua_	[07:22:50] the _s have it.
+2017-11-06 09:52:18	brand0	[07:23:08] i don't get why it's not just matrix format this is way excessive and error prone
+2017-11-06 09:52:18	joshua_	[07:23:09] if you get it to work the "normal" way and can't get it to work in your class, then you can differentially diagnose it
+2017-11-06 09:52:18	mooj	[07:23:47] ...
+2017-11-06 09:52:18	mooj	[07:23:57] doing it the 'normal' way is pointless
+2017-11-06 09:52:18	mooj	[07:24:16] since it bears very little similarity with what im trying to do here
+2017-11-06 09:52:18	jason__	[07:24:33] it's not really that different at all
+2017-11-06 09:52:18	mooj	[07:25:13] i am trying to define a maximally connected neural network
+2017-11-06 09:52:18	mooj	[07:25:22] not just 'layers'
+2017-11-06 09:52:18	mooj	[07:31:49] does that make sense?
+2017-11-06 09:52:18	jason__	[07:32:06] yes, your code is just hard to read :\
+2017-11-06 09:52:18	mooj	[07:32:18] yeah, i know...im not the best coder around
+2017-11-06 09:52:18	mooj	[07:32:28] and i wasnt really sure how to build such a thing going into this
+2017-11-06 09:52:18	jason__	[07:32:44] like these decorators that you're using make your code look incorrect
+2017-11-06 09:52:18	jason__	[07:32:54] and they're hard to follow... like this "decorator decorator" and stuff
+2017-11-06 09:52:18	jason__	[07:32:55] lol
+2017-11-06 09:52:18	mooj	[07:33:07] got that from the referenced link
+2017-11-06 09:52:18	mooj	[07:33:26] from a guy's post about how to build tf models as a class
+2017-11-06 09:52:18	jason__	[07:33:59] yeah the problem is no one who hasn't read this random dude's blog post can read your code
+2017-11-06 09:52:18	mooj	[07:34:47] is there a better way to set up the initialization/inference/optimization of a tf nn via a class definition?
+2017-11-06 09:52:18	jason__	[07:36:02] I would probably just do it the way he did it in his motivating example :P
+2017-11-06 09:52:18	joshua_	[07:36:29] also don't make individul neurons
+2017-11-06 09:52:18	mooj	[07:36:41] ..
+2017-11-06 09:52:18	joshua_	[07:37:00] I mean, or do
+2017-11-06 09:52:18	mooj	[07:37:04] :)
+2017-11-06 09:52:18	jason__	[07:37:12] I understand what you're doing correctly you probably don't need individual neurons
+2017-11-06 09:52:18	joshua_	[07:37:23] but if you want any kind of performance at all, don't make individual neurons
+2017-11-06 09:52:18	jason__	[07:37:25] like what you want is each layer is connected to all the previous layers?
+2017-11-06 09:52:18	mooj	[07:37:36] correct
+2017-11-06 09:52:18	joshua_	[07:37:41] god gave us matrix math for a reaosn
+2017-11-06 09:52:18	jason__	[07:37:47] you can still do that with matrices
+2017-11-06 09:52:18	mooj	[07:38:18] eh...the goal of this is to do it on a per-neuron basis
+2017-11-06 09:52:18	mooj	[07:38:25] i realize this is not computationally efficient
+2017-11-06 09:52:18	joshua_	[07:38:41] okay, well, your goal is inefficient and identical to how this would be done normally, and moreover, pointless
+2017-11-06 09:52:18	jason__	[07:38:54] each row (or column, depending on conventions) of a matrix is a neuron
+2017-11-06 09:52:18	jason__	[07:39:03] so it's the same...
+2017-11-06 09:52:18	mooj	[07:39:29] hmm
+2017-11-06 09:52:18	jason__	[07:39:45] I mean it's fine. The first neural network I ever wrote was individual neurons.
+2017-11-06 09:52:18	jason__	[07:40:21] also, you should use getattr and setattr in python sparingly
+2017-11-06 09:52:18	jason__	[07:40:35] you're using them as like a terrible replacement for a list
+2017-11-06 09:52:18	jason__	[07:46:36] Essentially what you're doing is out_1 = tf.matmul(w_1, input) + b_1; out_2 = tf.matmul(w_2, tf.concatenate([input, out_1]) + b_2; out_3 = tf.matmul(w_2, tf.concatenate([input, out_1, out_2])) + b_3
+2017-11-06 09:52:18	jason__	[07:47:50] Or something like that. The syntax might not be exact.
+2017-11-06 09:52:18	mooj	[07:47:51] more or less, yes
+2017-11-06 09:52:18	mooj	[08:06:16] what is bad about using setattr/getattr?
+2017-11-06 09:52:18	brand0	[08:07:08] it's a hacky way to manipulate state
+2017-11-06 09:52:18	brand0	[08:07:30] typically you only do it for introspection, there are real interfaces for when you're supposed to do it
+2017-11-06 09:52:18	mooj	[08:07:42] is it better to just use a list then?
+2017-11-06 09:52:18	brand0	[08:08:09] it depends on why you're doing it
+2017-11-06 09:52:18	mooj	[08:08:40] because im trying to get this thing to work right xD
+2017-11-06 09:52:18	acresearch	[08:22:18] people, in cross-validation the score the it outputted, it is the score of the train_set or the test_set?
+2017-11-06 09:52:18	mooj	[08:27:37] yes
+2017-11-06 09:52:18	acresearch	[08:28:41] mooj: you are talking to me or someone before me? sorry :-)
+2017-11-06 09:52:18	mooj	[08:29:12] cross validation creates multiple splits of your data and trains the model on each 'train' split
+2017-11-06 09:52:18	mooj	[08:29:25] the score is the average performance metric across splits
+2017-11-06 09:52:18	acresearch	[08:30:12] mooj: yes, but the score it prints is the training set score or the test set score?
+2017-11-06 09:52:18	acresearch	[08:30:45] mooj: because it give out just one, not two, so it has to be one or the other right?
+2017-11-06 09:52:18	mooj	[08:33:40] http://scikit-learn.org/stable/modules/cross_validation.html#cross-validation
+2017-11-06 09:52:18	+ML-helper[bot]	[08:33:41] [ 3.1. Cross-validation: evaluating estimator performance — scikit-learn 0.19.1 documentation ]
+2017-11-06 09:52:18	acresearch	[08:37:10] mooj: ok got it ,,, thanks :-)
+2017-11-06 09:52:18	mooj	[08:37:31] np
+2017-11-06 09:52:18	acresearch	[08:54:17] mooj: ok got it ,,, thanks :-)
+2017-11-06 09:52:18	acresearch	[08:54:32] oh sorry,,   pressing up then enter in the wrong window  haha
+2017-11-06 09:52:18	promach	[09:23:42] why use ReLU for hidden layer, but sigmoid for output layer ?
+2017-11-06 09:52:18	p-i-[m]	[09:46:37] Probably so that you get values between 0 and 1
+2017-11-06 09:52:18	p-i-[m]	[09:47:14] Another popular choice is softMax, that way you get probabilities.
+2017-11-06 09:52:18	mikecmpbll	[10:28:03] for backpropagation-through-time, the algorithm appears to suggest backpropagating for each time step, across the total number of timesteps unravelled
+2017-11-06 09:52:18	mikecmpbll	[10:29:00] if i feedforward the fist timestep, and unravel 10 for backprop, what error value am i using for the previous timestep's output neurons?
+2017-11-06 09:52:18	mikecmpbll	[10:29:06] dunno if that makes sense, i'm still grasping it
+2017-11-06 09:52:18	mikecmpbll	[10:30:44] or do i cut out the bits beyond the recurrent layer when unravelling
+2017-11-06 09:52:18	mooj	[10:33:46] with tbptt you are essentially stacking your rnn on top of copies of itself for n time steps
+2017-11-06 09:52:18	mooj	[10:34:06] and creating an acyclic network structure in that way
+2017-11-06 09:52:18	mikecmpbll	[10:34:24] yeah, i get that much
+2017-11-06 09:52:18	mooj	[10:34:43] with the previous time steps feeding into the next
+2017-11-06 09:52:18	mikecmpbll	[10:34:54] the backpropagation itself, across the acyclic network, is confusing
+2017-11-06 09:52:18	mooj	[10:35:53] hmm
+2017-11-06 09:52:18	mooj	[10:36:11] from my understanding, for the error, you just need to consider the most recent step
+2017-11-06 09:52:18	mooj	[10:36:25] although that might be a lie
+2017-11-06 09:52:18	mooj	[10:36:59] worth double checking
+2017-11-06 09:52:18	mooj	[10:37:32] using a loss only for the latest time step though should still propagate deltas through the entire unrolled network
+2017-11-06 09:52:18	mooj	[10:38:39] though that said, i havent implemented tbptt myself yet
+2017-11-06 09:52:18	mooj	[10:39:09] instead i opted to go for a stateful lstm implementation since i wasnt satisfied with the idea behind tbptt
+2017-11-06 09:52:18	mikecmpbll	[10:40:03] let me draw to demonstrate
+2017-11-06 09:52:18	mooj	[10:40:07] yep!
+2017-11-06 09:52:18	mikecmpbll	[10:41:08] https://postimg.org/image/8nd9ggsdsr/
+2017-11-06 09:52:18	+ML-helper[bot]	[10:41:09] [ Screen Shot 2017-11-05 at 10.39.37 â Postimage.org ]
+2017-11-06 09:52:18	mikecmpbll	[10:42:25] i'm not sure whether i use the output as the error for each timestep's output node, or if i ignore that 'unreachable' part of the graph when backpropagating timesteps
+2017-11-06 09:52:18	mikecmpbll	[10:42:37] maybe it shouldn't be part of the unfolded graph
+2017-11-06 09:52:18	mooj	[10:43:24] https://imgur.com/a/407bB
+2017-11-06 09:52:18	+ML-helper[bot]	[10:43:25] [ Imgur: The most awesome images on the Internet ]
+2017-11-06 09:52:18	mooj	[10:43:48] that is my understanding of how tbptt works
+2017-11-06 09:52:18	mikecmpbll	[10:43:57] that might need some accompanying words :D
+2017-11-06 09:52:18	mooj	[10:44:03] so
+2017-11-06 09:52:18	mooj	[10:44:10] the output at t1 doesnt matter
+2017-11-06 09:52:18	mikecmpbll	[10:44:35] ah. i thought that as the most likely.
+2017-11-06 09:52:18	mooj	[10:44:37] the arrows show the direction data is fed through the net
+2017-11-06 09:52:18	mooj	[10:44:58] i suppose you could include several timesteps worth of loss if you wanted to
+2017-11-06 09:52:18	mooj	[10:45:05] and then predict on more
+2017-11-06 09:52:18	mooj	[10:45:20] but this will increase the 'lag' in any online training regime
+2017-11-06 09:52:18	mooj	[10:45:27] and will be more data to keep track of
+2017-11-06 09:52:18	mikecmpbll	[10:46:39] nice. i appreciate your help. although it seems like it makes sense i couldn't find it explicitly stated in any explanations i could find about unfolding the network
+2017-11-06 09:52:18	mooj	[10:46:59] no problem, happy to help
+2017-11-06 09:52:18	mooj	[10:47:57] now how tbptt creates internal representations of information on the other hand is a whole different beast that i dont understand well myself
+2017-11-06 09:52:18	mooj	[10:48:17] i know that such nets are able to capture longer-term dependencies than the # of steps chosen for the tbptt
+2017-11-06 09:52:18	mooj	[10:48:19] but
+2017-11-06 09:52:18	mikecmpbll	[10:49:09] my data doesn't particularly require truncation, so i'm omitting that.
+2017-11-06 09:52:18	mooj	[10:49:21] i believe that due to the nature of optimizers even with momentum, this structure will result in essentially an exponentially diminishing tail
+2017-11-06 09:52:18	mikecmpbll	[10:49:24] i  implemented bptt initially incorrectly. i put all the timsteps information in, then calculated the error and backpropagated
+2017-11-06 09:52:18	mikecmpbll	[10:49:45] rather than calculating for each timestep and summing
+2017-11-06 09:52:18	mikecmpbll	[10:50:29] it's all a learning curve for me. i'll find the issues then find the solutions. more fun that way, if timeconsuming.
+2017-11-06 09:52:18	mikecmpbll	[10:50:41] eventually i'll catch up with current thinking :p
+2017-11-06 09:52:18	mooj	[10:50:57] lol im right there with you
+2017-11-06 09:52:18	mooj	[10:52:05] most people opt for tbptt over raw bptt due to computational limits, but whatever works for you
+2017-11-06 09:52:18	mooj	[10:53:18] hmm
+2017-11-06 09:52:18	mikecmpbll	[10:53:47] i am having memory issues, but i think that's just bad programming. i'll address that once the algorithms are actually sound.
+2017-11-06 09:52:18	mooj	[10:54:34] not truncating means you essentially need another copy of your network for each timestep
+2017-11-06 09:52:18	mooj	[10:54:54] can quickly lead to memory/computation issues
+2017-11-06 09:52:18	mikecmpbll	[10:55:09] yeah.
+2017-11-06 09:52:18	mooj	[10:56:39] huh. i wonder if its possible to estimate the dimensionality of a loss manifold based on the dynamics of the backpropagation passes...
+2017-11-06 09:52:18	mooj	[10:57:09] i wish i knew more about topology
+2017-11-06 09:52:18	mooj	[11:01:18] could one apply a decision-tree like methodology to training a neural net?  eg: start out by forcing the network to have only a single degree of freedom
+2017-11-06 09:52:18	mooj	[11:01:42] then once it starts 'converging', split it to give it two degrees of freedom
+2017-11-06 09:52:18	mooj	[11:01:53] let it converge again, rinse, and repeat
+2017-11-06 09:52:18	mooj	[11:02:31] while aiming to maximize the discernment between each constituent split
+2017-11-06 09:52:18	mooj	[11:03:05] would that just make the network _actually_ a decision tree?
+2017-11-06 09:52:18	p-i-[m]	[11:03:36] That sounds like effectively only twiddling one weight at a time
+2017-11-06 09:52:18	p-i-[m]	[11:03:48] Which would be inefficient
+2017-11-06 09:52:18	mooj	[11:04:09] well presumably the early steps would be pretty fast
+2017-11-06 09:52:18	mooj	[11:04:32] but after each nth convergence, you get 2^n parameters to sgd
+2017-11-06 09:52:18	p-i-[m]	[11:04:57] Your network has a million weights, You are operating at 1/1M Efficiency.
+2017-11-06 09:52:18	mooj	[11:05:34] im still working on wrapping my mind around the dynamics of sgd :D
+2017-11-06 09:52:18	p-i-[m]	[11:05:35] By not following the path of steepest descent You are simply Throwing away information
+2017-11-06 09:52:18	p-i-[m]	[11:06:08] Maybe it helps to just think of a ball rolling down a hill/terrain
+2017-11-06 09:52:18	mooj	[11:06:12] assuming its convex optimization though, right?
+2017-11-06 09:52:18	p-i-[m]	[11:06:43] Can't assume that.
+2017-11-06 09:52:18	mooj	[11:08:11] huh.  i got the impression that using large batch sizes would learn to ineffeciencies in the training
+2017-11-06 09:52:18	mooj	[11:08:40] by essentially enforcing 'conflicting' information or some such
+2017-11-06 09:52:18	p-i-[m]	[11:09:09] nope
+2017-11-06 09:52:18	mikecmpbll	[11:09:11] another question: when unfolding a network for backpropagation which has multiple recurrent layers, would each 'recursion' be unfolded into a separate 'subgraph' like this? https://imgur.com/a/aFhCl
+2017-11-06 09:52:18	+ML-helper[bot]	[11:09:11] [ Imgur: The most awesome images on the Internet ]
+2017-11-06 09:52:18	mooj	[11:09:55] wait so then why do people suggest that batch size of 1 is more efficient than larger batches?
+2017-11-06 09:52:18	p-i-[m]	[11:09:55] I don't think so anyhow
+2017-11-06 09:52:18	p-i-[m]	[11:10:15] o_O
+2017-11-06 09:52:18	p-i-[m]	[11:10:21] Who is suggesting this?
+2017-11-06 09:52:18	p-i-[m]	[11:11:36] I think it's better to do 100x1 rather than 1x100 Other things being equal, But in reality The latter is much more computationally efficient.
+2017-11-06 09:52:18	mooj	[11:11:43] these people: https://arxiv.org/pdf/1609.04836.pdf
+2017-11-06 09:52:18	+ML-helper[bot]	[11:11:44] [ [1609.04836] On Large-Batch Training for Deep Learning: Generalization Gap and Sharp Minima ] | https://arxiv.org/abs/1609.04836
+2017-11-06 09:52:18	mooj	[11:11:58] ""The lack of generalization ability is due to the fact that large-batch methods tend to converge
+2017-11-06 09:52:18	mooj	[11:11:58] to sharp minimizers of the training function""
+2017-11-06 09:52:18	p-i-[m]	[11:13:11] ok So there is some happy medium.
+2017-11-06 09:52:18	p-i-[m]	[11:13:18] That is reasonable.
+2017-11-06 09:52:18	p-i-[m]	[11:13:27] meh.  That looks reasonable.
+2017-11-06 09:52:18	mikecmpbll	[11:13:31] good ol' hyperparameter optimisation
+2017-11-06 09:52:18	mooj	[11:14:07] hyperparameter optimization is one of the things about nns that leaves the worst taste in my mouth
+2017-11-06 09:52:18	p-i-[m]	[11:14:42] You could watch the Hinton vids
+2017-11-06 09:52:18	p-i-[m]	[11:14:54] He presents it pretty well
+2017-11-06 09:52:18	mooj	[11:15:37] got a specific one in mind?
+2017-11-06 09:52:18	mooj	[11:15:51] i do enjoy his video :)
+2017-11-06 09:52:18	mooj	[11:15:53] s
+2017-11-06 09:52:18	p-i-[m]	[11:20:57] You'd have to dig
+2017-11-06 09:52:18	mooj	[11:21:10] yeah np
+2017-11-06 09:52:18	mikecmpbll	[11:24:28] can't find any examples online of unrolling a network with multiple recurrent connections -_-
+2017-11-06 09:52:18	mooj	[11:40:20] mikecmpbll: whats up?
+2017-11-06 09:52:18	mooj	[11:42:10] https://imgur.com/a/kkpKq
+2017-11-06 09:52:18	+ML-helper[bot]	[11:42:11] [ Imgur: The most awesome images on the Internet ]
+2017-11-06 09:52:18	mooj	[11:42:12] yes
+2017-11-06 09:52:18	promach	[11:43:40] p-i-[m]: then why not ReLU + softmax for output layer ?
+2017-11-06 09:52:18	mikecmpbll	[11:44:38] eh it's difficult to work out how to backpropagate networks with multiple recurrent connections
+2017-11-06 09:52:18	mikecmpbll	[11:45:03] i'm not sure if each recurrent connection when unfolded needs to be a distinct part of graph
+2017-11-06 09:52:18	mikecmpbll	[11:45:12] (2nd pic from previous imgur)
+2017-11-06 09:52:18	mooj	[11:45:21] the second pic is incorrect
+2017-11-06 09:52:18	mooj	[11:46:09] you just connect relevant recurrent units to themselves
+2017-11-06 09:52:18	mooj	[11:46:13] just displaced by a time step
+2017-11-06 09:52:18	mikecmpbll	[11:46:28] yes, but when unrolled they're not connecting to themselves
+2017-11-06 09:52:18	mooj	[11:46:34] yes they are
+2017-11-06 09:52:18	mooj	[11:46:40] thats the point of unrolling
+2017-11-06 09:52:18	mooj	[11:46:54] man i wish i had a whiteboard here lol
+2017-11-06 09:52:18	mooj	[11:46:57] one sec
+2017-11-06 09:52:18	mikecmpbll	[11:47:01] they are in concept, but in an unrolled graph they're represented by different nodes
+2017-11-06 09:52:18	mooj	[11:49:44] https://imgur.com/a/XuZbE
+2017-11-06 09:52:18	+ML-helper[bot]	[11:49:45] [ Imgur: The most awesome images on the Internet ]
+2017-11-06 09:52:18	mooj	[11:49:53] please excuse my awful ms paint skills
+2017-11-06 09:52:18	mooj	[11:50:21] so when unrolling a recurrent net through 4 time steps for example
+2017-11-06 09:52:18	mikecmpbll	[11:50:45] that's perfect, thanks. ok hmm. in which case it's really hide to work out algorithmically where the red crosses need to go :D
+2017-11-06 09:52:18	mooj	[11:50:46] each recurrent unit just connects to itself...in the future
+2017-11-06 09:52:18	mikecmpbll	[11:51:07] really hard*
+2017-11-06 09:52:18	mooj	[11:51:45] depending on how many time steps you want to predict
+2017-11-06 09:52:18	mikecmpbll	[11:51:57] i'm traversing the unrolled network from the circled output neuron.
+2017-11-06 09:52:18	mooj	[11:52:12] eg in that case, we are truncating the history through 4 time steps
+2017-11-06 09:52:18	mooj	[11:52:36] and predicting one output for t0
+2017-11-06 09:52:18	mooj	[11:52:55] but we could easily try to predict more than one time step if we wanted
+2017-11-06 09:52:18	mooj	[11:53:09] on i forgot an arrow in that image
+2017-11-06 09:52:18	mooj	[11:53:11] my bad
+2017-11-06 09:52:18	mooj	[11:53:23] oh*
+2017-11-06 09:52:18	mooj	[11:54:54] but anyways, so reversing the direction of the arrows, you get the dependencies for a given output
+2017-11-06 09:52:18	mooj	[11:55:16] eg, future inputs cannot alter past outputs
+2017-11-06 09:52:18	mikecmpbll	[11:55:34] indeed, it makes sense in theory but in practice, not so much.
+2017-11-06 09:52:18	mooj	[11:55:54] which part?
+2017-11-06 09:52:18	mikecmpbll	[11:55:57] well, it makes sense in practice, but i dunno how :D
+2017-11-06 09:52:18	mikecmpbll	[11:56:06] well, i'm traversing the network from the output neuron and calculating the node deltas
+2017-11-06 09:52:18	mikecmpbll	[11:56:19] by going from the neuron to the neurons which connect to it
+2017-11-06 09:52:18	mooj	[11:56:26] uhuh
+2017-11-06 09:52:18	mikecmpbll	[11:56:40] and calculating it if each neuron which is connected to from that one, has a delta already
+2017-11-06 09:52:18	mikecmpbll	[11:57:04] when i get to the first recurrent connection i go across to t-1, but i can't calculate that becuase it's connected to the output neuron in that timestep
+2017-11-06 09:52:18	mikecmpbll	[11:57:06] which has to delta
+2017-11-06 09:52:18	mikecmpbll	[11:57:22] now i know i need to ignore that neuron, but i dont know how i can work that out algorithmically.
+2017-11-06 09:52:18	mooj	[11:57:42] if you're working up from the output neuron
+2017-11-06 09:52:18	mikecmpbll	[11:57:45] which has no delta*
+2017-11-06 09:52:18	mooj	[11:57:50] you dont need to recursively consider child nodes
+2017-11-06 09:52:18	mooj	[11:57:58] only parents
+2017-11-06 09:52:18	mikecmpbll	[11:58:24] yeh that makes sense, one sec, i'm probably being a moron
+2017-11-06 09:52:18	mooj	[11:58:27] so like.. bfs it
+2017-11-06 09:52:18	mikecmpbll	[11:58:41] what about
+2017-11-06 09:52:18	mikecmpbll	[11:58:50] the recurrent connection above
+2017-11-06 09:52:18	mikecmpbll	[11:59:01] so that doesn't consider the node below it on the same timestep?
+2017-11-06 09:52:18	mikecmpbll	[11:59:11] if that's the case, then my 2nd diagram was correct for the backprop
+2017-11-06 09:52:18	mikecmpbll	[11:59:27] each is essentially a subgraph from that point
+2017-11-06 09:52:18	mikecmpbll	[11:59:57] eugh, maybe not. this is where it's confusing for me
+2017-11-06 09:52:18	mooj	[12:01:20] each connection is a one-way valve.  just pump water backwards through the system
+2017-11-06 09:52:18	mooj	[12:01:24] :D
+2017-11-06 09:52:18	mikecmpbll	[12:02:41] hm that helps actually
+2017-11-06 09:52:18	mooj	[12:02:46] :D
+2017-11-06 09:52:18	mikecmpbll	[12:02:49] i probably don't need to work out which parts i can't get water to
+2017-11-06 09:52:18	mikecmpbll	[12:03:01] they just won't get no damn water.
+2017-11-06 09:52:18	mooj	[12:03:06] exactly! :D
+2017-11-06 09:52:18	mikecmpbll	[12:03:13] derp.
+2017-11-06 09:52:18	mikecmpbll	[12:03:23] thanks :D
+2017-11-06 09:52:18	mooj	[12:03:30] no problem hahah
+2017-11-06 09:52:18	_sfiguser	[14:10:35] any good book about basic statistics ?
+2017-11-06 09:52:18	_sfiguser	[14:10:57] like describing both descriptive and inferential statistics ?
+2017-11-06 09:52:18	royal_screwup21	[14:18:49] I have an html canvas that returns am image with binary pixel values - 0 and 1. The MNIST dataset has pixel values ranging from 0 to 1, and anything in between. How do I modify the html canvas to be of the same format as mnist?
+2017-11-06 09:52:18	_sfiguser	[15:03:18] hello all, is there a good resource to learn both R and statistics ?
+2017-11-06 09:52:18	nicknight	[15:04:21] _sfiguser:  there is some harward course for r
+2017-11-06 09:52:18	nicknight	[15:04:32] you can find in edx
+2017-11-06 09:52:18	nicknight	[15:05:08] or there are so many avilable in datacamp specific to r
+2017-11-06 09:52:18	nicknight	[15:21:25] https://www.edx.org/course/statistics-r-harvardx-ph525-1x-0#!    https://www.edx.org/course/foundations-data-analysis-part-1-utaustinx-ut-7-11x-0#!   https://www.edx.org/course/explore-statistics-r-kix-kiexplorx-0#! _sfiguser
+2017-11-06 09:52:18	+ML-helper[bot]	[15:21:29] [ Statistics and R | edX ]
+2017-11-06 09:52:18	+ML-helper[bot]	[15:21:30] [ Foundations of Data Analysis - Part 1: Statistics Using R | edX ]
+2017-11-06 09:52:18	+ML-helper[bot]	[15:21:31] [ Explore Statistics with R | edX ]
+2017-11-06 09:52:18	KolK	[15:25:55] Hello. I could you recommend me some method of feature extraction (for kNN) for set of images where there is one object at each photo, but it can be scaled, rotated in relation to other samples?
+2017-11-06 09:52:18	Syzygy	[15:31:20] Kolx matlab has a feature called regionprops which can be used for such feature extraction. The documentation does list and describe quite a few methods. Even if you're not using matlab, this will be usefull. https://de.mathworks.com/help/images/ref/regionprops.html?requestedDomain=www.mathworks.com
+2017-11-06 09:52:18	+ML-helper[bot]	[15:31:22] [ (R: www.mathworks.com) Measure properties of image regions - MATLAB regionprops ]
+2017-11-06 09:52:18	KolK	[15:31:47] Syzygy: thank you very much, I'll check this :-)
+2017-11-06 09:52:18	Syzygy	[15:34:16] KolK, look at Input Arguments > properties specificially
+2017-11-06 09:52:18	jaggz	[15:40:05] flickr is probably a good place for image training data https://www.flickr.com/photos/129301077@N06/38110839576/in/explore-2017-11-04/
+2017-11-06 09:52:18	+ML-helper[bot]	[15:40:06] [ centrale elettrica | Puste Blümchen (JOP) | Flickr ]
+2017-11-06 09:52:18	Syzygy	[15:40:39] I'm doing abit of reading and came across the term Image Deconvolution in the context fo CNNs. I'm not quite sure that I understand what a deconvolution is compared to a convolution. I was under the impression that in this context a convolution is the application of a kernel to an image, but a deconvolution seems to be the same thing. Can someone explain this to me?
+2017-11-06 09:52:18	jaggz	[15:51:48] Syzygy, do you understand how a kernel, with strides, will make smaller output dimensions (ignoring the filter dim)?
+2017-11-06 09:52:18	Syzygy	[15:53:58] Yes, I think I found a good explanation. A convolution refers to the step where a kernel (eg. 3x3 pixel) is applied to an image to set one pixel, while a deconvolution does the opposite - one pixel affects the whole kernel.
+2017-11-06 09:52:18	jaggz	[15:56:53] right
+2017-11-06 09:52:18	jaggz	[15:57:08] also called a transposed convolution
+2017-11-06 09:52:18	Syzygy	[15:58:31] https://medium.com/towards-data-science/types-of-convolutions-in-deep-learning-717013397f4d this seems good.
+2017-11-06 09:52:18	+ML-helper[bot]	[15:58:32] [ An Introduction to different Types of Convolutions in Deep Learning ]
+2017-11-06 09:52:18	Syzygy	[15:58:50] only found that when googling transposed convolution, so again thank you.
+2017-11-06 09:52:18	jaggz	[16:15:23] https://arxiv.org/pdf/1702.04782.pdf
+2017-11-06 09:52:18	+ML-helper[bot]	[16:15:24] [ [1702.04782] Precise Recovery of Latent Vectors from Generative Adversarial Networks ] | https://arxiv.org/abs/1702.04782
+2017-11-06 09:52:18	jaggz	[16:15:32] neat
+2017-11-06 09:52:18	mooj	[16:17:44] jaggz: can you describe it briefly?
+2017-11-06 09:52:18	jaggz	[16:18:25] p2 has it explained really concise i section 2
+2017-11-06 09:52:18	jaggz	[16:18:39] unlike almost any other paper in the world :)
+2017-11-06 09:52:18	mooj	[16:19:06] lol
+2017-11-06 09:52:18	mooj	[16:29:34] jaggz: i think i am misunderstanding what they are doing
+2017-11-06 09:52:18	mooj	[16:29:43] can you explain where i am wrong?
+2017-11-06 09:52:18	mooj	[16:30:03] it seems to me that they;re trying to essentially overfit to a given image
+2017-11-06 09:52:18	mooj	[16:32:31] they say that "Moreover, this optimization is non-convex, and thus we
+2017-11-06 09:52:18	mooj	[16:32:32] know of no theoretical reason that this optimization should precisely recover the original vector."
+2017-11-06 09:52:18	mooj	[16:33:04] but like...even though global optimization for non-convex functions is difficult to prove theoretically
+2017-11-06 09:52:18	mooj	[16:33:15] we know very well that neural nets are able to overfit data
+2017-11-06 09:52:18	mooj	[16:45:22] not to mention: 'Over 1000 experiments, we find that on a pre-trained DCGAN network, gradient descent
+2017-11-06 09:52:18	mooj	[16:45:22] with stochastic clipping recovers the true latent vector 100% of the time to arbitrary precision.
+2017-11-06 09:52:18	mooj	[16:45:22] '
+2017-11-06 09:52:18	shoky	[17:04:42] mooj: if i understand correctly, then a NN can indeed do the job as you say, but you'd have to build and train an NN to do that.  what they're proposing is a way to use the trained GAN to quickly get an image's input vector, via simple gradient descent on one vector
+2017-11-06 09:52:18	shoky	[17:06:23] not via learning a new NN's weights
+2017-11-06 09:52:18	garit	[17:06:45] What language is good for making random turing machines? (Generating new code in a runtime, then checking how well a new code acts, mutating it)
+2017-11-06 09:52:18	shoky	[17:06:47] but i could be totally misunderstanding
+2017-11-06 09:52:18	weezo	[18:15:57] Looking into boosting it seems a lot of people use decision stumps. Can any decision boundary be approximated by a weighted sum of decision stumps to arbitrary precision?
+2017-11-06 09:52:18	weezo	[18:17:29] Would it be able to approximate a donut shape, I think not.
+2017-11-06 09:52:18	arun`	[18:24:06] playing around with DNN for the first time. I want to predict an action and have as training data: current state, possible action, result (action was good or bad). My DNN should have the current state as input and produce either the best next action as output or an array of possibilities for each possible action. However, I'm not sure how I feed in the result during the training. Using tflearn/python. Any pointers?
+2017-11-06 09:52:18	garit	[18:37:34] Can I somehow check the list of new works that bot shows daily? Is there a site to see last works?
+2017-11-06 09:52:18	garit	[18:38:37] arun`: if your world responds to your agent's actions and you do series of actions in the same world, then this is reinforced learning
+2017-11-06 09:52:18	@RandIter	[18:38:37] garit: not at this time, but I hope to address this when I have some spare time.
+2017-11-06 09:52:18	garit	[18:38:51] RandIter: ok, thanks
+2017-11-06 09:52:18	@RandIter	[18:40:04] arun`: are you wanting to do deep reinforcement learning?
+2017-11-06 09:52:18	arun`	[18:40:24] garit: thanks... I read up on that a bit
+2017-11-06 09:52:18	arun`	[18:41:43] RandIter: I guess so ;) just not sure where to start... are there any high-level packages in python for reinforced learning?
+2017-11-06 09:52:18	@RandIter	[18:42:00] baselines
+2017-11-06 09:52:18	@RandIter	[18:42:26] tensorforce
+2017-11-06 09:52:18	@RandIter	[18:42:47] keras-rl
+2017-11-06 09:52:18	garit	[18:43:06] could somebody give me a link to any article from archive site?
+2017-11-06 09:52:18	@RandIter	[18:43:17] archive site?
+2017-11-06 09:52:18	arun`	[18:43:19] RandIter: thanks, will check them out
+2017-11-06 09:52:18	@RandIter	[18:43:32] garit: what kind of link
+2017-11-06 09:52:18	garit	[18:43:56] That bot shows daily, any of them (just as an example)
+2017-11-06 09:52:18	@RandIter	[18:43:56] arun`: you may like doing it the hard way though, so you know what's going on
+2017-11-06 09:52:18	unixpickle	[18:47:49] arun`: this is a really good introduction to reinforcement learning. It goes through coding something from scratch. http://karpathy.github.io/2016/05/31/rl/
+2017-11-06 09:52:18	+ML-helper[bot]	[18:47:49] [ Deep Reinforcement Learning: Pong from Pixels ]
+2017-11-06 09:52:18	arun`	[18:49:22] unixpickle: thanks, looks very interesting
+2017-11-06 09:52:18	@RandIter	[18:49:57] well
+2017-11-06 09:52:18	@RandIter	[18:50:06] AlphaGo Zero is probably the best modern example
+2017-11-06 09:52:18	@RandIter	[18:50:13] so you can read up a lot on that
+2017-11-06 09:52:18	@RandIter	[18:50:36] https://deepmind.com/documents/119/agz_unformatted_nature.pdf
+2017-11-06 09:52:18	+ML-helper[bot]	[18:50:37] [ (application/octet-stream) 2.4MB ]
+2017-11-06 09:52:18	unixpickle	[18:50:39] AlphaGo isn't a good starting point, imho. And depending on your environment, MCTS might just be totally inappropriate
+2017-11-06 09:52:18	pasky	[18:51:28] I (as someone who even reimplemented AlphaGo Zero) would also not recommend Alphago as a good starting point. The work on DQN and learning to play Atari games is imho more appropriate.
+2017-11-06 09:52:18	unixpickle	[18:52:12] pasky: is your implementation open source? Would love to check it out.
+2017-11-06 09:52:18	@RandIter	[18:53:43] garit: if you wanted examples:
+2017-11-06 09:52:18	@RandIter	[18:53:43] <gitXiv> Vertex-Context Sampling for Weighted Network Embedding | https://j.mp/2irJbxp
+2017-11-06 09:52:18	@RandIter	[18:53:43] <gitXiv> How far are we from solving the 2D & 3D Face Alignment problem? | https://j.mp/2iqeLLL
+2017-11-06 09:52:18	+ML-helper[bot]	[18:53:43] [ (R: www.gitxiv.com) Loading... ]
+2017-11-06 09:52:18	+ML-helper[bot]	[18:53:45] [ (R: www.gitxiv.com) Loading... ]
+2017-11-06 09:52:18	@RandIter	[18:54:13] pasky: you did? feel like trying alphachess zero?
+2017-11-06 09:52:18	garit	[18:54:35] Ah,sorry, cant use j.mp (blocked by adblock), i found some article from archive (by codewords)
+2017-11-06 09:52:18	@RandIter	[18:55:00] garit: use uBlock Origin. It is much better.
+2017-11-06 09:52:18	@RandIter	[18:55:15] also, you can configure a whitelist in adblock too
+2017-11-06 09:52:18	@RandIter	[18:55:35] also, you can try replacing j.mp with bit.ly
+2017-11-06 09:52:18	garit	[18:56:00] Im using hosts-level adblock, not so many choices of this type of program for android
+2017-11-06 09:52:18	@RandIter	[18:56:14] but why is j.mp blocked
+2017-11-06 09:52:18	@RandIter	[18:56:16] that makes no sense
+2017-11-06 09:52:18	garit	[18:57:50] RandIter: i guess lots of adds are using this type of links
+2017-11-06 09:52:18	garit	[18:57:52] Ads*
+2017-11-06 09:52:18	pasky	[19:01:40] unixpickle: https://github.com/pasky/michi/tree/nnet ; it's not a 1:1 implementation in some details (I tried to tweak it to speed up initial training period)
+2017-11-06 09:52:18	+ML-helper[bot]	[19:01:40] [ GitHub - pasky/michi at nnet ]
+2017-11-06 09:52:18	pasky	[19:01:45] the README is out of date..
+2017-11-06 09:52:18	@RandIter	[19:03:38] This is two years old
+2017-11-06 09:52:18	@RandIter	[19:04:00] How can it be a reimplementation of AlphaGo Zero
+2017-11-06 09:52:18	unixpickle	[19:04:42] RandIter: it's not all two years old. https://github.com/pasky/michi/commit/2151564581741fa6d620dace16d2d3748bbe542a
+2017-11-06 09:52:18	+ML-helper[bot]	[19:04:43] [ Super-hackish AlphaGo Zero approximation · pasky/michi@2151564 · GitHub ]
+2017-11-06 09:52:18	garit	[20:23:29] what are the chances that quantum computers will give NN a x^2 speedup?
+2017-11-06 09:52:18	nohmapp	[20:54:14] Does anyone have suggestions for good computer vision chanenls
+2017-11-06 09:52:18	garit2	[20:55:57] nohmapp: this one
+2017-11-06 09:52:18	nohmapp	[21:05:42] ls -a
+2017-11-06 09:52:18	nohmapp	[21:05:51] vi sericon
+2017-11-06 09:52:18	Rythen	[21:09:06] I have a question about selecting hyperparameter values for regularization techniques.   I want to use a BASH script to iterate over some sensible hyper parameter possibilities for my model for L2 regularization but I'm not sure how to select candidate values to try.  Does anyone know of any good articles or papers on it?
+2017-11-06 09:52:18	Rythen	[21:09:57] I guess I should mention that this is for doing L2 regularization on my weights in a recurrent neural network
+2017-11-06 09:52:18	nohmapp	[21:18:45] kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjj;;;;;;Searchjk;;;;;;;;kkkkkkkkjjjjjkjjjj;;;;;;ll;(  pkgjklllliinfoRequests, noDevDepjkkjkjk;;;;i
+2017-11-06 09:52:18	@RandIter	[21:19:05] Rythen: It is more common to use Python with sklearn package which has some features for you
+2017-11-06 09:52:18	jaggz	[21:20:17] https://arxiv.org/abs/1602.01616
+2017-11-06 09:52:18	+ML-helper[bot]	[21:20:18] [ [1602.01616] FPGA Based Implementation of Deep Neural Networks Using On-chip Memory Only ]
+2017-11-06 09:52:18	Rythen	[21:20:46] RandIter: I'm using tensorflow
+2017-11-06 09:52:18	jaggz	[21:21:35] "MNIST [and] phoneme recognition ... speed is about one quarter of a GPU ... and much better than that of a PC.. power consumption is less than 5 Watt ... much higher efficiency compared to GPU."
+2017-11-06 09:52:18	@RandIter	[21:22:05] Rythen: hyperopt is a popular package for it which you can consider
+2017-11-06 09:52:18	jaggz	[21:23:10] http://www.nallatech.com/fpga-acceleration-convolutional-neural-networks/
+2017-11-06 09:52:18	+ML-helper[bot]	[21:23:13] [ FPGA Acceleration of Convolutional Neural Networks - Nallatech ]
+2017-11-06 09:52:18	jaggz	[21:23:19] "larger filter sizes can be represented as multiple passes of the smaller 3×3 filters."
+2017-11-06 09:52:18	Rythen	[21:23:23] RandIter: I'll look into that, ty.  Do you know if it's compatible with running accross a cluster of compute nodes?
+2017-11-06 09:52:18	Rythen	[21:24:19] RandIter: Like will it work with tensorflows parralelization accross multiple GPUs?
+2017-11-06 09:52:18	@RandIter	[21:24:50] Don't know
+2017-11-06 09:52:18	brand0	[21:25:11] Rythen, your options are grid search or random search (probabilistic) or genetic search. hyperopt uses TPE which is a good choice
+2017-11-06 09:52:18	jaggz	[21:25:18] What's Table 2? "The 3×3 convolution kernel can also be used by the fully connected layers.  Inner product 0 .. 2"
+2017-11-06 09:52:18	Rythen	[21:25:35] brand0: What does TPE stand for?
+2017-11-06 09:52:18	jaggz	[21:25:41] multiply adds (M) ?
+2017-11-06 09:52:18	brand0	[21:26:04] Rythen, tree of parzen estimators
+2017-11-06 09:52:18	Rythen	[21:26:17] brand0: What category does that fall under?
+2017-11-06 09:52:18	@RandIter	[21:26:31] Rythen: it uses kernel density estimation
+2017-11-06 09:52:18	jaggz	[21:26:34] those are the FC layers, and they're showing how many "multiply adds" are done at that layer?
+2017-11-06 09:52:18	brand0	[21:27:53] it a hierarchical probabilistic method for optimization
+2017-11-06 09:52:18	nohmapp	[21:28:51]     jkkkjkj:q!
+2017-11-06 09:52:18	Rythen	[21:29:46] brand0: okay ty
+2017-11-06 09:52:18	nohmapp	[21:32:51]     jkkkre
+2017-11-06 09:52:18	jaggz	[21:42:53] By applying the above FPGA system, each image takes 9 millisecs to be categorized by the FPGA . With 12 parallel images handled by 510T this gives an average time of 748 usecs per image. This is over 115 million images per day.
+2017-11-06 09:52:18	Rythen	[21:51:57] I've been searching on google for a long time to just try to find out what are considered reasonable values for L2 regularization hyperparam.  If I just want to try a few different values by hand to see how it impacts my network how can I choose these values or is there no general recommendation?  Like should I iterate by tenths? hundredths? thousandanths?
+2017-11-06 09:52:18	@RandIter	[21:52:45] Rythen: first thing to know is whether to use linear scale or log scale
+2017-11-06 09:52:18	@RandIter	[21:52:53] Rythen: and then you need a min and max value
+2017-11-06 09:52:18	@RandIter	[21:52:57] The rest is not so important
+2017-11-06 09:52:18	Rythen	[21:53:21] RandIter: Does that depend on what my output functions are or how do I determine whether to use a linear or log scale?
+2017-11-06 09:52:18	brand0	[21:53:45] Rythen, are you using a neural net?
+2017-11-06 09:52:18	Rythen	[21:54:28] brand0: It's a recurrent neural network using tanh for the hidden layer activation, and a combination of sigmoid and softmax for my output nodes (there's various types of output)
+2017-11-06 09:52:18	Rythen	[21:55:49] It might be worth noting that I have access to a supercomputer so I'm okay with a bit of brute force for getting my hyperparam for the L2 regularization...
+2017-11-06 09:52:18	Rythen	[21:56:17] I'm just not sure where to even begin with selecting the values
+2017-11-06 09:52:18	Rythen	[21:56:48] and I don't really want to use another library atm because I'm moreso just tinkering with it atm
+2017-11-06 09:52:18	jaggz	[21:58:50] Rythen, why not start with a broad linear range then refine?
+2017-11-06 09:52:18	jaggz	[21:59:32] or broad logarithmic maybe's better.
+2017-11-06 09:52:18	Rythen	[21:59:34] jaggz: My issue is like I don't know enough about L2 regularization to consider what my range should even be
+2017-11-06 09:52:18	Rythen	[21:59:55] jaggz: Which is what I'm trying to figure out but I have had no luck in my searches
+2017-11-06 09:52:18	Rythen	[22:00:31] jaggz: I don't even know how many significant digits are important in the param for L2 regularization
+2017-11-06 09:52:18	Rythen	[22:01:09] Most of the articles I have read on L2 regularization just kinda pick a value and say "this is a good starting point" and don't expand beyond that
+2017-11-06 09:52:18	jaggz	[22:03:40] Rythen, I don't know much about it either.  Your lambda (?) is going to affect what weights will be learned though, so perhaps start by considering the range of lambda * w^2 ?
+2017-11-06 09:52:18	jaggz	[22:03:59] just an idea
+2017-11-06 09:52:18	jaggz	[22:05:43] Rythen, "Lastly, notice that during gradient descent parameter update, using the L2 regularization ultimately means that every weight is decayed linearly: W += -lambda * W towards zero."
+2017-11-06 09:52:18	brand0	[22:05:45] Rythen, i'd just pick a random range, 0, 0.5 or something and do random uniform
+2017-11-06 09:52:18	brand0	[22:07:10] if you want to step you can, i'd do some kind of decaying schedule. RandIter suggested log which i think is good
+2017-11-06 09:52:18	brand0	[22:08:04] it's unlikely that finding the most optimal L2 value will be that important. lots of people use batchnormalization now and just call it a day on regularization
+2017-11-06 09:52:18	@RandIter	[22:10:07] I can't judge him for wanting to leave no parameter unoptimized.
+2017-11-06 09:52:18	Rythen	[22:15:36] I'm new to neural networks.  I'm just trying to learn how these types of regularization affect things
+2017-11-06 09:52:18	Rythen	[22:17:28] and made a research project out of it so that hopefully I can get a publication while also learning something
+2017-11-06 09:52:18	Rythen	[22:17:29] haha
+2017-11-06 09:52:18	multifractal	[23:27:52] I know this guy who wants to sink a load of money into some "ML startup" with the intention of "predicting" the stock market in some way, because he's just learned about LSTM...
+2017-11-06 09:52:18	multifractal	[23:28:36] I recall seeing some discussion somewhere on r/machinelearning that decisively dismissed these kind of naive ambitions but I can't seem to find it.
+2017-11-06 09:52:18	garit2	[23:30:14] multifractal: could show him that exactly this is already implemented as an advisor in forex trading program
+2017-11-06 09:52:18	garit2	[23:30:26] and that it doesnt help much
+2017-11-06 09:52:18	brand0	[23:30:31] there's a huge amount of competition in that space multifractal
+2017-11-06 09:52:18	multifractal	[23:30:44] I was hoping to find some kind of reasoned-through discussion of why this would likely be a bad idea and a waste of time, because he won't listen to only me.
+2017-11-06 09:52:18	@RandIter	[23:30:51] multifractal: Let's take this discussion to ##ml-ot
+2017-11-06 09:52:18	Rythen	[23:48:41] If L2 regularization is generally increasing my validation costs does that mean it might not be appropriate for my model or does it always worsen validation cost?
+2017-11-06 09:52:18	brand0	[23:49:10] it should hurt your train but improve your validation, so you're still overfitting
+2017-11-06 09:52:18	brand0	[23:49:32] or your network isn't learning, it just depends on the ratios
+2017-11-06 09:52:18	Rythen	[23:50:42] my best validation cost was without any L2 regularization and my validation cost gets better the lower and lower I put my L2 hyperparam
+2017-11-06 09:52:18	spawk	[23:51:23] zero is a perfectly valid weight for your regularizer
+2017-11-06 09:52:18	brand0	[23:51:42] how many epochs are you training for Rythen
+2017-11-06 09:52:18	Rythen	[23:52:25] 40 epochs, it's a recurrent network so that already takes about 15 mins to run on a node with 4 GPUs, 60GB of RAM
+2017-11-06 09:52:18	brand0	[23:52:52] that should be sufficient
+2017-11-06 09:52:18	Rythen	[23:53:24] Btw the data set that I'm playing around with is the twitter weather forecast data set
+2017-11-06 09:52:18	Rythen	[23:54:20] https://www.kaggle.com/c/crowdflower-weather-twitter
+2017-11-06 09:52:18	+ML-helper[bot]	[23:54:21] [ Partly Sunny with a Chance of Hashtags | Kaggle ]
+2017-11-06 09:52:18	Rythen	[23:55:17] My validation cost has only gotten as low as about 0.62
+2017-11-06 09:52:18	brand0	[23:55:58] you have a lot lower to go
+2017-11-06 09:52:18	Rythen	[23:57:12] Yeah I was hoping regularization would help but it's not so far
+2017-11-06 09:52:18	Rythen	[00:01:15] brand0: Do you think number of epochs is the issue or do y ou think I just haven't found the right beta value?
+2017-11-06 09:52:18	brand0	[00:01:36] are you overfitting without regularization Rythen?
+2017-11-06 09:52:18	Rythen	[00:02:07] to check if I'm overfitting I compare my validation and training costs?
+2017-11-06 09:52:18	brand0	[00:02:17] yeah
+2017-11-06 09:52:18	Rythen	[00:02:37] with no regularization I have gal of 0.62 and tr of 0.59
+2017-11-06 09:52:18	brand0	[00:02:43] if validation is higher than training (but both aren't totally bad) then you're typically overfitting
+2017-11-06 09:52:18	Rythen	[00:02:44] val*
+2017-11-06 09:52:18	Rythen	[00:03:18] is that significant enough to be considered overfitting?
+2017-11-06 09:52:18	brand0	[00:04:18] that's not terrible, your validation will typically be a bit higher than training
+2017-11-06 09:52:18	brand0	[00:04:45] what you want to look for is per epoch change in val/train loss
+2017-11-06 09:52:18	brand0	[00:04:59] when your val starts to go up and your train continues to go down, that's your overfit point
+2017-11-06 09:52:18	Rythen	[00:06:00] validation cost never goes up.  they both decrease but training just decreases at a sleeper rate
+2017-11-06 09:52:18	Rythen	[00:06:02] steeper rate
+2017-11-06 09:52:18	brand0	[00:07:12] sounds like you can add more epochs then without overfitting
+2017-11-06 09:52:18	Rythen	[00:09:21] So if both decrease steadily but don't reach low and "good" values that indicates that more epochs are needed?
+2017-11-06 09:52:18	Soni	[00:30:06] I'm still unable to figure out how to actually use AI
+2017-11-06 09:52:18	garit2	[00:31:14] Soni: what a surprise. the rest of the world has the problem
+2017-11-06 09:52:18	Soni	[00:31:44] how do you make something like a self-driving car actually... well, self-drive I guess?
+2017-11-06 09:52:18	Soni	[00:32:14] what turns the mathematical black box into something like that?
+2017-11-06 09:52:18	garit2	[00:32:56] Nothing, they just use the black box  (neural networks)
+2017-11-06 09:52:18	Soni	[00:33:07] yes, but how?
+2017-11-06 09:52:18	@RandIter	[00:33:28] what kind of question is that? They connect the blackbox to the car's computer
+2017-11-06 09:52:18	@RandIter	[00:33:46] They feed it sensory inputs and use its outputs to drive
+2017-11-06 09:52:18	Soni	[00:33:50] do they just give the black box the raw inputs and outputs or do they do something else?
+2017-11-06 09:52:18	garit2	[00:33:54] Make it drive millions of km in virtual world. Punish for errors, reward for, well, for being fat from carmageddon
+2017-11-06 09:52:18	garit2	[00:34:06] Far*
+2017-11-06 09:52:18	Soni	[00:34:29] ok...
+2017-11-06 09:52:18	Soni	[00:34:51] how do I turn a web form into sensory inputs? how do I turn outputs into a web form?
+2017-11-06 09:52:18	garit2	[00:35:29] What is a web form?
+2017-11-06 09:52:18	Soni	[00:39:03] https://html.spec.whatwg.org/#forms
+2017-11-06 09:52:18	+ML-helper[bot]	[00:39:48] [ HTML Standard ]
+2017-11-06 09:52:18	@RandIter	[00:40:45] Soni: this is not a webdev channel. Please ask concrete ML questions. General computing or engineering questions are not for this channel.
+2017-11-06 09:52:18	Soni	[00:43:12] RandIter: I already have the fucking form, I just need to make it learn so every time you hit "submit" it changes
+2017-11-06 09:52:18	@RandIter	[00:45:27] Soni: do you always ask vague questions or just today?
+2017-11-06 09:52:18	Soni	[00:46:53] RandIter: do you have a problem with a dumbfuck trying to learn how to use AI the hard way?
+2017-11-06 09:52:18	@RandIter	[00:50:45] Soni: your problem is that you don't have a concrete question
+2017-11-06 09:52:18	Soni	[00:52:56] RandIter: how am I supposed to know what to ask?
+2017-11-06 09:52:18	Soni	[00:53:35] I understand the math behind AI, but it's basic math. I barely understand how it all goes together. I have no idea how to do the software <-> AI interface
+2017-11-06 09:52:18	Soni	[00:53:54] I don't know what I'm doing and you expect me to know what to ask?
+2017-11-06 09:52:18	garit2	[00:54:21] Soni: 1) figure out where you want to do theML. Javascript is too slow for it usually
+2017-11-06 09:52:18	garit2	[00:54:56] then apply ML to a content of user data examples. Make examples for several classes you want to distinguish
+2017-11-06 09:52:18	Soni	[00:55:38] see, I have no idea what that means
+2017-11-06 09:52:18	garit2	[00:56:08] Then do a course on ML in coursera
+2017-11-06 09:52:18	garit2	[00:56:25] Or just read more about it
+2017-11-06 09:52:18	garit2	[00:56:44] You can't use it id you dont know basics about it
+2017-11-06 09:52:18	garit2	[00:56:59] (At least at this level of tech)
+2017-11-06 09:52:18	Soni	[00:57:27] you can do AI, why don't you make an AI to teach me? or teach everyone? teach about AI with AI, make it adapt to each individual person's knowledge
+2017-11-06 09:52:18	Soni	[00:57:49] if AI is hard, can't you use AI to make it simpler?
+2017-11-06 09:52:18	mpsk	[00:58:46] Soni: you are taking one's help for granted?
+2017-11-06 09:52:18	garit2	[00:59:27] Soni: it is already simplified by a lot.before only PhD could use ML. Now a student can use ML in a middle of a course
+2017-11-06 09:52:18	Soni	[00:59:50] ML is simple for those who understand it
+2017-11-06 09:52:18	Soni	[01:00:04] or rather, <X> is simple for those who understand <X>
+2017-11-06 09:52:18	Soni	[01:00:07] for any X
+2017-11-06 09:52:18	garit2	[01:00:11] Soni: if you want to use ML with no learning -wait another 20 years. But all your ideas will be implemented already
+2017-11-06 09:52:18	mpsk	[01:00:52] maybe he just want it as a product...
+2017-11-06 09:52:18	Soni	[01:00:53] so make an AI that helps ppl understand AI by teaching them
+2017-11-06 09:52:18	garit2	[01:01:00] google made a camera with ML inside, that learns to make good pictures
+2017-11-06 09:52:18	Soni	[01:01:01] because that sounds like the most logical step
+2017-11-06 09:52:18	garit2	[01:01:12] Soni: what for?
+2017-11-06 09:52:18	@RandIter	[01:01:28] Soni: why don't you go watch fast.ai
+2017-11-06 09:52:18	garit2	[01:01:34] Soni: its not profitable. Its not a good toy
+2017-11-06 09:52:18	Soni	[01:01:35] if you have an AI that adapts their teaching methods to whoever they're teaching...
+2017-11-06 09:52:18	Soni	[01:01:52] then you significantly boost AI development quite quickly
+2017-11-06 09:52:18	garit2	[01:02:38] Soni: no you dont. People with 0 knowledge will not advance AI much
+2017-11-06 09:52:18	Soni	[01:03:02] garit2: the point of the AI is to give ppl the knowledge they need
+2017-11-06 09:52:18	garit2	[01:03:16] its not profitable for me
+2017-11-06 09:52:18	@RandIter	[01:03:29] Soni: quit being lazy now and go stud
+2017-11-06 09:52:18	@RandIter	[01:03:32] *study
+2017-11-06 09:52:18	Soni	[01:03:42] it would be for anyone teaching AI
+2017-11-06 09:52:18	mpsk	[01:04:14] if u really want to learn without pain
+2017-11-06 09:52:18	garit2	[01:04:23] Soni: i see zero profit teachingML to people with 0 knowledge
+2017-11-06 09:52:18	Soni	[01:04:33] the point is you don't
+2017-11-06 09:52:18	Soni	[01:04:37] the AI does
+2017-11-06 09:52:18	Soni	[01:04:48] then all you do is require them to get a piece of paper from you
+2017-11-06 09:52:18	@RandIter	[01:04:55] Courses already teach an established curriculum.
+2017-11-06 09:52:18	@RandIter	[01:05:06] All you have to do is hit rewind when you need.
+2017-11-06 09:52:18	Soni	[01:05:06] and put them through 4 years of hell and debt for it
+2017-11-06 09:52:18	garit2	[01:05:33] Soni: too much competition for this type of slavery, im too late to this party, hehe
+2017-11-06 09:52:18	Soni	[01:05:49] join someone who does it
+2017-11-06 09:52:18	@RandIter	[01:05:52] Soni: that's enough complaining for this channel
+2017-11-06 09:52:18	@RandIter	[01:06:16] If you're too lazy to follow a good curriculum, don't blame others
+2017-11-06 09:52:18	Soni	[01:06:36] RandIter: I learned programming by trying
+2017-11-06 09:52:18	Soni	[01:06:41] how do I try ML, tho?
+2017-11-06 09:52:18	@RandIter	[01:06:56] Told you to take various Coursera courses
+2017-11-06 09:52:18	garit2	[01:06:57] Also: Programming today is a race between software engineers striving to build bigger and better idiot-proof programs, and the Universe trying to produce bigger and better idiots. So far, the Universe is winning. (Rick cook)
+2017-11-06 09:52:18	Soni	[01:07:21] that's not trying
+2017-11-06 09:52:18	mpsk	[01:07:46] progamming is not learned by trying...
+2017-11-06 09:52:18	garit2	[01:07:58] Soni: you can start from scratch just from a multi layered perceptrone. Making a code for it takes a few minutes
+2017-11-06 09:52:18	@RandIter	[01:07:58] Soni: It will have you do assignments to try stuff out
+2017-11-06 09:52:18	Soni	[01:08:29] you mean it'll have me follow someone's steps
+2017-11-06 09:52:18	Soni	[01:08:35] over and over
+2017-11-06 09:52:18	Soni	[01:08:43] until I get good at following someone's steps
+2017-11-06 09:52:18	Soni	[01:08:49] that's not really learning
+2017-11-06 09:52:18	garit2	[01:08:53] Soni: multi layered perceptrone is the beginning od modern ML
+2017-11-06 09:52:18	garit2	[01:09:09] you can theoretically make everything else by trying
+2017-11-06 09:52:18	@RandIter	[01:10:03] Soni: I'm giving you a generous five more minutes to wrap up this discussion, and then talk about it no more.
+2017-11-06 09:52:18	causative	[01:10:18] Soni why don't you start out with an idea you want to make yourself with ML, and then take courses, read books, until you find out how to do it, then you do it?
+2017-11-06 09:52:18	Soni	[01:10:37] just think about how we teach AI
+2017-11-06 09:52:18	Soni	[01:10:53] we have them do their best and adapt their way of thinking
+2017-11-06 09:52:18	Soni	[01:11:04] that's how I learned programming
+2017-11-06 09:52:18	garit2	[01:11:56] Supervised learning (with examples) is order of magnitude faster than unsupervised (from random attempts)
+2017-11-06 09:52:18	causative	[01:12:01] ML is a bit different from programming, you don't need much theory or training to write some basic code, but you do need some math prerequisites for ML
+2017-11-06 09:52:18	Soni	[01:12:02] it's iterative, not repetitive
+2017-11-06 09:52:18	garit2	[01:15:55] What programming language is suitable for an attempt of making random turing machines and use gpu to speed up the process? (main idea: quick code,code generation
+2017-11-06 09:52:18	@RandIter	[01:18:23] garit2: FWIW, you know of https://arxiv.org/abs/1608.04428
+2017-11-06 09:52:18	+ML-helper[bot]	[01:18:29] [ [1608.04428] TerpreT: A Probabilistic Programming Language for Program Induction ]
+2017-11-06 09:52:18	@RandIter	[01:20:59] This one is new: https://arxiv.org/abs/1710.04157
+2017-11-06 09:52:18	+ML-helper[bot]	[01:21:00] [ [1710.04157] Neural Program Meta-Induction ]
+2017-11-06 09:52:18	garit2	[01:38:23] RandIter: thats a good read,thanks!
+2017-11-06 09:52:18	@RandIter	[01:39:03] There are many such papers
+2017-11-06 09:52:18	garit2	[01:40:05] Good, now i know what codewords to use for later search
+2017-11-06 09:52:18	@RandIter	[01:40:23] I started with the main Neural Turing Machine paper
+2017-11-06 09:52:18	@RandIter	[01:40:28] and followed its descendants
+2017-11-06 09:52:18	garit2	[01:41:14] Yeah, im reading the first one, looks fundamental =) thanks again
+2017-11-06 09:52:18	+ML-feeds[bot]	[02:02:12] <arXiv:cs.NE> Just ASK: Building an Architecture for Extensible Self-Service Spoken Language Understanding (v2) | https://arxiv.org/abs/1711.00549v2
+2017-11-06 09:52:18	+ML-feeds[bot]	[02:02:14] <arXiv:cs.NE> Progressive Growing of GANs for Improved Quality, Stability, and Variation (v2) | https://arxiv.org/abs/1710.10196v2
+2017-11-06 09:52:18	+ML-feeds[bot]	[02:02:16] <arXiv:cs.NE> An On-chip Trainable and Clock-less Spiking Neural Network with 1R Memristive Synapses (v2) | https://arxiv.org/abs/1709.02699v2
+2017-11-06 09:52:18	+ML-feeds[bot]	[02:02:18] <arXiv:cs.NE> Associative content-addressable networks with exponentially many robust stable states (v2) | https://arxiv.org/abs/1704.02019v2
+2017-11-06 09:52:18	+ML-feeds[bot]	[02:02:20] <arXiv:cs.NE> QMDP-Net: Deep Learning for Planning under Partial Observability (v3) | https://arxiv.org/abs/1703.06692v3
+2017-11-06 09:52:18	+ML-feeds[bot]	[02:02:22] <arXiv:cs.NE> ResBinNet: Residual Binary Neural Network (v1) | https://arxiv.org/abs/1711.01243v1
+2017-11-06 09:52:18	+ML-feeds[bot]	[02:02:24] <arXiv:cs.NE> Routing Networks: Adaptive Selection of Non-linear Functions for Multi-Task Learning (v1) | https://arxiv.org/abs/1711.01239v1
+2017-11-06 09:52:18	+ML-feeds[bot]	[02:02:26] <arXiv:cs.NE> Convolutional Drift Networks for Video Classification (v1) | https://arxiv.org/abs/1711.01201v1
+2017-11-06 09:52:18	+ML-feeds[bot]	[02:02:28] <arXiv:cs.NE> A Classification-Based Perspective on GAN Distributions (v1) | https://arxiv.org/abs/1711.00970v1
+2017-11-06 09:52:18	+ML-feeds[bot]	[02:02:30] <arXiv:cs.NE> Running Time Analysis of the (1+1)-EA for OneMax and LeadingOnes under Bit-wise Noise (v1) | https://arxiv.org/abs/1711.00956v1
+2017-11-06 09:52:18	+ML-feeds[bot]	[02:02:32] <arXiv:cs.NE> Does Phase Matter For Monaural Source Separation? (v1) | https://arxiv.org/abs/1711.00913v1
+2017-11-06 09:52:18	+ML-feeds[bot]	[02:05:31] <arXiv:stat.ML> Learning One-hidden-layer Neural Networks with Landscape Design (v2) | https://arxiv.org/abs/1711.00501v2
+2017-11-06 09:52:18	+ML-feeds[bot]	[02:05:34] <arXiv:stat.ML> Variational Continual Learning (v2) | https://arxiv.org/abs/1710.10628v2
+2017-11-06 09:52:18	+ML-feeds[bot]	[02:05:35] <arXiv:stat.ML> Speaker Diarization with LSTM (v3) | https://arxiv.org/abs/1710.10468v3
+2017-11-06 09:52:18	+ML-feeds[bot]	[02:05:38] <arXiv:stat.ML> Tight Semi-Nonnegative Matrix Factorization (v2) | https://arxiv.org/abs/1709.04395v2
+2017-11-06 09:52:18	+ML-feeds[bot]	[02:05:40] <arXiv:stat.ML> A Quasi-isometric Embedding Algorithm (v3) | https://arxiv.org/abs/1709.01972v3
+2017-11-06 09:52:18	+ML-feeds[bot]	[02:05:42] <arXiv:stat.ML> Inhomogeneous Hypergraph Clustering with Applications (v4) | https://arxiv.org/abs/1709.01249v4
+2017-11-06 09:52:18	+ML-feeds[bot]	[02:05:44] <arXiv:stat.ML> Corrupt Bandits for Preserving Local Privacy (v2) | https://arxiv.org/abs/1708.05033v2
+2017-11-06 09:52:18	+ML-feeds[bot]	[02:05:46] <arXiv:stat.ML> Underdamped Langevin MCMC: A non-asymptotic analysis (v3) | https://arxiv.org/abs/1707.03663v3
+2017-11-06 09:52:18	+ML-feeds[bot]	[02:05:48] <arXiv:stat.ML> Toward Robustness against Label Noise in Training Deep Discriminative Neural Networks (v2) | https://arxiv.org/abs/1706.00038v2
+2017-11-06 09:52:18	+ML-feeds[bot]	[02:05:50] <arXiv:stat.ML> Generative Models of Visually Grounded Imagination (v4) | https://arxiv.org/abs/1705.10762v4
+2017-11-06 09:52:18	+ML-feeds[bot]	[02:05:50] <arXiv:cs.LG> Proximal Backpropagation (v2) | https://arxiv.org/abs/1706.04638v2
+2017-11-06 09:52:18	+ML-feeds[bot]	[02:05:52] <arXiv:stat.ML> Shallow Updates for Deep Reinforcement Learning (v2) | https://arxiv.org/abs/1705.07461v2
+2017-11-06 09:52:18	+ML-feeds[bot]	[02:05:52] <arXiv:cs.LG> Optimization by a quantum reinforcement algorithm (v3) | https://arxiv.org/abs/1706.04262v3
+2017-11-06 09:52:18	+ML-feeds[bot]	[02:05:54] <arXiv:stat.ML> Rate Optimal Estimation and Confidence Intervals for High-dimensional Regression with Missing Covariates (v2) | https://arxiv.org/abs/1702.02686v2
+2017-11-06 09:52:18	+ML-feeds[bot]	[02:05:54] <arXiv:cs.LG> Good Semi-supervised Learning that Requires a Bad GAN (v3) | https://arxiv.org/abs/1705.09783v3
+2017-11-06 09:52:18	+ML-feeds[bot]	[02:05:56] <arXiv:stat.ML> Recursive Sampling for the Nystr\"om Method (v5) | https://arxiv.org/abs/1605.07583v5
+2017-11-06 09:52:18	+ML-feeds[bot]	[02:05:56] <arXiv:cs.LG> Multi-Scale Dense Networks for Resource Efficient Image Classification (v3) | https://arxiv.org/abs/1703.09844v3
+2017-11-06 09:52:18	+ML-feeds[bot]	[02:05:58] <arXiv:stat.ML> Lifelong Learning by Adjusting Priors (v1) | https://arxiv.org/abs/1711.01244v1
+2017-11-06 09:52:18	+ML-feeds[bot]	[02:05:58] <arXiv:cs.LG> Deep learning and the Schr\"odinger equation (v3) | https://arxiv.org/abs/1702.01361v3
+2017-11-06 09:52:18	+ML-feeds[bot]	[02:06:00] <arXiv:stat.ML> Metrics for Deep Generative Models (v1) | https://arxiv.org/abs/1711.01204v1
+2017-11-06 09:52:18	+ML-feeds[bot]	[02:06:00] <arXiv:cs.LG> Manifold Approximation by Moving Least-Squares Projection (MMLS) (v3) | https://arxiv.org/abs/1606.07104v3
+2017-11-06 09:52:18	+ML-feeds[bot]	[02:06:02] <arXiv:stat.ML> A mathematical framework for graph signal processing of time-varying signals (v1) | https://arxiv.org/abs/1711.01191v1
+2017-11-06 09:52:18	+ML-feeds[bot]	[02:06:02] <arXiv:cs.LG> Fuzzy clustering using linguistic-valued exponent (v1) | https://arxiv.org/abs/1711.01149v1
+2017-11-06 09:52:18	+ML-feeds[bot]	[02:06:04] <arXiv:stat.ML> Accountability of AI Under the Law: The Role of Explanation (v1) | https://arxiv.org/abs/1711.01134v1
+2017-11-06 09:52:18	+ML-feeds[bot]	[02:06:04] <arXiv:cs.LG> Structured Variational Inference for Coupled Gaussian Processes (v1) | https://arxiv.org/abs/1711.01131v1
+2017-11-06 09:52:18	+ML-feeds[bot]	[02:06:06] <arXiv:stat.ML> Genetic Policy Optimization (v1) | https://arxiv.org/abs/1711.01012v1
+2017-11-06 09:52:18	+ML-feeds[bot]	[02:06:06] <arXiv:cs.LG> Sparsity, variance and curvature in multi-armed bandits (v1) | https://arxiv.org/abs/1711.01037v1
+2017-11-06 09:52:18	+ML-feeds[bot]	[02:06:08] <arXiv:stat.ML> Partial correlation graphs and the neighborhood lattice (v1) | https://arxiv.org/abs/1711.00991v1
+2017-11-06 09:52:18	+ML-feeds[bot]	[02:06:08] <arXiv:cs.LG> From which world is your graph? (v1) | https://arxiv.org/abs/1711.00982v1
+2017-11-06 09:52:18	+ML-feeds[bot]	[02:06:10] <arXiv:stat.ML> Analysis of Approximate Stochastic Gradient Using Quadratic Constraints and Sequential Semidefinite Programs (v1) | https://arxiv.org/abs/1711.00987v1
+2017-11-06 09:52:18	+ML-feeds[bot]	[02:06:10] <arXiv:cs.LG> Beyond normality: Learning sparse probabilistic graphical models in the non-Gaussian setting (v1) | https://arxiv.org/abs/1711.00950v1
+2017-11-06 09:52:18	+ML-feeds[bot]	[02:06:12] <arXiv:stat.ML> Learning Linear Dynamical Systems via Spectral Filtering (v1) | https://arxiv.org/abs/1711.00946v1
+2017-11-06 09:52:18	+ML-feeds[bot]	[02:06:12] <arXiv:cs.LG> Deep Active Learning over the Long Tail (v1) | https://arxiv.org/abs/1711.00941v1
+2017-11-06 09:52:18	+ML-feeds[bot]	[02:06:14] <arXiv:stat.ML> Binary Bouncy Particle Sampler (v1) | https://arxiv.org/abs/1711.00922v1
+2017-11-06 09:52:18	+ML-feeds[bot]	[02:06:14] <arXiv:cs.LG> Deep Air Learning: Interpolation, Prediction, and Feature Analysis of Fine-grained Air Quality (v1) | https://arxiv.org/abs/1711.00939v1
+2017-11-06 09:52:18	+ML-feeds[bot]	[02:06:16] <arXiv:stat.ML> Sparse-View X-Ray CT Reconstruction Using $\ell_1$ Prior with Learned Transform (v1) | https://arxiv.org/abs/1711.00905v1
+2017-11-06 09:52:18	+ML-feeds[bot]	[02:06:16] <arXiv:cs.LG> Neural Discrete Representation Learning (v1) | https://arxiv.org/abs/1711.00937v1
+2017-11-06 09:52:18	+ML-feeds[bot]	[02:06:18] <arXiv:stat.ML> Correcting Nuisance Variation using Wasserstein Distance (v1) | https://arxiv.org/abs/1711.00882v1
+2017-11-06 09:52:18	+ML-feeds[bot]	[02:06:18] <arXiv:cs.LG> Structured Generative Adversarial Networks (v1) | https://arxiv.org/abs/1711.00889v1
+2017-11-06 09:52:18	+ML-feeds[bot]	[02:06:20] <arXiv:stat.ML> The (Un)reliability of saliency methods (v1) | https://arxiv.org/abs/1711.00867v1
+2017-11-06 09:52:18	+ML-feeds[bot]	[02:06:20] <arXiv:cs.LG> Set-to-Set Hashing with Applications in Visual Recognition (v1) | https://arxiv.org/abs/1711.00888v1
+2017-11-06 09:52:18	carlos	[03:57:40] Quick question: What is the best way to graph the performance of an online learning algorithm (no batches)?
+2017-11-06 09:52:18	jaggz	[03:58:26] like, plotting loss?
+2017-11-06 09:52:18	carlos	[03:59:19] Yeah, loss or accuracy.
+2017-11-06 09:52:18	carlos	[03:59:45] Since there are no batches, the loss/accuracy varies a lot between samples (even after the parameters converge), so the plot looks very noisy.
+2017-11-06 09:52:18	jaggz	[04:00:35] average?
+2017-11-06 09:52:18	carlos	[04:00:39] e.g. like https://ibb.co/fMLG3G (ignore the orange plot)
+2017-11-06 09:52:18	+ML-helper[bot]	[04:00:40] [ plot — imgbb.com ]
+2017-11-06 09:52:18	carlos	[04:00:50] I mean ignore the blue points
+2017-11-06 09:52:18	carlos	[04:01:13] I was thinking some kind of rolling average but it's hard to find the right window (or in the case of exponential moving average, the right decay).
+2017-11-06 09:52:18	carlos	[04:01:18] Should I just do cumulative average?
+2017-11-06 09:52:18	jaggz	[04:02:08] carlos, http://paste.debian.net/994341/
+2017-11-06 09:52:18	+ML-helper[bot]	[04:02:10] [ debian Pastezone ]
+2017-11-06 09:52:18	jaggz	[04:02:37] I put that as bin/avg
+2017-11-06 09:52:18	jaggz	[04:03:12] it takes only a list of numbers, so it won't handle multiple columns of data, k
+2017-11-06 09:52:18	carlos	[04:03:25] What does it do?
+2017-11-06 09:52:18	jaggz	[04:03:44] averages N samples
+2017-11-06 09:52:18	jaggz	[04:04:26] 0 to n,  1 to n+1, etc.
+2017-11-06 09:52:18	jaggz	[04:06:03] cat log.txt | strip_to_loss_only | avg 30 > loss30.txt
+2017-11-06 09:52:18	carlos	[04:06:11] Yeah I already applied a moving average to my data. The problem is finding the 'right' value of N.
+2017-11-06 09:52:18	jaggz	[04:07:08] well, it doesn't look like you have an up or down trend anyway.. ?
+2017-11-06 09:52:18	jaggz	[04:07:32] not learning?
+2017-11-06 09:52:18	jaggz	[04:08:36] looks like it does just just about everything it can at 0-2000 no?
+2017-11-06 09:52:18	carlos	[04:08:47] You mean my plot? I think the model has converged and is doing as well as it can, you can see that the accuracy oscillates between about 0.8 and 1.0.
+2017-11-06 09:52:18	carlos	[04:09:37] The window I used appears to be too small, though, to depict the long-term average.
+2017-11-06 09:52:18	jaggz	[04:10:05] I guess.. looks pretty clear to me
+2017-11-06 09:52:18	carlos	[04:10:22] What's the average accuracy at the end?
+2017-11-06 09:52:18	carlos	[04:11:00] It's somewhere between 0.8 and 1.0 but it's hard to tell where exactly. Seems like somewhere around .95ish?
+2017-11-06 09:52:18	carlos	[04:11:06] There are lots of points at 1.0.
+2017-11-06 09:52:18	jaggz	[04:15:46] average more samples until it's smooth
+2017-11-06 09:52:18	jaggz	[04:15:51] wider window
+2017-11-06 09:52:18	jaggz	[04:17:36] looks like 350 samples would be good :)
+2017-11-06 09:52:18	jaggz	[04:19:37] I don't know how to do mean w/variance for plots
+2017-11-06 09:52:18	jaggz	[04:19:46] but average should work fine
+2017-11-06 09:52:18	***	Playback Complete.
+2017-11-06 09:52:22	<--	krowar_ (~krowar_@77-57-28-128.dclient.hispeed.ch) has quit (Ping timeout: 246 seconds)
+2017-11-06 09:52:24	--	Channel created on Sun, 03 Jan 2010 19:26:39
+2017-11-06 09:54:02	<--	localhorse__ (~me@ip5f58a45f.dynamic.kabel-deutschland.de) has quit (Ping timeout: 240 seconds)
+2017-11-06 09:57:32	<--	energizer (~energizer@unaffiliated/energizer) has quit (Ping timeout: 252 seconds)
+2017-11-06 09:58:27	-->	jas_ass (~jas@adsl-178-39-248-71.adslplus.ch) has joined ##machinelearning

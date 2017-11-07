@@ -1,0 +1,8 @@
+Search results from SearchBot v3.00.02 by Ook, searching dll written by Ook, Based on Searchbot v2.22 by Dukelupus
+Searched 14 lists for "Python Machine Learning" , found 4 matches. Enjoy!
+For easier searching, use sbClient script (also very fast local searches). You can get that script by typing @sbClient in the channel.
+
+!Eratosthenes Richert; Coelho -- Building Machine Learning Systems with Python (Packt, 2013).pdf  ::INFO:: 6.2MB
+!Eratosthenes Hardeniya -- NTLK Essentials_ Build Cool NLP and Machine Learning Applications Using NTLK and Other Python Libraries (Packt, 2015).pdf  ::INFO:: 2.1MB
+!Eratosthenes Elston -- Data Science in the Cloud with Microsoft Azure Machine Learning and Python (O'Reilly, 2016).pdf  ::INFO:: 16.3MB
+!Eratosthenes Joshi -- Python Machine Learning Cookbook (Packt, 2016).pdf  ::INFO:: 32.7MB

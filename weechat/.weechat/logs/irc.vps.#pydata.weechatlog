@@ -1,0 +1,173 @@
+2017-11-03 15:28:13	-->	tomeaton17 (~tomeaton1@129.ip-91-134-134.eu) has joined #pydata
+2017-11-03 15:28:13	--	Topic for #pydata is "Show us an SSCCE http://sscce.org/ | Don't paste, use https://bpaste.net/ | Don't ask to ask | Answers might not come quick, stick around | http://bit.ly/psf-coc | http://pydata.org/ | Pandas cheatsheet and more http://bit.ly/23rZGtA | Pandas chat https://gitter.im/pydata/pandas | ##machinelearning #scipy #matplotlib #scikit-learn"
+2017-11-03 15:28:13	--	Topic set by papna on Fri, 19 Aug 2016 20:15:13
+2017-11-03 15:28:13	--	Channel #pydata: 123 nicks (0 ops, 0 voices, 123 normals)
+2017-11-03 15:28:14	--	Channel created on Thu, 15 Mar 2012 16:06:37
+2017-11-03 15:42:24	-->	steeze (~steeze@63.76.231.82) has joined #pydata
+2017-11-03 15:48:13	<--	storrgie (~storrgie@znc.epiphyte.network) has quit (Quit: Bye)
+2017-11-03 15:48:13	<--	carlsagan12 (~carlsagan@znc.epiphyte.network) has quit (Quit: im a dick)
+2017-11-03 15:49:32	-->	carlsagan12 (~carlsagan@znc.epiphyte.network) has joined #pydata
+2017-11-03 15:51:06	-->	storrgie (~storrgie@45.63.10.204) has joined #pydata
+2017-11-03 15:56:16	<--	runciters (~runciters@gateway/tor-sasl/runciters) has quit (Remote host closed the connection)
+2017-11-03 16:50:29	-->	iml_ (~iml_@189-212-171-161.static.axtel.net) has joined #pydata
+2017-11-03 17:07:23	-->	energizer (~energizer@unaffiliated/energizer) has joined #pydata
+2017-11-03 17:12:35	<--	shiyaz (~shiyaz@148.253.134.213) has quit (Ping timeout: 240 seconds)
+2017-11-03 17:28:50	--	irc: disconnected from server
+2017-11-03 18:07:43	-->	tomeaton17 (~tomeaton1@129.ip-91-134-134.eu) has joined #pydata
+2017-11-03 18:07:43	--	Topic for #pydata is "Show us an SSCCE http://sscce.org/ | Don't paste, use https://bpaste.net/ | Don't ask to ask | Answers might not come quick, stick around | http://bit.ly/psf-coc | http://pydata.org/ | Pandas cheatsheet and more http://bit.ly/23rZGtA | Pandas chat https://gitter.im/pydata/pandas | ##machinelearning #scipy #matplotlib #scikit-learn"
+2017-11-03 18:07:43	--	Topic set by papna on Fri, 19 Aug 2016 20:15:13
+2017-11-03 18:07:43	--	Channel #pydata: 122 nicks (0 ops, 0 voices, 122 normals)
+2017-11-03 18:07:58	--	Channel created on Thu, 15 Mar 2012 16:06:37
+2017-11-03 18:09:13	--	irc: disconnected from server
+2017-11-03 18:09:36	-->	tomeaton17 (~tomeaton1@129.ip-91-134-134.eu) has joined #pydata
+2017-11-03 18:09:36	--	Topic for #pydata is "Show us an SSCCE http://sscce.org/ | Don't paste, use https://bpaste.net/ | Don't ask to ask | Answers might not come quick, stick around | http://bit.ly/psf-coc | http://pydata.org/ | Pandas cheatsheet and more http://bit.ly/23rZGtA | Pandas chat https://gitter.im/pydata/pandas | ##machinelearning #scipy #matplotlib #scikit-learn"
+2017-11-03 18:09:36	--	Topic set by papna on Fri, 19 Aug 2016 20:15:13
+2017-11-03 18:09:36	--	Channel #pydata: 122 nicks (0 ops, 0 voices, 122 normals)
+2017-11-03 18:09:51	--	Channel created on Thu, 15 Mar 2012 16:06:37
+2017-11-03 18:20:59	<--	tarrow (uid11206@gateway/web/irccloud.com/x-kxrzxwkxymjjnrez) has quit (Quit: Connection closed for inactivity)
+2017-11-03 18:29:27	<--	pokEarl (~pokEarl@2002:d98a:68e:0:a939:768b:2fa9:9460) has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+2017-11-03 18:42:57	-->	cr0mulent (~cr0mulent@24-247-104-225.dhcp.aldl.mi.charter.com) has joined #pydata
+2017-11-03 19:00:38	<--	Spaaaaaaaaaaaace (~Spaaaaaaa@unaffiliated/spaaaaaaaaaaaace) has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+2017-11-03 19:11:09	<--	cr0mulent (~cr0mulent@24-247-104-225.dhcp.aldl.mi.charter.com) has quit (Quit: cr0mulent)
+2017-11-03 19:37:39	-->	cr0mulent (~cr0mulent@24-247-104-225.dhcp.aldl.mi.charter.com) has joined #pydata
+2017-11-03 19:41:13	-->	pokEarl (~pokEarl@host31-49-105-171.range31-49.btcentralplus.com) has joined #pydata
+2017-11-03 20:12:07	<--	steeze (~steeze@63.76.231.82) has quit (Quit: My Mac has gone to sleep. ZZZzzz…)
+2017-11-03 20:13:54	<--	pokEarl (~pokEarl@host31-49-105-171.range31-49.btcentralplus.com) has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+2017-11-03 20:14:40	-->	steeze (~steeze@63.76.231.82) has joined #pydata
+2017-11-03 20:18:54	-->	Spaaaaaaaaaaaace (~Spaaaaaaa@unaffiliated/spaaaaaaaaaaaace) has joined #pydata
+2017-11-03 20:20:09	<--	steeze (~steeze@63.76.231.82) has quit (Quit: My Mac has gone to sleep. ZZZzzz…)
+2017-11-03 20:34:14	-->	steeze (~steeze@63.76.231.82) has joined #pydata
+2017-11-03 20:34:28	<--	steeze (~steeze@63.76.231.82) has quit (Client Quit)
+2017-11-03 20:40:12	-->	steeze (~steeze@63.76.231.82) has joined #pydata
+2017-11-03 20:41:42	<--	cr0mulent (~cr0mulent@24-247-104-225.dhcp.aldl.mi.charter.com) has quit (Quit: cr0mulent)
+2017-11-03 20:44:56	<--	steeze (~steeze@63.76.231.82) has quit (Client Quit)
+2017-11-03 20:47:36	-->	steeze (~steeze@63.76.231.82) has joined #pydata
+2017-11-03 20:47:37	<--	steeze (~steeze@63.76.231.82) has quit (Client Quit)
+2017-11-03 21:28:27	<--	gugah (~gugah@116-214-231-201.fibertel.com.ar) has quit (Ping timeout: 260 seconds)
+2017-11-03 22:10:06	-->	gugah (~gugah@116-214-231-201.fibertel.com.ar) has joined #pydata
+2017-11-03 22:14:23	-->	pokEarl (~pokEarl@host31-49-105-171.range31-49.btcentralplus.com) has joined #pydata
+2017-11-03 23:19:50	-->	tubuliferous (~tubulifer@mobile-166-173-251-117.mycingular.net) has joined #pydata
+2017-11-03 23:21:56	<--	tubuliferous (~tubulifer@mobile-166-173-251-117.mycingular.net) has quit (Max SendQ exceeded)
+2017-11-03 23:22:31	-->	tubuliferous (~tubulifer@mobile-166-173-251-117.mycingular.net) has joined #pydata
+2017-11-03 23:43:08	<--	iml_ (~iml_@189-212-171-161.static.axtel.net) has quit (Ping timeout: 240 seconds)
+2017-11-03 23:51:09	-->	iml_ (~iml_@189-212-171-161.static.axtel.net) has joined #pydata
+2017-11-03 23:58:35	<--	tubuliferous (~tubulifer@mobile-166-173-251-117.mycingular.net) has quit (Ping timeout: 240 seconds)
+2017-11-04 00:23:14	-->	pedja (~pedja@79-101-88-12.dynamic.isp.telekom.rs) has joined #pydata
+2017-11-04 00:24:31	--	irc: disconnected from server
+2017-11-04 11:04:37	-->	tomeaton17 (~tomeaton1@129.ip-91-134-134.eu) has joined #pydata
+2017-11-04 11:04:37	--	Topic for #pydata is "Show us an SSCCE http://sscce.org/ | Don't paste, use https://bpaste.net/ | Don't ask to ask | Answers might not come quick, stick around | http://bit.ly/psf-coc | http://pydata.org/ | Pandas cheatsheet and more http://bit.ly/23rZGtA | Pandas chat https://gitter.im/pydata/pandas | ##machinelearning #scipy #matplotlib #scikit-learn"
+2017-11-04 11:04:37	--	Topic set by papna on Fri, 19 Aug 2016 20:15:13
+2017-11-04 11:04:37	--	Channel #pydata: 119 nicks (0 ops, 0 voices, 119 normals)
+2017-11-04 11:04:50	--	Channel created on Thu, 15 Mar 2012 16:06:37
+2017-11-04 11:12:58	--	irc: disconnected from server
+2017-11-06 09:52:18	-->	tomeaton17 (~tomeaton1@129.ip-91-134-134.eu) has joined #pydata
+2017-11-06 09:52:18	--	Topic for #pydata is "Show us an SSCCE http://sscce.org/ | Don't paste, use https://bpaste.net/ | Don't ask to ask | Answers might not come quick, stick around | http://bit.ly/psf-coc | http://pydata.org/ | Pandas cheatsheet and more http://bit.ly/23rZGtA | Pandas chat https://gitter.im/pydata/pandas | ##machinelearning #scipy #matplotlib #scikit-learn"
+2017-11-06 09:52:18	--	Topic set by papna on Fri, 19 Aug 2016 20:15:13
+2017-11-06 09:52:18	--	Channel #pydata: 104 nicks (0 ops, 0 voices, 104 normals)
+2017-11-06 09:52:18	***	Buffer Playback...
+2017-11-06 09:52:18	arunkumar413	[13:02:29] Hi all
+2017-11-06 09:52:18	arunkumar413	[13:02:41] I'm given a task to plot a graph
+2017-11-06 09:52:18	arunkumar413	[13:03:03] log of a column vs another column and calculate the R squared value
+2017-11-06 09:52:18	arunkumar413	[13:03:10] How do I plot
+2017-11-06 09:52:18	arunkumar413	[13:03:51] all the examples on the web show only plotting with array elements not the data frame column
+2017-11-06 09:52:18	arunkumar413	[14:35:54] I just calculated the regression model. How to get the R squared value
+2017-11-06 09:52:18	Herka	[19:15:40] http://scikit-learn.org/stable/modules/generated/sklearn.metrics.r2_score.html
+2017-11-06 09:52:18	ivan_	[20:41:48] Hey does anyone know hot to resample a dataframe backwards?
+2017-11-06 09:52:18	Herka	[21:08:48] what do you mean by backwards?
+2017-11-06 09:52:18	Herka	[21:09:11] oh already gone. nevermind
+2017-11-06 09:52:18	arunkumar413	[05:59:38] I'm getting ImportError: No module named 'statsmodels'
+2017-11-06 09:52:18	arunkumar413	[05:59:53] though the statsmodels library is installed
+2017-11-06 09:52:18	Omega037	[06:42:37] morning yall
+2017-11-06 09:52:18	Omega037	[06:42:58] arunkumar413, maybe a venv issue
+2017-11-06 09:52:18	Omega037	[06:43:01] or a versioning issue
+2017-11-06 09:52:18	Omega037	[06:43:06] or it was a bad install
+2017-11-06 09:52:18	Omega037	[06:43:19] should do a pip uninstall then pip install --upgrade
+2017-11-06 09:52:18	arunkumar413	[06:43:37] Omega037: it's not installing for python3
+2017-11-06 09:52:18	Omega037	[06:43:42] pip3
+2017-11-06 09:52:18	arunkumar413	[06:43:45] it's working for python 2.7
+2017-11-06 09:52:18	Omega037	[06:43:51] what OS?
+2017-11-06 09:52:18	arunkumar413	[06:44:00] Ubuntu 17.04
+2017-11-06 09:52:18	Omega037	[06:44:07] yeah, try installing with pip3
+2017-11-06 09:52:18	Omega037	[06:44:47] unfortunately until pipfiles become the norm, dependency management in python is still :(
+2017-11-06 09:52:18	arunkumar413	[06:44:54] Omega037: what is the full command
+2017-11-06 09:52:18	arunkumar413	[06:46:36] Omega037: tried this pip3 install statsmodels
+2017-11-06 09:52:18	arunkumar413	[06:46:44] still getting the permission error
+2017-11-06 09:52:18	Omega037	[06:47:36] huh
+2017-11-06 09:52:18	Omega037	[06:47:49] i usually just use conda envs or venvs
+2017-11-06 09:52:18	Omega037	[06:48:00] rather than base python on a system
+2017-11-06 09:52:18	Omega037	[06:48:07] so its not really an issue for me
+2017-11-06 09:52:18	arunkumar413	[07:17:42] Omega037: working on Kaggle for now.
+2017-11-06 09:52:18	arunkumar413	[07:17:57] when to use a constant and not in a linear regression
+2017-11-06 09:52:18	Omega037	[07:21:31] huh
+2017-11-06 09:52:18	Omega037	[07:21:37] you use a constant for things that arent variable
+2017-11-06 09:52:18	Omega037	[07:21:41] hence, constance
+2017-11-06 09:52:18	Omega037	[07:21:44] constant*
+2017-11-06 09:52:18	Omega037	[07:23:46] if you are talking about the simplest form of regression with a single independent variable effect
+2017-11-06 09:52:18	Omega037	[07:25:00] the constant basically just tried to take care of the residual left over
+2017-11-06 09:52:18	Omega037	[07:27:18] even if you dont use it, it technically is still there as a zero
+2017-11-06 09:52:18	arunkumar413	[07:30:52] Omega037: i was given a diamond data set and asked to find the scatterplot and regression analysis for a logarithmic relationship between the price of diamonds and the weight (carat). What is the approximate R^2 value (correct to 2 decimal places)?
+2017-11-06 09:52:18	arunkumar413	[07:31:40] also there are other variables like the cut, color that could influence the price
+2017-11-06 09:52:18	arunkumar413	[07:32:24] the question is not clear if the logarithmic should be applied to both price and carat
+2017-11-06 09:52:18	Omega037	[07:33:50] test them out and see :)
+2017-11-06 09:52:18	Omega037	[07:34:27] a scatterplot between each variable and the outcome should be informative
+2017-11-06 09:52:18	Omega037	[07:35:48] also, look at the distribution of the features themselves
+2017-11-06 09:52:18	Omega037	[07:36:18] if the distribution isnt gaussian, you might want to convert the feature
+2017-11-06 09:52:18	Omega037	[07:36:57] of course, that is only for the continuous variables
+2017-11-06 09:52:18	Omega037	[07:37:31] cut and color are categorical, I assume?  or is cut an ordinal feature?
+2017-11-06 09:52:18	Omega037	[07:37:46] i.e., bad cut to good cut
+2017-11-06 09:52:18	arunkumar413	[07:39:01] Omega037: this is what i got if I plot carat vs price https://prnt.sc/h6f6vy
+2017-11-06 09:52:18	arunkumar413	[07:40:53] and without constant I'm getting the R squared values as 0.943 and with constant it's 0.89
+2017-11-06 09:52:18	Omega037	[07:43:41] well, that just means the constant is accounting for some of the residual
+2017-11-06 09:52:18	arunkumar413	[07:44:11] Omega037: also scaled the price axis to log
+2017-11-06 09:52:18	Omega037	[07:44:21] i saw that
+2017-11-06 09:52:18	arunkumar413	[07:44:25] is it okay. Or should I apply the log the each price value
+2017-11-06 09:52:18	Omega037	[07:45:02] its called a log-linear plot
+2017-11-06 09:52:18	Omega037	[07:45:08] or at least, thats what i usually call it
+2017-11-06 09:52:18	Omega037	[07:45:10] vs log-log
+2017-11-06 09:52:18	arunkumar413	[07:45:32] carat is log
+2017-11-06 09:52:18	arunkumar413	[07:45:40] only price is log
+2017-11-06 09:52:18	Omega037	[07:45:42] the relationship is lot
+2017-11-06 09:52:18	Omega037	[07:45:44] log*
+2017-11-06 09:52:18	Omega037	[07:45:54] the variable itself is probably gaussian
+2017-11-06 09:52:18	Omega037	[07:46:07] unless the price is something like a Pareto distribution
+2017-11-06 09:52:18	arunkumar413	[07:46:07] okay.  Now coming to the R squared value
+2017-11-06 09:52:18	arunkumar413	[07:46:24] should I use the constant or not
+2017-11-06 09:52:18	Omega037	[07:46:53] what question are you trying to answer?
+2017-11-06 09:52:18	Omega037	[07:47:49] R^2 is just amount of variance in the dependent variable explained by the independent
+2017-11-06 09:52:18	arunkumar413	[07:47:52] r squared
+2017-11-06 09:52:18	Omega037	[07:48:12] so, how much of the left side of the function can be explained by the right side
+2017-11-06 09:52:18	Omega037	[07:48:58] if you only have one independent variable, it should just be the correlation squared
+2017-11-06 09:52:18	arunkumar413	[07:49:00] yeah but with constant I'm getting a different value than without constant
+2017-11-06 09:52:18	Omega037	[07:49:04] that includes the constant
+2017-11-06 09:52:18	Omega037	[07:49:24] sure
+2017-11-06 09:52:18	Omega037	[07:49:35] the constant is helping cover some of the residual
+2017-11-06 09:52:18	Omega037	[07:49:49] you should include it
+2017-11-06 09:52:18	Omega037	[07:49:56] as i said, its always there, just sometimes its zero
+2017-11-06 09:52:18	Omega037	[07:50:29] if it helps, just think of the constant as being moved to the other side
+2017-11-06 09:52:18	Omega037	[07:50:38] dependent - constant = independent
+2017-11-06 09:52:18	Omega037	[07:51:16] its basically saying that the nature of the mapping requires a constant offset
+2017-11-06 09:52:18	Omega037	[07:51:39] since its constant, its not accounting for variance, its just improving the fit
+2017-11-06 09:52:18	Omega037	[07:52:48] or perhaps think of it this way, couldnt you just add the constant value to each sample of caret to create a feature "caretConst" with the same R^2?
+2017-11-06 09:52:18	Omega037	[07:52:57] anyways, im off to bed
+2017-11-06 09:52:18	vagrant_root	[20:08:29] hi how can I plot this data https://bpaste.net/show/38939d7e5668
+2017-11-06 09:52:18	nku	[09:29:51] wtf, with read_csv i have " as quote char, and ; as separator, yet pandas splits user agents like ; "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36";
+2017-11-06 09:52:18	nku	[09:30:05] i have 0.21.0 installed
+2017-11-06 09:52:18	***	Playback Complete.
+2017-11-06 09:52:26	--	Channel created on Thu, 15 Mar 2012 16:06:37
+2017-11-06 09:55:42	-->	bjonnh[m] (bjonnhmatr@gateway/shell/matrix.org/x-bnstwqmztijalyub) has joined #pydata
+2017-11-06 09:55:42	-->	cow_2001[h] (cow2001m1@gateway/shell/matrix.org/x-fzrpaeaffaevhaal) has joined #pydata
+2017-11-06 09:55:42	-->	wrichert[m] (wrichertma@gateway/shell/matrix.org/x-oikvluwyrvncmvlr) has joined #pydata
+2017-11-06 09:55:42	-->	bmjh (bmjhmatrix@gateway/shell/matrix.org/x-urpusngkuoiayocw) has joined #pydata
+2017-11-06 09:55:43	-->	renatocan[m] (renatocanm@gateway/shell/matrix.org/x-fsrgvixwmzgrcbto) has joined #pydata
+2017-11-06 09:55:43	-->	astronavt[m] (astronavtm@gateway/shell/matrix.org/x-wzleqqeovdbaykim) has joined #pydata
+2017-11-06 09:55:43	-->	toad_polo (bilgeemuls@gateway/shell/matrix.org/x-qlrlhjxfrjjevllw) has joined #pydata
+2017-11-06 09:55:43	-->	labviking (labvikingm@gateway/shell/matrix.org/x-pamxbjunipvxcabk) has joined #pydata
+2017-11-06 09:55:43	-->	psychi[m] (psychimatr@gateway/shell/matrix.org/x-xsbfqhpbhmaumzqs) has joined #pydata
+2017-11-06 09:55:43	-->	joxer[m] (joxermatri@gateway/shell/matrix.org/x-essbiqeucwxglobc) has joined #pydata
+2017-11-06 09:55:43	-->	juju[m] (jujumatrix@gateway/shell/matrix.org/x-sqesnxghhaeobcdn) has joined #pydata
+2017-11-06 09:55:43	-->	Hai[m] (duchaimatr@gateway/shell/matrix.org/x-mfeleohgmioggvta) has joined #pydata
+2017-11-06 09:55:43	-->	AndrewMcSwain[m] (andrewmcsw@gateway/shell/matrix.org/x-upuszroxgnacrpvo) has joined #pydata
+2017-11-06 09:55:48	-->	tyukigrew[m] (tyukigrewm@gateway/shell/matrix.org/x-vlozdxifxrctrwgy) has joined #pydata
+2017-11-06 09:55:49	-->	afzal[m] (afzalmatri@gateway/shell/matrix.org/x-zldzxgkhrojfckfz) has joined #pydata
+2017-11-06 09:55:50	-->	gash747[m] (gash747mat@gateway/shell/matrix.org/x-yvzbtjjqallsjrsi) has joined #pydata
+2017-11-06 09:57:32	<--	energizer (~energizer@unaffiliated/energizer) has quit (Ping timeout: 252 seconds)

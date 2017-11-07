@@ -1,0 +1,2028 @@
+2017-11-02 15:35:48	-->	tomeaton17 (~tomeaton1@129.ip-91-134-134.eu) has joined #i3
+2017-11-02 15:35:48	--	Topic for #i3 is "i3 v4.14.1 released | i3status 2.11 released | i3lock 2.9.1 released | http://code.i3wm.org/ | http://i3wm.org/ | http://faq.i3wm.org/ | https://bintray.com/i3/i3-autobuild/i3-wm#statistics | paste at http://p.nnev.de/ | file upload at https://transfer.sh/ | Container tutorial: https://youtu.be/AWA8Pl57UBY | #i3-offtopic"
+2017-11-02 15:35:48	--	Topic set by sECuRE (~sECuRE@midna.zekjur.net) on Sun, 24 Sep 2017 18:31:03
+2017-11-02 15:35:48	--	Channel #i3: 421 nicks (3 ops, 0 voices, 418 normals)
+2017-11-02 15:35:50	--	Channel created on Thu, 22 Jul 2010 20:58:13
+2017-11-02 15:36:01	tomeaton17	Is there a hook for when i3lock unlocks the screen?
+2017-11-02 15:36:41	@sur5r	it quits?
+2017-11-02 15:36:55	nejni-marji	i3lock && { stuff }
+2017-11-02 15:37:35	tomeaton17	nejni-marji: Good idea, I didn't think of that. Thanks!
+2017-11-02 15:40:55	<--	choki (~weechat@unaffiliated/choki) has quit (Quit: WeeChat 1.9.1)
+2017-11-02 15:41:58	-->	spectr (spectr@nat/redhat/x-iztdywfwqccvhnqi) has joined #i3
+2017-11-02 15:44:15	<--	spectr-RH (spectr@nat/redhat/x-slcqhckkyyezxaew) has quit (Ping timeout: 246 seconds)
+2017-11-02 15:50:22	--	irc: disconnected from server
+2017-11-02 15:57:49	-->	tomeaton17 (~tomeaton1@129.ip-91-134-134.eu) has joined #i3
+2017-11-02 15:57:49	--	Topic for #i3 is "i3 v4.14.1 released | i3status 2.11 released | i3lock 2.9.1 released | http://code.i3wm.org/ | http://i3wm.org/ | http://faq.i3wm.org/ | https://bintray.com/i3/i3-autobuild/i3-wm#statistics | paste at http://p.nnev.de/ | file upload at https://transfer.sh/ | Container tutorial: https://youtu.be/AWA8Pl57UBY | #i3-offtopic"
+2017-11-02 15:57:49	--	Topic set by sECuRE (~sECuRE@midna.zekjur.net) on Sun, 24 Sep 2017 18:31:03
+2017-11-02 15:57:49	--	Channel #i3: 418 nicks (3 ops, 0 voices, 415 normals)
+2017-11-02 15:57:59	--	Channel created on Thu, 22 Jul 2010 20:58:13
+2017-11-02 16:01:33	<--	DVS-1 (~r3-s0urce@37.142.13.98) has quit (Remote host closed the connection)
+2017-11-02 16:03:24	-->	DVS[1] (~r3-s0urce@37.142.13.98) has joined #i3
+2017-11-02 16:10:06	-->	ylwghst (~ylwghst@21.254.broadband.iol.cz) has joined #i3
+2017-11-02 16:14:52	<--	algoban (~al@55.pool85-48-38.dynamic.orange.es) has quit (Quit: Leaving.)
+2017-11-02 16:14:59	<--	ylwghst (~ylwghst@21.254.broadband.iol.cz) has quit (Remote host closed the connection)
+2017-11-02 16:17:57	<--	DVS[1] (~r3-s0urce@37.142.13.98) has quit (Remote host closed the connection)
+2017-11-02 16:19:41	<--	hardbot (~hardbot@LPuteaux-656-1-75-52.w92-154.abo.wanadoo.fr) has quit (Ping timeout: 240 seconds)
+2017-11-02 16:21:11	-->	hardbot (~hardbot@LPuteaux-656-1-75-52.w92-154.abo.wanadoo.fr) has joined #i3
+2017-11-02 16:26:27	--	irc: disconnected from server
+2017-11-02 17:31:07	-->	tomeaton17 (~tomeaton1@129.ip-91-134-134.eu) has joined #i3
+2017-11-02 17:31:07	--	Topic for #i3 is "i3 v4.14.1 released | i3status 2.11 released | i3lock 2.9.1 released | http://code.i3wm.org/ | http://i3wm.org/ | http://faq.i3wm.org/ | https://bintray.com/i3/i3-autobuild/i3-wm#statistics | paste at http://p.nnev.de/ | file upload at https://transfer.sh/ | Container tutorial: https://youtu.be/AWA8Pl57UBY | #i3-offtopic"
+2017-11-02 17:31:07	--	Topic set by sECuRE (~sECuRE@midna.zekjur.net) on Sun, 24 Sep 2017 18:31:03
+2017-11-02 17:31:07	--	Channel #i3: 420 nicks (3 ops, 0 voices, 417 normals)
+2017-11-02 17:31:14	--	Channel created on Thu, 22 Jul 2010 20:58:13
+2017-11-02 17:33:19	--	irc: disconnected from server
+2017-11-02 17:35:00	-->	tomeaton17 (~tomeaton1@129.ip-91-134-134.eu) has joined #i3
+2017-11-02 17:35:00	--	Topic for #i3 is "i3 v4.14.1 released | i3status 2.11 released | i3lock 2.9.1 released | http://code.i3wm.org/ | http://i3wm.org/ | http://faq.i3wm.org/ | https://bintray.com/i3/i3-autobuild/i3-wm#statistics | paste at http://p.nnev.de/ | file upload at https://transfer.sh/ | Container tutorial: https://youtu.be/AWA8Pl57UBY | #i3-offtopic"
+2017-11-02 17:35:00	--	Topic set by sECuRE (~sECuRE@midna.zekjur.net) on Sun, 24 Sep 2017 18:31:03
+2017-11-02 17:35:00	--	Channel #i3: 420 nicks (3 ops, 0 voices, 417 normals)
+2017-11-02 17:35:08	--	Channel created on Thu, 22 Jul 2010 20:58:13
+2017-11-02 17:36:01	<--	ToffeeYogurtPots (~ToffeeYog@gateway/tor-sasl/toffeeyogurtpots) has quit (Remote host closed the connection)
+2017-11-02 17:36:24	--	irc: disconnected from server
+2017-11-02 19:32:21	-->	tomeaton17 (~tomeaton1@129.ip-91-134-134.eu) has joined #i3
+2017-11-02 19:32:21	--	Topic for #i3 is "i3 v4.14.1 released | i3status 2.11 released | i3lock 2.9.1 released | http://code.i3wm.org/ | http://i3wm.org/ | http://faq.i3wm.org/ | https://bintray.com/i3/i3-autobuild/i3-wm#statistics | paste at http://p.nnev.de/ | file upload at https://transfer.sh/ | Container tutorial: https://youtu.be/AWA8Pl57UBY | #i3-offtopic"
+2017-11-02 19:32:21	--	Topic set by sECuRE (~sECuRE@midna.zekjur.net) on Sun, 24 Sep 2017 18:31:03
+2017-11-02 19:32:21	--	Channel #i3: 419 nicks (3 ops, 0 voices, 416 normals)
+2017-11-02 19:32:21	***	Buffer Playback...
+2017-11-02 19:32:21	nimaje	[17:38:27] wouldn't you need the -n flag for that?
+2017-11-02 19:32:21	@squigz	[19:08:36] mort: ohai
+2017-11-02 19:32:21	mort	[19:09:03] hai
+2017-11-02 19:32:21	***	Playback Complete.
+2017-11-02 19:32:28	--	Channel created on Thu, 22 Jul 2010 20:58:13
+2017-11-02 19:33:15	<--	kalbasit (~kalbasit@unaffiliated/kalbasit) has quit (Ping timeout: 258 seconds)
+2017-11-02 19:34:27	--	irc: disconnected from server
+2017-11-02 19:34:46	-->	tomeaton17 (~tomeaton1@129.ip-91-134-134.eu) has joined #i3
+2017-11-02 19:34:46	--	Topic for #i3 is "i3 v4.14.1 released | i3status 2.11 released | i3lock 2.9.1 released | http://code.i3wm.org/ | http://i3wm.org/ | http://faq.i3wm.org/ | https://bintray.com/i3/i3-autobuild/i3-wm#statistics | paste at http://p.nnev.de/ | file upload at https://transfer.sh/ | Container tutorial: https://youtu.be/AWA8Pl57UBY | #i3-offtopic"
+2017-11-02 19:34:46	--	Topic set by sECuRE (~sECuRE@midna.zekjur.net) on Sun, 24 Sep 2017 18:31:03
+2017-11-02 19:34:46	--	Channel #i3: 418 nicks (3 ops, 0 voices, 415 normals)
+2017-11-02 19:34:54	--	Channel created on Thu, 22 Jul 2010 20:58:13
+2017-11-02 19:36:42	-->	rkta (~kt@p5DE86B81.dip0.t-ipconnect.de) has joined #i3
+2017-11-02 19:37:30	<--	cookiebow (~master@213-21-111-4.customer.t3.se) has quit (Quit: WeeChat 1.9.1)
+2017-11-02 19:37:31	-->	hubcaps (~hubcaps@unaffiliated/hubcaps) has joined #i3
+2017-11-02 19:39:34	<--	ylwghst (~ylwghst@21.254.broadband.iol.cz) has quit (Quit: Lost terminal)
+2017-11-02 19:40:00	<--	netvor_ (amahdal@nat/redhat/x-njwzibzdxxrejjny) has quit (Quit: WeeChat 1.9.1)
+2017-11-02 19:40:08	-->	ylwghst (~ylwghst@21.254.broadband.iol.cz) has joined #i3
+2017-11-02 19:41:37	<--	prg318 (~prg@deadcodersociety/prg318) has quit (Quit: ZNC 1.6.5 - http://znc.in)
+2017-11-02 19:42:43	-->	prg318 (~prg@deadcodersociety/prg318) has joined #i3
+2017-11-02 19:48:33	-->	kalbasit (~kalbasit@unaffiliated/kalbasit) has joined #i3
+2017-11-02 19:56:44	--	sdkx_ is now known as sdkx
+2017-11-02 20:01:55	-->	anon28 (~textual@c-73-220-41-176.hsd1.ca.comcast.net) has joined #i3
+2017-11-02 20:03:23	<--	untitled1 (~edge563@unaffiliated/edge563) has quit (Quit: WeeChat 1.9.1)
+2017-11-02 20:04:19	<--	gaz_ (~gaz_@unaffiliated/gaz/x-8995666) has quit (Quit: gaz_)
+2017-11-02 20:04:50	-->	gaz_ (~gaz_@unaffiliated/gaz/x-8995666) has joined #i3
+2017-11-02 20:10:31	<--	gregf (~gregf@unaffiliated/gregf) has quit (Quit: ZNC - http://znc.in)
+2017-11-02 20:11:20	-->	gregf (~gregf@unaffiliated/gregf) has joined #i3
+2017-11-02 20:13:22	<--	acrisci (~Thunderbi@2601:c6:c57f:ecfe::3b36) has quit (Ping timeout: 252 seconds)
+2017-11-02 20:15:02	michaelrose	there is a wrapper bash script which takes an image and uses imagemagick to resize said image to tile properly for i3lock
+2017-11-02 20:15:19	michaelrose	it would be nice if -t actually did this
+2017-11-02 20:17:44	nejni-marji	I wrote one once and then made it excessively complicated and stopped using it
+2017-11-02 20:18:14	nejni-marji	because it broke if you used more than one monitor, among other reasons
+2017-11-02 20:20:16	nejni-marji	but I'd also recommend looking into i3lock-fancy
+2017-11-02 20:20:43	-->	Oni-Satoshi (~Oni@149.154.152.133) has joined #i3
+2017-11-02 20:22:17	-->	acrisci (~Thunderbi@c-24-99-193-235.hsd1.ga.comcast.net) has joined #i3
+2017-11-02 20:22:35	okraits	You're often better off if you're using standard/default/legacy stuff - that applies to a lot of stuff
+2017-11-02 20:23:05	nejni-marji	huh?
+2017-11-02 20:23:20	<--	ylwghst (~ylwghst@21.254.broadband.iol.cz) has quit (Remote host closed the connection)
+2017-11-02 20:23:36	okraits	nejni-marji: Yes?
+2017-11-02 20:24:26	-->	ylwghst (~ylwghst@21.254.broadband.iol.cz) has joined #i3
+2017-11-02 20:25:12	<--	m0u (~m0u@unaffiliated/m0u) has quit (Ping timeout: 260 seconds)
+2017-11-02 20:25:41	nejni-marji	I'm just confused as to what you were talking about lol
+2017-11-02 20:26:13	michaelrose	i3lock fancy is just a wrapper script around i3lock adn imagemagick
+2017-11-02 20:27:16	michaelrose	this has the disadvantage of being slow
+2017-11-02 20:27:53	okraits	nejni-marji: just a general thought
+2017-11-02 20:28:01	nejni-marji	oh
+2017-11-02 20:28:17	nejni-marji	also turns out I can't read
+2017-11-02 20:28:42	okraits	but things in the i3 universe generally have the advantage of being easy to extend
+2017-11-02 20:28:43	nejni-marji	I misread "there is a wrapper" to "is there a wrapper" and then completely missed the bit about tiling
+2017-11-02 20:29:22	michaelrose	it would be simpler for i3lock to know how to actually handle images in a better way
+2017-11-02 20:29:34	nejni-marji	so "to resize said image to tile properly", what does that mean?
+2017-11-02 20:29:59	michaelrose	try i3lock with any image other than one with the same exact aspect ratio of your screen
+2017-11-02 20:30:23	michaelrose	specifically with -t across multiple monitors, it looks like garbage
+2017-11-02 20:31:01	michaelrose	now observe the behavior of feh and note that it actually produces a usable result
+2017-11-02 20:33:05	michaelrose	you can pass feh 2 images or the same image twice and just have the same image or 2 different images on your screens
+2017-11-02 20:33:06	nejni-marji	I don't have a second monitor to test with at the moment, but I don't notice a difference when using i3lock -ti image and feh --bg-tile image
+2017-11-02 20:33:33	michaelrose	tiling anything but a tilable pattern always looks like trash any way you do it
+2017-11-02 20:33:52	nejni-marji	yeah
+2017-11-02 20:34:12	michaelrose	a vastly superior result would simply to show the same image on both screens
+2017-11-02 20:34:57	michaelrose	with i3lock you either get one screen of image and one of solid color if you only pass -i image
+2017-11-02 20:35:36	michaelrose	to get anything on the second screen you have to pass -t and it tries badly to spread it over the screens
+2017-11-02 20:36:08	michaelrose	the easiest way to make it not look like garbage would be to cut it in half and scale it like --bg-max does in feh
+2017-11-02 20:36:45	nejni-marji	hmm
+2017-11-02 20:37:42	nejni-marji	honestly i don't use i3lock since i started using lightdm
+2017-11-02 20:38:29	nejni-marji	although the downside to this is that clients running on the x server don't stay active when the screen is locked (although this can be an upside, depending on what you want)
+2017-11-02 20:39:56	-->	algoban (~al@55.pool85-48-38.dynamic.orange.es) has joined #i3
+2017-11-02 20:42:49	michaelrose	looks like someone is looking to add jpeg support this is good
+2017-11-02 20:44:02	nejni-marji	Is there a way to define the mark on a new urxvt when calling it from a script?
+2017-11-02 20:44:37	nejni-marji	oh duh
+2017-11-02 20:44:51	nejni-marji	put 'mark bleh' after the exec in the i3 binding
+2017-11-02 20:48:53	<--	ylwghst (~ylwghst@21.254.broadband.iol.cz) has quit (Quit: Lost terminal)
+2017-11-02 20:49:25	-->	ylwghst (~ylwghst@21.254.broadband.iol.cz) has joined #i3
+2017-11-02 20:57:09	-->	dextrey (~dextrey@unaffiliated/dextrey) has joined #i3
+2017-11-02 21:02:48	<--	kalbasit (~kalbasit@unaffiliated/kalbasit) has quit (Ping timeout: 240 seconds)
+2017-11-02 21:08:01	-->	kalbasit (~kalbasit@unaffiliated/kalbasit) has joined #i3
+2017-11-02 21:11:12	-->	ZyX-I (~ZyX-I@broadband-77-37-230-77.moscow.rt.ru) has joined #i3
+2017-11-02 21:18:30	<--	plexigras (~plexigras@gateway/vpn/privateinternetaccess/plexigras) has quit (Ping timeout: 246 seconds)
+2017-11-02 21:29:13	-->	kmarius (~kmarius@aftr-109-91-39-230.unity-media.net) has joined #i3
+2017-11-02 21:32:04	<--	kmarius (~kmarius@aftr-109-91-39-230.unity-media.net) has quit (Client Quit)
+2017-11-02 21:32:19	-->	kmarius (~kmarius@aftr-109-91-39-230.unity-media.net) has joined #i3
+2017-11-02 21:36:55	-->	Neo-- (~neo@2a00:ee2:1000:1f00:1dde:309b:f577:477a) has joined #i3
+2017-11-02 21:38:54	-->	lord| (~solenodic@unaffiliated/solenodic) has joined #i3
+2017-11-02 21:43:31	<--	thefallenrat (~thefallen@unaffiliated/thefallenrat) has quit (Quit: return 0;)
+2017-11-02 21:47:34	<--	ylwghst (~ylwghst@21.254.broadband.iol.cz) has quit (Remote host closed the connection)
+2017-11-02 21:47:44	<--	dextrey (~dextrey@unaffiliated/dextrey) has quit (Ping timeout: 248 seconds)
+2017-11-02 21:49:17	<--	linux_dream (~isaac@unaffiliated/linux-dream/x-5839402) has quit (Quit: WeeChat 1.9.1)
+2017-11-02 21:52:18	--	meth is now known as Forno
+2017-11-02 21:55:00	<--	widp (~widp@49.207.56.141) has quit (Quit: WeeChat 1.4)
+2017-11-02 21:58:21	-->	ylwghst (~ylwghst@21.254.broadband.iol.cz) has joined #i3
+2017-11-02 22:01:04	<--	nac (~nac@185.62.205.145) has quit (Ping timeout: 248 seconds)
+2017-11-02 22:02:08	<--	kmarius (~kmarius@aftr-109-91-39-230.unity-media.net) has quit (Ping timeout: 248 seconds)
+2017-11-02 22:11:36	<--	rawtaz (~rawtaz@rho.hobbyhotellet.se) has quit (Changing host)
+2017-11-02 22:11:36	-->	rawtaz (~rawtaz@unaffiliated/rawtaz) has joined #i3
+2017-11-02 22:15:07	--	Forno is now known as meth
+2017-11-02 22:19:48	-->	knidos (~knidos@78.166.39.169) has joined #i3
+2017-11-02 22:19:48	<--	firc2409a692 (~ksjk1998@2601:589:8000:dcec::9ea7) has quit (Read error: Connection reset by peer)
+2017-11-02 22:25:01	<--	Rough3dg3 (~chris@host213-122-116-99.range213-122.btcentralplus.com) has quit (Quit: Lost terminal)
+2017-11-02 22:27:19	<--	robattila256 (~robattila@S0106f0f24908d2a3.vf.shawcable.net) has quit (Quit: WeeChat 1.9.1)
+2017-11-02 22:30:35	<--	Disgeae (~Disgeae@ip-217-103-60-205.ip.prioritytelecom.net) has quit (Quit: WeeChat 1.9.1)
+2017-11-02 22:37:52	<--	kalbasit (~kalbasit@unaffiliated/kalbasit) has quit (Ping timeout: 248 seconds)
+2017-11-02 22:44:59	-->	kalbasit (~kalbasit@unaffiliated/kalbasit) has joined #i3
+2017-11-02 22:46:09	<--	knidos (~knidos@78.166.39.169) has quit (Quit: knidos)
+2017-11-02 22:48:11	<--	ZyX-I (~ZyX-I@broadband-77-37-230-77.moscow.rt.ru) has quit (Ping timeout: 246 seconds)
+2017-11-02 22:49:20	<--	mjolnird (~mjolnird@2601:2c7:8200:5a1::fe0c) has quit (Quit: Leaving)
+2017-11-02 22:53:10	<--	Neo-- (~neo@2a00:ee2:1000:1f00:1dde:309b:f577:477a) has quit (Ping timeout: 264 seconds)
+2017-11-02 22:55:28	<--	Strondeak (~quassel@53541260.cm-6-5a.dynamic.ziggo.nl) has quit (Ping timeout: 248 seconds)
+2017-11-02 22:55:53	-->	Strondeak (~quassel@80-101-32-213.ip.xs4all.nl) has joined #i3
+2017-11-02 23:05:16	<--	silverhom (~silverhom@c83-252-239-43.bredband.comhem.se) has quit (Quit: Leaving)
+2017-11-02 23:14:23	<--	ylwghst (~ylwghst@21.254.broadband.iol.cz) has quit (Remote host closed the connection)
+2017-11-02 23:15:54	-->	ylwghst (~ylwghst@21.254.broadband.iol.cz) has joined #i3
+2017-11-02 23:16:31	-->	firc7f72fb (~ksjk1998@2601:589:8000:dcec::9ea7) has joined #i3
+2017-11-02 23:19:28	ylwghst	does anyone here uses nautilus with i3?
+2017-11-02 23:19:41	<--	frakturfreak (~frakturfr@unaffiliated/frakturfreak) has quit (Quit: WeeChat 1.9.1)
+2017-11-02 23:19:42	ylwghst	use*
+2017-11-02 23:20:30	dive	Are you by any chance having problems seeing plugged in USB sticks, CD/DVD drives, and plugged in HDDs etc?
+2017-11-02 23:20:59	dive	IE mountables?
+2017-11-02 23:21:20	ylwghst	dive: nope i'm usind udisk2 and udiskie to handle mounting
+2017-11-02 23:21:36	dive	ok
+2017-11-02 23:22:09	dive	I asked because I had some problems seeing mountable media in Thunar earlier, but I fixed it.
+2017-11-02 23:23:15	ylwghst	I'm actually trying to figure out why nautilus doesn't saving it's settings/prefs.
+2017-11-02 23:24:21	dive	That could be related. The solution for Thunar was to dbus-launch it. So I changed 'exec rofi ...' to 'exec dbus-launch rofi ...'
+2017-11-02 23:24:28	ylwghst	If you run nautilus there is button in right corner with 3 dots which shows a menu when you click on it, in this menu there is option to enable show/hide hidden files but it doesn't work.
+2017-11-02 23:24:41	dive	Try running dbus-launch nautilus to see if it helps.
+2017-11-02 23:24:53	ylwghst	ok
+2017-11-02 23:26:02	dive	I had a problem with an app that wouldn't save options and that helped.
+2017-11-02 23:26:13	dive	That was virt-manager.
+2017-11-02 23:26:27	ylwghst	No change... I think the problem is that usualyy nautilus store these settings in dconf (as in gnome).
+2017-11-02 23:26:41	dive	Ok
+2017-11-02 23:27:03	dive	That's like virt-manager too though. WHich is why I thought of it.
+2017-11-02 23:27:41	Ipsilon	ylwghst: no, I think nautilus is a horrible choice to use with i3
+2017-11-02 23:28:01	Ipsilon	well..I think nautilus is a horrible file manager by any metric
+2017-11-02 23:28:07	ylwghst	https://gist.github.com/ylwghst/a3302ade5fe6ffae11ca57d871f1130b
+2017-11-02 23:28:24	ylwghst	Ipsilon: i'm using thunar too
+2017-11-02 23:28:37	dive	That's exactly the same error I had.
+2017-11-02 23:28:40	dive	Hmm.
+2017-11-02 23:28:40	ylwghst	or pcmanfm but I like some features of nautilus too
+2017-11-02 23:28:40	-->	robattila256 (~robattila@S0106f0f24908d2a3.vf.shawcable.net) has joined #i3
+2017-11-02 23:28:41	Ipsilon	good. I use dolphin for gui file manager, but thunar is aight
+2017-11-02 23:29:40	dive	How the hell did I fix it, if it wasn't via dbus?
+2017-11-02 23:29:49	dive	It was a few weeks ago.
+2017-11-02 23:30:00	michaelrose	seriously the first sign that nautilus only give a damn about gnome is that you have to run it with --no-desktop for it not to try to take over the root window
+2017-11-02 23:30:35	ylwghst	michaelrose: ok
+2017-11-02 23:30:47	michaelrose	like in what universe is that even remotely sane
+2017-11-02 23:30:51	-->	nac (~nac@p200300ECEBCACE003F6C1317428D94AC.dip0.t-ipconnect.de) has joined #i3
+2017-11-02 23:30:52	ylwghst	I actually don't how dconf exactly works.
+2017-11-02 23:31:28	michaelrose	it works like gee I wish the linux desktop had the windows registry
+2017-11-02 23:32:14	dive	Yeah, pretty much.
+2017-11-02 23:32:14	occultus	lol
+2017-11-02 23:32:39	michaelrose	I also wish my chair came with nails that poked me in the balls
+2017-11-02 23:35:00	ylwghst	Hehe
+2017-11-02 23:35:11	ylwghst	i hadn't dconf installed ... :X
+2017-11-02 23:40:31	michaelrose	on the topic of dumb things lilyterm has an annoying feature that prompts you if you try to close a terminal with a foreground window that can't be turned off.  I can never imagine needing this. Anyway there is a whitelist of programs that don't trigger this and the way this is formatted changed with the newest version
+2017-11-02 23:40:54	michaelrose	to a tab delimited list which is incredibly annoying if your editor turns tabs to spaces
+2017-11-02 23:41:37	michaelrose	wtf people
+2017-11-02 23:41:44	-->	sc30317 (bob@2600:3c00::f03c:91ff:fe89:1c69) has joined #i3
+2017-11-02 23:42:26	dive	Yes. Tabs...
+2017-11-02 23:42:32	sc30317	so I was trying to envoke gnome-settings-daemon within i3 (to use all the cool controls it has), but it looks like they split it out into modules in 3.26.  Has anyone run into this / have a fix?
+2017-11-02 23:42:47	dive	I always :retab files if they get too annoying.
+2017-11-02 23:43:22	dive	Actually, I just retab them everytime.
+2017-11-02 23:43:23	michaelrose	I don't know cinnamon-settings works without starting some session daemon, so does kdes systemsettings
+2017-11-02 23:43:42	michaelrose	lxappearance or lxde settings work that way as well
+2017-11-02 23:44:18	dive	KDE's auto loads all that stuff. It sounds gnome-settings-daemon doesn't.
+2017-11-02 23:44:22	michaelrose	what do you mean they split it into modules? Isn't it enough to invoke the daemon and run the command for the control center?
+2017-11-02 23:44:48	sc30317	michaelrose: it was, but apparently in 3.26, they all separated
+2017-11-02 23:44:52	sc30317	h/o i'll find the doc
+2017-11-02 23:45:52	<--	kalbasit (~kalbasit@unaffiliated/kalbasit) has quit (Ping timeout: 260 seconds)
+2017-11-02 23:46:50	sc30317	it was in 3.23.2:
+2017-11-02 23:47:03	sc30317	https://github.com/GNOME/gnome-settings-daemon/blob/master/NEWS#L196
+2017-11-02 23:48:18	<--	alex`` (~alex@2a01cb000bb310000e31f98b4cdf4eae.ipv6.abo.wanadoo.fr) has quit (Ping timeout: 246 seconds)
+2017-11-02 23:52:39	-->	kalbasit (~kalbasit@unaffiliated/kalbasit) has joined #i3
+2017-11-02 23:55:39	<--	anon28 (~textual@c-73-220-41-176.hsd1.ca.comcast.net) has quit (Quit: My MacBook Air has gone to sleep. ZZZzzz…)
+2017-11-03 00:04:23	<--	cspack (~cspack@gateway/vpn/privateinternetaccess/cspack) has quit (Remote host closed the connection)
+2017-11-03 00:04:23	-->	cspack (~cspack@gateway/vpn/privateinternetaccess/cspack) has joined #i3
+2017-11-03 00:04:23	-->	arescorpio (~parabolap@186.61.143.177) has joined #i3
+2017-11-03 00:04:48	<--	ylwghst (~ylwghst@21.254.broadband.iol.cz) has quit (Ping timeout: 248 seconds)
+2017-11-03 00:06:01	<--	cspack (~cspack@gateway/vpn/privateinternetaccess/cspack) has quit (Remote host closed the connection)
+2017-11-03 00:12:43	-->	netvor_ (~amahdal@unaffiliated/netvor) has joined #i3
+2017-11-03 00:12:47	-->	Elon_Satoshi (~elonsatos@unaffiliated/elon-satoshi/x-2794555) has joined #i3
+2017-11-03 08:42:52	--	irc: disconnected from server
+2017-11-03 08:43:03	-->	tomeaton17 (~tomeaton1@129.ip-91-134-134.eu) has joined #i3
+2017-11-03 08:43:03	--	Topic for #i3 is "i3 v4.14.1 released | i3status 2.11 released | i3lock 2.9.1 released | http://code.i3wm.org/ | http://i3wm.org/ | http://faq.i3wm.org/ | https://bintray.com/i3/i3-autobuild/i3-wm#statistics | paste at http://p.nnev.de/ | file upload at https://transfer.sh/ | Container tutorial: https://youtu.be/AWA8Pl57UBY | #i3-offtopic"
+2017-11-03 08:43:03	--	Topic set by sECuRE (~sECuRE@midna.zekjur.net) on Sun, 24 Sep 2017 18:31:03
+2017-11-03 08:43:03	--	Channel #i3: 414 nicks (3 ops, 0 voices, 411 normals)
+2017-11-03 08:43:03	***	Buffer Playback...
+2017-11-03 08:43:03	michaelrose	[00:24:10] how about use something other than gnome-settings?
+2017-11-03 08:43:03	amosbird	[01:20:02] Hi, is there a command that can hold on workspace switch operations?
+2017-11-03 08:43:03	@squigz	[01:21:16] What?
+2017-11-03 08:43:03	amosbird	[01:28:32] I have a screenshot script that selects a screen region and passes it to ffmpeg to do the shot. However sometimes when I'm doing the shots and immediately switch workspaces, the screenshot I get is a region of the new workspace.
+2017-11-03 08:43:03	dive	[01:29:37] Isn't gimp a bit heavy for making screenshots?
+2017-11-03 08:43:03	amosbird	[01:30:19] huh? I don't use gimp
+2017-11-03 08:43:03	dive	[01:30:23] Hmm well. I can't think of a solution except to wait.
+2017-11-03 08:43:03	dive	[01:30:37] Oh ffmpeg. SOrry, it's late.
+2017-11-03 08:43:03	amosbird	[01:30:43] yep, so i'm asking if there is a command that forces me to way
+2017-11-03 08:43:03	amosbird	[01:30:52] wait*
+2017-11-03 08:43:03	amosbird	[01:31:14] what tool do you use to do screenshot?
+2017-11-03 08:43:03	dive	[01:31:33] I use 'import' from ImageMagick.
+2017-11-03 08:43:03	dive	[01:31:54] import -screen -frame bla.png
+2017-11-03 08:43:03	dive	[01:32:19] But Xorg comes with xwd which can also take shots.
+2017-11-03 08:43:03	dive	[01:32:40] ALthough they are in a format that you'd need to convert.
+2017-11-03 08:43:03	@squigz	[01:52:17] amosbird: just don't switch ;)
+2017-11-03 08:43:03	@squigz	[01:52:24] No, there's no way to do what you want that I can think of
+2017-11-03 08:43:03	amosbird	[01:52:29] ok ..
+2017-11-03 08:43:03	amosbird	[01:52:43] it kinda slows down my workflow
+2017-11-03 08:43:03	michaelrose	[01:52:58] your screenshot script could change i3 to a different mode where hotkeys don't work and then back to default after the screenshot is taken
+2017-11-03 08:43:03	michaelrose	[01:53:19] but that is just enforcing something you ought to be able to do
+2017-11-03 08:43:03	Ipsilon	[01:54:01] amosbird: either way your workflow is bottlenecked
+2017-11-03 08:43:03	Ipsilon	[01:54:38] why does your workflow require taking screenshots and changing workspaces so regularly?
+2017-11-03 08:43:03	amosbird	[01:54:39] ah, import command seems faster
+2017-11-03 08:43:03	amosbird	[01:54:51] Ipsilon: pasting it into virtualbox ...
+2017-11-03 08:43:03	@squigz	[01:55:13] What do screenshots have to do with VirtualBox?
+2017-11-03 08:43:03	Ipsilon	[01:55:17] no idea
+2017-11-03 08:43:03	michaelrose	[02:10:25] I like maim
+2017-11-03 08:43:03	@squigz	[02:10:50] I use ImageMagick's import and scrot for areas selection
+2017-11-03 08:43:03	ponyrider	[02:11:07] use maim with slop
+2017-11-03 08:43:03	Ipsilon	[02:11:11] I heard some people run into issues with maim, but so far it has worked beautifully for me.
+2017-11-03 08:43:03	Ipsilon	[02:11:46] only thing I changed on my script is that I hide the cursor if it's an area selection and the delay is 0.
+2017-11-03 08:43:03	Ipsilon	[02:12:00] otherwise the cursor tends to show at the edge of the selection, which is awkward.
+2017-11-03 08:43:03	ponyrider	[02:12:55] i like a big red border
+2017-11-03 08:43:03	Ipsilon	[02:15:05] ponyrider: :P I have it set to magenta, since that makes it easier to spot.
+2017-11-03 08:43:03	Ipsilon	[02:15:44] oh, the other big issue I found, is that if I use the breeze cursor, the crosshair cursor is impossible to see in some backgrounds.
+2017-11-03 08:43:03	Ipsilon	[02:15:49] so I started using hte adwaita one.
+2017-11-03 08:43:03	ponyrider	[02:37:43] Ipsilon: thats why i use a big red border
+2017-11-03 08:43:03	Ipsilon	[02:38:36] that's what I used first, but it seems that for me magenta is works better. But any color will do ¯\(°◡ﾟ)/¯
+2017-11-03 08:43:03	ponyrider	[02:44:41] your a magenta kinda guy ;)
+2017-11-03 08:43:03	HcsOmot	[08:14:53] hi
+2017-11-03 08:43:03	Eyo	[08:14:58] hello!
+2017-11-03 08:43:03	okraits	[08:15:51] Morning
+2017-11-03 08:43:03	HcsOmot	[08:16:23] anyone know if there's a plugin for cmus that would keep track of playing history? like play count per song, at least.
+2017-11-03 08:43:03	HcsOmot	[08:16:50] tried #cmus channel, but doesn't seem to be related to the player.
+2017-11-03 08:43:03	okraits	[08:17:23] HcsOmot: You could use a scrobbler plugin and last.fm, for example
+2017-11-03 08:43:03	okraits	[08:18:12] but that's possibly oversized
+2017-11-03 08:43:03	HcsOmot	[08:18:46] it's been a very, very long since I've used last.fm. probably a decade. say I don't want to use any scrobbling service. what would be my choices?
+2017-11-03 08:43:03	okraits	[08:19:54] HcsOmot: I see that you can call a script upon any status change: https://github.com/cmus/cmus/wiki/status-display-programs
+2017-11-03 08:43:03	okraits	[08:20:21] HcsOmot: So you can probably write a simple script to write a playing history to a file
+2017-11-03 08:43:03	@sur5r	[08:20:54] or run a personal scrobbling server
+2017-11-03 08:43:03	okraits	[08:21:00] HcsOmot: https://github.com/cmus/cmus/wiki/status_display_short_text.sh
+2017-11-03 08:43:03	HcsOmot	[08:22:25] thank you. i'll look into it.
+2017-11-03 08:43:03	okraits	[08:22:36] You're welcome
+2017-11-03 08:43:03	okraits	[08:23:56] too bad the last.fm radio doesn't exist anymore
+2017-11-03 08:43:03	okraits	[08:24:21] but spotify has kind of equal functionality
+2017-11-03 08:43:03	amosbird	[08:32:05] Hi, can I have a better looking boarder for floating windows?
+2017-11-03 08:43:03	okraits	[08:34:54] amosbird: What do you mean with that? Borders in general are the same for tiling and floating windows
+2017-11-03 08:43:03	amosbird	[08:38:14] I'd like to let floating boarders have shadow or 3d affect :)
+2017-11-03 08:43:03	okraits	[08:38:55] You can use compton to generate shadows
+2017-11-03 08:43:03	okraits	[08:39:11] i3 has only simple borders
+2017-11-03 08:43:03	***	Playback Complete.
+2017-11-03 08:43:15	-->	DVS-1 (~r3-s0urce@77.138.205.161) has joined #i3
+2017-11-03 08:43:24	--	Channel created on Thu, 22 Jul 2010 20:58:13
+2017-11-03 08:43:46	amosbird	ok
+2017-11-03 08:45:18	<--	anon28 (~textual@2602:30a:2c45:8650:4bb:6ffd:679f:313e) has quit (Quit: My MacBook Air has gone to sleep. ZZZzzz…)
+2017-11-03 08:45:52	<--	DVS[1] (~r3-s0urce@77.138.205.161) has quit (Ping timeout: 248 seconds)
+2017-11-03 08:48:01	<--	grafzepp (~grafzepp@84.53.196.110) has quit (Ping timeout: 248 seconds)
+2017-11-03 09:36:55	--	irc: disconnected from server
+2017-11-03 09:37:17	-->	tomeaton17 (~tomeaton1@129.ip-91-134-134.eu) has joined #i3
+2017-11-03 09:37:17	--	Topic for #i3 is "i3 v4.14.1 released | i3status 2.11 released | i3lock 2.9.1 released | http://code.i3wm.org/ | http://i3wm.org/ | http://faq.i3wm.org/ | https://bintray.com/i3/i3-autobuild/i3-wm#statistics | paste at http://p.nnev.de/ | file upload at https://transfer.sh/ | Container tutorial: https://youtu.be/AWA8Pl57UBY | #i3-offtopic"
+2017-11-03 09:37:17	--	Topic set by sECuRE (~sECuRE@midna.zekjur.net) on Sun, 24 Sep 2017 18:31:03
+2017-11-03 09:37:17	--	Channel #i3: 415 nicks (3 ops, 0 voices, 412 normals)
+2017-11-03 09:37:25	--	Channel created on Thu, 22 Jul 2010 20:58:13
+2017-11-03 09:37:40	<--	gringaoo (~gringao@LPuteaux-656-1-75-52.w92-154.abo.wanadoo.fr) has quit (Ping timeout: 240 seconds)
+2017-11-03 09:45:27	-->	ponyrider (~cf2iqx@unaffiliated/ponyrider) has joined #i3
+2017-11-03 09:46:07	<--	Damni (~Damni@host131-226-dynamic.248-95-r.retail.telecomitalia.it) has quit (Quit: WeeChat 1.9.1)
+2017-11-03 09:50:47	-->	bfernando07 (~bruno@94.239.95.206) has joined #i3
+2017-11-03 09:53:46	-->	fhs (~fhs@2604:2000:1701:804e:6567:5a24:92ad:b6c5) has joined #i3
+2017-11-03 09:54:13	<--	bfernando (~bruno@94.239.95.206) has quit (Ping timeout: 255 seconds)
+2017-11-03 09:54:17	<--	Neo-- (~neo@BSN-77-65-114.static.siol.net) has quit (Ping timeout: 260 seconds)
+2017-11-03 10:00:01	<--	kmarius (~kmarius@aftr-109-91-39-230.unity-media.net) has quit (Ping timeout: 248 seconds)
+2017-11-03 10:05:01	-->	cpcat (~jerware@c-98-235-144-190.hsd1.pa.comcast.net) has joined #i3
+2017-11-03 10:05:03	cpcat	hi
+2017-11-03 10:05:04	Eyo	hello!
+2017-11-03 10:05:31	cpcat	How do I prevent the monitor from going to sleep?  xset -dpms didn't work.  Nor did xset s off.
+2017-11-03 10:08:51	<--	fhs (~fhs@2604:2000:1701:804e:6567:5a24:92ad:b6c5) has quit (Ping timeout: 246 seconds)
+2017-11-03 10:09:40	-->	gringaoo (~gringao@LPuteaux-656-1-75-52.w92-154.abo.wanadoo.fr) has joined #i3
+2017-11-03 10:13:38	okraits	cpcat: Did you try to set all three values to 0?
+2017-11-03 10:20:44	nervengift	cpcat: you want xset dpms 0 0 0&&xset s 0 0
+2017-11-03 10:21:23	okraits	well, that's what I meant :)
+2017-11-03 10:21:26	nervengift	(at least that is what I do and it works ^^")
+2017-11-03 10:22:52	-->	untitled1 (~edge563@unaffiliated/edge563) has joined #i3
+2017-11-03 10:27:43	<--	voidead (~voidead@unaffiliated/voidead) has quit (Quit: dead)
+2017-11-03 10:31:52	cpcat	that line is an error
+2017-11-03 10:32:25	-->	krijt (~krijt@mail.vertrouwdverbonden.nl) has joined #i3
+2017-11-03 10:35:46	-->	ylwghst (~ylwghst@21.254.broadband.iol.cz) has joined #i3
+2017-11-03 10:35:56	@squigz	`xset dpms 0 0; xset s 0 0`
+2017-11-03 10:35:59	@squigz	That should work
+2017-11-03 10:36:08	<--	ylwghst (~ylwghst@21.254.broadband.iol.cz) has quit (Client Quit)
+2017-11-03 10:36:09	@squigz	If you copied what nervengift said verbatim, then yeah, that'd error
+2017-11-03 10:36:26	-->	ylwghst (~ylwghst@21.254.broadband.iol.cz) has joined #i3
+2017-11-03 10:37:02	nervengift	ah, yes, sorry. It's to separate exec lines in my i3 config
+2017-11-03 10:37:04	nervengift	*two
+2017-11-03 10:41:43	cpcat	exec xcompmgr -c -f -n  didn't make my termite terminals transparent.
+2017-11-03 10:44:34	-->	fhs (~fhs@2604:2000:1701:804e:6567:5a24:92ad:b6c5) has joined #i3
+2017-11-03 10:47:35	-->	anon28 (~textual@2602:30a:2c45:8650:d558:3c20:2380:3275) has joined #i3
+2017-11-03 10:50:02	<--	cpcat (~jerware@c-98-235-144-190.hsd1.pa.comcast.net) has quit (Quit: Lost terminal)
+2017-11-03 10:50:57	<--	stivo__ (~stivo@p54B9963C.dip0.t-ipconnect.de) has quit (Quit: Leaving)
+2017-11-03 10:51:58	--	garphy`aw is now known as garphy
+2017-11-03 10:52:32	-->	z01d (~zoidberg@195.154.45.0) has joined #i3
+2017-11-03 10:56:22	<--	anon28 (~textual@2602:30a:2c45:8650:d558:3c20:2380:3275) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2017-11-03 10:58:31	<--	tschan (~tschan@p5B32DB48.dip0.t-ipconnect.de) has quit (Quit: bye, bye)
+2017-11-03 10:59:36	-->	GilDev (~GilDev@unaffiliated/gildev) has joined #i3
+2017-11-03 11:02:18	z01d	<3 i3
+2017-11-03 11:03:59	-->	olto (~olTo@dslb-094-222-009-128.094.222.pools.vodafone-ip.de) has joined #i3
+2017-11-03 11:07:44	<--	GilDev (~GilDev@unaffiliated/gildev) has quit (Ping timeout: 246 seconds)
+2017-11-03 11:14:13	-->	nac (~nac@p200300ECEBCA5300529DC04168DDBF79.dip0.t-ipconnect.de) has joined #i3
+2017-11-03 11:17:42	-->	grafzepp (~grafzepp@84.53.196.110) has joined #i3
+2017-11-03 11:19:51	-->	Anthaas_ (~Anthaas@unaffiliated/anthaas) has joined #i3
+2017-11-03 11:20:16	<--	hammer065 (~hammer065@unaffiliated/hammer065) has quit (Quit: Restart the game...)
+2017-11-03 11:22:57	<--	Anthaas (~Anthaas@unaffiliated/anthaas) has quit (Ping timeout: 260 seconds)
+2017-11-03 11:23:03	-->	tschan (~tschan@p5B32DB48.dip0.t-ipconnect.de) has joined #i3
+2017-11-03 11:25:30	-->	hammer065 (~hammer065@unaffiliated/hammer065) has joined #i3
+2017-11-03 11:29:05	<--	untitled1 (~edge563@unaffiliated/edge563) has quit (Ping timeout: 248 seconds)
+2017-11-03 11:34:13	-->	untitled1 (~edge563@unaffiliated/edge563) has joined #i3
+2017-11-03 11:37:15	<--	knidos (~knidos@78.166.39.169) has quit (Quit: knidos)
+2017-11-03 11:48:21	-->	voidead (~voidead@unaffiliated/voidead) has joined #i3
+2017-11-03 11:48:23	-->	dddddd (~dddddd@unaffiliated/dddddd) has joined #i3
+2017-11-03 11:49:09	-->	thefallenrat (~thefallen@unaffiliated/thefallenrat) has joined #i3
+2017-11-03 11:49:39	<--	alex`` (~alex@2a01cb000bb310000e31f98b4cdf4eae.ipv6.abo.wanadoo.fr) has quit (Ping timeout: 246 seconds)
+2017-11-03 11:51:55	-->	plexigras (~plexigras@gateway/vpn/privateinternetaccess/plexigras) has joined #i3
+2017-11-03 11:53:37	-->	alex`` (~alex@2a01cb000bb310000e31f98b4cdf4eae.ipv6.abo.wanadoo.fr) has joined #i3
+2017-11-03 11:54:49	-->	mariosgn (~mariosgn@2-238-115-77.ip243.fastwebnet.it) has joined #i3
+2017-11-03 12:01:30	-->	anon28 (~textual@2602:30a:2c45:8650:c15d:645d:528:eb32) has joined #i3
+2017-11-03 12:03:12	<--	ylwghst (~ylwghst@21.254.broadband.iol.cz) has quit (Ping timeout: 260 seconds)
+2017-11-03 12:06:43	-->	ClockworkCoder (~Clockwork@88-96-242-70.dsl.zen.co.uk) has joined #i3
+2017-11-03 12:08:43	<--	fhs (~fhs@2604:2000:1701:804e:6567:5a24:92ad:b6c5) has quit (Ping timeout: 252 seconds)
+2017-11-03 12:09:49	-->	ylwghst (~ylwghst@21.254.broadband.iol.cz) has joined #i3
+2017-11-03 12:11:27	<--	bfernando07 (~bruno@94.239.95.206) has quit (Ping timeout: 240 seconds)
+2017-11-03 12:13:04	-->	mzehrer (~mzehrer@ip5b40464c.dynamic.kabel-deutschland.de) has joined #i3
+2017-11-03 12:13:22	-->	bfernando07 (~bruno@94.239.95.206) has joined #i3
+2017-11-03 12:13:49	<--	bfernando07 (~bruno@94.239.95.206) has quit (Remote host closed the connection)
+2017-11-03 12:14:14	-->	bfernando07 (~bruno@94.239.95.206) has joined #i3
+2017-11-03 12:14:34	<--	bfernando07 (~bruno@94.239.95.206) has quit (Read error: Connection reset by peer)
+2017-11-03 12:14:50	-->	bfernando (~bruno@94.239.95.206) has joined #i3
+2017-11-03 12:16:08	<--	mariosgn (~mariosgn@2-238-115-77.ip243.fastwebnet.it) has quit (Ping timeout: 240 seconds)
+2017-11-03 12:21:35	<--	ponyrider (~cf2iqx@unaffiliated/ponyrider) has quit (Ping timeout: 246 seconds)
+2017-11-03 12:25:39	-->	GilDev (~GilDev@unaffiliated/gildev) has joined #i3
+2017-11-03 12:26:51	<--	anon28 (~textual@2602:30a:2c45:8650:c15d:645d:528:eb32) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2017-11-03 12:29:45	<--	lord| (~solenodic@unaffiliated/solenodic) has quit (Quit: WeeChat 1.9.1)
+2017-11-03 12:34:28	<--	strungout (user@loki.dev.linuxit.us) has quit (Max SendQ exceeded)
+2017-11-03 12:34:51	-->	strungout (user@loki.dev.linuxit.us) has joined #i3
+2017-11-03 12:36:28	<--	thefallenrat (~thefallen@unaffiliated/thefallenrat) has quit (Quit: return 0;)
+2017-11-03 12:44:39	-->	DVS[1] (~r3-s0urce@77.126.9.166) has joined #i3
+2017-11-03 12:48:12	<--	DVS[1] (~r3-s0urce@77.126.9.166) has quit (Client Quit)
+2017-11-03 12:48:15	<--	Jesin (~Jesin@pool-108-51-89-131.washdc.fios.verizon.net) has quit (Remote host closed the connection)
+2017-11-03 12:52:49	<--	eyjhb (~eyjhb@104.244.78.190) has quit (Ping timeout: 248 seconds)
+2017-11-03 12:54:17	<--	DoubleJ (~DoubleJ@unaffiliated/doublej) has quit (Quit: ZNC 1.6.5 - http://znc.in)
+2017-11-03 12:54:29	-->	DoubleJ (~DoubleJ@unaffiliated/doublej) has joined #i3
+2017-11-03 12:56:28	<--	GilDev (~GilDev@unaffiliated/gildev) has quit (Ping timeout: 255 seconds)
+2017-11-03 13:03:36	-->	copypasteque (~copypaste@164.ip-217-182-68.eu) has joined #i3
+2017-11-03 13:07:00	-->	GilDev (~GilDev@unaffiliated/gildev) has joined #i3
+2017-11-03 13:07:55	<--	ahrs (~quassel@gateway/vpn/privateinternetaccess/ahrs) has quit (Remote host closed the connection)
+2017-11-03 13:08:16	-->	m0u (~m0u@unaffiliated/m0u) has joined #i3
+2017-11-03 13:09:52	-->	ahrs (~quassel@gateway/vpn/privateinternetaccess/ahrs) has joined #i3
+2017-11-03 13:11:29	<--	untitled1 (~edge563@unaffiliated/edge563) has quit (Ping timeout: 248 seconds)
+2017-11-03 13:18:43	-->	DoubleT (~DoubleT@58.186.191.203) has joined #i3
+2017-11-03 13:19:53	<--	DoubleT (~DoubleT@58.186.191.203) has quit (Client Quit)
+2017-11-03 13:21:08	-->	firc640e336d (~ksjk1998@2601:589:8000:dcec::9ea7) has joined #i3
+2017-11-03 13:33:54		[tomeaton17 away: Having lunch]
+2017-11-03 13:35:57	<--	grafzepp (~grafzepp@84.53.196.110) has quit (Ping timeout: 260 seconds)
+2017-11-03 13:39:38	-->	untitled1 (~edge563@unaffiliated/edge563) has joined #i3
+2017-11-03 13:45:44	<--	acrisci (~Thunderbi@c-24-99-193-235.hsd1.ga.comcast.net) has quit (Quit: acrisci)
+2017-11-03 13:45:53	<--	DoubleJ (~DoubleJ@unaffiliated/doublej) has quit (Quit: ZNC 1.6.5 - http://znc.in)
+2017-11-03 13:46:06	-->	DoubleJ (~DoubleJ@unaffiliated/doublej) has joined #i3
+2017-11-03 13:53:13	<--	nac (~nac@p200300ECEBCA5300529DC04168DDBF79.dip0.t-ipconnect.de) has quit (Ping timeout: 252 seconds)
+2017-11-03 13:54:19	-->	silverhom (~silverhom@c83-252-239-43.bredband.comhem.se) has joined #i3
+2017-11-03 13:56:36	-->	skontar_ (skontar@nat/redhat/x-bikvekycwpclskqt) has joined #i3
+2017-11-03 13:58:55	<--	skontar (skontar@nat/redhat/x-bcngijqfhvklwbbw) has quit (Ping timeout: 248 seconds)
+2017-11-03 14:00:22	<--	mstruebi1 (~mstruebin@h-62.96.223.98.host.de.colt.net) has quit (Quit: WeeChat 1.4)
+2017-11-03 14:01:41	-->	choki (~weechat@unaffiliated/choki) has joined #i3
+2017-11-03 14:02:02	-->	Jesin (~Jesin@wsip-98-187-234-122.dc.dc.cox.net) has joined #i3
+2017-11-03 14:05:48	<--	Jokler (~Jokler@46.101.123.78) has quit (Quit: ＼〇／)
+2017-11-03 14:06:32	-->	Jokler (~Jokler@46.101.123.78) has joined #i3
+2017-11-03 14:09:49		[tomeaton17 back: gone 00:35:55]
+2017-11-03 14:12:52	-->	Neo-- (~neo@BSN-77-65-114.static.siol.net) has joined #i3
+2017-11-03 14:16:34	-->	dextrey (~dextrey@unaffiliated/dextrey) has joined #i3
+2017-11-03 14:21:29	-->	eyjhb (~eyjhb@104.244.78.190) has joined #i3
+2017-11-03 14:24:58	<--	Jesin (~Jesin@wsip-98-187-234-122.dc.dc.cox.net) has quit (Quit: Leaving)
+2017-11-03 14:33:24	<--	skontar_ (skontar@nat/redhat/x-bikvekycwpclskqt) has quit (Remote host closed the connection)
+2017-11-03 14:33:35	-->	Jesin (~Jesin@wsip-98-187-234-122.dc.dc.cox.net) has joined #i3
+2017-11-03 14:35:17	<--	tasslehoff (~Tasslehof@82.147.55.166) has quit (Quit: WeeChat 1.4)
+2017-11-03 14:36:50	-->	mariosgn (~mariosgn@2-238-115-77.ip243.fastwebnet.it) has joined #i3
+2017-11-03 14:44:05	-->	anon28 (~textual@2602:30a:2c45:8650:dc5:ea3d:634:8a8c) has joined #i3
+2017-11-03 14:47:31	-->	grafzepp (~grafzepp@213.33.157.202) has joined #i3
+2017-11-03 14:47:35	<--	mariosgn (~mariosgn@2-238-115-77.ip243.fastwebnet.it) has quit (Ping timeout: 240 seconds)
+2017-11-03 14:51:35	-->	knidos (~knidos@78.166.39.169) has joined #i3
+2017-11-03 14:57:16	<--	olto (~olTo@dslb-094-222-009-128.094.222.pools.vodafone-ip.de) has quit (Remote host closed the connection)
+2017-11-03 14:57:17	<--	ylwghst (~ylwghst@21.254.broadband.iol.cz) has quit (Quit: Lost terminal)
+2017-11-03 14:57:58	-->	ylwghst (~ylwghst@21.254.broadband.iol.cz) has joined #i3
+2017-11-03 14:59:02	--	irc: disconnected from server
+2017-11-03 14:59:20	-->	tomeaton17 (~tomeaton1@129.ip-91-134-134.eu) has joined #i3
+2017-11-03 14:59:20	--	Topic for #i3 is "i3 v4.14.1 released | i3status 2.11 released | i3lock 2.9.1 released | http://code.i3wm.org/ | http://i3wm.org/ | http://faq.i3wm.org/ | https://bintray.com/i3/i3-autobuild/i3-wm#statistics | paste at http://p.nnev.de/ | file upload at https://transfer.sh/ | Container tutorial: https://youtu.be/AWA8Pl57UBY | #i3-offtopic"
+2017-11-03 14:59:20	--	Topic set by sECuRE (~sECuRE@midna.zekjur.net) on Sun, 24 Sep 2017 18:31:03
+2017-11-03 14:59:20	--	Channel #i3: 423 nicks (3 ops, 0 voices, 420 normals)
+2017-11-03 14:59:28	--	Channel created on Thu, 22 Jul 2010 20:58:13
+2017-11-03 15:02:03	<--	silverhom (~silverhom@c83-252-239-43.bredband.comhem.se) has quit (Quit: Leaving)
+2017-11-03 15:09:09	<--	grafzepp (~grafzepp@213.33.157.202) has quit (Ping timeout: 246 seconds)
+2017-11-03 15:10:45	-->	aarobc (uid151482@gateway/web/irccloud.com/x-zqqtwijcwgkswrvr) has joined #i3
+2017-11-03 15:14:17	<--	cyphase (~cyphase@unaffiliated/cyphase) has quit (Ping timeout: 258 seconds)
+2017-11-03 15:19:29	-->	netvor_ (~amahdal@unaffiliated/netvor) has joined #i3
+2017-11-03 15:19:50	-->	cyphase (~cyphase@unaffiliated/cyphase) has joined #i3
+2017-11-03 15:20:01	<--	netvor_ (~amahdal@unaffiliated/netvor) has quit (Client Quit)
+2017-11-03 15:20:13	-->	netvor_ (~amahdal@unaffiliated/netvor) has joined #i3
+2017-11-03 15:20:15	-->	Nazral (~tyruiop@tyruiop.org) has joined #i3
+2017-11-03 15:20:18	Nazral	Hi
+2017-11-03 15:20:20	Eyo	hello!
+2017-11-03 15:20:31	Nazral	Hi Eyo! :)
+2017-11-03 15:21:39	Nazral	I can't find a way to execture a program on launch and immediately move it to the proper workspace, knowing that it doesn't have a good wm_name
+2017-11-03 15:22:43	dive	It's WM_CLASS that matters, not name.
+2017-11-03 15:22:58	dive	You can use regex in the class string.
+2017-11-03 15:23:00	Nazral	unfortunately WM_CLASS is even less useful
+2017-11-03 15:23:12	Nazral	ohhh maybe not
+2017-11-03 15:23:20	-->	grafzepp (~grafzepp@213.33.157.202) has joined #i3
+2017-11-03 15:23:25	Nazral	dive: thanks
+2017-11-03 15:23:32	dive	example: assign [class=".*Chromium.*"] 2
+2017-11-03 15:23:39	Nazral	I just realized I can set the WM_CLASS of my terminal when launching it
+2017-11-03 15:24:25	dive	Nazral, yeah I have to do that too.
+2017-11-03 15:30:14	<--	ClockworkCoder (~Clockwork@88-96-242-70.dsl.zen.co.uk) has quit (Read error: Connection reset by peer)
+2017-11-03 15:32:10	<--	dextrey (~dextrey@unaffiliated/dextrey) has quit (Ping timeout: 264 seconds)
+2017-11-03 15:33:02	<--	HcsOmot (~HcsOmot@45.77.98.117) has left #i3 ("http://quassel-irc.org - Chat comfortably. Anywhere.")
+2017-11-03 15:36:13	-->	nac (~nac@p200300ECEBCA5300529DC04168DDBF79.dip0.t-ipconnect.de) has joined #i3
+2017-11-03 15:39:35	<--	SAL9000 (~znc@101.187.171.220) has quit (Ping timeout: 240 seconds)
+2017-11-03 15:41:08	<--	krijt (~krijt@mail.vertrouwdverbonden.nl) has quit (Quit: leaving)
+2017-11-03 15:48:13	<--	enckse (~enckse@znc.epiphyte.network) has quit (Quit: ZNC - http://znc.in)
+2017-11-03 15:49:10	<--	spectr (spectr@nat/redhat/x-jmpugchbcxytdqde) has quit (Quit: Leaving)
+2017-11-03 15:50:02	-->	enckse (~enckse@znc.epiphyte.network) has joined #i3
+2017-11-03 15:50:19	<--	grafzepp (~grafzepp@213.33.157.202) has quit (Ping timeout: 258 seconds)
+2017-11-03 15:53:03	<--	jolange (~user@uh2ulnmpc29.desy.de) has quit (Ping timeout: 248 seconds)
+2017-11-03 15:55:30	-->	holden- (~holden-@unaffiliated/holden-) has joined #i3
+2017-11-03 16:02:30	<--	anon28 (~textual@2602:30a:2c45:8650:dc5:ea3d:634:8a8c) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2017-11-03 16:13:59	-->	tunekey (~tunekey@unaffiliated/tunekey) has joined #i3
+2017-11-03 16:15:33	-->	silverhom (~silverhom@c83-252-239-43.bredband.comhem.se) has joined #i3
+2017-11-03 16:21:19	<--	felixsanz (~felixsanz@unaffiliated/felixsanz) has quit (Ping timeout: 248 seconds)
+2017-11-03 16:21:41	<--	nac (~nac@p200300ECEBCA5300529DC04168DDBF79.dip0.t-ipconnect.de) has quit (Ping timeout: 246 seconds)
+2017-11-03 16:24:09	-->	felixsanz (~felixsanz@unaffiliated/felixsanz) has joined #i3
+2017-11-03 16:29:40	-->	silverho (~silverhom@c83-252-239-43.bredband.comhem.se) has joined #i3
+2017-11-03 16:30:57	<--	silverhom (~silverhom@c83-252-239-43.bredband.comhem.se) has quit (Ping timeout: 248 seconds)
+2017-11-03 16:31:03	-->	SAL9000 (~znc@101.187.171.220) has joined #i3
+2017-11-03 16:37:38	<--	netvor (~amahdal@unaffiliated/netvor) has quit (Quit: WeeChat 1.9.1)
+2017-11-03 16:38:13	<--	SAL9000 (~znc@101.187.171.220) has quit (Ping timeout: 252 seconds)
+2017-11-03 16:46:29	-->	choru (~choru@78-62-157-12.static.zebra.lt) has joined #i3
+2017-11-03 16:47:50	-->	SAL9000 (~znc@101.187.171.220) has joined #i3
+2017-11-03 16:48:06	-->	mariosgn (~mariosgn@2-238-115-77.ip243.fastwebnet.it) has joined #i3
+2017-11-03 16:51:43	<--	SAL9000 (~znc@101.187.171.220) has quit (Read error: Connection reset by peer)
+2017-11-03 16:51:57	-->	SAL9000 (~znc@101.187.171.220) has joined #i3
+2017-11-03 16:54:15	<--	tesseract (tesseract@nat/redhat/x-hmaxztuvtssinafz) has quit (Quit: ♪♫•*¨*•.¸¸♫♪♪♫•*¨*•.¸¸♫♪♪♫•*¨*•.¸¸♫♪♪♫•*¨*•.¸¸♫♪)
+2017-11-03 16:54:55	-->	mn3m (~mn3m@unaffiliated/mn3m) has joined #i3
+2017-11-03 16:55:22	-->	rkta (~kt@p5DE868D3.dip0.t-ipconnect.de) has joined #i3
+2017-11-03 16:59:10	<--	mn3m (~mn3m@unaffiliated/mn3m) has quit (Client Quit)
+2017-11-03 17:01:56	-->	fhs (~fhs@2604:2000:1701:804e:6567:5a24:92ad:b6c5) has joined #i3
+2017-11-03 17:02:23	<--	kalbasit (~kalbasit@unaffiliated/kalbasit) has quit (Ping timeout: 248 seconds)
+2017-11-03 17:03:41	<--	rkta (~kt@p5DE868D3.dip0.t-ipconnect.de) has quit (Remote host closed the connection)
+2017-11-03 17:07:39	-->	GilDev (~GilDev@unaffiliated/gildev) has joined #i3
+2017-11-03 17:08:42	-->	kalbasit (~kalbasit@unaffiliated/kalbasit) has joined #i3
+2017-11-03 17:12:32	<--	ChrisLane (~irc@cpc110357-king13-2-0-cust10.19-1.cable.virginm.net) has quit (Ping timeout: 248 seconds)
+2017-11-03 17:13:46	-->	ChrisLane (~irc@cpc110357-king13-2-0-cust10.19-1.cable.virginm.net) has joined #i3
+2017-11-03 17:15:23	<--	solevis (~solevis@LMontsouris-656-1-11-95.w92-154.abo.wanadoo.fr) has quit (Quit: WeeChat 1.9.1)
+2017-11-03 17:18:14	-->	dextrey (~dextrey@unaffiliated/dextrey) has joined #i3
+2017-11-03 17:26:37	<--	widp (~widp@49.207.56.141) has quit (Quit: WeeChat 1.4)
+2017-11-03 17:28:49	--	irc: disconnected from server
+2017-11-03 18:07:43	-->	tomeaton17 (~tomeaton1@129.ip-91-134-134.eu) has joined #i3
+2017-11-03 18:07:43	--	Topic for #i3 is "i3 v4.14.1 released | i3status 2.11 released | i3lock 2.9.1 released | http://code.i3wm.org/ | http://i3wm.org/ | http://faq.i3wm.org/ | https://bintray.com/i3/i3-autobuild/i3-wm#statistics | paste at http://p.nnev.de/ | file upload at https://transfer.sh/ | Container tutorial: https://youtu.be/AWA8Pl57UBY | #i3-offtopic"
+2017-11-03 18:07:43	--	Topic set by sECuRE (~sECuRE@midna.zekjur.net) on Sun, 24 Sep 2017 18:31:03
+2017-11-03 18:07:43	--	Channel #i3: 421 nicks (3 ops, 0 voices, 418 normals)
+2017-11-03 18:07:50	--	Channel created on Thu, 22 Jul 2010 20:58:13
+2017-11-03 18:09:13	--	irc: disconnected from server
+2017-11-03 18:09:36	-->	tomeaton17 (~tomeaton1@129.ip-91-134-134.eu) has joined #i3
+2017-11-03 18:09:36	--	Topic for #i3 is "i3 v4.14.1 released | i3status 2.11 released | i3lock 2.9.1 released | http://code.i3wm.org/ | http://i3wm.org/ | http://faq.i3wm.org/ | https://bintray.com/i3/i3-autobuild/i3-wm#statistics | paste at http://p.nnev.de/ | file upload at https://transfer.sh/ | Container tutorial: https://youtu.be/AWA8Pl57UBY | #i3-offtopic"
+2017-11-03 18:09:36	--	Topic set by sECuRE (~sECuRE@midna.zekjur.net) on Sun, 24 Sep 2017 18:31:03
+2017-11-03 18:09:36	--	Channel #i3: 421 nicks (3 ops, 0 voices, 418 normals)
+2017-11-03 18:09:43	--	Channel created on Thu, 22 Jul 2010 20:58:13
+2017-11-03 18:12:39	<--	djb-irc (~djb-irc@129.13.154.138) has quit (Quit: Leaving)
+2017-11-03 18:17:21	<--	GilDev (~GilDev@unaffiliated/gildev) has quit (Ping timeout: 240 seconds)
+2017-11-03 18:23:27	<--	dextrey (~dextrey@unaffiliated/dextrey) has quit (Ping timeout: 248 seconds)
+2017-11-03 18:36:04	-->	Ltem (~ltem@h081217057026.dyn.cm.kabsi.at) has joined #i3
+2017-11-03 18:41:54	<--	Disgeae (~Disgeae@ip-217-103-60-205.ip.prioritytelecom.net) has quit (Quit: WeeChat 1.9.1)
+2017-11-03 18:42:51	<--	voidead (~voidead@unaffiliated/voidead) has quit (Quit: dead)
+2017-11-03 18:44:43	<--	Neo-- (~neo@BSN-77-65-114.static.siol.net) has quit (Ping timeout: 252 seconds)
+2017-11-03 18:44:49	-->	tecepe (~tcpaiva@physicsnat50.physics.umass.edu) has joined #i3
+2017-11-03 18:49:19	<--	tecepe (~tcpaiva@physicsnat50.physics.umass.edu) has quit (Read error: No route to host)
+2017-11-03 18:49:36	-->	tecepe (~tcpaiva@physicsnat50.physics.umass.edu) has joined #i3
+2017-11-03 19:03:02	-->	frakturfreak (~frakturfr@unaffiliated/frakturfreak) has joined #i3
+2017-11-03 19:04:35	<--	ylwghst (~ylwghst@21.254.broadband.iol.cz) has quit (Ping timeout: 255 seconds)
+2017-11-03 19:05:08	<--	michaelrose (~michael@75-172-4-242.tukw.qwest.net) has quit (Ping timeout: 246 seconds)
+2017-11-03 19:11:09	-->	voidead (~voidead@unaffiliated/voidead) has joined #i3
+2017-11-03 19:12:32	<--	m0u (~m0u@unaffiliated/m0u) has quit (Ping timeout: 248 seconds)
+2017-11-03 19:13:45	<--	ToffeeYogurtPots (~ToffeeYog@gateway/tor-sasl/toffeeyogurtpots) has quit (Remote host closed the connection)
+2017-11-03 19:13:54	-->	gwoplock_ (~quassel@rrcs-97-77-48-3.sw.biz.rr.com) has joined #i3
+2017-11-03 19:14:51	-->	ToffeeYogurtPots (~ToffeeYog@gateway/tor-sasl/toffeeyogurtpots) has joined #i3
+2017-11-03 19:16:35	<--	gwoplock (~quassel@rrcs-97-77-48-3.sw.biz.rr.com) has quit (Ping timeout: 240 seconds)
+2017-11-03 19:18:55	-->	m0u (~m0u@unaffiliated/m0u) has joined #i3
+2017-11-03 19:22:45	-->	Disgeae (~Disgeae@ip-217-103-60-205.ip.prioritytelecom.net) has joined #i3
+2017-11-03 19:23:38	<--	khjh (~khjh@80.89.27.94) has quit (Quit: Leaving)
+2017-11-03 19:23:58	-->	ylwghst (~ylwghst@21.254.broadband.iol.cz) has joined #i3
+2017-11-03 19:33:25	-->	datasmurf (~datasmurf@unaffiliated/datasmurf) has joined #i3
+2017-11-03 19:33:27	-->	mtellez__ (~mtellez@187.240.95.49) has joined #i3
+2017-11-03 19:34:55	-->	linux_dream (~isaac@unaffiliated/linux-dream/x-5839402) has joined #i3
+2017-11-03 19:35:14	-->	rkta (~kt@p5DE868D3.dip0.t-ipconnect.de) has joined #i3
+2017-11-03 19:35:35	<--	kalbasit (~kalbasit@unaffiliated/kalbasit) has quit (Ping timeout: 240 seconds)
+2017-11-03 19:42:43	-->	kalbasit (~kalbasit@unaffiliated/kalbasit) has joined #i3
+2017-11-03 19:51:11	<--	hardbot (~hardbot@LPuteaux-656-1-75-52.w92-154.abo.wanadoo.fr) has quit (Remote host closed the connection)
+2017-11-03 19:53:10	-->	tonyspaz (~tonyspaz@unaffiliated/tonyspaz) has joined #i3
+2017-11-03 19:54:08	<--	fhs (~fhs@2604:2000:1701:804e:6567:5a24:92ad:b6c5) has quit (Ping timeout: 240 seconds)
+2017-11-03 19:55:19	dive	Does anyone know why using bindcode with number pad add (86) doesn't work?
+2017-11-03 19:55:32	dive	Same with subtract (82).
+2017-11-03 19:56:11	-->	GilDev (~GilDev@unaffiliated/gildev) has joined #i3
+2017-11-03 19:56:41	dive	I've used a few bindcodes that do work, 119, 107, 23, 113, 114, 116, 111.
+2017-11-03 19:56:45	<--	netvor (~amahdal@unaffiliated/netvor) has quit (Quit: WeeChat 1.9.1)
+2017-11-03 19:56:59	dive	Just can't seem to get add/subtract to do anything.
+2017-11-03 19:57:47	dive	I checked a few times in xev to see if I'd made a mistake with the numbers, but they are correct.
+2017-11-03 20:03:21	<--	kalbasit (~kalbasit@unaffiliated/kalbasit) has quit (Ping timeout: 240 seconds)
+2017-11-03 20:03:39	tonyspaz	Seems to be working for me, does toggling numlock change anything?
+2017-11-03 20:03:53	tonyspaz	Also, you can try using bindsym KP_Add
+2017-11-03 20:04:48	dive	I tried that too.
+2017-11-03 20:05:09	dive	WHat I'm trying to do is control+$mod+86
+2017-11-03 20:05:33	dive	WHich in xev comes out as XF86Next_VMode but I can't get to work either.
+2017-11-03 20:05:50	dive	I have other XF86 keys working.
+2017-11-03 20:06:07	<--	alex`` (~alex@2a01cb000bb310000e31f98b4cdf4eae.ipv6.abo.wanadoo.fr) has quit (Ping timeout: 252 seconds)
+2017-11-03 20:07:37	tonyspaz	Huh. I'm sorry to say, I have no idea what's going on there. :/
+2017-11-03 20:09:09	dive	It works on its own and with $mod. For some reason control isn't working with it.
+2017-11-03 20:09:49	-->	kalbasit (~kalbasit@unaffiliated/kalbasit) has joined #i3
+2017-11-03 20:09:54	tonyspaz	It's weird that it shows up as XF86Next_VMode, are you using a laptop keyboard or something?
+2017-11-03 20:10:51	tonyspaz	I just see separate events for Super_L, Control_L, and KP_Add
+2017-11-03 20:11:01	tonyspaz	in xev, I should say
+2017-11-03 20:11:30	dive	Not a laptop keyboard, but an external keyboard plugged into my laptop.
+2017-11-03 20:12:00	dive	So the events would be the same.
+2017-11-03 20:14:38	dive	Oh well, at least I have $mod+86/82
+2017-11-03 20:17:37	tonyspaz	Complete shot in the dark, is it possible you have an abnormal keymap loaded?
+2017-11-03 20:19:17	dive	It's 'gb'
+2017-11-03 20:19:49	dive	I don't know if it would make i3 see a different code to what shows in xev though.
+2017-11-03 20:21:47	<--	choru (~choru@78-62-157-12.static.zebra.lt) has quit (Quit: WeeChat 1.9.1)
+2017-11-03 20:22:10	tonyspaz	Truthfully, neither do I. Shot in the dark, like I said
+2017-11-03 20:25:07	tonyspaz	Nope, looks like I'm wrong, keycode should still work just fine
+2017-11-03 20:30:35	<--	prg318 (~prg@deadcodersociety/prg318) has quit (Quit: ZNC 1.6.5 - http://znc.in)
+2017-11-03 20:31:03	-->	ZyX-I (~ZyX-I@broadband-77-37-230-77.moscow.rt.ru) has joined #i3
+2017-11-03 20:31:39	-->	prg318 (~prg@deadcodersociety/prg318) has joined #i3
+2017-11-03 20:32:27	<--	ylwghst (~ylwghst@21.254.broadband.iol.cz) has quit (Ping timeout: 260 seconds)
+2017-11-03 20:35:47	-->	ylwghst (~ylwghst@21.254.broadband.iol.cz) has joined #i3
+2017-11-03 20:48:22	<--	GilDev (~GilDev@unaffiliated/gildev) has quit (Quit: WeeChat 1.9.1)
+2017-11-03 20:50:05	<--	m0u (~m0u@unaffiliated/m0u) has quit (Ping timeout: 240 seconds)
+2017-11-03 20:55:05	-->	saml (~saml@unaffiliated/saml) has joined #i3
+2017-11-03 20:55:25	saml	on dual monitor, when I use arrow key to focus right, i don't want it to go to second monitor
+2017-11-03 20:58:45	nejni-marji	saml: you could try 'force_focus_wrapping yes'
+2017-11-03 20:58:45	<--	Disgeae (~Disgeae@ip-217-103-60-205.ip.prioritytelecom.net) has quit (Quit: WeeChat 1.9.1)
+2017-11-03 20:59:41	saml	NOICE THANKS
+2017-11-03 20:59:45	saml	oops caps lock
+2017-11-03 21:04:06	-->	lord| (~solenodic@unaffiliated/solenodic) has joined #i3
+2017-11-03 21:08:19	<--	mtellez__ (~mtellez@187.240.95.49) has quit (Remote host closed the connection)
+2017-11-03 21:10:36	-->	mtellez__ (~mtellez@187.240.95.49) has joined #i3
+2017-11-03 21:11:38	<--	mtellez__ (~mtellez@187.240.95.49) has quit (Remote host closed the connection)
+2017-11-03 21:13:40	<--	saml (~saml@unaffiliated/saml) has quit (Remote host closed the connection)
+2017-11-03 21:16:33	-->	kmarius (~kmarius@aftr-109-91-39-230.unity-media.net) has joined #i3
+2017-11-03 21:43:50	-->	m0u (~m0u@unaffiliated/m0u) has joined #i3
+2017-11-03 21:44:39	<--	knidos (~knidos@78.166.39.169) has quit (Quit: knidos)
+2017-11-03 21:48:21	<--	mjolnird (~mjolnird@2601:2c7:8200:5a1::fe0c) has quit (Quit: Leaving)
+2017-11-03 21:51:24	-->	thefallenrat (~thefallen@unaffiliated/thefallenrat) has joined #i3
+2017-11-03 21:57:33	<--	ylwghst (~ylwghst@21.254.broadband.iol.cz) has quit (Ping timeout: 258 seconds)
+2017-11-03 22:07:58	<--	linux_dream (~isaac@unaffiliated/linux-dream/x-5839402) has quit (Quit: WeeChat 1.9.1)
+2017-11-03 22:14:22	<--	silverho (~silverhom@c83-252-239-43.bredband.comhem.se) has quit (Quit: Leaving)
+2017-11-03 22:15:07	<--	rasta-rocket (~bruno@94.239.95.206) has quit (Ping timeout: 260 seconds)
+2017-11-03 22:25:29	-->	knidos (~knidos@78.166.39.169) has joined #i3
+2017-11-03 22:29:12	<--	Jesin (~Jesin@wsip-98-187-234-122.dc.dc.cox.net) has quit (Quit: Leaving)
+2017-11-03 22:31:50	--	squigz is now known as squigzy
+2017-11-03 22:32:59	<--	thefallenrat (~thefallen@unaffiliated/thefallenrat) has quit (Quit: return 0;)
+2017-11-03 22:46:06	-->	fhs (~fhs@2604:2000:1701:804e:6567:5a24:92ad:b6c5) has joined #i3
+2017-11-03 22:48:01	<--	alfie (~alfie@cumulus.alfiepates.me) has quit (Quit: Bye.)
+2017-11-03 22:48:33	-->	alfie (~alfie@85.119.82.98) has joined #i3
+2017-11-03 22:49:29	<--	dnull (~4fMXm6p3@2607:fe90:4:b:e3f8::f4c3) has quit (Ping timeout: 252 seconds)
+2017-11-03 22:49:37	<--	kmarius (~kmarius@aftr-109-91-39-230.unity-media.net) has quit (Ping timeout: 248 seconds)
+2017-11-03 22:50:26	<--	alfie (~alfie@85.119.82.98) has quit (Client Quit)
+2017-11-03 22:50:34	-->	alfie (~alfie@85.119.82.98) has joined #i3
+2017-11-03 22:51:05	<--	alfie (~alfie@85.119.82.98) has quit (Remote host closed the connection)
+2017-11-03 22:52:36	-->	alfie (~alfie@2001:ba8:1f1:f0ab::2) has joined #i3
+2017-11-03 22:53:06	-->	dnull (~4fMXm6p3@2607:fe90:4:b:e3f8::f4c3) has joined #i3
+2017-11-03 22:57:57	<--	m0u (~m0u@unaffiliated/m0u) has quit (Ping timeout: 240 seconds)
+2017-11-03 23:02:50	<--	Ltem (~ltem@h081217057026.dyn.cm.kabsi.at) has quit (Quit: Leaving)
+2017-11-03 23:07:07	<--	rtur (~rtur@2a02:c207:3001:4991::1) has quit (Ping timeout: 255 seconds)
+2017-11-03 23:09:20	-->	rtur (~rtur@mail.rtur.org) has joined #i3
+2017-11-03 23:27:20	<--	tecepe (~tcpaiva@physicsnat50.physics.umass.edu) has quit (Quit: Leaving.)
+2017-11-03 23:27:53	-->	tecepe (~tcpaiva@physicsnat50.physics.umass.edu) has joined #i3
+2017-11-03 23:27:58	<--	tecepe (~tcpaiva@physicsnat50.physics.umass.edu) has quit (Client Quit)
+2017-11-03 23:31:56	<--	dnull (~4fMXm6p3@2607:fe90:4:b:e3f8::f4c3) has quit (Remote host closed the connection)
+2017-11-03 23:32:18	-->	dnull (~4fMXm6p3@2607:fe90:4:b:e3f8::f4c3) has joined #i3
+2017-11-03 23:36:53	<--	frakturfreak (~frakturfr@unaffiliated/frakturfreak) has quit (Quit: WeeChat 1.9.1)
+2017-11-03 23:37:22	--	squigzy is now known as tdx
+2017-11-03 23:37:29	--	tdx is now known as squigzy
+2017-11-03 23:39:13	<--	alfie (~alfie@2001:ba8:1f1:f0ab::2) has quit (Quit: Bye.)
+2017-11-03 23:39:43	<--	dnull (~4fMXm6p3@2607:fe90:4:b:e3f8::f4c3) has quit (Quit: ZNC 1.6.5 - http://znc.in)
+2017-11-03 23:40:15	-->	alfie (~alfie@cumulus.incaseofsunrise.net) has joined #i3
+2017-11-03 23:40:31	--	alfie is now known as ap
+2017-11-03 23:40:42	--	ap is now known as alfie
+2017-11-03 23:41:26	-->	dnull (~4fMXm6p3@2607:fe90:4:b:e3f8::f4c3) has joined #i3
+2017-11-03 23:42:30	<--	dnull (~4fMXm6p3@2607:fe90:4:b:e3f8::f4c3) has quit (Client Quit)
+2017-11-03 23:42:52	-->	dnull (~4fMXm6p3@2607:fe90:4:b:e3f8::f4c3) has joined #i3
+2017-11-03 23:46:49	--	garphy is now known as garphy`aw
+2017-11-03 23:47:44	<--	kalbasit (~kalbasit@unaffiliated/kalbasit) has quit (Ping timeout: 248 seconds)
+2017-11-03 23:50:30	<--	aarobc (uid151482@gateway/web/irccloud.com/x-zqqtwijcwgkswrvr) has quit (Quit: Connection closed for inactivity)
+2017-11-03 23:52:56	-->	kalbasit (~kalbasit@unaffiliated/kalbasit) has joined #i3
+2017-11-03 23:52:57	-->	indeedwatson (~yama@host77.200-117-58.telecom.net.ar) has joined #i3
+2017-11-03 23:53:02	-->	ponyrider (~cf2iqx@unaffiliated/ponyrider) has joined #i3
+2017-11-03 23:59:20	-->	tecepe (~tcpaiva@2601:180:8301:24eb::48c) has joined #i3
+2017-11-03 23:59:49	-->	rasta-rocket (~bruno@94.239.95.206) has joined #i3
+2017-11-04 00:14:32	<--	dnull (~4fMXm6p3@2607:fe90:4:b:e3f8::f4c3) has quit (Ping timeout: 246 seconds)
+2017-11-04 00:20:17	<--	rasta-rocket (~bruno@94.239.95.206) has quit (Quit: Quitte)
+2017-11-04 00:20:35	-->	dnull (4fMXm6p3@autonomicpilot.org) has joined #i3
+2017-11-04 00:24:31	--	irc: disconnected from server
+2017-11-04 11:04:36	-->	tomeaton17 (~tomeaton1@129.ip-91-134-134.eu) has joined #i3
+2017-11-04 11:04:36	--	Topic for #i3 is "i3 v4.14.1 released | i3status 2.11 released | i3lock 2.9.1 released | http://code.i3wm.org/ | http://i3wm.org/ | http://faq.i3wm.org/ | https://bintray.com/i3/i3-autobuild/i3-wm#statistics | paste at http://p.nnev.de/ | file upload at https://transfer.sh/ | Container tutorial: https://youtu.be/AWA8Pl57UBY | #i3-offtopic"
+2017-11-04 11:04:36	--	Topic set by sECuRE (~sECuRE@midna.zekjur.net) on Sun, 24 Sep 2017 18:31:03
+2017-11-04 11:04:36	--	Channel #i3: 418 nicks (3 ops, 0 voices, 415 normals)
+2017-11-04 11:04:36	***	Buffer Playback...
+2017-11-04 11:04:36	set_	[01:47:36] hi, are there any hotkey to switch workplaces?
+2017-11-04 11:04:36	set_	[01:48:01] like holding shift to move tiles?
+2017-11-04 11:04:36	@squigzy	[01:51:17] Please read the user guide
+2017-11-04 11:04:36	@squigzy	[01:51:18] >user guide
+2017-11-04 11:04:36	@squigzy	[01:51:22] Hm
+2017-11-04 11:04:36	@squigzy	[01:51:46] >userguide
+2017-11-04 11:04:36	i3bot	[01:51:46] [Documentation reference] http://i3wm.org/docs/userguide.html
+2017-11-04 11:04:36	set_	[01:54:10] all of it? )
+2017-11-04 11:04:36	@squigzy	[02:26:36] Yes
+2017-11-04 11:04:36	cpcat	[02:33:16] moin.
+2017-11-04 11:04:36	cpcat	[02:33:54] When a container/window is selected it is "highlighted" with a boarder.  How can I thicken that border by a few pixels?
+2017-11-04 11:04:36	Ipsilon	[07:10:44] cpcat: you can make the borders thicker, but afaiu there is no easy way to have them become thicker when you focus on a window
+2017-11-04 11:04:36	Trieste	[08:38:48] Hi, any VirtualBox users here? :) I'm having trouble regarding the Guest window resizing
+2017-11-04 11:04:36	Trieste	[08:44:53] oh sorry nevermind, I actually found the answer in the meantime, apparently it was the mini-toolbar
+2017-11-04 11:04:36	bipo	[10:39:20] Hello, I'm new to Linux and have a Manjaro i3 setup installed on my PC. I jsut now installed redshift and tried it to autostart but can't find it in the list of processes
+2017-11-04 11:04:36	bipo	[10:40:00] for autostart i put the following line at the end of the i3 config file:
+2017-11-04 11:04:36	bipo	[10:40:08] exec --no-startup-id redshift
+2017-11-04 11:04:36	***	Playback Complete.
+2017-11-04 11:04:42	--	Channel created on Thu, 22 Jul 2010 20:58:13
+2017-11-04 11:08:27	-->	rkta (~kt@p5DE868D3.dip0.t-ipconnect.de) has joined #i3
+2017-11-04 11:09:57	-->	choki (~weechat@unaffiliated/choki) has joined #i3
+2017-11-04 11:10:25	<--	m0u (~m0u@unaffiliated/m0u) has quit (Ping timeout: 248 seconds)
+2017-11-04 11:12:58	--	irc: disconnected from server
+2017-11-06 09:52:13	-->	tomeaton17 (~tomeaton1@129.ip-91-134-134.eu) has joined #i3
+2017-11-06 09:52:13	--	Topic for #i3 is "i3 v4.14.1 released | i3status 2.11 released | i3lock 2.9.1 released | http://code.i3wm.org/ | http://i3wm.org/ | http://faq.i3wm.org/ | https://bintray.com/i3/i3-autobuild/i3-wm#statistics | paste at http://p.nnev.de/ | file upload at https://transfer.sh/ | Container tutorial: https://youtu.be/AWA8Pl57UBY | #i3-offtopic"
+2017-11-06 09:52:13	--	Topic set by sECuRE (~sECuRE@midna.zekjur.net) on Sun, 24 Sep 2017 18:31:03
+2017-11-06 09:52:13	--	Channel #i3: 394 nicks (3 ops, 0 voices, 391 normals)
+2017-11-06 09:52:13	***	Buffer Playback...
+2017-11-06 09:52:13	squigzy	[12:58:05] Is it just me, or is not possible to resize in increments less than 10 px, such as 1px?
+2017-11-06 09:52:13	squigzy	[12:58:13] Manually you can, but not with the resize command
+2017-11-06 09:52:13	squigzy	[12:58:19] (By manually I mean dragging with the mouse)
+2017-11-06 09:52:13	nervengift	[13:44:44] squigzy: urxvt?
+2017-11-06 09:52:13	nervengift	[13:45:52] urxvt only changes size if the increment is >one character wide/high
+2017-11-06 09:52:13	squigzy	[13:48:37] that's not really true. the window can be, but you end up with unused space at the bottom
+2017-11-06 09:52:13	squigzy	[13:48:44] But no, that's not what I'm talking about
+2017-11-06 09:52:13	squigzy	[13:48:54] but I'm busy, so i can't explain right now
+2017-11-06 09:52:13	nervengift	[13:50:53] At least with resize commands it actually doesn't when the size increment is to small
+2017-11-06 09:52:13	nejni-marji	[14:29:49] cpcat: There might be a way to do it with for_window [con_id=__focused__], but I'm not sure how to make it work right since I don't use for_window often
+2017-11-06 09:52:13	squigzy	[14:31:05] nervengift: that's what I mean. For me, if it's less than 10 px (thee default) it just uses 10 px
+2017-11-06 09:52:13	linux_dream	[14:31:18] can urxvt use tabs?
+2017-11-06 09:52:13	linux_dream	[14:32:16] im asking coz im finding my python workflow a burden. i use neovim, have half the screen reserved for a terminal with python code and the other half just a simple urxvt terminal to run python file.py
+2017-11-06 09:52:13	dive	[14:32:57] linux_dream, yeah it does support tabs.
+2017-11-06 09:52:13	linux_dream	[14:33:15] damn it ive been using i3 since january and didnt know this
+2017-11-06 09:52:13	linux_dream	[14:33:22] thanks dive
+2017-11-06 09:52:13	dive	[14:34:04] linux_dream, why not use screen?
+2017-11-06 09:52:13	dive	[14:34:17] That's more useful than tabs.
+2017-11-06 09:52:13	linux_dream	[14:34:21] how
+2017-11-06 09:52:13	dive	[14:34:37] You know gnu screen?
+2017-11-06 09:52:13	linux_dream	[14:34:49] no
+2017-11-06 09:52:13	dive	[14:34:56] Just hit 'ctrl-a c' and a new screen opens up.
+2017-11-06 09:52:13	dive	[14:35:01] Ah man.
+2017-11-06 09:52:13	dive	[14:35:07] You need to try it.
+2017-11-06 09:52:13	linux_dream	[14:35:32] is it like tmux
+2017-11-06 09:52:13	dive	[14:35:42] Yeah.
+2017-11-06 09:52:13	nejni-marji	[14:36:01] tmux > screen imo. if you already use tmux I wouldn't recommend learning screen
+2017-11-06 09:52:13	linux_dream	[14:36:16] but i fail to see how this beats a tab
+2017-11-06 09:52:13	linux_dream	[14:36:32] it will open a new terminal. can do that with mod+ enter with i3
+2017-11-06 09:52:13	linux_dream	[14:36:49] a tab will save space
+2017-11-06 09:52:13	dive	[14:37:03] Well screen and tmux are mostly used for keeping a session open when you quit X or server, but I run everything in it.
+2017-11-06 09:52:13	linux_dream	[14:37:05] am i missing something?
+2017-11-06 09:52:13	linux_dream	[14:37:19] i only quit x when i reboot/shutdown
+2017-11-06 09:52:13	linux_dream	[14:37:42] i guess ill try the tab option of urxvt
+2017-11-06 09:52:13	dive	[14:37:45] Tabs/screens use less space than a new term.
+2017-11-06 09:52:13	nejni-marji	[14:37:52] the only thing I run in tmux is weechat and pacman
+2017-11-06 09:52:13	linux_dream	[14:38:09] you mena pacman the package manager or the game?
+2017-11-06 09:52:13	nejni-marji	[14:38:16] ... why not both?
+2017-11-06 09:52:13	nejni-marji	[14:38:30] you can run dwarf fortress in tmux, too, if you want
+2017-11-06 09:52:13	linux_dream	[14:38:38] never heard of it
+2017-11-06 09:52:13	dive	[14:38:49] But it's not just for quitting X. They do other things as well. Like being able to copy/paste text just using the keyboard, search scrollback, giving info in the statusline, a window list. Loads of things.
+2017-11-06 09:52:13	nejni-marji	[14:38:57] ^
+2017-11-06 09:52:13	linux_dream	[14:39:05] ok so i need to add URxvt.perl-ext-common: ...,tabbed,...  into .Xresouces
+2017-11-06 09:52:13	nejni-marji	[14:39:44] you don't need the ... in it though (i misunderstood this for years)
+2017-11-06 09:52:13	dive	[14:40:00] Not sure. I never used tabs in urxvt. The look ugly. But I don't *think* that you need to add anything in .Xresources for them.
+2017-11-06 09:52:13	nejni-marji	[14:40:38] I think you might. What's the default keybind for them anyway
+2017-11-06 09:52:13	dive	[14:41:10] The one thing that tmux can't do, or couldn't last I checked, was have two status lines - one normal status and one for a window list. You had to have the window list mixed in with the status line.
+2017-11-06 09:52:13	dive	[14:41:24] man urxvt-tabbed
+2017-11-06 09:52:13	dive	[14:42:02] In fact man urxvt-<tab>
+2017-11-06 09:52:13	dive	[14:42:11] There are quite a few man pages.
+2017-11-06 09:52:13	linux_dream	[14:42:31] xrdb:  "URxvt.perl-ext-common" on line 23 overrides entry on line 19
+2017-11-06 09:52:13	linux_dream	[14:42:41] but line 23 and 19 are totally unrelated. wtf
+2017-11-06 09:52:13	dive	[14:42:44] Then you have it twice.
+2017-11-06 09:52:13	dive	[14:43:03] Hmm strange.
+2017-11-06 09:52:13	linux_dream	[14:43:04] ah right
+2017-11-06 09:52:13	linux_dream	[14:43:13] i have almost the same
+2017-11-06 09:52:13	linux_dream	[14:43:26] same beginning. just have to merge the options
+2017-11-06 09:52:13	dive	[14:44:09] I had some stuff for copy/pasting if I can find it.
+2017-11-06 09:52:13	linux_dream	[14:44:34] OMGGGGGGGGGG  this looks awesome now
+2017-11-06 09:52:13	linux_dream	[14:44:41] it works
+2017-11-06 09:52:13	linux_dream	[14:44:56] it made screenfetch bugs though
+2017-11-06 09:52:13	linux_dream	[14:45:04] buggy program
+2017-11-06 09:52:13	dive	[14:45:40] linux_dream, http://ix.io/BYy
+2017-11-06 09:52:13	dive	[14:46:10] Of course, add your own app for URLs, like firefox or w/e.
+2017-11-06 09:52:13	linux_dream	[14:50:05] look at that broken screenfetch compared to a normal one
+2017-11-06 09:52:13	linux_dream	[14:50:07] https://imgur.com/a/L24OO
+2017-11-06 09:52:13	linux_dream	[14:50:16] happens once every 10 times i start the program
+2017-11-06 09:52:13	linux_dream	[14:50:22] same problem on arch and ubuntu
+2017-11-06 09:52:13	linux_dream	[14:50:26] on different computers
+2017-11-06 09:52:13	linux_dream	[14:51:41] problem with scrot too, which complains scrot: option requires an argument -- 'd'      but it still managed to take the screenshot (WtF?)
+2017-11-06 09:52:13	nervengift	[14:52:08] squigzy: ah, last time someone had this problem here it was in floating mode. Floating or tiling for you?
+2017-11-06 09:52:13	squigzy	[14:53:12] both
+2017-11-06 09:52:13	nervengift	[14:58:06] just tested: in floating it only resizes if the increment is big enough, else commend is ignored. And in tiling you can't even grow/shrink by pixel but only percent iirc?
+2017-11-06 09:52:13	nimaje	[15:13:39] linux_dream: why don't you use urxvt + i3 tabs?
+2017-11-06 09:52:13	linux_dream	[15:14:43] um what's that
+2017-11-06 09:52:13	nervengift	[15:15:50] i3 has a tabbed layout
+2017-11-06 09:52:13	linux_dream	[15:15:54] oh right mod+w apparently...
+2017-11-06 09:52:13	linux_dream	[15:16:01] GOSH THAt's awesome
+2017-11-06 09:52:13	linux_dream	[15:16:31] really similar than the urxvt tab
+2017-11-06 09:52:13	linux_dream	[15:16:39] just different key bindings
+2017-11-06 09:52:13	linux_dream	[15:17:07] but say i want to open another terminal next to the 1st one
+2017-11-06 09:52:13	linux_dream	[15:17:12] with i3 tabbing i can't
+2017-11-06 09:52:13	linux_dream	[15:17:35] so I better use urxvt tabbing and default i3 behavior
+2017-11-06 09:52:13	linux_dream	[15:17:41] what do you say
+2017-11-06 09:52:13	nervengift	[15:19:00] you can mix all types of layout...
+2017-11-06 09:52:13	nervengift	[15:19:57] you can even have a split inside one tab
+2017-11-06 09:52:13	nimaje	[15:20:02] with 'next to' you mean a split? then just focus parent (afaik default binding: $mod+a) and $mod+enter
+2017-11-06 09:52:13	nervengift	[15:22:39] I often use something like this e.g.: http://nervengiftlabs.de/share/screenshots/20171104162217.png
+2017-11-06 09:52:13	nervengift	[15:24:45] (I even put the whole thing in one floating window to resize it for a screenshot)
+2017-11-06 09:52:13	linux_dream	[15:25:28] oh well... holy snail i never knew that
+2017-11-06 09:52:13	nervengift	[15:26:22] the tabbed layout really is what spoiled all other tiling wms for me. I't super handy on a small laptop
+2017-11-06 09:52:13	nervengift	[15:26:36] *It's
+2017-11-06 09:52:13	nervengift	[15:28:48] I have all workspaces on tabbed by default because 13" with 1366x720px is not an ideal screen size^^
+2017-11-06 09:52:13	nejni-marji	[15:51:49] ikr. I have a tiny laptop too, it's the worst
+2017-11-06 09:52:13	smlb	[15:53:08] true that, with 12.5" it's useful sometimes
+2017-11-06 09:52:13	nejni-marji	[16:06:38] I find the swap command helpful with it now too, because I can make a window short to monitor its status, but swap it with a larger window when I want to actually read it
+2017-11-06 09:52:13	nejni-marji	[16:06:42] like with chat clients
+2017-11-06 09:52:13	nejni-marji	[16:07:10] so I have irc big so I can read it but swap it with another client when I need to read the other one (rather than having to resize one or the other)
+2017-11-06 09:52:13	nervengift	[16:45:07] oh, I should look into that. Sounds handy
+2017-11-06 09:52:13	nervengift	[16:45:29] I just have them stacked
+2017-11-06 09:52:13	nejni-marji	[18:32:01] it's long and terrifying though because swap only works with marks and titles and stuff
+2017-11-06 09:52:13	nejni-marji	[18:32:05] [title="^Telegram"] mark "telegram"; [title="\[mosh\] tmux: 0:0: WeeChat"] mark "weechat"; mark --add --toggle "tmp_a"; [con_mark="telegram"] focus; swap container with mark "weechat"; [con_mark="tmp_a"] focus; unmark "tmp_a"; unmark "telegram"; unmark "weechat"; mode "default"
+2017-11-06 09:52:13	nervengift	[19:32:03] oh wow ^^
+2017-11-06 09:52:13	nejni-marji	[19:36:24] I probably don't need that much of it, but I want to be careful about not accidentally breaking stuff
+2017-11-06 09:52:13	sevaho	[19:39:56] Goodmorning, I am using i3status with i3blocks and was wondering how someone can print colors for the statusbar with python?
+2017-11-06 09:52:13	nervengift	[19:43:00] sevaho:if you output 3 lines from an i3blocks command, those are read as long text, short text, color
+2017-11-06 09:52:13	nervengift	[19:43:21] sevaho: ^
+2017-11-06 09:52:13	nimaje	[19:43:38] how do you use i3status with i3blocks? afaik i3blocks is a i3status replacement
+2017-11-06 09:52:13	sevaho	[19:44:09] I meant statusbar instead of i3status my bad
+2017-11-06 09:52:13	sevaho	[19:44:25] nervengift: thank you will look into that
+2017-11-06 09:52:13	nimaje	[19:45:20] so i3bar with i3blocks
+2017-11-06 09:52:13	nervengift	[19:46:15] sevaho: you can take a look at e.g. /usr/lib/i3blocks/wifi
+2017-11-06 09:52:13	nervengift	[19:46:24] it's bash though
+2017-11-06 09:52:13	sevaho	[19:49:17] Ok works like a charm thank you
+2017-11-06 09:52:13	zacharypch	[20:59:10] hey i am having a hard time figuring writing up a script for xrandr that gets my dual monitor config right, the current version i have is here: https://pastebin.com/raw/tSF5ev8f
+2017-11-06 09:52:13	zacharypch	[20:59:18] hoping someone can spot my mistake
+2017-11-06 09:52:13	nimaje	[21:04:28] zacharypch: could you try https://ptpb.pw/Ypaw that --right-of is a guess, if the guess was wrong replace with --left-of, --above or --below
+2017-11-06 09:52:13	zacharypch	[21:05:47] hey thanks for looking - you have the output and rightof args equal, but i think i get what you mean
+2017-11-06 09:52:13	nimaje	[21:06:25] no they are not equal
+2017-11-06 09:52:13	zacharypch	[21:06:47] oh i see, it's all on the same line
+2017-11-06 09:52:13	zacharypch	[21:06:52] which i hadn't considered
+2017-11-06 09:52:13	zacharypch	[21:06:57] cool let me see
+2017-11-06 09:52:13	zacharypch	[21:08:46] hm i3 crashed on that line, trying to see output
+2017-11-06 09:52:13	zacharypch	[21:24:41] seems like the displays are still trying to overlap that way
+2017-11-06 09:52:13	zacharypch	[21:25:18] any idea how to get the crash output? i added debug mode and tried i3-dump-log, can't figure that out
+2017-11-06 09:52:13	nejni-marji	[22:28:49] is there a way to focus a given workspace
+2017-11-06 09:52:13	nejni-marji	[22:28:54] er
+2017-11-06 09:52:13	nejni-marji	[22:28:57] focus a given output
+2017-11-06 09:52:13	nejni-marji	[22:29:12] regardless of workspaces?
+2017-11-06 09:52:13	nejni-marji	[22:30:37] I can do it with IPC but I don't want to if I don't have to
+2017-11-06 09:52:13	nejni-marji	[22:30:50] (by getting the current ws for an output)
+2017-11-06 09:52:13	dive	[22:31:21] There are a few focus options you add to the for_window feature.
+2017-11-06 09:52:13	dive	[22:36:33] If you want to focus a window regardless of which workspace it's on then do something for_window [...] focus
+2017-11-06 09:52:13	nejni-marji	[22:37:29] I want to focus output HDMI1, regardless of what's in it
+2017-11-06 09:52:13	dive	[22:38:15] Ah ok
+2017-11-06 09:52:13	nejni-marji	[22:39:29] I got an IPC script to do it, but I still think there should be a way to do it without that
+2017-11-06 09:52:13	dive	[22:39:46] Automatically?
+2017-11-06 09:52:13	nejni-marji	[22:39:51] not yet
+2017-11-06 09:52:13	dive	[22:40:00] But is that what you want?
+2017-11-06 09:52:13	nejni-marji	[22:40:02] yeah
+2017-11-06 09:52:13	dive	[22:40:13] Based on what kind of trigger?
+2017-11-06 09:52:13	nejni-marji	[22:40:38] bindsym $mod+shift+bracketright output next
+2017-11-06 09:52:13	nejni-marji	[22:40:47] or something
+2017-11-06 09:52:13	dive	[22:41:36] If you only want to use it for that output, put the IPC stuff in a script and run it from that bind.
+2017-11-06 09:52:13	nejni-marji	[22:42:02] true, i'll probably only ever have two outputs
+2017-11-06 09:52:13	dive	[22:42:56] Perhaps that bind would toggle? That would be useful.
+2017-11-06 09:52:13	nejni-marji	[22:44:03] yeah, that's what I'm doing
+2017-11-06 09:52:13	nejni-marji	[22:50:32] one day, when I have more than one monitor,
+2017-11-06 09:52:13	nejni-marji	[22:50:34] some day
+2017-11-06 09:52:13	dive	[22:52:32] I've just made some scripts that give opacity control.
+2017-11-06 09:52:13	nejni-marji	[22:53:00] cool
+2017-11-06 09:52:13	dive	[22:53:46] https://github.com/slackhead/wm-opacity#
+2017-11-06 09:52:13	dive	[22:53:59] Oops without the #
+2017-11-06 09:52:13	nejni-marji	[22:54:04] oh wo
+2017-11-06 09:52:13	dive	[22:54:14] You need compton or xcompmgr running too though.
+2017-11-06 09:52:13	dive	[22:54:24] I need to put that in the readme
+2017-11-06 09:52:13	nejni-marji	[22:54:40] I was gonna say lol
+2017-11-06 09:52:13	nejni-marji	[22:55:46] they don't seem to work for me, running them in urxvt
+2017-11-06 09:52:13	dive	[22:56:33] Did you run that 'opacity' script first?
+2017-11-06 09:52:13	nejni-marji	[22:56:36] yeah
+2017-11-06 09:52:13	dive	[22:57:31] What does 'xprop -root | grep '^_NET_SUPPORTED(ATOM)' | grep OPAC' output?
+2017-11-06 09:52:13	dive	[22:57:45] And you need xdotool installed.
+2017-11-06 09:52:13	dive	[22:58:05] ALthough I'll try to find a way of doing it with X11 tools.
+2017-11-06 09:52:13	nejni-marji	[22:58:06] _NET_SUPPORTED(ATOM) =
+2017-11-06 09:52:13	nejni-marji	[22:58:08] _NET_SUPPORTED,_NET_SUPPORTING_WM_CHECK,_NET_WM_NAME,_NET_WM_VISIBLE_NAME,_NET_WM_MOVERESIZE,_NET_WM_STATE_STICKY,_NET_WM_STATE_FULLSCREEN,_NET_WM_STATE_DEMANDS_ATTENTION,_NET_WM_STATE_MODAL,_NET_WM_STATE_HIDDEN,_NET_WM_STATE,_NET_WM_WINDOW_TYPE,_NET_WM_WINDOW_TYPE_NORMAL,_NET_WM_WINDOW_TYPE_DOCK,_NET_WM_WINDOW_TYPE_DIALOG,_NET_WM_WINDOW_TYPE_UTILITY,_NET_WM_WINDOW_TYPE_TOOLBAR,_NET_WM_WINDOW_TYPE_SPLASH,_NET_WM_
+2017-11-06 09:52:13	nejni-marji	[22:58:10] WINDOW_TYPE_MENU,_NET_WM_WINDOW_TYPE_DROPDOWN_MENU,_NET_WM_WINDOW_TYPE_POPUP_MENU,_NET_WM_WINDOW_TYPE_TOOLTIP,_NET_WM_WINDOW_TYPE_NOTIFICATION,_NET_WM_DESKTOP,_NET_WM_STRUT_PARTIAL,_NET_CLIENT_LIST,_NET_CLIENT_LIST_STACKING,_NET_CURRENT_DESKTOP,_NET_NUMBER_OF_DESKTOPS,_NET_DESKTOP_NAMES,_NET_DESKTOP_VIEWPORT,_NET_ACTIVE_WINDOW,_NET_CLOSE_WINDOW,_NET_MOVERESIZE_WINDOW,_NET_WM_WINDOW_OPACITY,_NET_WM_WINDOW_OPACITY,
+2017-11-06 09:52:13	nejni-marji	[22:58:12] _NET_WM_WINDOW_OPACITY,_NET_WM_WINDOW_OPACITY,_NET_WM_WINDOW_OPACITY,_NET_WM_WINDOW_OPACITY
+2017-11-06 09:52:13	dive	[22:58:22] ok
+2017-11-06 09:52:13	dive	[22:58:37] Do you have xdotool?
+2017-11-06 09:52:13	nejni-marji	[22:58:41] yeah
+2017-11-06 09:52:13	dive	[23:00:09] There's a log line in the decopacity and incopacity scripts. Try uncommenting it and see what pops up in ~/log. tail -f log
+2017-11-06 09:52:13	dive	[23:00:37] You should see the level going up and down.
+2017-11-06 09:52:13	nejni-marji	[23:00:45] yeah
+2017-11-06 09:52:13	nejni-marji	[23:00:48] it is
+2017-11-06 09:52:13	dive	[23:01:16] And you have compton running?
+2017-11-06 09:52:13	nejni-marji	[23:01:19] yeah
+2017-11-06 09:52:13	dive	[23:01:24] Hmm
+2017-11-06 09:52:13	dive	[23:01:41] Hold down the decrease key.
+2017-11-06 09:52:13	nejni-marji	[23:01:46] my terminals already have nonzero transparency
+2017-11-06 09:52:13	dive	[23:01:46] It's slow going.
+2017-11-06 09:52:13	dive	[23:01:51] Oh
+2017-11-06 09:52:13	dive	[23:02:21] You need to try on a different window then. Something normally has full opacity.
+2017-11-06 09:52:13	nejni-marji	[23:02:27] xterm?
+2017-11-06 09:52:13	dive	[23:02:34] Should work.
+2017-11-06 09:52:13	dive	[23:02:52] So long as there is no rule somewhere else for transparency.
+2017-11-06 09:52:13	dive	[23:04:03] I tried in on terminator which was already trans. It did change it, but it got all jerky typing. Probably because the two were fighting each other.
+2017-11-06 09:52:13	dive	[23:04:13] s/in/it/
+2017-11-06 09:52:13	dive	[23:06:07] The person who wrote that line suggested using exec_always, but that totally locked up xorg when I logged in.
+2017-11-06 09:52:13	dive	[23:06:29] It worked ok if i3 was running and you restarted it.
+2017-11-06 09:52:13	dive	[23:06:44] Hence I made it just 'exec'.
+2017-11-06 09:52:13	dive	[23:09:52]  need to put a test in to see if it's already set, because I saw that you had it twice.
+2017-11-06 09:52:13	dive	[23:17:43] Done.
+2017-11-06 09:52:13	dive	[23:18:11] Oh he left.
+2017-11-06 09:52:13	nejni-marji	[23:19:27] am I the only one who thinks the swap command should include a directional argument?
+2017-11-06 09:52:13	dive	[23:20:18] nejni-marji, I've just updated the opacity script to add a check to see if the opacity atom has already been set.
+2017-11-06 09:52:13	dive	[23:20:28] I saw that you had it twice.
+2017-11-06 09:52:13	dive	[23:23:29] I've noticed that once it's been set it continue to work on windows, even after a restart when the root window no longer has the opacity atom.
+2017-11-06 09:52:13	dive	[23:25:01] compton does something weird with opacity. It starts some windows a little bit transparent.
+2017-11-06 09:52:13	nejni-marji	[23:25:12] yeah
+2017-11-06 09:52:13	dive	[23:25:27] So when you step down it goes suddenly almost blank.
+2017-11-06 09:52:13	nejni-marji	[23:25:42] I just got doubleclick on any window to fullscreen it
+2017-11-06 09:52:13	nejni-marji	[23:25:53] But I can't click on anything
+2017-11-06 09:52:13	nejni-marji	[23:26:00] this is fixable
+2017-11-06 09:52:13	dive	[23:26:10] I don't know if there's a way to run the full opacity script when starting apps with rofi/dmenu.
+2017-11-06 09:52:13	nejni-marji	[23:26:40] no, I'm not sure it is
+2017-11-06 09:52:13	nejni-marji	[23:27:04] xdotool works above bindsym, so xdotool is caught by the bindsym
+2017-11-06 09:52:13	nejni-marji	[23:27:40] I __could__ just change it to doubleclick with a modifier, but that's too easy
+2017-11-06 09:52:13	dive	[23:28:04] WHere do you doubleclick?
+2017-11-06 09:52:13	dive	[23:28:08] Titlebar?
+2017-11-06 09:52:13	nejni-marji	[23:29:07] entire window
+2017-11-06 09:52:13	dive	[23:29:26] Which app?
+2017-11-06 09:52:13	nejni-marji	[23:29:54] all of them
+2017-11-06 09:52:13	 *	nejni-marji [23:30:14] laughing maniacally
+2017-11-06 09:52:13	dive	[23:30:34] lol
+2017-11-06 09:52:13	nejni-marji	[23:32:17] but it also makes my status bar flash every time I click something
+2017-11-06 09:52:13	nejni-marji	[23:33:03] https://paste.linux.community/view/66e03638
+2017-11-06 09:52:13	nejni-marji	[23:33:57] if there's a way to toggle whether or not you show the mode
+2017-11-06 09:52:13	nejni-marji	[23:33:59] hmmm
+2017-11-06 09:52:13	nejni-marji	[23:35:46] you can't toggle binding_mode_indicator
+2017-11-06 09:52:13	nejni-marji	[23:35:51] :(
+2017-11-06 09:52:13	dive	[23:35:57] Hmm
+2017-11-06 09:52:13	dive	[23:36:35] You could use something like that osd lib to pop up a message on the screen.
+2017-11-06 09:52:13	dive	[23:36:44] I use it when I mute my audio.
+2017-11-06 09:52:13	dive	[23:37:04] aosd_cat
+2017-11-06 09:52:13	dive	[23:37:11] echo Mute | aosd_cat -p 2 -x 0 -y 0 -t 1 -u 10000000 -R '#aaffaa'
+2017-11-06 09:52:13	dive	[23:37:25] Just put the mode instead of 'Mute'
+2017-11-06 09:52:13	dive	[23:37:42] And have that exec in you mode functions.
+2017-11-06 09:52:13	dive	[23:38:09] s/you/your/
+2017-11-06 09:52:13	nejni-marji	[00:10:45] That's a good idea
+2017-11-06 09:52:13	nejni-marji	[00:10:53] Having a notification when you mute audio
+2017-11-06 09:52:13	nejni-marji	[00:13:45] uh oh
+2017-11-06 09:52:13	nejni-marji	[00:13:50] I'm gonna need more shell scripts for this
+2017-11-06 09:52:13	nejni-marji	[00:14:11] I now have 10 bindings (at least) that I want to add notifications to
+2017-11-06 09:52:13	dive	[00:40:44] nejni-marji, I've found out why compton gives wrong opacity to windows when they first open - compton needs starting with dbus-launch
+2017-11-06 09:52:13	dive	[00:41:07] It gets window info from the message bus.
+2017-11-06 09:52:13	nejni-marji	[00:43:21] ah
+2017-11-06 09:52:13	cpcat	[02:21:25] hi
+2017-11-06 09:52:13	Eyo	[02:21:28] hello!
+2017-11-06 09:52:13	cpcat	[02:21:49] how do I thiken the border/line that highlights the active terminal?
+2017-11-06 09:52:13	dive	[02:31:51] nejni-marji, I've found that one window at least refuses to be transparent - fontmatrix. There are probably others. I've just updated the scripts to fix the buggy start at semi-transparent.
+2017-11-06 09:52:13	nejni-marji	[02:39:27] cpcat: change the border settings for new_window (and optionally new_float)
+2017-11-06 09:52:13	feditor	[03:02:48] hello, is it possible to add a shadow to the mouse pointer/cursor? tried looking into compositors and searching around but suprisingly found pretty much nothing relevant
+2017-11-06 09:52:13	thy0	[03:03:52] feditor: I think that would come as a cursor pack rather than as an i3 setting. Look at custom cursor designs
+2017-11-06 09:52:13	feditor	[03:04:58] also the (default cursor itself generally seems to change when hovering over certain application, i.e. firefox (cursor gets smaller) and terminal (normal)
+2017-11-06 09:52:13	nejni-marji	[03:05:12] that sounds like a dpi issue, try restarting i3 in-place
+2017-11-06 09:52:13	feditor	[03:05:44] never changed dpi, had this behavior for quite a while between a lot of sessions
+2017-11-06 09:52:13	nejni-marji	[03:05:57] do you usse multiple monitors?
+2017-11-06 09:52:13	feditor	[03:06:02] yes
+2017-11-06 09:52:13	nejni-marji	[03:06:16] try setting the dpi then restarting i3 in-place
+2017-11-06 09:52:13	nejni-marji	[03:06:26] sometimes monitors cause weirdness
+2017-11-06 09:52:13	feditor	[03:07:58] same behavior
+2017-11-06 09:52:13	Ipsilon	[03:08:27] feditor: you may have a mismatch between xft and gtk settings
+2017-11-06 09:52:13	feditor	[03:08:28] using `xrandr --output DP2 --primary --mode 2560x1440 -r 60 --dpi 96 --output HDMI1 --mode 1920x1200 -r 60 --right-of DP2 --dpi 96`
+2017-11-06 09:52:13	feditor	[03:09:38] could be, gtk settings where always a pain to configure
+2017-11-06 09:52:13	nejni-marji	[03:10:25] does this occur for new terminals and firefox instances after setting the dpi?
+2017-11-06 09:52:13	feditor	[03:12:17] currently, the cursor is small for gnome-terminal and firox but big when on border/titlebar or text editor
+2017-11-06 09:52:13	feditor	[03:12:31] restarted firefox and started xterm to test
+2017-11-06 09:52:13	feditor	[03:13:01] behavior didn't seem to change for any applications I restarted
+2017-11-06 09:52:13	Ipsilon	[03:13:52] do you have Xcursor.size defined anywhere?
+2017-11-06 09:52:13	feditor	[03:14:24] how do I check?
+2017-11-06 09:52:13	feditor	[03:14:42] not actively at least
+2017-11-06 09:52:13	Ipsilon	[03:15:13] `xrdb -query |grep Xcursor`
+2017-11-06 09:52:13	feditor	[03:17:32] no output
+2017-11-06 09:52:13	Ipsilon	[03:17:57] feditor: then set it and see if that helps
+2017-11-06 09:52:13	feditor	[03:18:06] to what?
+2017-11-06 09:52:13	feditor	[03:18:14] and how
+2017-11-06 09:52:13	Ipsilon	[03:18:15] https://wiki.archlinux.org/index.php/Cursor_themes
+2017-11-06 09:52:13	nejni-marji	[03:18:25] >and how --- ~/.Xresources
+2017-11-06 09:52:13	Ipsilon	[03:18:32] I can't tell you to what. it's up to you
+2017-11-06 09:52:13	nejni-marji	[03:18:37] 'Xcursor.size = 10'
+2017-11-06 09:52:13	nejni-marji	[03:18:46] and then if 10 is too small, etc
+2017-11-06 09:52:13	feditor	[03:19:31] do I have to restart xorg to see the change?
+2017-11-06 09:52:13	nejni-marji	[03:19:42] xrdb .Xresources
+2017-11-06 09:52:13	Ipsilon	[03:19:51] xrdb -load .Xresources
+2017-11-06 09:52:13	Ipsilon	[03:20:01] but restarting xorg may help for this particular case
+2017-11-06 09:52:13	feditor	[03:20:09] xrdb: colon missing on line 1, ignoring line
+2017-11-06 09:52:13	Ipsilon	[03:20:11] since cursors can be a bit derpy
+2017-11-06 09:52:13	feditor	[03:20:24] I did `echo 'Xcursor.size = 10' > ~/.Xresources`
+2017-11-06 09:52:13	Ipsilon	[03:20:27] Xcursor.size: 16
+2017-11-06 09:52:13	nejni-marji	[03:20:31] oh
+2017-11-06 09:52:13	Ipsilon	[03:20:34] no equals
+2017-11-06 09:52:13	nejni-marji	[03:20:36] I didn't actually check the syntax
+2017-11-06 09:52:13	nejni-marji	[03:21:17] implying I ever _do_ check the syntax
+2017-11-06 09:52:13	nejni-marji	[03:22:09] is there a way to have redshift only affect one output?
+2017-11-06 09:52:13	feditor	[03:22:37] started another xorg session (startx) to test since it doesn't seem to accept the change in the current session, on ff the cursor is still small
+2017-11-06 09:52:13	Ipsilon	[03:25:11] again, it may be defined via gtk. that link I sent explains way of configuring that.
+2017-11-06 09:52:13	Ipsilon	[03:25:18] otherwise, I dunno
+2017-11-06 09:52:13	feditor	[03:29:58] yeay, seems to be the size over qt applications didn't change, over i3 elements, mpv and such the change did get applied and applications using gtk the cursor is small
+2017-11-06 09:52:13	feditor	[03:30:22] might be a question for ##linux then on how to attempt to sync this
+2017-11-06 09:52:13	feditor	[03:32:29] what if any compositor are i3 people using?
+2017-11-06 09:52:13	Ipsilon	[03:33:42] most use compton
+2017-11-06 09:52:13	Ipsilon	[03:33:46] if anything
+2017-11-06 09:52:13	abff	[03:34:41] does one need a compositor for antialiasing in i3? (default font looks kinda sketchy)
+2017-11-06 09:52:13	feditor	[03:35:20] use a different font then
+2017-11-06 09:52:13	Ipsilon	[03:35:25] abff: no
+2017-11-06 09:52:13	abff	[03:36:21] Ipsilon cool
+2017-11-06 09:52:13	cpcat	[03:48:45] how do I thiken the border/line that highlights the active terminal?
+2017-11-06 09:52:13	nimaje	[03:54:17] cpcat: have you already tried the suggestion from 2:39UTC? what was the result?
+2017-11-06 09:52:13	cpcat	[03:56:59] nimaje: sorry but my scroll history can't go back to 2:39.  Can you please repeat what he said?
+2017-11-06 09:52:13	dive	[03:59:03] nejni-marji: cpcat: change the border settings for new_window (and optionally new_float)
+2017-11-06 09:52:13	dive	[03:59:24] Of course the time depends on your timezone :)
+2017-11-06 09:52:13	dive	[03:59:38] It was only an hour or so ago.
+2017-11-06 09:52:13	cpcat	[04:11:54] hi
+2017-11-06 09:52:13	Eyo	[04:11:56] hello!
+2017-11-06 09:52:13	cpcat	[04:12:25] so my termite terminal emulator trumps my irssi color coding/themes.
+2017-11-06 09:52:13	cpcat	[04:45:42] https://github.com/Airblader/i3blocks-gaps  <--- Does this contian both gaps and blocks?
+2017-11-06 09:52:13	occultus	[04:48:27] it's the "gaps edition" of i3blocks
+2017-11-06 09:52:13	cpcat	[04:49:01] so it doesn't come with i3gaps and gaps is a separate package. correct?
+2017-11-06 09:52:13	occultus	[04:49:07] yes
+2017-11-06 09:52:13	cpcat	[05:08:20] Does anyone here use gentoo?  I'm getting file collisions when trying to install gaps with i3.  Why would gaps and i3 share the same files?  https://paste.pound-python.org/show/HUF1Ayi9ZHEsiZmo16QR/
+2017-11-06 09:52:13	occultus	[05:08:33] i3-gaps replaces i3
+2017-11-06 09:52:13	dive	[05:09:08] It's a fork of i3.
+2017-11-06 09:52:13	dive	[05:09:32] You have one or the other, but not both.
+2017-11-06 09:52:13	cpcat	[05:10:45] so so I should unmerge i3, then merge i3-gaps.
+2017-11-06 09:52:13	dive	[05:11:22] Yep
+2017-11-06 09:52:13	cpcat	[05:11:23] what should I back up incase this goes sour?  Just my personal config in ~/.config ?
+2017-11-06 09:52:13	dive	[05:12:06] That won't be deleted unless you do a complete purge of it, but yeah you could abck it up just in case.
+2017-11-06 09:52:13	dive	[05:12:21] s/abck/back/
+2017-11-06 09:52:13	cpcat	[05:12:27] dive: do you run gentoo also?
+2017-11-06 09:52:13	dive	[05:12:32] Nope.
+2017-11-06 09:52:13	dive	[05:12:35] Slackware.
+2017-11-06 09:52:13	cpcat	[05:14:29] do I still invoke i3-gaps via exec i3 ?
+2017-11-06 09:52:13	cpcat	[05:14:38] or the usual way?
+2017-11-06 09:52:13	dive	[05:15:14] I've never used i3-gaps so I can't say, but I'd say that yes you invoke it the same way as i3.
+2017-11-06 09:52:13	dive	[05:15:39] Do you use a graphical login manager, or startx, or how?
+2017-11-06 09:52:13	cpcat	[05:15:53] i put exec i3 in .xinitrc
+2017-11-06 09:52:13	cpcat	[05:16:07] I'll probably be using SLiM
+2017-11-06 09:52:13	dive	[05:16:09] DO you have 'xwmconfig' app?
+2017-11-06 09:52:13	cpcat	[05:16:18] no what's that?
+2017-11-06 09:52:13	dive	[05:16:57] It chooses which WM will run, by copying it's xinitrc for ~/.xinitrc
+2017-11-06 09:52:13	dive	[05:17:07] So you don't have to manually add i3.
+2017-11-06 09:52:13	dive	[05:17:34] But it should be called using consolekit and dbus commands.
+2017-11-06 09:52:13	dive	[05:17:47] One sec and I'll show you the one that comes with i3.
+2017-11-06 09:52:13	dive	[05:18:19] cpcat, http://ix.io/BZ6
+2017-11-06 09:52:13	cpcat	[05:18:38] I'm not on slackware and I dont see search results for emerge --search xwmconfig
+2017-11-06 09:52:13	dive	[05:18:39] That's how it should get launched.
+2017-11-06 09:52:13	dive	[05:18:52] Try 'which xwmconfig'
+2017-11-06 09:52:13	dive	[05:19:03] It could be slackware specific I guess.
+2017-11-06 09:52:13	occultus	[05:19:25] why the dbus command?
+2017-11-06 09:52:13	dive	[05:19:31] Yeah it is. Signed by PV himself at the top.l
+2017-11-06 09:52:13	dive	[05:20:02] occultus, that's in i3's default xinitrc. It's so that it can use the message bus.
+2017-11-06 09:52:13	occultus	[05:20:23] i3's default xinitrc... upstream or slackware?
+2017-11-06 09:52:13	cpcat	[05:20:29] dive: should I still copy paste that script that you gave me for .xinitrc ?
+2017-11-06 09:52:13	dive	[05:20:36] Upstream I would think. I'll check.
+2017-11-06 09:52:13	occultus	[05:20:54] i3 doesn't have its own xinitrc afaik
+2017-11-06 09:52:13	occultus	[05:21:18] it provides an i3.desktop in xsessions
+2017-11-06 09:52:13	cpcat	[05:21:25] I don't mind invoking i3 manually. Right now I want to get gaps first.
+2017-11-06 09:52:13	dive	[05:21:39] You're right.
+2017-11-06 09:52:13	dive	[05:22:27] Yeah, specific for slackware then.
+2017-11-06 09:52:13	occultus	[05:22:37] over here on arch dbus is already launched (probably by systemd?) so dbus-launch isn't necessary
+2017-11-06 09:52:13	dive	[05:23:05] That could be why. SLackware doesn't have systemd.
+2017-11-06 09:52:13	cpcat	[05:23:14] so where will the new i3 find the config file for the blocks status line?
+2017-11-06 09:52:13	occultus	[05:23:40] the same place i would assume
+2017-11-06 09:52:13	dive	[05:24:03] cpcat, when you start up i3-gapos for the first time it should make a config file in ~/.config if one doesn't already exist.
+2017-11-06 09:52:13	dive	[05:24:35] I would think it would use i3/config but I've never used gaps.
+2017-11-06 09:52:13	dive	[05:24:54] Just have in .config after starting it and see what there is.
+2017-11-06 09:52:13	dive	[05:25:24] The i3blocks-gaps will have its own config I would think.
+2017-11-06 09:52:13	dive	[05:25:36] Or perhaps use i3blocks one.
+2017-11-06 09:52:13	dive	[05:25:40] You will soon see.
+2017-11-06 09:52:13	cpcat	[05:29:39] thanks.  I'm going to reboot and see how this looks
+2017-11-06 09:52:13	cpcat	[05:32:22] this is beautiful!! I love it!!
+2017-11-06 09:52:13	dive	[05:33:11] What makes it better than plain i3?
+2017-11-06 09:52:13	cpcat	[05:33:25] I get my gaps.
+2017-11-06 09:52:13	dive	[05:33:37] What else?
+2017-11-06 09:52:13	occultus	[05:33:52] GAAAAPPPSSSSS
+2017-11-06 09:52:13	dive	[05:34:01] Hmm.
+2017-11-06 09:52:13	dive	[05:34:15] I really don't understand why you need gaps.
+2017-11-06 09:52:13	dive	[05:34:22] I hate gaps.
+2017-11-06 09:52:13	occultus	[05:34:29] /r/unixporn loves gaps
+2017-11-06 09:52:13	dive	[05:34:43] s/unixporn/unicornporn/
+2017-11-06 09:52:13	cpcat	[05:34:56] and colorful stuff in the stat bar.  https://www.youtube.com/watch?v=O3ATD7hxj9M
+2017-11-06 09:52:13	dive	[05:51:49] Well he didn't show much about i3-gaps, just i3blocks-gaps.
+2017-11-06 09:52:13	dive	[05:52:04] I'll admit that the status bar looks nice though.
+2017-11-06 09:52:13	dive	[05:52:26] I might have to look at i3blocks.
+2017-11-06 09:52:13	dive	[05:53:17] But I never really use my status bar. It's on hidden and just pops up when a new window is shown on another workspace.
+2017-11-06 09:52:13	HcsOmot	[10:13:59] hi all
+2017-11-06 09:52:13	Eyo	[10:14:02] hello!
+2017-11-06 09:52:13	HcsOmot	[10:14:51] could someone help me debug some weird sound issues? literally have no idea where to start
+2017-11-06 09:52:13	HcsOmot	[10:23:03] when i close the laptop lid, os suspends, and when I bring it back from sleep, sound doesn't work anymore. I need to reboot
+2017-11-06 09:52:13	squigzy	[10:26:14] better to seek help with your distro's support
+2017-11-06 09:52:13	Satin	[12:37:41] hi
+2017-11-06 09:52:13	Eyo	[12:37:44] hello!
+2017-11-06 09:52:13	Satin	[12:37:55] Is it possible to have custom icons as workspace icons? :)
+2017-11-06 09:52:13	Satin	[12:38:08] I feel like font-awesome is fundamentally limited or any other font for that matter
+2017-11-06 09:52:13	Satin	[12:41:12] crap, lagged out.
+2017-11-06 09:52:13	nimaje	[13:00:54] you just need a font with your icon and give the ws that icon as name, for custom icons unicode has a private use area, that is where font-awesome has its additional icons
+2017-11-06 09:52:13	Satin	[13:01:12] nimaje: what are .xmb icons then?
+2017-11-06 09:52:13	Satin	[13:01:29] I thought there was a patch for i3bar that allowed custom .xmb icons? and how do you do those in particular o.o
+2017-11-06 09:52:13	nimaje	[13:05:09] no idea about that, that sentence above was all I know about fonts with icons, you could look how font-awesome patches fonts, maybe they have a tool to add a .xmb icon to a font
+2017-11-06 09:52:13	Hackira	[13:26:40] Hello guys, I've been trying to execute slock through a binding on my i3 configuration but nothing happens, could you help me figure out what I'm missing?
+2017-11-06 09:52:13	i336	[13:32:33] hi, I have an odd problem. I'm trying to use pango markup in i3bar, but the <span> </span> is being shown on the screen.
+2017-11-06 09:52:13	i336	[13:32:48] I'm using i3bar from i3 4.12
+2017-11-06 09:52:13	i336	[13:33:05] I've just checked ./configure, which doesn't have a "disable pango markup" option (which kinda makes sense)
+2017-11-06 09:52:13	i336	[13:33:24] and I've just reverted my i3config to use i3status, which also triggers the bug
+2017-11-06 09:52:13	i336	[13:33:50] specifically, i3status is outputting: {"name":"tztime","instance":"local","markup":"pango","full_text":"<span foreground='#ffffff'>time:</span> 00:33 EST"}
+2017-11-06 09:52:13	i336	[13:34:18] and I'm seeing "<span foreground='#ffffff'>time:</span> 00:33 EST" in i3bar
+2017-11-06 09:52:13	nimaje	[13:45:04] Hackira: maybe slock tries to grab mouse and keyboard, try adding --release to bindsym
+2017-11-06 09:52:13	Hackira	[13:58:33] nimaje: Excellent ! :D
+2017-11-06 09:52:13	--	Notice(GitHub27): [14:50:54] [i3] livanh opened pull request #3036: Implement 'resize set width|height <ppt> ppt' command (next...resize_set_ppt) https://git.io/vFW85
+2017-11-06 09:52:13	i336_	[15:01:02] well it's now 2AM, and I've got my first real piece of evidence
+2017-11-06 09:52:13	i336_	[15:01:26] savedFont->type in draw_text() in font.c is FONT_TYPE_XCB, not FONT_TYPE_PANGO
+2017-11-06 09:52:13	i336_	[15:01:33] this is a good start
+2017-11-06 09:52:13	i336_	[15:01:39] me major ZZZ nao
+2017-11-06 09:52:13	i336_	[15:01:45] and figure this out tomorrow sometime
+2017-11-06 09:52:13	leech	[15:54:21] hello. do you know if is it possible to automatically launch programs on boot with a given window order? right now I use the exec command to launch them in fixed workspaces, do I need a script executing commands one by one to order them?
+2017-11-06 09:52:13	meth	[15:54:56] guys how to make mouse bigger on scaled resolutions
+2017-11-06 09:52:13	leech	[15:54:58] for "window order" I mean: a program-A on top and at the bottom program-B and program-C
+2017-11-06 09:52:13	meth	[15:55:06] i mean on 4K monitors
+2017-11-06 09:52:13	leech	[15:55:27] in a tree-like division
+2017-11-06 09:52:13	nejni-marji	[16:08:47] leech: see layout saving and restoring in the documentation
+2017-11-06 09:52:13	nejni-marji	[16:09:23] meth: either by setting the dpi, or it might be possible to do it with Xresources, but I forget how
+2017-11-06 09:52:13	nejni-marji	[16:09:37] and it might be possible to do it with GTK, but I'm less sure about that
+2017-11-06 09:52:13	scrote	[16:10:58] hello.
+2017-11-06 09:52:13	Eyo	[16:11:01] hello!
+2017-11-06 09:52:13	scrote	[16:12:01] Is there a way to have a new "random-ish" (from a pool/dir) background wall paper for each created workspace?
+2017-11-06 09:52:13	nejni-marji	[16:14:00] per-workspace, I don't think so
+2017-11-06 09:52:13	nejni-marji	[16:14:34] you could write a script to detect workspace changes and assign a new wallpaper every time you switch though
+2017-11-06 09:52:13	scrote	[16:19:43] so would i3 run this script via exec?
+2017-11-06 09:52:13	nejni-marji	[16:20:07] I would make a persistent IPC script in python
+2017-11-06 09:52:13	scrote	[16:20:09] and is there an i3 api to query what workspace I'm on?
+2017-11-06 09:52:13	nejni-marji	[16:20:48] https://github.com/acrisci/i3ipc-python
+2017-11-06 09:52:13	scrote	[16:20:53] https://i3wm.org/docs/ipc.html  this?
+2017-11-06 09:52:13	scrote	[16:20:56] ok thanks.
+2017-11-06 09:52:13	nimaje	[16:22:04] better to listen on ws change events https://i3wm.org/docs/ipc.html#_events
+2017-11-06 09:52:13	nejni-marji	[16:22:07] you'll want 'i3.on('workspace::focus', on_workspace_focus)' and then to make that function on_workspace_focus pull images and do stuff
+2017-11-06 09:52:13	nejni-marji	[16:22:27] can you subscribe to events with i3-msg?
+2017-11-06 09:52:13	--	Notice(GitHub197): [16:28:02] [i3] Airblader closed pull request #3023: Add support to resize floating container in percentage (next...issue-2816) https://git.io/vd97U
+2017-11-06 09:52:13	--	Notice(GitHub97): [16:38:24] [i3] Airblader closed pull request #2837: Improve git detection in configure.ac (next...bug/git-detection) https://git.io/vQyhH
+2017-11-06 09:52:13	--	Notice(GitHub179): [16:42:47] [i3] Airblader closed pull request #2980: Use con_descend_focused for workspaces in _tree_next (next...issue-1160-pr) https://git.io/vdUbK
+2017-11-06 09:52:13	--	Notice(GitHub6): [16:42:47] [i3] Airblader pushed 2 new commits to next: https://git.io/vFWgl
+2017-11-06 09:52:13	--	Notice(GitHub6): [16:42:47] i3/next af78331 Orestis Floros: Use con_descend_focused for workspaces in _tree_next...
+2017-11-06 09:52:13	--	Notice(GitHub6): [16:42:47] i3/next c207921 Ingo Bürk: Merge pull request #2980 from orestisf1993/issue-1160-pr...
+2017-11-06 09:52:13	--	Notice(GitHub143): [17:10:45] [i3] orestisf1993 closed pull request #3002: tree_flatten: remove redundant stacked / tabbed containers (next...issue-3001) https://git.io/vdGiv
+2017-11-06 09:52:13	dive	[17:26:50] i3 version 4.14-157-gc2079219
+2017-11-06 09:52:13	meth	[17:40:50] nejni-marji, sitting the dpi didn't enlarge the mouse, that's why i asked.
+2017-11-06 09:52:13	nejni-marji	[18:00:51] meth: ah. I think there's a way to do it with Xresources as I mentioned, but I don't remember what the setting is
+2017-11-06 09:52:13	cosimone	[18:47:07] hi everyone, is there some way to set i3 to open new windows as floating by default?
+2017-11-06 09:52:13	occultus	[18:47:18] yes
+2017-11-06 09:52:13	cosimone	[18:49:27] how do i set it?
+2017-11-06 09:52:13	occultus	[18:55:27] what have you tried?
+2017-11-06 09:52:13	cosimone	[19:00:02] found it
+2017-11-06 09:52:13	cosimone	[19:00:26] for_window [class="[.]*"] floating enable does the trick
+2017-11-06 09:52:13	cosimone	[19:00:58] i get that this is somewhat sophisticated, but is there some way to spawn new floating windows in "empty" spaces on the desktop?
+2017-11-06 09:52:13	occultus	[19:02:36] i suspect not in i3. you could write some insane script that looked at everything open and tried to find an empty space, but that sounds convoluted
+2017-11-06 09:52:13	nejni-marji	[19:36:14] if you're gonna set for_window [class=".*"] floating enable you might as well not use i3
+2017-11-06 09:52:13	nejni-marji	[19:36:29] oh, they're gone lol
+2017-11-06 09:52:13	scrote	[20:21:40] hi
+2017-11-06 09:52:13	Eyo	[20:21:44] hello!
+2017-11-06 09:52:13	thecliguy	[20:21:57] o/
+2017-11-06 09:52:13	scrote	[20:22:47] anyone use SLiM? Will login_cmd           exec /bin/bash -login ~/.xinitrc %session   <-- /etc/slim.conf   start i3 if .xinitrc contains exec i3?
+2017-11-06 09:52:13	occultus	[20:23:37] why even mix a display manager with xinitrc?
+2017-11-06 09:52:13	scrote	[20:24:02] it's a login manager
+2017-11-06 09:52:13	JPT	[20:24:31] slim is quite nice :)
+2017-11-06 09:52:13	scrote	[20:24:51] How do I configure slim.conf to directly run i3?
+2017-11-06 09:52:13	nejni-marji	[20:24:52] why not just have it start i3 directly?
+2017-11-06 09:52:13	JPT	[20:24:54] I don't know about the login_cmd though - i just put the i3 part in .xinitrc and everything was fine
+2017-11-06 09:52:13	scrote	[20:25:08] login_cmd           exec i3  # Correct?
+2017-11-06 09:52:13	nejni-marji	[20:25:09] you probably put 'i3' or '/usr/bin/i3' as the login_cmd, I'm guessing
+2017-11-06 09:52:13	nejni-marji	[20:25:27] or exec i3 if it needs exec
+2017-11-06 09:52:13	scrote	[20:25:29] ok i'll try that.
+2017-11-06 09:52:13	dive	[20:28:19] Doesn't slim have some kind of session chooser that uses .desktops?
+2017-11-06 09:52:13	plexigras	[21:19:51] nearly all applications are frozen the only way i can use them is in fullscreen mode
+2017-11-06 09:52:13	plexigras	[21:20:22] this happend just a few minutes ago and i didnt change anything i3 specific
+2017-11-06 09:52:13	nejni-marji	[21:21:02] have you tried restarting i3 yet?
+2017-11-06 09:52:13	plexigras	[21:21:26] yes, didnt help
+2017-11-06 09:52:13	plexigras	[21:21:42] i did `i3-msg restart`
+2017-11-06 09:52:13	plexigras	[21:22:53] i think i will just go and stop i3 completly and hope this fixes it
+2017-11-06 09:52:13	plexigras	[21:27:33] is there a way to do that and restore the session?
+2017-11-06 09:52:13	nejni-marji	[21:29:02] there is functionality for layout save/restore, but it's not automatic and imo it's still clunky at best
+2017-11-06 09:52:13	plexigras	[21:30:30] what could have caused this? i think i was using chromium but that might not be it
+2017-11-06 09:52:13	nejni-marji	[21:31:57] I have no idea.
+2017-11-06 09:52:13	plexigras	[21:34:04] ok then im just gonna kill i3
+2017-11-06 09:52:13	plexigras	[21:38:32] fully restarting i3 seams to have fixed it
+2017-11-06 09:52:13	NoraE	[09:13:44] Hey, quick question about rearranging windows. If I have 3 windows one right to the other, can I put the one on the far right below the one in the middle?
+2017-11-06 09:52:13	NoraE	[09:14:25] So there would now be one on the left 50% of the screen, and two on the right 50% one over the other
+2017-11-06 09:52:13	NoraE	[09:14:31] Without closing the windows
+2017-11-06 09:52:13	NoraE	[09:14:47] Just rearranging
+2017-11-06 09:52:13	Ipsilon	[09:16:05] NoraE: sure. how you do that depens a bit on your workflow
+2017-11-06 09:52:13	NoraE	[09:16:30] Ipsilon: What do you mean?
+2017-11-06 09:52:13	Ipsilon	[09:16:45] oen way to do it is set one of the windows to a vsplit and then move the third window to it
+2017-11-06 09:52:13	Ipsilon	[09:17:22] Normally I'll have two windows side by side, and I'll go to one of them, vsplit it, and open the third window so that it opens below it
+2017-11-06 09:52:13	NoraE	[09:18:05] Ipsilon: What's a vsplit?
+2017-11-06 09:52:13	Ipsilon	[09:18:09] vertical split
+2017-11-06 09:52:13	NoraE	[09:18:33] I know how to do it when the third window is not open yet
+2017-11-06 09:52:13	NoraE	[09:18:42] I meant when the three are already open
+2017-11-06 09:52:13	Ipsilon	[09:20:51] so, with windows [W1] [W2] [W3], you would make W3 a vertical split container [W1] [W2] [vsplit W3]
+2017-11-06 09:52:13	Ipsilon	[09:21:05] and trhen move W2 to W3 [W1] [vsplit W2 W3]
+2017-11-06 09:52:13	Ipsilon	[09:21:37] if you only have W1 and W2, then you just turn W2 to a vertical split container, and with W2 focused, you open whatever you want.
+2017-11-06 09:52:13	Ipsilon	[09:21:49] it will automatically open below W2
+2017-11-06 09:52:13	NoraE	[09:24:12] Ipsilon: How do I make W3 a vsplit?
+2017-11-06 09:52:13	NoraE	[09:24:32] Ipsilon: Nevermind
+2017-11-06 09:52:13	NoraE	[09:24:38] Ipsilon: I did it
+2017-11-06 09:52:13	NoraE	[09:24:41] Ipsilon: Thank you
+2017-11-06 09:52:13	Ipsilon	[09:25:11] np
+2017-11-06 09:52:13	Ipsilon	[09:25:44] I think vsplits and hsplits can be a bit confusing for people. It's something you understand better when you use more i3
+2017-11-06 09:52:13	***	Playback Complete.
+2017-11-06 09:52:22	--	Channel created on Thu, 22 Jul 2010 20:58:13
+2017-11-06 10:00:58	<--	fhs (~fhs@2604:2000:1701:804e:6567:5a24:92ad:b6c5) has quit (Ping timeout: 264 seconds)
+2017-11-06 10:02:24	-->	Powersource (powersourc@gateway/shell/matrix.org/x-rmztuytgqfesdrkg) has joined #i3
+2017-11-06 10:02:24	-->	luminousnine (lumimatrix@gateway/shell/matrix.org/x-jinaunmnpqssuykc) has joined #i3
+2017-11-06 10:02:24	-->	Masaomi[m] (masaomimat@gateway/shell/matrix.org/x-tlxghjbofgrxshrl) has joined #i3
+2017-11-06 10:02:25	-->	mdt[m] (mdtmatrixo@gateway/shell/matrix.org/x-qkpelafmwrjljisn) has joined #i3
+2017-11-06 10:02:25	-->	MrAxilus[m] (mraxilusma@gateway/shell/matrix.org/x-lnppnnnnydjsviee) has joined #i3
+2017-11-06 10:02:25	-->	unclechu (unclechuma@gateway/shell/matrix.org/x-qvngdmdvkxqjqsom) has joined #i3
+2017-11-06 10:02:25	-->	grettp[m] (grettpmatr@gateway/shell/matrix.org/x-dsbhtrgoggjrsjkh) has joined #i3
+2017-11-06 10:02:25	-->	albuic (albuicmatr@gateway/shell/matrix.org/x-rlcvovrnwhphhldd) has joined #i3
+2017-11-06 10:02:25	-->	ibrokemypie[m] (ibrokemypi@gateway/shell/matrix.org/x-vtvgsljmgdjcpdmr) has joined #i3
+2017-11-06 10:02:25	-->	hiq[m] (hiqmatrixo@gateway/shell/matrix.org/x-qlvgfrowfmteavcx) has joined #i3
+2017-11-06 10:02:25	-->	sphalerite (sphalerite@gateway/shell/matrix.org/x-uomkqougknuocebf) has joined #i3
+2017-11-06 10:02:25	-->	Mossepo (mossepomat@gateway/shell/matrix.org/x-xzstnlftkwsaljgj) has joined #i3
+2017-11-06 10:02:25	-->	ashkitten (ashkittenm@gateway/shell/matrix.org/x-rsqwbbhshddbkryz) has joined #i3
+2017-11-06 10:02:26	-->	Evylon[m] (evylonstra@gateway/shell/matrix.org/x-clzsazhuuygbrcxr) has joined #i3
+2017-11-06 10:02:26	-->	callumstyan[m] (callumstya@gateway/shell/matrix.org/x-osuotfxkmtsxaigq) has joined #i3
+2017-11-06 10:02:26	-->	fish_ (discordian@c-base/crew/fish) has joined #i3
+2017-11-06 10:02:26	-->	xyzzy[m] (xyzzychatz@gateway/shell/matrix.org/x-ldcddokkhozxvqpz) has joined #i3
+2017-11-06 10:02:32	-->	cooalai[m] (cooalaimat@gateway/shell/matrix.org/x-wsaommsatajzdzng) has joined #i3
+2017-11-06 10:09:17	-->	klon (~klon@88.129.179.151) has joined #i3
+2017-11-06 10:12:46	<--	NoraE (bebc713f@gateway/web/freenode/ip.190.188.113.63) has quit (Quit: Page closed)
+2017-11-06 10:13:43	<--	tunekey (~tunekey@unaffiliated/tunekey) has quit (Ping timeout: 260 seconds)
+2017-11-06 10:18:17	-->	ZyX-I (~ZyX-I@broadband-77-37-230-77.moscow.rt.ru) has joined #i3
+2017-11-06 10:19:46	-->	nac (~nac@p200300ECEBC4AC00CE48CC198BA0ACCC.dip0.t-ipconnect.de) has joined #i3
+2017-11-06 10:23:01	-->	fhs (~fhs@2604:2000:1701:804e:6567:5a24:92ad:b6c5) has joined #i3
+2017-11-06 10:23:55	--	irc: disconnected from server
+2017-11-06 10:24:34	-->	tomeaton17 (~tomeaton1@129.ip-91-134-134.eu) has joined #i3
+2017-11-06 10:24:34	--	Topic for #i3 is "i3 v4.14.1 released | i3status 2.11 released | i3lock 2.9.1 released | http://code.i3wm.org/ | http://i3wm.org/ | http://faq.i3wm.org/ | https://bintray.com/i3/i3-autobuild/i3-wm#statistics | paste at http://p.nnev.de/ | file upload at https://transfer.sh/ | Container tutorial: https://youtu.be/AWA8Pl57UBY | #i3-offtopic"
+2017-11-06 10:24:34	--	Topic set by sECuRE (~sECuRE@midna.zekjur.net) on Sun, 24 Sep 2017 18:31:03
+2017-11-06 10:24:34	--	Channel #i3: 413 nicks (3 ops, 0 voices, 410 normals)
+2017-11-06 10:24:42	--	Channel created on Thu, 22 Jul 2010 20:58:13
+2017-11-06 10:26:19	-->	ClockworkCoder (~Clockwork@88-96-242-70.dsl.zen.co.uk) has joined #i3
+2017-11-06 10:26:41	<--	ClockworkCoder (~Clockwork@88-96-242-70.dsl.zen.co.uk) has quit (Client Quit)
+2017-11-06 10:27:18	-->	oxymor00n (~tom@unaffiliated/oxymor00n) has joined #i3
+2017-11-06 10:27:43	<--	dive (~dive@studioware/developer/dive) has quit (Ping timeout: 260 seconds)
+2017-11-06 10:29:18	<--	JsilverT (~xmiah1406@203.205.26.23) has quit (Quit: WeeChat 2.0-dev)
+2017-11-06 10:41:46	<--	ylwghst (~ylwghst@21.254.broadband.iol.cz) has quit (Ping timeout: 264 seconds)
+2017-11-06 10:50:46	-->	tonyspaz (~tonyspaz@unaffiliated/tonyspaz) has joined #i3
+2017-11-06 10:50:47	-->	ylwghst (~ylwghst@21.254.broadband.iol.cz) has joined #i3
+2017-11-06 10:54:13	-->	grafzepp (~grafzepp@213.33.157.202) has joined #i3
+2017-11-06 10:55:31	-->	mariosgn (~mariosgn@2-238-115-77.ip243.fastwebnet.it) has joined #i3
+2017-11-06 10:56:42	--	irc: disconnected from server
+2017-11-06 11:09:02	-->	tomeaton17 (~tomeaton1@129.ip-91-134-134.eu) has joined #i3
+2017-11-06 11:09:02	--	Topic for #i3 is "i3 v4.14.1 released | i3status 2.11 released | i3lock 2.9.1 released | http://code.i3wm.org/ | http://i3wm.org/ | http://faq.i3wm.org/ | https://bintray.com/i3/i3-autobuild/i3-wm#statistics | paste at http://p.nnev.de/ | file upload at https://transfer.sh/ | Container tutorial: https://youtu.be/AWA8Pl57UBY | #i3-offtopic"
+2017-11-06 11:09:02	--	Topic set by sECuRE (~sECuRE@midna.zekjur.net) on Sun, 24 Sep 2017 18:31:03
+2017-11-06 11:09:02	--	Channel #i3: 416 nicks (3 ops, 0 voices, 413 normals)
+2017-11-06 11:09:10	--	Channel created on Thu, 22 Jul 2010 20:58:13
+2017-11-06 11:14:46	<--	iderik (~idk@h-162-144.A147.priv.bahnhof.se) has quit (Ping timeout: 255 seconds)
+2017-11-06 11:16:27	<--	ylwghst (~ylwghst@21.254.broadband.iol.cz) has quit (Ping timeout: 240 seconds)
+2017-11-06 11:17:10	<--	fhs (~fhs@2604:2000:1701:804e:6567:5a24:92ad:b6c5) has quit (Ping timeout: 264 seconds)
+2017-11-06 11:17:11	-->	iderik (~idk@h-162-144.A147.priv.bahnhof.se) has joined #i3
+2017-11-06 11:19:00	-->	HTTP_____GK1wmSU (~DEEP-BOOK@107.181.161.171) has joined #i3
+2017-11-06 11:19:42	-->	ylwghst (~ylwghst@21.254.broadband.iol.cz) has joined #i3
+2017-11-06 11:19:43	<--	HTTP_____GK1wmSU (~DEEP-BOOK@107.181.161.171) has left #i3
+2017-11-06 11:22:09	-->	thefallenrat (~thefallen@unaffiliated/thefallenrat) has joined #i3
+2017-11-06 11:39:12	<--	mstruebing (~mstruebin@2a00-1dc0-cafe--298f-12e7.static.as43289.net) has quit (Ping timeout: 246 seconds)
+2017-11-06 11:41:15	<--	thefallenrat (~thefallen@unaffiliated/thefallenrat) has quit (Remote host closed the connection)
+2017-11-06 11:41:16	<--	anon28 (~textual@2602:30a:2c45:8650:bcd4:bcc9:3f35:c8a9) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2017-11-06 11:41:42	-->	thefallenrat (~thefallen@unaffiliated/thefallenrat) has joined #i3
+2017-11-06 11:43:05	<--	cspack (~cspack@gateway/vpn/privateinternetaccess/cspack) has quit (Remote host closed the connection)
+2017-11-06 11:44:02	-->	mstruebing (~mstruebin@2a00-1dc0-cafe--298f-12e7.static.as43289.net) has joined #i3
+2017-11-06 11:45:00	-->	HTTP_____GK1wmSU (~DEEP-BOOK@200.7.102.66) has joined #i3
+2017-11-06 11:45:03	<--	bkhl (~bkhl@208.113.167.196) has quit (Ping timeout: 268 seconds)
+2017-11-06 11:45:03	<--	HTTP_____GK1wmSU (~DEEP-BOOK@200.7.102.66) has left #i3
+2017-11-06 11:46:17	-->	bkhl (~bkhl@208.113.167.196) has joined #i3
+2017-11-06 11:53:12	<--	bkhl (~bkhl@208.113.167.196) has quit (Ping timeout: 258 seconds)
+2017-11-06 11:53:27	<--	grafzepp (~grafzepp@213.33.157.202) has quit (Ping timeout: 240 seconds)
+2017-11-06 11:54:51	-->	bkhl (~bkhl@208.113.167.196) has joined #i3
+2017-11-06 11:57:23	<--	klon (~klon@88.129.179.151) has quit (Ping timeout: 268 seconds)
+2017-11-06 12:06:47	-->	dddddd (~dddddd@unaffiliated/dddddd) has joined #i3
+2017-11-06 12:08:56	-->	dive (~dive@studioware/developer/dive) has joined #i3
+2017-11-06 12:09:35	<--	hedin (~hedin@81.25.179.168) has quit (Ping timeout: 240 seconds)
+2017-11-06 12:10:22	-->	hedin (~hedin@gateway.ls.fo) has joined #i3
+2017-11-06 12:11:48	-->	Ilias95 (uid222563@fedora/ilias95) has joined #i3
+2017-11-06 12:13:25	<--	bkhl (~bkhl@208.113.167.196) has quit (Ping timeout: 268 seconds)
+2017-11-06 12:14:35	<--	hedin (~hedin@gateway.ls.fo) has quit (Ping timeout: 240 seconds)
+2017-11-06 12:15:14	-->	Disgeae (~Disgeae@37.74.195.86) has joined #i3
+2017-11-06 12:17:11	-->	widp (~widp@49.207.56.44) has joined #i3
+2017-11-06 12:19:03	-->	klon (~klon@88.129.179.151) has joined #i3
+2017-11-06 12:19:53	-->	bkhl (~bkhl@2607:f298:5:101d:f816:3eff:fe3e:59fd) has joined #i3
+2017-11-06 12:20:23	-->	hedin (~hedin@gateway.ls.fo) has joined #i3
+2017-11-06 12:20:50	-->	ClockworkCoder (~Clockwork@88-96-242-70.dsl.zen.co.uk) has joined #i3
+2017-11-06 12:24:30	<--	onnex (hytonen6@linux-ssh1.cc.tut.fi) has quit (Remote host closed the connection)
+2017-11-06 12:28:15	<--	hedin (~hedin@gateway.ls.fo) has quit (Ping timeout: 248 seconds)
+2017-11-06 12:35:24	-->	plexigras (~plexigras@gateway/vpn/privateinternetaccess/plexigras) has joined #i3
+2017-11-06 12:36:25	-->	grafzepp (~grafzepp@213.33.157.202) has joined #i3
+2017-11-06 12:40:33	-->	indeedwatson (~yama@181.95.160.55) has joined #i3
+2017-11-06 12:40:48	<--	bkhl (~bkhl@2607:f298:5:101d:f816:3eff:fe3e:59fd) has quit (Ping timeout: 246 seconds)
+2017-11-06 12:45:06	tomeaton17	I am trying to make ranger use vim by default. I managed to get this to work in my terminal by exporting EDITOR='VIM'. Ranger now opens files with vim when I run ranger from the terminal. If I run ranger from dmemu, it doesn't work still using nano to open files. How do I fix this issue?
+2017-11-06 12:46:34	<--	Anthaas_ (~Anthaas@unaffiliated/anthaas) has quit (Ping timeout: 264 seconds)
+2017-11-06 12:46:46	-->	bkhl (~bkhl@208.113.167.196) has joined #i3
+2017-11-06 12:46:56	-->	ksjk1998 (~ksjk1998@2601:589:8000:dcec::f4b5) has joined #i3
+2017-11-06 12:47:35	<--	mariosgn (~mariosgn@2-238-115-77.ip243.fastwebnet.it) has quit (Ping timeout: 240 seconds)
+2017-11-06 12:48:11	-->	hedin (~hedin@81.25.179.168) has joined #i3
+2017-11-06 12:51:24	dive	tomeaton17, do you mean gvim?
+2017-11-06 12:51:43	dive	Or are you wanting to open a terminal and run vim in it?
+2017-11-06 12:52:04	dive	You could start dmenu with exec EDITOR=vim dmenu ...
+2017-11-06 12:52:13	dive	or
+2017-11-06 12:52:16	dive	You could start dmenu with exec EDITOR=gvim dmenu ...
+2017-11-06 12:54:48	dive	For some reason dmenu and rofi don't always inherit the environmental variables.
+2017-11-06 12:56:35	dive	I just reread what you said, so I guess that you start a term with ranger in it.
+2017-11-06 12:56:49	dive	But yeah, EDITOR=vim should work.
+2017-11-06 13:00:15	<--	widp (~widp@49.207.56.44) has quit (Ping timeout: 248 seconds)
+2017-11-06 13:01:12	-->	mariosgn (~mariosgn@2-238-115-77.ip243.fastwebnet.it) has joined #i3
+2017-11-06 13:02:18	-->	Anthaas (~Anthaas@unaffiliated/anthaas) has joined #i3
+2017-11-06 13:03:21	<--	ylwghst (~ylwghst@21.254.broadband.iol.cz) has quit (Ping timeout: 240 seconds)
+2017-11-06 13:09:19	<--	alex`` (~alex@2a01cb000bb310000e31f98b4cdf4eae.ipv6.abo.wanadoo.fr) has quit (Quit: WeeChat 1.9.1)
+2017-11-06 13:15:34	-->	ylwghst (~ylwghst@21.254.broadband.iol.cz) has joined #i3
+2017-11-06 13:20:01	<--	grafzepp (~grafzepp@213.33.157.202) has quit (Ping timeout: 268 seconds)
+2017-11-06 13:23:39	<--	adulteratedjedi (sid95422@gateway/web/irccloud.com/x-dnacetibienmmnfn) has quit (Read error: Connection reset by peer)
+2017-11-06 13:24:11	-->	adulteratedjedi (sid95422@gateway/web/irccloud.com/x-rfnknhyibagezeuq) has joined #i3
+2017-11-06 13:25:35	<--	mariosgn (~mariosgn@2-238-115-77.ip243.fastwebnet.it) has quit (Ping timeout: 240 seconds)
+2017-11-06 13:26:27	<--	hank (zs3OtCxPqf@elnath.uberspace.de) has quit (Ping timeout: 240 seconds)
+2017-11-06 13:26:47	<--	oxymor00n (~tom@unaffiliated/oxymor00n) has quit (Ping timeout: 260 seconds)
+2017-11-06 13:27:50	tomeaton17	dive, yeah I tried that, I ended up just changing it in the rifle.conf file. Thanks!
+2017-11-06 13:28:27	<--	lord| (~solenodic@unaffiliated/solenodic) has quit (Quit: WeeChat 1.9.1)
+2017-11-06 13:28:31	dive	ok
+2017-11-06 13:28:48	-->	hank (Cw7uwQXsEK@2a00:d0c0:200:0:b9:1a:9c2a:480) has joined #i3
+2017-11-06 13:37:06	<--	Joschasa (~andre@dslb-092-072-169-247.092.072.pools.vodafone-ip.de) has quit (Quit: brb)
+2017-11-06 13:38:27	<--	bkhl (~bkhl@208.113.167.196) has quit (Ping timeout: 240 seconds)
+2017-11-06 13:40:17	-->	Joschasa (~andre@dslb-092-072-169-247.092.072.pools.vodafone-ip.de) has joined #i3
+2017-11-06 13:40:35	-->	holden- (~holden-@unaffiliated/holden-) has joined #i3
+2017-11-06 13:40:56	-->	bkhl (~bkhl@208.113.167.196) has joined #i3
+2017-11-06 13:42:33	<--	djb-irc (~djb-irc@129.13.154.138) has quit (Quit: Leaving)
+2017-11-06 13:43:48	-->	johnstorey (~johnstore@50.242.79.51) has joined #i3
+2017-11-06 13:57:11	<--	Aeso (~aesospade@aesospadez.com) has quit (Quit: ZNC 1.6.1 - http://znc.in)
+2017-11-06 13:57:46	-->	Aeso (~aesospade@aesospadez.com) has joined #i3
+2017-11-06 13:58:04	-->	manjaroDeepin (~Manjaro-D@a89-183-11-145.net-htp.de) has joined #i3
+2017-11-06 13:58:04	-->	djb-irc (~djb-irc@129.13.154.138) has joined #i3
+2017-11-06 13:58:06	-->	untitled1 (~edge563@unaffiliated/edge563) has joined #i3
+2017-11-06 14:00:23	<--	netvor (amahdal@nat/redhat/x-tftkdabknhucuyzl) has quit (Quit: WeeChat 1.9.1)
+2017-11-06 14:01:36	-->	alex`` (~alex@2a01cb000bb310000e31f98b4cdf4eae.ipv6.abo.wanadoo.fr) has joined #i3
+2017-11-06 14:02:32	-->	m0u (~m0u@unaffiliated/m0u) has joined #i3
+2017-11-06 14:03:18	<--	manjaroDeepin (~Manjaro-D@a89-183-11-145.net-htp.de) has quit (Quit: Leaving)
+2017-11-06 14:13:51	<--	bkhl (~bkhl@208.113.167.196) has quit (Ping timeout: 248 seconds)
+2017-11-06 14:16:26	-->	bkhl (~bkhl@208.113.167.196) has joined #i3
+2017-11-06 14:18:36	<--	johnstorey (~johnstore@50.242.79.51) has quit (Ping timeout: 268 seconds)
+2017-11-06 14:22:19	<--	nac (~nac@p200300ECEBC4AC00CE48CC198BA0ACCC.dip0.t-ipconnect.de) has quit (Ping timeout: 258 seconds)
+2017-11-06 14:25:21	<--	ClockworkCoder (~Clockwork@88-96-242-70.dsl.zen.co.uk) has quit (Ping timeout: 240 seconds)
+2017-11-06 14:29:52	<--	spectr (spectr@nat/redhat/x-ntoaphfgxlzkgenv) has quit (Remote host closed the connection)
+2017-11-06 14:30:30	-->	Gianormagantrous (~pl@modemcable090.37-37-24.static.videotron.ca) has joined #i3
+2017-11-06 14:30:30	<--	Gianormagantrous (~pl@modemcable090.37-37-24.static.videotron.ca) has quit (Changing host)
+2017-11-06 14:30:30	-->	Gianormagantrous (~pl@unaffiliated/pluc-pilou/x-3647764) has joined #i3
+2017-11-06 14:30:59	-->	spectr (spectr@nat/redhat/x-nkxknslotfomrzqp) has joined #i3
+2017-11-06 14:37:17	<--	gaz_ (~gaz_@unaffiliated/gaz/x-8995666) has quit (Quit: gaz_)
+2017-11-06 14:38:02	-->	Neo-- (~neo@194.151.189.46.rev.vodafone.pt) has joined #i3
+2017-11-06 14:41:20	-->	gaz_ (~gaz_@unaffiliated/gaz/x-8995666) has joined #i3
+2017-11-06 14:43:16	<--	bkhl (~bkhl@208.113.167.196) has quit (Ping timeout: 268 seconds)
+2017-11-06 14:44:35	<--	Aeso (~aesospade@aesospadez.com) has quit (Ping timeout: 240 seconds)
+2017-11-06 14:45:00	-->	johnstorey (~johnstore@207.135.70.70) has joined #i3
+2017-11-06 14:47:08	-->	bkhl (~bkhl@208.113.167.196) has joined #i3
+2017-11-06 14:51:09	-->	Aeso (~aesospade@aesospadez.com) has joined #i3
+2017-11-06 14:54:39	-->	aarobc (uid151482@gateway/web/irccloud.com/x-tgcdqhlnmynfushi) has joined #i3
+2017-11-06 15:00:57	<--	johnstorey (~johnstore@207.135.70.70) has quit (Ping timeout: 240 seconds)
+2017-11-06 15:01:14	-->	Jesin (~Jesin@wsip-98-187-234-122.dc.dc.cox.net) has joined #i3
+2017-11-06 15:01:41	<--	Neo-- (~neo@194.151.189.46.rev.vodafone.pt) has quit (Ping timeout: 240 seconds)
+2017-11-06 15:07:33	-->	Neo-- (~neo@194.151.189.46.rev.vodafone.pt) has joined #i3
+2017-11-06 15:09:02	<--	Aeso (~aesospade@aesospadez.com) has quit (Quit: ZNC 1.6.1 - http://znc.in)
+2017-11-06 15:09:19	-->	Aeso (~aesospade@aesospadez.com) has joined #i3
+2017-11-06 15:09:35	-->	victorhck (~victorhck@109.201.133.22) has joined #i3
+2017-11-06 15:09:35	<--	victorhck (~victorhck@109.201.133.22) has quit (Changing host)
+2017-11-06 15:09:35	-->	victorhck (~victorhck@opensuse/member/victorhck) has joined #i3
+2017-11-06 15:14:07	<--	klon (~klon@88.129.179.151) has quit (Ping timeout: 260 seconds)
+2017-11-06 15:17:20	<--	Aeso (~aesospade@aesospadez.com) has quit (Quit: ZNC 1.6.1 - http://znc.in)
+2017-11-06 15:17:49	nejni-marji	is there a way to set i3 so instead of mod+mouse3 to resize containers, I can do mod+shift+mouse1?
+2017-11-06 15:18:58	-->	Aeso (~aesospade@aesospadez.com) has joined #i3
+2017-11-06 15:23:35	<--	Aeso (~aesospade@aesospadez.com) has quit (Client Quit)
+2017-11-06 15:23:42	dive	Doesn't that bind work then?
+2017-11-06 15:24:12	-->	Aeso (~aesospade@aesospadez.com) has joined #i3
+2017-11-06 15:24:12	-->	grafzepp (~grafzepp@213.33.157.202) has joined #i3
+2017-11-06 15:25:04	-->	oxymor00n (~tom@unaffiliated/oxymor00n) has joined #i3
+2017-11-06 15:28:39	<--	grafzepp (~grafzepp@213.33.157.202) has quit (Ping timeout: 250 seconds)
+2017-11-06 15:31:03	<--	ylwghst (~ylwghst@21.254.broadband.iol.cz) has quit (Quit: Lost terminal)
+2017-11-06 15:36:53	<--	Neo-- (~neo@194.151.189.46.rev.vodafone.pt) has quit (Ping timeout: 250 seconds)
+2017-11-06 15:38:59	-->	grafzepp (~grafzepp@213.33.157.202) has joined #i3
+2017-11-06 15:39:34	nejni-marji	No, I mean with the click and drag resize
+2017-11-06 15:40:46	-->	kmarius (~kmarius@aftr-109-91-39-25.unity-media.net) has joined #i3
+2017-11-06 15:41:34	dive	I meant can't you rebind the click-drag?
+2017-11-06 15:42:01	dive	I've never tried. Just wondering.
+2017-11-06 15:44:53	<--	alexpbrown (~alex.brow@38.97.68.126) has quit (Remote host closed the connection)
+2017-11-06 15:46:05	-->	thurs (~thurs@ip68-3-177-83.ph.ph.cox.net) has joined #i3
+2017-11-06 15:46:50	-->	alexpbrown (~alex.brow@38.97.68.126) has joined #i3
+2017-11-06 15:52:36	<--	victorhck (~victorhck@opensuse/member/victorhck) has quit (Quit: Konversation terminated!)
+2017-11-06 15:54:37	<--	BOHverkill (~BOHverkil@holarse/core/bohverkill) has quit (Remote host closed the connection)
+2017-11-06 15:54:54	-->	BOHverkill (~BOHverkil@holarse/core/bohverkill) has joined #i3
+2017-11-06 15:55:50	-->	insecta (~olli@81-175-193-167.bb.dnainternet.fi) has joined #i3
+2017-11-06 15:56:14	<--	Disgeae (~Disgeae@37.74.195.86) has quit (Quit: WeeChat 1.9)
+2017-11-06 15:56:47	-->	Phaqui (~phaqui@36.124.189.109.customer.cdi.no) has joined #i3
+2017-11-06 15:57:21	nejni-marji	I don't think so as far as I can tell
+2017-11-06 15:57:45	-->	netvor (amahdal@nat/redhat/x-zcfohxolkinhbzyu) has joined #i3
+2017-11-06 15:59:42	<--	netvor (amahdal@nat/redhat/x-zcfohxolkinhbzyu) has quit (Client Quit)
+2017-11-06 15:59:47	-->	dieggsy (~user@unaffiliated/diegs/x-9438211) has joined #i3
+2017-11-06 16:00:25	-->	netvor (amahdal@nat/redhat/x-scuhraamamnzvfxv) has joined #i3
+2017-11-06 16:00:34	dieggsy	I'm seeing i3 using /bin/sh for exec commands - is there a way to get it to use the login shell?
+2017-11-06 16:00:41	<--	Jesin (~Jesin@wsip-98-187-234-122.dc.dc.cox.net) has quit (Ping timeout: 240 seconds)
+2017-11-06 16:01:45	-->	Jesin (~Jesin@wsip-98-187-234-122.dc.dc.cox.net) has joined #i3
+2017-11-06 16:02:20	-->	stef204 (~stef204@unaffiliated/stef-204/x-384198) has joined #i3
+2017-11-06 16:04:07	dive	Good question.
+2017-11-06 16:04:41	dieggsy	Found a question form 2015 that says no. ah well
+2017-11-06 16:04:45	nejni-marji	I don't see i3 using any shell in particular, although I do know it has ~/bin in its path
+2017-11-06 16:04:49	nejni-marji	and I set that in zshenv
+2017-11-06 16:05:08	nejni-marji	but /bin/sh also has that, apparently
+2017-11-06 16:05:10	nejni-marji	huh
+2017-11-06 16:05:10	dieggsy	nejni-marji: if you exec "echo $0 > some-file.txt" it says /bin/sh
+2017-11-06 16:05:16	nejni-marji	hmm
+2017-11-06 16:05:24	dive	dieggsy, try doing something like 'exec SHELL=/bin/zsh i3' in you rxinitrc (or whatver you use).
+2017-11-06 16:05:25	dieggsy	nejni-marji: also my i3 does _not_ have ~/bin in its path by default
+2017-11-06 16:06:19	<--	Jesin (~Jesin@wsip-98-187-234-122.dc.dc.cox.net) has quit (Remote host closed the connection)
+2017-11-06 16:06:20	dieggsy	dive: i3 gets started through i3.desktop on my system (i think), wwhich should have $SHELL properly set
+2017-11-06 16:06:37	dieggsy	dive: i think it may just be that i3 wants to use /bin/sh anyway
+2017-11-06 16:07:07	nejni-marji	running 'exec echo $SHELL > sh.txt', it says /bin/zsh
+2017-11-06 16:07:17	nejni-marji	so yeah, it probably just wants sh
+2017-11-06 16:07:31	dieggsy	nejni-marji: that's right for me too
+2017-11-06 16:07:43	dieggsy	forgot  i'd tested that
+2017-11-06 16:08:12	dieggsy	suppose the "solution" is to set the path for whatever shell /bin/sh points to to my login shell path
+2017-11-06 16:08:29	dieggsy	though I think using explicit paths is probably clearer and is what i'm doing now, so eh
+2017-11-06 16:08:42	dieggsy	clearer/more failsafe
+2017-11-06 16:08:55	nejni-marji	I use explicit paths even though it has it in the path
+2017-11-06 16:09:00	dieggsy	right
+2017-11-06 16:09:00	dive	I know I had to start rofi with PATH=/bla/bla:$PATH
+2017-11-06 16:09:28	dive	It seems that local variables aren't sourced.
+2017-11-06 16:09:33	dieggsy	?
+2017-11-06 16:10:12	dieggsy	dive: i think the issue is as we were saying earlier, it's trying to use /bin/sh which points to some shell on your system that may not be your login shell (in my case it points to /bin/bash)
+2017-11-06 16:10:44	dive	Yeah maybe.
+2017-11-06 16:10:51	dive	I'll test that later.
+2017-11-06 16:11:13	dive	Add some ext6ra PATH to sh and see what happens.
+2017-11-06 16:11:45	dieggsy	dive: i think i've pretty much confirmed that's the case
+2017-11-06 16:12:03	dieggsy	dive: through the exec echo $SHELL > sh.txt and exec echo $0 > sh.txt
+2017-11-06 16:12:28	dive	And it came out /bin/sh?
+2017-11-06 16:12:31	dieggsy	SHELL shows my login shell, $0 shows /bin/sh. so that must be the case
+2017-11-06 16:12:34	dive	I read that somewhere.
+2017-11-06 16:12:50	dive	Sorry, I have 3 channels talking at me at once :)
+2017-11-06 16:13:00	-->	choki (~weechat@unaffiliated/choki) has joined #i3
+2017-11-06 16:13:42	dive	My $SHELL is /bin/zsh.
+2017-11-06 16:13:51	dive	But it seems to ignore that.
+2017-11-06 16:14:06	nejni-marji	that might have to do with how you start i3
+2017-11-06 16:15:08	dieggsy	perhaps
+2017-11-06 16:15:24	dive	Via SDDM. Which uses a .desktop file.
+2017-11-06 16:15:28	dieggsy	nejni-marji: although i can't imagine that x starts _before_ the login shell is set?
+2017-11-06 16:15:50	<--	grafzepp (~grafzepp@213.33.157.202) has quit (Quit: Lost terminal)
+2017-11-06 16:16:04	dieggsy	dive: right, that's the behavior I was talking about
+2017-11-06 16:16:16	@sur5r	wasn't the developer of rofi hiding in here as well?
+2017-11-06 16:16:21	nejni-marji	If it's using the $SHELL to start i3, it might not source zshrc
+2017-11-06 16:16:45	nejni-marji	so if you set SHELL in zshrc instead of zshenv, it might not be set in the environment i3 is launched from
+2017-11-06 16:16:52	dieggsy	nejni-marji: it wouldn't matter, the exec command still wants to explicitly use /bin/sh
+2017-11-06 16:17:12	dive	No SHELL is set elsewhere than the actual shell you are using.
+2017-11-06 16:17:16	dieggsy	right
+2017-11-06 16:17:20	dive	Look in /etc/passwd
+2017-11-06 16:17:30	nejni-marji	oh right
+2017-11-06 16:17:40	dive	The system needs to know what it is before it logs you in.
+2017-11-06 16:17:48	dieggsy	yeah
+2017-11-06 16:18:09	nejni-marji	hm
+2017-11-06 16:18:52	nejni-marji	I think I actually call 'zsh -c "command"' in my i3 config a bunch actually
+2017-11-06 16:19:28	dieggsy	oh
+2017-11-06 16:19:31	nejni-marji	only when I want && or something though
+2017-11-06 16:19:31	-->	mariosgn (~mariosgn@2-238-115-77.ip243.fastwebnet.it) has joined #i3
+2017-11-06 16:19:32	dieggsy	I'll just stick to explicit paths :)
+2017-11-06 16:19:35	nejni-marji	yeah
+2017-11-06 16:19:48	nejni-marji	and apparently zsh -c isn't necessary unless it's in 'urxvt -e zsh -c command'
+2017-11-06 16:19:51	dieggsy	nejni-marji: you can have && without that though
+2017-11-06 16:20:01	nejni-marji	yeah, I realize that now
+2017-11-06 16:20:48	-->	Jesin (~Jesin@wsip-98-187-234-122.dc.dc.cox.net) has joined #i3
+2017-11-06 16:22:13	-->	grafzepp (~grafzepp@213.33.157.202) has joined #i3
+2017-11-06 16:22:20	dieggsy	for the record, (to reiterate) if you really wanted to _not_ use explicit paths i think all you'd need is set the path correctly in whatever /bin/sh is
+2017-11-06 16:22:33	nejni-marji	yeah
+2017-11-06 16:22:35	dieggsy	which i think can vary between distros...
+2017-11-06 16:22:40	dieggsy	so nah
+2017-11-06 16:23:27	dive	The problem that I found is that my full PATH isn't passed to rofi (maybe dmenu too). I ended up haing to do 'exec PATH=/home/user/scripts:/home/user/bin:$PATH rofi ...' in my i3 config.
+2017-11-06 16:23:56	dive	And that is set in .zshr, one of the files it sources.
+2017-11-06 16:24:03	dive	or one of*
+2017-11-06 16:24:39	dive	So it seems now to be sourcing my login resource file.
+2017-11-06 16:24:46	dive	not*
+2017-11-06 16:25:02	dive	Needs investigating.
+2017-11-06 16:25:09	dieggsy	Interestingly enough, i don't have that problem at all
+2017-11-06 16:25:11	nejni-marji	I've had problems with PATH and sometimes it's caused by things sourcing /etc/profile or /etc/zsh/zprofile, and one of those overwriting the PATH
+2017-11-06 16:25:26	nejni-marji	and other times its that something only sources zshenv
+2017-11-06 16:25:28	dieggsy	nejni-marji: if you're an arch, that's exactly the case
+2017-11-06 16:25:38	dieggsy	(i think(
+2017-11-06 16:25:42	nejni-marji	yeah
+2017-11-06 16:27:09	-->	Neo-- (~neo@194.151.189.46.rev.vodafone.pt) has joined #i3
+2017-11-06 16:27:17	<--	sECuRE (~sECuRE@midna.zekjur.net) has quit (Quit: reboot)
+2017-11-06 16:27:48	<--	dieggsy (~user@unaffiliated/diegs/x-9438211) has quit (Remote host closed the connection)
+2017-11-06 16:27:49	<--	stef204 (~stef204@unaffiliated/stef-204/x-384198) has quit (Read error: Connection reset by peer)
+2017-11-06 16:29:01	-->	stef204 (~stef204@unaffiliated/stef-204/x-384198) has joined #i3
+2017-11-06 16:33:22	<--	justanotheruser (~justanoth@unaffiliated/justanotheruser) has quit (Ping timeout: 255 seconds)
+2017-11-06 16:34:29	--	irc: disconnected from server
+2017-11-06 17:32:34	-->	tomeaton17 (~tomeaton1@129.ip-91-134-134.eu) has joined #i3
+2017-11-06 17:32:34	--	Topic for #i3 is "i3 v4.14.1 released | i3status 2.11 released | i3lock 2.9.1 released | http://code.i3wm.org/ | http://i3wm.org/ | http://faq.i3wm.org/ | https://bintray.com/i3/i3-autobuild/i3-wm#statistics | paste at http://p.nnev.de/ | file upload at https://transfer.sh/ | Container tutorial: https://youtu.be/AWA8Pl57UBY | #i3-offtopic"
+2017-11-06 17:32:34	--	Topic set by sECuRE (~sECuRE@midna.zekjur.net) on Sun, 24 Sep 2017 18:31:03
+2017-11-06 17:32:34	--	Channel #i3: 424 nicks (3 ops, 0 voices, 421 normals)
+2017-11-06 17:32:34	***	Buffer Playback...
+2017-11-06 17:32:34	keeger	[16:46:42] morning
+2017-11-06 17:32:34	keeger	[16:47:03] i just installed ubuntu 17.10 with i3.  going well so far. except google hangouts won't tile
+2017-11-06 17:32:34	keeger	[16:47:40] the chat windows all float...is there a way to make them not float?
+2017-11-06 17:32:34	nejni-marji	[16:49:15] keeger: if you do mod-shift-space on them to switch them between floating and tiled, does that work?
+2017-11-06 17:32:34	keeger	[16:49:31] ah mod shift space!
+2017-11-06 17:32:34	keeger	[16:49:41] the reference card I found used mod right arrow space
+2017-11-06 17:32:34	keeger	[16:50:01] er i'm dumb
+2017-11-06 17:32:34	keeger	[16:50:10] i thought it was up arrow, but i guess that's shift
+2017-11-06 17:32:34	keeger	[16:50:49] but yes that works great.  thanks nejni-marji
+2017-11-06 17:32:34	keeger	[16:52:50] i just upgraded from ubuntu 12.10, and thought i'd check out kde again...and after using i3 for a year i can't go back to non-tiled
+2017-11-06 17:32:34	@sur5r	[16:53:08] nobody can ;)
+2017-11-06 17:32:34	keeger	[16:53:13] :)
+2017-11-06 17:32:34	dive	[16:53:26] I just did a 'exec echo $SHELL > ~/shell' and it did show /bin/zsh.
+2017-11-06 17:32:34	dive	[16:53:47] So why isn't it getting my $PATH form that?
+2017-11-06 17:32:34	***	Playback Complete.
+2017-11-06 17:32:41	--	Channel created on Thu, 22 Jul 2010 20:58:13
+2017-11-06 17:35:55	<--	Joschasa (~andre@dslb-092-072-169-247.092.072.pools.vodafone-ip.de) has quit (Quit: WeeChat 1.9.1)
+2017-11-06 17:37:32	--	datasmurf_ is now known as datasmurf
+2017-11-06 17:45:35	<--	mariosgn (~mariosgn@2-238-115-77.ip243.fastwebnet.it) has quit (Ping timeout: 250 seconds)
+2017-11-06 17:47:04	-->	ylwghst (~ylwghst@21.254.broadband.iol.cz) has joined #i3
+2017-11-06 17:50:08	-->	Joschasa (~andre@dslb-092-072-169-247.092.072.pools.vodafone-ip.de) has joined #i3
+2017-11-06 17:50:45	-->	michaelrose (~michael@75-172-4-242.tukw.qwest.net) has joined #i3
+2017-11-06 17:51:56	-->	mariosgn (~mariosgn@2-238-115-77.ip243.fastwebnet.it) has joined #i3
+2017-11-06 17:53:48	--	irc: disconnected from server
+2017-11-07 09:47:23	-->	tomeaton17 (~tomeaton1@129.ip-91-134-134.eu) has joined #i3
+2017-11-07 09:47:23	--	Topic for #i3 is "i3 v4.14.1 released | i3status 2.11 released | i3lock 2.9.1 released | http://code.i3wm.org/ | http://i3wm.org/ | http://faq.i3wm.org/ | https://bintray.com/i3/i3-autobuild/i3-wm#statistics | paste at http://p.nnev.de/ | file upload at https://transfer.sh/ | Container tutorial: https://youtu.be/AWA8Pl57UBY | #i3-offtopic"
+2017-11-07 09:47:23	--	Topic set by sECuRE (~sECuRE@midna.zekjur.net) on Sun, 24 Sep 2017 18:31:03
+2017-11-07 09:47:23	--	Channel #i3: 419 nicks (3 ops, 0 voices, 416 normals)
+2017-11-07 09:47:23	***	Buffer Playback...
+2017-11-07 09:47:23	dive	[19:00:38] Doing exec echo $PATH >~/path, shows a limited PATH. Not my normal PATH.
+2017-11-07 09:47:23	dive	[19:00:51] Annoying.
+2017-11-07 09:47:23	dive	[19:09:11] Methinks it's SDDM that's theproblem.
+2017-11-07 09:47:23	dive	[19:11:02] Yep.
+2017-11-07 09:47:23	dive	[19:13:23] SDDM sources ~/.zprofile and ~/.zlogin, but not ~/.zshrc.
+2017-11-07 09:47:23	dive	[19:15:22] And ~/.zshrc doesn't source ~/.zprofile.
+2017-11-07 09:47:23	dive	[19:15:30] Hmm. Strange.
+2017-11-07 09:47:23	nimaje	[19:43:37] well you should not set PATH in shell config files, but in some login config file, afaik /etc/environment is in many OS a way to set env vars on login
+2017-11-07 09:47:23	dive	[19:44:25] It seems to work in ~/.zprofile
+2017-11-07 09:47:23	dive	[19:44:44] But that isn't automatically sourced by zsh.
+2017-11-07 09:47:23	dive	[19:45:06] So I added a source line.
+2017-11-07 09:47:23	dive	[19:45:18] Now rofi works without having to pass PATH to it.
+2017-11-07 09:47:23	nimaje	[19:45:38] and zsh would not source zshrc on non interactive shells, probably sddm does ´$SHELL -c <exec line from .desktop file>´
+2017-11-07 09:47:23	dive	[19:46:32] There's a 'emualte -R sh' line after it sources the zsh files.
+2017-11-07 09:47:23	dive	[19:46:41] emulate*
+2017-11-07 09:47:23	nimaje	[19:53:29] man zshall has a section 'STARTUP/SHUTDOWN FILES' which describes in which order zsh sources which files at startup .zprofile is the 4th file it sources normally
+2017-11-07 09:47:23	nimaje	[19:57:00] but as I already said you should use some login config file like /etc/environment or login.conf depending on your os to set stuff like PATH and LANG for your user
+2017-11-07 09:47:23	dive	[19:57:38] It would be better in a local file.
+2017-11-07 09:47:23	jedix	[19:58:25] replication would suck if it was in a system file
+2017-11-07 09:47:23	nimaje	[19:58:55] that would also set them if you automatically execute startx on login and those files normally have a user version like ~/.login.conf
+2017-11-07 09:47:23	jedix	[20:01:35] isn't .profile the right place?
+2017-11-07 09:47:23	dive	[20:02:06] It doesn't look like SDDM looks at login.conf. Hmm.
+2017-11-07 09:47:23	jedix	[20:03:39] yeah, I think .profile is the safest place
+2017-11-07 09:47:23	jedix	[20:03:55] seebs?
+2017-11-07 09:47:23	dive	[20:04:07] The only login managers I've used before SDDM and XDM and KDM. I never had any problems with PATH with those.
+2017-11-07 09:47:23	dive	[20:05:32] ~/.profile doesn't get sourced by zsh.
+2017-11-07 09:47:23	dive	[20:05:53] That's a sh file.
+2017-11-07 09:47:23	nimaje	[20:06:08] jedix: .profile is a shell startup file (for some shells) if you don't run a shell it will not be used
+2017-11-07 09:47:23	nimaje	[20:07:49] try ~/.pam_environment the user version of /etc/environment as I said that is os dependent, but afaik most os use pam for user autentification
+2017-11-07 09:47:23	dive	[20:08:36] Very OS dependent. Slackware has neither PAM nor systemd :)
+2017-11-07 09:47:23	dive	[20:08:54] I only use zsh so .zprofile is fine.
+2017-11-07 09:47:23	nimaje	[20:16:47] from https://docs.slackware.com/slackware:localization#system_wide_configuration it seems like Slackware doesn't have a way to set env vars *at login* so you have to do it in your shell files
+2017-11-07 09:47:23	dive	[20:21:09] You can do it system-wide in /etc/profile.d/
+2017-11-07 09:47:23	dive	[20:21:23] Otherwise use your local files.
+2017-11-07 09:47:23	dive	[20:22:09] But yeah, when you login teh system-wide files and then your local files are sourced.
+2017-11-07 09:47:23	nimaje	[20:22:15] well zsh doesn't source anything in /etc/profile.d/ except you configure it to
+2017-11-07 09:47:23	nimaje	[20:23:24] maybe slackware does that you could look into /etc/zprofile
+2017-11-07 09:47:23	dive	[20:24:26] Hmm. Need to ehck that. IIRC bash and zsh both source all the .zsh files, but I may be wrong.
+2017-11-07 09:47:23	dive	[20:24:39] s/ehck/check/
+2017-11-07 09:47:23	dive	[20:24:49] er .sh files*
+2017-11-07 09:47:23	dive	[20:25:13] For example lang.sh is sourced.
+2017-11-07 09:47:23	dive	[20:25:25] So my locale is correct in zsh.
+2017-11-07 09:47:23	Delvien	[20:25:36] Does anyone know why the border for krunner is jutting out to the bottom even after I make krunner border none?
+2017-11-07 09:47:23	dive	[20:29:16] I can put a export TEST=999 in lang.sh and it gets sourced.
+2017-11-07 09:47:23	okraits	[20:30:46] dive: I don't know lang.sh. I guess it's a slack-specific file?
+2017-11-07 09:47:23	dive	[20:31:01] I wish weechat had path complete like irssi :/
+2017-11-07 09:47:23	dive	[20:31:11] okraits, could be. No idea.
+2017-11-07 09:47:23	dive	[20:31:30] It just sets your locale.
+2017-11-07 09:47:23	dive	[20:32:37] Well, you could use it for anything I guess.
+2017-11-07 09:47:23	dive	[20:36:16] Hmm I just noticed a vte.sh which I hadn't seen before.
+2017-11-07 09:47:23	dive	[20:36:25] In /etc/profile.d/
+2017-11-07 09:47:23	dive	[20:36:48] Seems to be to do with PS1.
+2017-11-07 09:47:23	okraits	[20:37:16] There's a /etc/profile.d/vte-2.91.sh in Debian
+2017-11-07 09:47:23	dive	[20:37:46] It was -x'd so I chmod'd it.
+2017-11-07 09:47:23	dive	[20:37:55] Doesn't seem to do much.
+2017-11-07 09:47:23	dive	[20:39:25] Yeah, it comes from vte3. I wish PV would upgrade to that. I find it hard to believe that XFCE needs vte1.
+2017-11-07 09:47:23	dive	[20:39:41] Or that anythng uses it.
+2017-11-07 09:47:23	dive	[20:40:36] Well, xfce4-termial.
+2017-11-07 09:47:23	dive	[20:40:40] +n
+2017-11-07 09:47:23	okraits	[20:40:41] dive: What is PV?
+2017-11-07 09:47:23	dive	[20:40:57] Patrick Volkerding.
+2017-11-07 09:47:23	okraits	[20:41:02] ah
+2017-11-07 09:47:23	dive	[20:41:11] Our benevolent dictator :)
+2017-11-07 09:47:23	okraits	[20:41:21] yeah, I know :)
+2017-11-07 09:47:23	okraits	[20:41:40] Never tried Slack unfortunately
+2017-11-07 09:47:23	okraits	[20:42:05] But I guess it would be my Kind
+2017-11-07 09:47:23	okraits	[20:42:13] from what I've read
+2017-11-07 09:47:23	dive	[20:42:25] I keep meaning to try out gentoo one of these days.
+2017-11-07 09:47:23	dive	[20:42:35] I will get around to it.
+2017-11-07 09:47:23	okraits	[20:43:26] Nah, I don't see any sense in compiling everything on my own.
+2017-11-07 09:47:23	jedix	[20:43:41] cpu test!
+2017-11-07 09:47:23	dive	[20:43:48] Yeah, that is a thing.
+2017-11-07 09:47:23	qball	[20:43:49] heating up the earth
+2017-11-07 09:47:23	jedix	[20:44:02] qball: I use oil for that
+2017-11-07 09:47:23	dive	[20:44:25] I compile a lot of software, but at least I didn't have to worry about the stock stuff.
+2017-11-07 09:47:23	dive	[20:45:36] One good feature (depending on your point of view) with Slackware is that there are no -dev packages - every package contains *all* of it.
+2017-11-07 09:47:23	okraits	[20:45:40] I used gentoo for about 3 months when all the cool kids used it (must have been around mid2004), but I got tired of compiling everything when doing a system update
+2017-11-07 09:47:23	dive	[20:45:49] Right.
+2017-11-07 09:47:23	okraits	[20:45:56] dive: Like in Arch
+2017-11-07 09:47:23	dive	[20:46:23] But that does make it a rather larger install for the stock system.
+2017-11-07 09:47:23	okraits	[20:46:42] dive: How big?
+2017-11-07 09:47:23	dive	[20:46:53] Hmm not sure anymore.
+2017-11-07 09:47:23	dive	[20:47:31] I don't usually upgrade via DVD now. I use slackpkg.
+2017-11-07 09:47:23	dive	[20:48:05] I can check something though - I have a 32bit VM.
+2017-11-07 09:47:23	dive	[20:48:16] That has only stock packages on it.
+2017-11-07 09:47:23	okraits	[20:48:45] Well, with Arch it's the same (no dev packages) and the base install is about 600-700 MB
+2017-11-07 09:47:23	okraits	[20:49:16] If it hasn't changed since when I installed it the last time
+2017-11-07 09:47:24	okraits	[20:49:51] dive: But the Slack package manager doesn't do any dependency management, right?
+2017-11-07 09:47:24	dive	[20:50:21] Heh wow.
+2017-11-07 09:47:24	dive	[20:50:30] No it doesn't do deps.
+2017-11-07 09:47:24	okraits	[20:50:58] So how do you install a package without that?
+2017-11-07 09:47:24	dive	[20:51:09] Ok. Well. I don't know how to say this. But in my 32bt VM with only the default install, / is 11G.
+2017-11-07 09:47:24	dive	[20:51:19] lol
+2017-11-07 09:47:24	okraits	[20:52:00] I guess that can't be true, given the nature of Slack :)
+2017-11-07 09:47:24	dive	[20:52:21] Well, it's usually recommended to do a full install. That way there are no dep problems.
+2017-11-07 09:47:24	okraits	[20:52:23] Or does the stock system include some DE?
+2017-11-07 09:47:24	dive	[20:52:49] KDE, XFCE, some WMs like fluxbox, twm and blackbox.
+2017-11-07 09:47:24	okraits	[20:52:56] Oh, ok
+2017-11-07 09:47:24	okraits	[20:53:41] I guess then Crux would be more interesting for me :)
+2017-11-07 09:47:24	okraits	[20:53:53] Never tried that either, unfortunately
+2017-11-07 09:47:24	dive	[20:54:07] But if you want to install extra packages, it's up to the admin (you) to find out the deps. However, sbopkg (which you use with slackbuilds.org) comes with a queue builder which scans the repo and lists all the needed deps.
+2017-11-07 09:47:24	dive	[20:54:32] And there is a lot of stuff on sb.org.
+2017-11-07 09:47:24	dive	[20:54:53] ALthough i build quite a lot from git/svn/bzr.
+2017-11-07 09:47:24	dive	[20:55:30] Like i3, weechat, terminator, fluxbox, mplayer, moc to name a few.
+2017-11-07 09:47:24	Delvien	[20:56:13] Does anyone know why the border for krunner is jutting out to the bottom even after I make krunner border none? https://imgur.com/delete/JyVs3Yts8q34ac0
+2017-11-07 09:47:24	dive	[20:56:24] Delvien, not I.
+2017-11-07 09:47:24	okraits	[20:56:24] dive: So you're using flux from time to time?
+2017-11-07 09:47:24	okraits	[20:56:55] Delvien: Do you use i3-gaps?
+2017-11-07 09:47:24	Delvien	[20:57:00] okraits: yes
+2017-11-07 09:47:24	dive	[20:57:08] Not so much now. I've been using i3 completely for the past couple of weeks. I used flux for about ten years or something.
+2017-11-07 09:47:24	dive	[20:57:44] If I use it agin I'll set it up with rofi and some other i3-like stuff.
+2017-11-07 09:47:24	okraits	[20:57:49] Delvien: Is there any problem with vanilla i3?
+2017-11-07 09:47:24	Delvien	[20:58:11] okraits: ive never used vanilla i3 so i dont know
+2017-11-07 09:47:24	okraits	[20:59:23] dive: How is fluxbox these days? I only used it for some weeks in 2004 I think, so I can't really tell
+2017-11-07 09:47:24	dive	[21:00:14] It's nice. Development is a bit slow these days. They didn't have an update for a few years.
+2017-11-07 09:47:24	Delvien	[21:00:28] okraits: dive: any steps i can take that I havent thought of ? for_window [class="krunner"] border none --- is my config entry
+2017-11-07 09:47:24	dive	[21:00:30] But I don't think there many bugs to catch.
+2017-11-07 09:47:24	dive	[21:00:42] Delvien, yeah, you could try that.
+2017-11-07 09:47:24	okraits	[21:00:45] Delvien: Maybe the issue is related to i3-gaps. You could check first if there's an issue with vanilla i3 first.
+2017-11-07 09:47:24	dive	[21:01:12] I've never used -gaps.
+2017-11-07 09:47:24	dive	[21:01:46] I did try i3blocks out yesterday, and was a bit disappointed at the lack of temp sensor.
+2017-11-07 09:47:24	dive	[21:02:04] I don't know if i3blocks-gaps has a temp script.
+2017-11-07 09:47:24	dive	[21:02:22] So I'm back with istatus.
+2017-11-07 09:47:24	dive	[21:02:26] +3
+2017-11-07 09:47:24	Delvien	[21:06:35] dive thats what i currently have int he config though, and it doesnt work
+2017-11-07 09:47:24	okraits	[21:07:37] Delvien: I've used pekwm for some years and I think that some users were coming from fluxbox so I always thought of pekwm as fluxbox++ - well, the pekwm developer was a former fluxbox user, too, I think
+2017-11-07 09:47:24	dive	[21:08:28] Delvien, it could be that you need to use regex to catch the window.
+2017-11-07 09:47:24	dive	[21:08:37] I had that problem with smplayer.
+2017-11-07 09:47:24	Delvien	[21:08:41] regex?
+2017-11-07 09:47:24	dive	[21:09:00] like class=".*krunner.*"
+2017-11-07 09:47:24	dive	[21:09:06] Or some such.
+2017-11-07 09:47:24	linuksz	[21:09:41] Is it possible if a window sets itself urgent, immediately focus it?
+2017-11-07 09:47:24	Delvien	[21:10:07] dive hmm just tried that, no avail, xprop identifies the window as "krunner" too..
+2017-11-07 09:47:24	dive	[21:10:56] With smplayer it's indentified as 'smplayer' and 'Smplayer'. I had to use .*mplayer.*
+2017-11-07 09:47:24	dive	[21:11:07] Nothing else I tried would work.
+2017-11-07 09:47:24	dive	[21:11:29] You get two class names there. Have you tried both?
+2017-11-07 09:47:24	Delvien	[21:12:25] dive: these? WM_CLASS(STRING) = "krunner", "krunner"
+2017-11-07 09:47:24	Delvien	[21:12:32] they are the same, its odd
+2017-11-07 09:47:24	dive	[21:12:36] AH right. Both the same.
+2017-11-07 09:47:24	dive	[21:12:47] Not unusual though.
+2017-11-07 09:47:24	dive	[21:13:22] Try .*runner
+2017-11-07 09:47:24	dive	[21:13:30] Or .*runner.*
+2017-11-07 09:47:24	Delvien	[21:13:35] dive: just tried that before u said haha, no avail
+2017-11-07 09:47:24	dive	[21:13:41] Hmm
+2017-11-07 09:47:24	dive	[21:13:47] Dunno then :/
+2017-11-07 09:47:24	dive	[21:14:14] I don't have it installed so can't really say more. What is it? A file manager or something?
+2017-11-07 09:47:24	dive	[21:14:46] Oh yes I do have it.
+2017-11-07 09:47:24	dive	[21:14:51] Is it part of KDE?
+2017-11-07 09:47:24	dive	[21:15:34] Man it's loading a ton of kde libs.
+2017-11-07 09:47:24	Delvien	[21:15:45] GOT IT
+2017-11-07 09:47:24	dive	[21:15:50] And it hasn't loaded a window.
+2017-11-07 09:47:24	Delvien	[21:15:54] Floating enable movedown 1px works
+2017-11-07 09:47:24	Delvien	[21:16:00] its something about hugging the top
+2017-11-07 09:47:24	dive	[21:16:05] Ok
+2017-11-07 09:47:24	Delvien	[21:16:21] maybe a bug with either i3 or i3-gaps (i suspect the ladder of the twho
+2017-11-07 09:47:24	dive	[21:17:54] Man I can't kill this kde krap off. Keeps restarting...
+2017-11-07 09:47:24	dive	[21:18:31] That fixed it.
+2017-11-07 09:47:24	Delvien	[21:19:07] dive: getting i3 and kde to play nice was an exercise in patience, but it was worth it, the two work together like peas in a pod imo
+2017-11-07 09:47:24	Delvien	[21:19:11] after u fix it.. .that is lol
+2017-11-07 09:47:24	dive	[21:20:07] ok
+2017-11-07 09:47:24	dive	[21:21:03] I tend not to run kde stuff if I can help it. Don't know why I don't uninstall it really. But I need to run it sometimes to check out our studioware stuff is working in the kde menu properly.
+2017-11-07 09:47:24	dive	[21:21:14] Same with XFCE.
+2017-11-07 09:47:24	Delvien	[21:21:45] xfce is underdeveloped
+2017-11-07 09:47:24	dive	[21:22:13] It could be more developed I guess.
+2017-11-07 09:47:24	Delvien	[21:22:47] alright leaving work now haha, thanks for your help everyone
+2017-11-07 09:47:24	dive	[21:22:51] I prefer thunar and terminal over konsole and whatever kde is using for a file manager these days.
+2017-11-07 09:47:24	dive	[21:23:24] But KDE does come with a nice collection of games for when you're bored.
+2017-11-07 09:47:24	seebs	[21:23:34] to answer a question from some time back, i don't know of a sane way to do environment variable setup which is shell-agnostic
+2017-11-07 09:47:24	dive	[21:24:37] seebs, no idea really. I'm used to fluxbox, where you tend to edit the menu manually and put in apps with path most of the time.
+2017-11-07 09:47:24	dive	[21:25:00] KDE and XFCE use desktop files so there's no problem with them.
+2017-11-07 09:47:24	dive	[21:25:16] Simple WMs need setting up.
+2017-11-07 09:47:24	dive	[21:25:33] And rofi/dmenu is the thing that needs PATH really.
+2017-11-07 09:47:24	dive	[21:26:24] Well, *if* you have any custom paths lik e~/scripts for example.
+2017-11-07 09:47:24	eleksir	[21:33:23] noone can deny you to customize your ~/.bashrc and include personilized paths to $PATH
+2017-11-07 09:47:24	eleksir	[21:35:57] actually, i add ~/.local/bin and ~/.local/sbin to $PATH globally for all users on my system and time to time drop there my custom scripts, that helps me to deal with common tasks
+2017-11-07 09:47:24	dive	[21:38:12] Nobody is denying that you should do that though. The original problem was that SDDM wasn't passing the custom PATH stuff to i3, which meant rofi couldn't find things.
+2017-11-07 09:47:24	dive	[21:38:47] But when I read the Xsessions script that SDDM runs I noticed the files that it looked in.
+2017-11-07 09:47:24	eleksir	[21:39:44] sddm have some "security" in mind, restricting env?
+2017-11-07 09:47:24	dive	[21:39:48] For bash it looks in /etc/profile ~/.bash_profile ~/.bash_login and ~/.profile.
+2017-11-07 09:47:24	dive	[21:40:04] So ~/.bashrc never gets sourced.
+2017-11-07 09:47:24	dive	[21:40:36] And the same thing happens with zsh, which is why my custom PATH stuff wasn't working.
+2017-11-07 09:47:24	eleksir	[21:41:25] ah, another dm that pretends to be too smart to decide that user really sucks at what he _wants_?
+2017-11-07 09:47:24	dive	[21:42:08] No, it's a login manager. It just doesn't source those for some reason.
+2017-11-07 09:47:24	dive	[21:42:28] But it does source ~/.zprofile
+2017-11-07 09:47:24	eleksir	[21:42:36] i use slim or lxdm depends on what i want - have something dead simple or wm|de choice
+2017-11-07 09:47:24	dive	[21:42:39] Which I'd never heard of.
+2017-11-07 09:47:24	dive	[21:43:35] And does dmenu/rofi find your custom path stuff?
+2017-11-07 09:47:24	eleksir	[21:44:07] yup
+2017-11-07 09:47:24	eleksir	[21:45:10] because it does not being restricted by too smart system stuff
+2017-11-07 09:47:24	dive	[21:45:12] This is the Xsessions script that runs when you login in SDDM: http://ix.io/C2q
+2017-11-07 09:47:24	eleksir	[21:46:12] but in my case system is slackware which is not cumbered by systemd or even pam
+2017-11-07 09:47:24	dive	[21:46:48] Oh and I had to remove part that sourced ~/.xsession because it would start whatever WM was in that and totally ignore what session you chose when you logged in.
+2017-11-07 09:47:24	dive	[21:46:58] eleksir, same.
+2017-11-07 09:47:24	dive	[21:47:37] WHen you run xwmconfig it copies ~/.xinitrc and also ~/.xsession. So SDDM would load that.
+2017-11-07 09:47:24	dive	[21:48:36] eleksir, I maintain SDDM on slackbuilds.org and I've had to customise it a bit to make it behave with slackware.
+2017-11-07 09:47:24	eleksir	[21:52:04] ahh, okay. so may i advice you to study slim dm and lxdm mechanics and patch sddm to be less obscure, not so "smartass" and less over-secured :)
+2017-11-07 09:47:24	dive	[21:52:54] It's not smartass really. It just fails to source .bashrc and .zshrc, but there may be good reasons for that. I don't know.
+2017-11-07 09:47:24	dive	[21:53:18] It's failry easy to customise too, like theming.
+2017-11-07 09:47:24	dive	[21:53:37] I think I tried slim years ago.
+2017-11-07 09:47:24	dive	[21:54:11] But KDM has been taken over by SDDM now.
+2017-11-07 09:47:24	dive	[21:54:31] Or so it seems.
+2017-11-07 09:47:24	eleksir	[21:55:07] well honestly .*shrc is not mandatory in this case, login is not interactive, but .*profile should be sourced
+2017-11-07 09:47:24	dive	[21:55:27] I seem to recall years ago when I first started using bash that .bashrc wasn't sourced at login. Instead it looked for .bash_profile.
+2017-11-07 09:47:24	dive	[21:55:40] .profile is sourced.
+2017-11-07 09:47:24	dive	[21:55:51] Read that link I posted.
+2017-11-07 09:47:24	dive	[21:56:16] It sources .bash_profile .profile .zprofile and whatever csh uses.
+2017-11-07 09:47:24	eleksir	[21:56:17] 1-st generation shells sources ~/.profile
+2017-11-07 09:47:24	dive	[21:56:23] csh.login or something.
+2017-11-07 09:47:24	dive	[21:56:40] I know this.
+2017-11-07 09:47:24	eleksir	[21:56:47] csh is total crap, only freebsd uses it
+2017-11-07 09:47:24	dive	[21:57:13] Well *someone* uses it, so they support it.
+2017-11-07 09:47:24	eleksir	[21:58:29] i hope orthodox boneheads in freebsd realm drop csh in some happy future day...
+2017-11-07 09:47:24	dive	[21:59:02] Last time I used freebsd I think sh or bash was default until I changed it.
+2017-11-07 09:47:24	dive	[21:59:33] I mean, even slackware includes it. You aren't forced to use it.
+2017-11-07 09:47:24	eleksir	[22:00:17] hmmm, i think it was included for historical reasons
+2017-11-07 09:47:24	dive	[22:00:52] There's bound to be some weirdo somewhere that uses it :)
+2017-11-07 09:47:24	dive	[22:02:00] So anyway, the reason I started looking at sddm was that I mentioned in here that I use kdm, and was told that kdm was deprecated in favour of sddm.
+2017-11-07 09:47:24	dive	[22:02:17] So I thought I'd check it out.
+2017-11-07 09:47:24	dive	[22:02:20] It's ok.
+2017-11-07 09:47:24	dive	[22:02:41] I will probably give slim another shot.
+2017-11-07 09:47:24	dive	[22:03:51] I also noticed that Pat had already made a sddm use in /etc/passwd so maybe he's expecting for when it takes over from kdm.
+2017-11-07 09:47:24	dive	[22:03:57] user*
+2017-11-07 09:47:24	eleksir	[22:04:41] slim is well barebones dm with minimal support in all directions: mechanics, skins, choices of desktop
+2017-11-07 09:47:24	nimaje	[22:05:33] why does sddm source any of these files, that is shit and probably fails, as when you use zsh features and it is run by sh
+2017-11-07 09:47:24	eleksir	[22:05:42] slim is software that deserve to be learnt :)
+2017-11-07 09:47:24	dive	[22:06:21] nimaje, it does it to pass on environment to whatever DE/WM you load.
+2017-11-07 09:47:24	eleksir	[22:07:35] you should notice that /bin/sh in slackware symlinked to /bin/bash, and whole system assumes that /bin/bash is used as shell
+2017-11-07 09:47:24	nimaje	[22:07:39] but it runs via /bin/sh (shbang) and uses SHELL (user login shell) to decide which files to source
+2017-11-07 09:47:24	dive	[22:08:13] Many things use /bin/sh
+2017-11-07 09:47:24	dive	[22:08:43] Especially in slackware for example. Just look at all the startup scripts.
+2017-11-07 09:47:24	eleksir	[22:09:01] dm should not inspect .profile, it's shell' business
+2017-11-07 09:47:24	nimaje	[22:09:21] but they don't source random *sh scripts which could use features sh don't support and ^
+2017-11-07 09:47:24	dive	[22:10:08] I don't understand you.
+2017-11-07 09:47:24	dive	[22:10:51] WHen you login in a terminal yeah all your login files are sourced. But when you load a WM it doesn't.
+2017-11-07 09:47:24	nimaje	[22:11:19] that are shell files *not* login files
+2017-11-07 09:47:24	eleksir	[22:11:45] dm should preserve environment variables and have option to change it on pre-login, post-login... etc moments and be able to execute some scripts at these points (like lxdm does)
+2017-11-07 09:47:24	dive	[22:11:51] So you are saying that sddm shouldn't source any files to pass on enviroment to i3?
+2017-11-07 09:47:24	nimaje	[22:12:16] and as I already said it will easy break
+2017-11-07 09:47:24	dive	[22:12:17] eleksir, login managers run as root, not as user.
+2017-11-07 09:47:24	dive	[22:12:55] How do you expect to have user's PATH etc sent to i3?
+2017-11-07 09:47:24	dive	[22:13:15] It must login as user and source those scripts.
+2017-11-07 09:47:24	dive	[22:13:33] Well I've installed slim, so let's see how that manages.
+2017-11-07 09:47:24	dive	[22:13:38] brb
+2017-11-07 09:47:24	nimaje	[22:13:45] as I said earlier there should be a propper way to setup user config, before executing the first user program like login.conf or /etc/environment
+2017-11-07 09:47:24	eleksir	[22:15:29] login manager runs as root, but when you select user, they ch-user to selected and execute hooks, for example... run i3 via /bin/sh /etc/X11/..../i3.initrc and at this point /etc/profile /etc/profile.d/*.sh and ~/.profile are being sourced
+2017-11-07 09:47:24	eleksir	[22:17:27] it's 1:16 of night, time to nap for a while...
+2017-11-07 09:47:24	nimaje	[22:17:33] no, *profile is also a shell startup file, the login manager should at least state somewhere that it does that
+2017-11-07 09:47:24	eleksir	[22:17:52] good night, man
+2017-11-07 09:47:24	dive	[22:17:58] night
+2017-11-07 09:47:24	dive	[22:18:10] Why doesn't slim let me choose session?
+2017-11-07 09:47:24	dive	[22:18:44] Also: login_cmd           exec /bin/bash -login ~/.xinitrc %session
+2017-11-07 09:47:24	dive	[22:18:52] So it logs in via bash.
+2017-11-07 09:47:24	dive	[22:19:21] So slim is a bit too basic.
+2017-11-07 09:47:24	dive	[22:19:49] I would at least expect to see a choice of session, or I may as well use startx.
+2017-11-07 09:47:24	dive	[22:20:40] Hmm well there are some in the conf but I didn't get a choice at login.
+2017-11-07 09:47:24	nimaje	[22:22:32] simply put ´exec ${@:-i3}´ as last line in xinitrc and use startx :)
+2017-11-07 09:47:24	dive	[22:25:05] I already have an .xinitrc with i3 in it.
+2017-11-07 09:47:24	dive	[22:25:48] I like a graphical login though. I like to be able to switch sessions.
+2017-11-07 09:47:24	nimaje	[22:29:37] so write a patch to slim allowing you to select session on login screen and write a pull request
+2017-11-07 09:47:24	occultus	[22:31:47] nimaje: it was supposedly last released in 2013 and has no homepage so that may be difficult
+2017-11-07 09:47:24	dive	[22:32:12] Yeah well it was ok for testing.
+2017-11-07 09:47:24	dive	[22:32:51] Maybe I'm missing something. There is a setting for sessions in the config.
+2017-11-07 09:47:24	dive	[22:35:11] Ah right. Use F1 to choose session.
+2017-11-07 09:47:24	dive	[22:35:36] Speical usernames: console, exit, halt, reboot, suspend.
+2017-11-07 09:47:24	loodoons	[22:50:56] Hello
+2017-11-07 09:47:24	Eyo	[22:51:00] hello!
+2017-11-07 09:47:24	loodoons	[22:52:03] With i3 I can copy my screen to another screen and it works but I can't use a dual screen with a projector.
+2017-11-07 09:47:24	loodoons	[22:52:22] The picture of my screen appears and freeze.
+2017-11-07 09:47:24	loodoons	[22:52:36] But i3 don't freeze.
+2017-11-07 09:47:24	loodoons	[22:52:57] Anyone has a solution?
+2017-11-07 09:47:24	dive	[22:54:08] nimaje, rofi doesn't have my cutoms paths when I use slim. So I guess that's one up for sddm.
+2017-11-07 09:47:24	dive	[23:00:19] loodoons, have you looked in /var/log/Xorg.0.log for errors?
+2017-11-07 09:47:24	loodoons	[23:03:29] dive: I don't have this file because there isn't a Xorg error.
+2017-11-07 09:47:24	dive	[23:03:50] You should have that file whether there's an error or not.
+2017-11-07 09:47:24	dive	[23:04:20] It's always worth looking thorugh.
+2017-11-07 09:47:24	dive	[23:04:25] through*
+2017-11-07 09:47:24	dive	[23:05:34] Other than that you could run i3 in debug mode and see if i3-dump > log shows anything.
+2017-11-07 09:47:24	loodoons	[23:05:36] [ 47671.388] (II) intel(0): switch to mode 1920x1080@60.0 on HDMI1 using pipe 1, position (1920, 0), rotation normal, reflection none
+2017-11-07 09:47:24	loodoons	[23:05:39] [ 47982.349] (II) intel(0): resizing framebuffer to 1920x1080
+2017-11-07 09:47:24	loodoons	[23:05:41] [ 48004.463] (II) intel(0): resizing framebuffer to 3840x1080
+2017-11-07 09:47:24	loodoons	[23:16:18] It's an i3 bug because I can mouse the mouse. But the desktop view is frozen.
+2017-11-07 09:47:24	loodoons	[23:20:48] Thank you for your help
+2017-11-07 09:47:24	pcarrier	[02:47:18] i3 shows an extra titlebar "i3: V[foo bar]" titlebar when I do splits. is there a way to get rid of it?
+2017-11-07 09:47:24	zanshin	[02:57:21] I'm porting my i3 setup from Ubuntu to Arch. The $mod key appears to not be working on Arch. The polybar bars load, but the keyboard is unresponsive. I've tried setting $mod to Mod1 and Mod4 and neither seems to work. And once $mod doesn't work, I'm stuck and have to reboot and start GNOME to make changes so I can logout and change sessions to test. It's frustrating. Any ideas why my $mod setting isn't working?
+2017-11-07 09:47:24	dive	[03:01:38] zanshin, have you tried xev to see what your keys are doing?
+2017-11-07 09:47:24	dive	[03:06:18] zanshin, add an exec line at the end of i3/config to exec a terminal that you can work in.
+2017-11-07 09:47:24	zanshin	[03:10:22] dive: I renamed my .config/i3/confg file which dropped me into the setup wizard. I selected the Windows key and generated the config. Which works. Once I switch to mine it stops working. Something in my config is wonky.
+2017-11-07 09:47:24	zanshin	[03:10:36] Is there a log somewhere the i3 populates?
+2017-11-07 09:47:24	dive	[03:11:45] Do i3-dump > log and it should show any config errors.
+2017-11-07 09:47:24	dive	[03:13:04] If you need a more detailed log you need to start i3 like i3-with-shmlog
+2017-11-07 09:47:24	dive	[03:13:29] Oh it's i3-dump-log.
+2017-11-07 09:47:24	zanshin	[03:13:51] Yeah. i3-dump-log complained about not having SHM enabled
+2017-11-07 09:47:24	dive	[03:13:54] So i3-dump-log > log, then look in log.
+2017-11-07 09:47:24	dive	[03:14:01] Right.
+2017-11-07 09:47:24	dive	[03:15:36] I'm running a dev version so maybe shm is enabled all the time? Dunno.
+2017-11-07 09:47:24	dive	[03:16:56] The damned log is big though.
+2017-11-07 09:47:24	dive	[03:17:26] 8.5M so far, and I've only been running it a few hours.
+2017-11-07 09:47:24	zanshin	[03:17:35] Looks like dev versiions have logging and release versions don't. Just my luck. I'm actually one of those i3-gaps heritics, sothat's what I installed. I'll resort to brute force and start commenting out chunks of my config until I find the culprit
+2017-11-07 09:47:24	dive	[03:18:04] Doesn't gaps come with i3-with-shmlog?
+2017-11-07 09:47:24	zanshin	[03:18:34] I'll go look
+2017-11-07 09:47:24	dive	[03:21:14] JUst type i3 in a term and press tab.
+2017-11-07 09:47:24	zanshin	[03:24:48] Yes, there's an i3-with-smhlog
+2017-11-07 09:47:24	zanshin	[03:28:14] That's anicely wordy log file. :)
+2017-11-07 09:47:24	dive	[03:29:24] Yep.
+2017-11-07 09:47:24	zanshin	[03:32:18] Bunch of handlers fire but nothing the jumps out and says, "here's your error dummy". Up 20 hours on 6 hours of sleep isn't helping either.
+2017-11-07 09:47:24	dive	[03:32:59] Usally, i3 will popup an error box if there is something badly wrong with config.
+2017-11-07 09:47:24	dive	[03:33:10] So it could be something subtle.
+2017-11-07 09:47:24	zanshin	[03:33:27] Yeah - I'd almost rather have that situation than it just ignoring my keystrokes.
+2017-11-07 09:47:24	dive	[03:33:47] Or perhaps you alt key is doing strange things. That's why I suggest using xev to see what it is doing.
+2017-11-07 09:47:24	zanshin	[03:34:10] Never used xev before. I'll have to read the man page
+2017-11-07 09:47:24	dive	[03:35:06] Well you run it in a term and the output when you press alt will show you how it's seeing the key, and what keycode is being generated.
+2017-11-07 09:47:24	zanshin	[03:36:16] alt gives me Alt_L, keycode 64. And the Cmd key (it's a Mac keyboard) shows Super_L, keycode 133
+2017-11-07 09:47:24	dive	[03:36:24] Hmm I'm getting memory leak warnings from glibc and gcc.
+2017-11-07 09:47:24	dive	[03:36:59] I get the same output.
+2017-11-07 09:47:24	dive	[03:37:22] Alt_L and 64.
+2017-11-07 09:47:24	dive	[03:38:14] What does the line look like where you define $mod?
+2017-11-07 09:47:24	zanshin	[03:39:16] set $mod Mod4
+2017-11-07 09:47:24	dive	[03:39:31] That's not alt.
+2017-11-07 09:47:24	zanshin	[03:39:34] Or set $mod Mod1 and I flip them.
+2017-11-07 09:47:24	dive	[03:39:38] alt is mod1.
+2017-11-07 09:47:24	dive	[03:39:44] AH ok.
+2017-11-07 09:47:24	zanshin	[03:39:54] I've tried both - neither likes me
+2017-11-07 09:47:24	dive	[03:40:15] mod4 is usually the windows key. Not sure what that would be on a mac.
+2017-11-07 09:47:24	zanshin	[03:41:44] When I run the configuraton wizard and poke the Cmd key on the Mac keyboard the Win key label lights up. Poke the Option key (alt) and the Alt label lights up. So the wizard see them properly. And that factory config works. Something about my config is borked.
+2017-11-07 09:47:24	dive	[03:42:11] Yeah.
+2017-11-07 09:47:24	zanshin	[03:42:14] Here's the Ubuntu config I'm copying to use on Arch. https://github.com/zanshin/dotfiles/blob/master/config/ubuntu/i3/config
+2017-11-07 09:47:24	dive	[03:42:33] All I can say is go through it commenting out different sections until you hit it.
+2017-11-07 09:47:24	zanshin	[03:43:44] Yeah. Nothing like a low-tech solution for a high-tech problem. :)
+2017-11-07 09:47:24	zanshin	[03:46:04] Thanks for your help. I'll bash on this more tomorrow. Hopefully it'll be something simple and quick to find.
+2017-11-07 09:47:24	dive	[03:52:14] There's nothing I can se that jups out at me. I don't about the gaps stuff though. Never used it.
+2017-11-07 09:47:24	dive	[03:52:20] jumps*
+2017-11-07 09:47:24	dive	[03:52:31] Man I wish I could type.
+2017-11-07 09:47:24	dive	[03:52:42] There's nothing I can see that jumps out at me. I don't know about the gaps stuff though. Never used it.
+2017-11-07 09:47:24	zanshin	[04:50:48] dive: I got it sorted. Three issues. (1) I'm a dummy. (2) $mod+Return launched terminator - which hadn't been installed. (3) I'd forgotten about rofi and therefore it wasn't installed either. Now my configuration works. Time to write a README for the next time I port this to a new machine.
+2017-11-07 09:47:24	dive	[04:54:26] zanshin, glad you sorted it out.
+2017-11-07 09:47:25	loodoons	[07:47:39] Hello
+2017-11-07 09:47:25	Eyo	[07:47:44] hello!
+2017-11-07 09:47:25	loodoons	[07:49:09] Why awesome can dual monitor and i3 doesn't ?
+2017-11-07 09:47:25	loodoons	[07:50:46] i3 show the cursor and a picture of the desktop but the second monitor doesn't update.
+2017-11-07 09:47:25	@squigz	[07:56:41] well that was easy
+2017-11-07 09:47:25	qball	[07:56:44] yep
+2017-11-07 09:47:25	loodoons	[07:58:48] Why awesome can dual monitor and i3 doesn't ?
+2017-11-07 09:47:25	pcarrier	[07:59:13] OK I think I understand what I'm doing wrong. what I'm trying to do is go from stacked/tabbed to split, but mod+e doesn't do anything
+2017-11-07 09:47:25	pcarrier	[07:59:20] with 4.14.1
+2017-11-07 09:47:25	mdt[m]	[08:01:10] pcarrier: the behaviour changed, i had that problem as well. toggle split does no longer switch on splitv/h :/
+2017-11-07 09:47:25	pcarrier	[08:01:32] mdt[m]: I'm not clear on what I'm supposed to do then
+2017-11-07 09:47:25	mdt[m]	[08:01:55] loodoons:  dual mon works just fine here, whats your problem?
+2017-11-07 09:47:25	pcarrier	[08:02:04] mdt[m]: because basically if I create a split it's a single child of my tabbed/stacked and it gets an extra decoration I really dislike
+2017-11-07 09:47:25	pcarrier	[08:02:13] mdt[m]: do you have a ref to the change? it's not a bug?
+2017-11-07 09:47:25	mdt[m]	[08:02:31] pcarrier: i used "bindsym $mod+e layout splitv" for now
+2017-11-07 09:47:25	loodoons	[08:03:11] I can duplicate my screen but I can't show the workspace that are assign to the second screen
+2017-11-07 09:47:25	mdt[m]	[08:03:32] pcarrier: i don't know, i just run into that problem. but i don't use sofisticated tab/stacked scenarios
+2017-11-07 09:47:25	loodoons	[08:03:36] When I use --right-of or left-of
+2017-11-07 09:47:25	pcarrier	[08:04:56] OK I guess I'll just get used to:
+2017-11-07 09:47:25	pcarrier	[08:05:01] https://www.irccloud.com/pastebin/Yrz0nrOO/
+2017-11-07 09:47:25	grafzepp	[08:05:10] loodoons: are you using somehting like 'workspace $ws# output LVDS1' for example?
+2017-11-07 09:47:25	loodoons	[08:05:20] Yes ^^
+2017-11-07 09:47:25	loodoons	[08:07:46] Fixed
+2017-11-07 09:47:25	pcarrier	[08:07:49] mdt[m]: yeah whereas I tend to go a bit crazy with the layouting
+2017-11-07 09:47:25	grafzepp	[08:08:03] loodoons: what was the issue?
+2017-11-07 09:47:25	loodoons	[08:08:16] The bug was a compton bug
+2017-11-07 09:47:25	loodoons	[08:08:38] Because I use the glx backend
+2017-11-07 09:47:25	lumininer	[08:09:29] I had to take compton away until i figure out why it kept overloading all my processor cores to 100%
+2017-11-07 09:47:25	lumininer	[08:13:27] there seems to be solution already
+2017-11-07 09:47:25	sevaho	[08:35:08] Goodmorning, How do I keep the windows sorted in the i3bar? So that for example the 5th window is always to the right of the 3th window?
+2017-11-07 09:47:25	qball	[08:40:07] windows sorted in i3 bar?
+2017-11-07 09:47:25	qball	[08:40:16] I do not follow
+2017-11-07 09:47:25	sevaho	[08:43:27] I mean workspaces
+2017-11-07 09:47:25	sevaho	[08:44:53] In i3bar if you go to your 3th workspace and open something then go to the second, the workspaces will be 3 -2 so not sorted. You follow?
+2017-11-07 09:47:25	nimaje	[08:47:12] you need to use numbered ws for that named ´<number>[:name]´
+2017-11-07 09:47:25	sevaho	[08:53:17] nimaje: thank you
+2017-11-07 09:47:25	***	Playback Complete.
+2017-11-07 09:47:42	--	Channel created on Thu, 22 Jul 2010 20:58:13
+2017-11-07 09:52:07	<--	ClockworkCoder (~Clockwork@88.97.17.88) has quit (Ping timeout: 268 seconds)
+2017-11-07 09:57:20	-->	robattila256 (~robattila@S0106f0f24908d2a3.vf.shawcable.net) has joined #i3
+2017-11-07 10:00:09	-->	hoxbug_ (~hoxbug@101.100.131.193) has joined #i3
+2017-11-07 10:01:27	<--	hoxbug (~hoxbug@unaffiliated/hoxbug) has quit (Ping timeout: 246 seconds)
+2017-11-07 10:06:55	<--	Oni-Satoshi (~Oni@151.236.24.142) has quit (Ping timeout: 268 seconds)
+2017-11-07 10:13:02	<--	FriedEggBanjo (~Bacon@185.103.96.139) has quit (Quit: Leaving)
+2017-11-07 10:17:52	-->	fhs (~fhs@2604:2000:1701:a0a2:59e0:f666:7b0d:be4) has joined #i3
+2017-11-07 10:18:16	-->	Oni-Satoshi (~Oni@151.236.24.142) has joined #i3
+2017-11-07 10:31:47	<--	fhs (~fhs@2604:2000:1701:a0a2:59e0:f666:7b0d:be4) has quit (Ping timeout: 250 seconds)
+2017-11-07 10:34:21	<--	bkhl (~bkhl@208.113.167.196) has quit (Ping timeout: 240 seconds)
+2017-11-07 10:37:52	<--	tunekey (~tunekey@unaffiliated/tunekey) has quit (Ping timeout: 260 seconds)
+2017-11-07 10:38:51	-->	bkhl (~bkhl@208.113.167.196) has joined #i3
+2017-11-07 10:42:57	<--	bkhl (~bkhl@208.113.167.196) has quit (Ping timeout: 240 seconds)
+2017-11-07 10:45:23	-->	bkhl (~bkhl@208.113.167.196) has joined #i3
+2017-11-07 10:47:21	<--	JsilverT (~xmiah1406@203.205.26.23) has quit (Ping timeout: 240 seconds)
+2017-11-07 10:47:39	<--	hoxbug_ (~hoxbug@101.100.131.193) has quit (Remote host closed the connection)
+2017-11-07 11:01:48	<--	sevaho (~sevaho@2001:718:1003:203:9caa:f7d1:5de9:df23) has quit (Ping timeout: 240 seconds)
+2017-11-07 11:16:30	<--	ToffeeYogurtPots (~ToffeeYog@gateway/tor-sasl/toffeeyogurtpots) has quit (Remote host closed the connection)
+2017-11-07 11:17:39	-->	ToffeeYogurtPots (~ToffeeYog@gateway/tor-sasl/toffeeyogurtpots) has joined #i3
+2017-11-07 11:24:25	-->	netvor (~amahdal@unaffiliated/netvor) has joined #i3
+2017-11-07 11:25:02	-->	klon (~klon@88.129.179.151) has joined #i3
+2017-11-07 11:30:44	<--	Elon_Satoshi (~elonsatos@unaffiliated/elon-satoshi/x-2794555) has quit (Read error: Connection reset by peer)
+2017-11-07 11:36:07	-->	sevaho (~sevaho@2001:718:1003:203:9caa:f7d1:5de9:df23) has joined #i3
+2017-11-07 11:38:15	-->	Elon_Satoshi (~elonsatos@unaffiliated/elon-satoshi/x-2794555) has joined #i3
+2017-11-07 11:39:23	<--	klon (~klon@88.129.179.151) has quit (Ping timeout: 250 seconds)
+2017-11-07 11:44:16	-->	ylwghst (~ylwghst@21.254.broadband.iol.cz) has joined #i3
+2017-11-07 11:44:17	<--	ylwghst (~ylwghst@21.254.broadband.iol.cz) has quit (Client Quit)
+2017-11-07 11:44:40	-->	ylwghst (~ylwghst@21.254.broadband.iol.cz) has joined #i3
+2017-11-07 11:46:54	-->	Achylles (~Achylles@177.9.43.81) has joined #i3
+2017-11-07 11:47:17	<--	Jokler (~Jokler@46.101.123.78) has quit (Ping timeout: 260 seconds)
+2017-11-07 11:49:27	-->	Jokler (~Jokler@46.101.123.78) has joined #i3
+2017-11-07 11:50:39	<--	nejni-marji (~nejni-mar@unaffiliated/nejni-marji) has quit (Ping timeout: 250 seconds)
+2017-11-07 11:52:24	-->	nejni-marji (~nejni-mar@unaffiliated/nejni-marji) has joined #i3
+2017-11-07 11:53:46	<--	ylwghst (~ylwghst@21.254.broadband.iol.cz) has quit (Remote host closed the connection)
+2017-11-07 12:03:21	-->	ylwghst (~ylwghst@21.254.broadband.iol.cz) has joined #i3
+2017-11-07 12:03:59	<--	mdt[m] (mdtmatrixo@gateway/shell/matrix.org/x-wgdzepodflbuwfmb) has left #i3 ("User left")
+2017-11-07 12:04:45	-->	untitled1 (~edge563@111.92.79.214) has joined #i3
+2017-11-07 12:06:29	-->	grafzepp (~grafzepp@84.53.196.110) has joined #i3
+2017-11-07 12:08:27	-->	klon (~klon@88.129.179.151) has joined #i3
+2017-11-07 12:09:36	-->	choki (~weechat@unaffiliated/choki) has joined #i3
+2017-11-07 12:12:41	<--	klon (~klon@88.129.179.151) has quit (Ping timeout: 240 seconds)
+2017-11-07 12:16:11	-->	fhs (~fhs@2604:2000:1701:a0a2:6051:ddb1:40e4:b4cc) has joined #i3
+2017-11-07 12:16:44	--	garphy is now known as garphy`aw
+2017-11-07 12:20:39	<--	ylwghst (~ylwghst@21.254.broadband.iol.cz) has quit (Remote host closed the connection)
+2017-11-07 12:24:48	<--	fhs (~fhs@2604:2000:1701:a0a2:6051:ddb1:40e4:b4cc) has quit (Ping timeout: 240 seconds)
+2017-11-07 12:24:58	-->	acrisci (~Thunderbi@2601:c6:c57f:ecfe::3b36) has joined #i3
+2017-11-07 12:30:46	<--	knidos (~knidos@88.253.189.113) has quit (Quit: knidos)
+2017-11-07 12:39:46	<--	mstruebing (~mstruebin@2a00-1dc0-cafe--298f-12e7.static.as43289.net) has quit (Ping timeout: 258 seconds)
+2017-11-07 12:42:26	-->	nac (~nac@p200300ECEBCA6F00CA4F199382248DA3.dip0.t-ipconnect.de) has joined #i3
+2017-11-07 12:42:38	-->	JsilverT (~xmiah1406@1.52.63.11) has joined #i3
+2017-11-07 12:43:18	-->	mstruebing (~mstruebin@2a00-1dc0-cafe--298f-12e7.static.as43289.net) has joined #i3
+2017-11-07 12:45:14	-->	dddddd (~dddddd@unaffiliated/dddddd) has joined #i3
+2017-11-07 12:48:24	<--	Attoy (~attoy@ybox00.ybox.it) has quit (Ping timeout: 246 seconds)
+2017-11-07 12:49:24	-->	Attoy (~attoy@ybox00.ybox.it) has joined #i3
+2017-11-07 12:51:19	<--	choki (~weechat@unaffiliated/choki) has quit (Quit: WeeChat 1.9.1)
+2017-11-07 12:52:30	-->	mitz (~mitz@KD124211220030.ppp-bb.dion.ne.jp) has joined #i3
+2017-11-07 12:54:29	--	garphy`aw is now known as garphy
+2017-11-07 12:55:13	--	irc: disconnected from server
+2017-11-07 12:55:31	-->	tomeaton17 (~tomeaton1@129.ip-91-134-134.eu) has joined #i3
+2017-11-07 12:55:31	--	Topic for #i3 is "i3 v4.14.1 released | i3status 2.11 released | i3lock 2.9.1 released | http://code.i3wm.org/ | http://i3wm.org/ | http://faq.i3wm.org/ | https://bintray.com/i3/i3-autobuild/i3-wm#statistics | paste at http://p.nnev.de/ | file upload at https://transfer.sh/ | Container tutorial: https://youtu.be/AWA8Pl57UBY | #i3-offtopic"
+2017-11-07 12:55:31	--	Topic set by sECuRE (~sECuRE@midna.zekjur.net) on Sun, 24 Sep 2017 18:31:03
+2017-11-07 12:55:31	--	Channel #i3: 422 nicks (3 ops, 0 voices, 419 normals)
+2017-11-07 12:55:38	--	Channel created on Thu, 22 Jul 2010 20:58:13
+2017-11-07 12:56:43	-->	indeedwatson (~yama@181.90.179.190) has joined #i3
+2017-11-07 13:01:13	--	irc: disconnected from server
+2017-11-07 13:02:43	-->	tomeaton17 (~tomeaton1@129.ip-91-134-134.eu) has joined #i3
+2017-11-07 13:02:43	--	Topic for #i3 is "i3 v4.14.1 released | i3status 2.11 released | i3lock 2.9.1 released | http://code.i3wm.org/ | http://i3wm.org/ | http://faq.i3wm.org/ | https://bintray.com/i3/i3-autobuild/i3-wm#statistics | paste at http://p.nnev.de/ | file upload at https://transfer.sh/ | Container tutorial: https://youtu.be/AWA8Pl57UBY | #i3-offtopic"
+2017-11-07 13:02:43	--	Topic set by sECuRE (~sECuRE@midna.zekjur.net) on Sun, 24 Sep 2017 18:31:03
+2017-11-07 13:02:43	--	Channel #i3: 423 nicks (3 ops, 0 voices, 420 normals)
+2017-11-07 13:02:50	--	Channel created on Thu, 22 Jul 2010 20:58:13
+2017-11-07 13:03:19	-->	plexigras (~plexigras@gateway/vpn/privateinternetaccess/plexigras) has joined #i3
+2017-11-07 13:04:00	<--	ChrisLane (~irc@cpc110357-king13-2-0-cust10.19-1.cable.virginm.net) has quit (Ping timeout: 248 seconds)
+2017-11-07 13:07:03	-->	ChrisLane (~irc@cpc110357-king13-2-0-cust10.19-1.cable.virginm.net) has joined #i3
+2017-11-07 13:11:15	<--	sevaho (~sevaho@2001:718:1003:203:9caa:f7d1:5de9:df23) has quit (Ping timeout: 250 seconds)
+2017-11-07 13:11:20	-->	m0u (~m0u@unaffiliated/m0u) has joined #i3
+2017-11-07 13:12:02	-->	fhs (~fhs@2604:2000:1701:a0a2:562:d393:9d53:ea68) has joined #i3
+2017-11-07 13:14:55	-->	choki (~weechat@unaffiliated/choki) has joined #i3
+2017-11-07 13:19:53	-->	sevaho (~sevaho@2001:718:1003:203:9caa:f7d1:5de9:df23) has joined #i3
+2017-11-07 13:23:18	<--	alex`` (~alex@2a01cb000bb310000e31f98b4cdf4eae.ipv6.abo.wanadoo.fr) has quit (Quit: WeeChat 1.9.1)
+2017-11-07 13:25:07	<--	fhs (~fhs@2604:2000:1701:a0a2:562:d393:9d53:ea68) has quit (Ping timeout: 250 seconds)
+2017-11-07 13:27:48	-->	ksjk1998 (~ksjk1998@2601:589:8000:dcec::f4b5) has joined #i3
+2017-11-07 13:29:38	<--	lord| (~solenodic@unaffiliated/solenodic) has quit (Quit: WeeChat 1.9.1)
+2017-11-07 13:36:34	-->	alex`` (~alex@2a01cb000bb310000e31f98b4cdf4eae.ipv6.abo.wanadoo.fr) has joined #i3
+2017-11-07 13:54:08	<--	untitled1 (~edge563@111.92.79.214) has quit (Quit: WeeChat 1.9.1)
+2017-11-07 13:54:31	-->	untitled1 (~edge563@unaffiliated/edge563) has joined #i3
+2017-11-07 13:56:19	<--	nac (~nac@p200300ECEBCA6F00CA4F199382248DA3.dip0.t-ipconnect.de) has quit (Ping timeout: 250 seconds)
+2017-11-07 14:03:12	<--	JsilverT (~xmiah1406@1.52.63.11) has quit (Read error: Connection reset by peer)
+2017-11-07 14:03:50	-->	JsilverT (~xmiah1406@1.52.63.11) has joined #i3
+2017-11-07 14:06:53	<--	JsilverT (~xmiah1406@1.52.63.11) has quit (Client Quit)
+2017-11-07 14:07:09	-->	JsilverT (~xmiah1406@1.52.63.11) has joined #i3
+2017-11-07 14:09:08	-->	daftBFE (~cabox@40.122.42.212) has joined #i3
+2017-11-07 14:09:45	<--	coumbole (~coumbole@84.20.147.37) has quit (Ping timeout: 250 seconds)
+2017-11-07 14:11:02	<--	daftBFE (~cabox@40.122.42.212) has quit (Client Quit)
+2017-11-07 14:11:20	<--	choki (~weechat@unaffiliated/choki) has quit (Quit: WeeChat 1.9.1)
+2017-11-07 14:11:58	-->	fhs (~fhs@2604:2000:1701:a0a2:4d3:4f26:2c27:3bee) has joined #i3
+2017-11-07 14:12:21	<--	sevaho (~sevaho@2001:718:1003:203:9caa:f7d1:5de9:df23) has quit (Ping timeout: 250 seconds)
+2017-11-07 14:19:22	-->	leech (~hiru@151.26.100.237) has joined #i3
+2017-11-07 14:24:17	-->	sevaho (~sevaho@2001:718:1003:203:9caa:f7d1:5de9:df23) has joined #i3
+2017-11-07 14:24:55	<--	fhs (~fhs@2604:2000:1701:a0a2:4d3:4f26:2c27:3bee) has quit (Ping timeout: 250 seconds)
+2017-11-07 14:27:51	<--	ahrs (~quassel@gateway/vpn/privateinternetaccess/ahrs) has quit (Read error: Connection reset by peer)
+2017-11-07 14:29:02	-->	ahrs (~quassel@gateway/vpn/privateinternetaccess/ahrs) has joined #i3
+2017-11-07 14:30:21	<--	grafzepp (~grafzepp@84.53.196.110) has quit (Ping timeout: 240 seconds)
+2017-11-07 14:43:49	<--	voidead (~voidead@unaffiliated/voidead) has quit (Quit: dead)
+2017-11-07 14:46:23	<--	leech (~hiru@151.26.100.237) has quit (Quit: WeeChat 1.9.1)
+2017-11-07 14:56:05	-->	netvor_ (amahdal@nat/redhat/x-wcsrxvotohmmrvgv) has joined #i3
+2017-11-07 14:57:33	<--	nejni-marji (~nejni-mar@unaffiliated/nejni-marji) has quit (Ping timeout: 246 seconds)
+2017-11-07 15:01:29	-->	spectr (spectr@nat/redhat/x-ezpkpivtkltocqhc) has joined #i3
+2017-11-07 15:01:37	-->	alexpbrown (~alex.brow@38.97.68.126) has joined #i3
+2017-11-07 15:05:03	<--	Achylles (~Achylles@177.9.43.81) has quit (Ping timeout: 258 seconds)
+2017-11-07 15:10:21	<--	sevaho (~sevaho@2001:718:1003:203:9caa:f7d1:5de9:df23) has quit (Quit: WeeChat 1.9.1)
+2017-11-07 15:11:17	-->	nejni-marji (~nejni-mar@unaffiliated/nejni-marji) has joined #i3
+2017-11-07 15:18:23	-->	aarobc (uid151482@gateway/web/irccloud.com/x-zkqcfmkskibvdawr) has joined #i3
+2017-11-07 15:20:36	-->	holden- (~holden-@unaffiliated/holden-) has joined #i3
+2017-11-07 15:28:06	-->	victorhck (~victorhck@109.201.133.26) has joined #i3
+2017-11-07 15:28:06	<--	victorhck (~victorhck@109.201.133.26) has quit (Changing host)
+2017-11-07 15:28:06	-->	victorhck (~victorhck@opensuse/member/victorhck) has joined #i3
+2017-11-07 15:28:24	-->	klon (~klon@88.129.179.151) has joined #i3
+2017-11-07 15:43:47	<--	klon (~klon@88.129.179.151) has quit (Ping timeout: 250 seconds)
+2017-11-07 15:46:49	<--	bkhl (~bkhl@208.113.167.196) has quit (Ping timeout: 250 seconds)
+2017-11-07 15:46:56	-->	voidead (~voidead@unaffiliated/voidead) has joined #i3
+2017-11-07 15:47:06	<--	HardlySeen (~Gathering@unaffiliated/gatheringknowleg) has quit (Ping timeout: 252 seconds)
+2017-11-07 15:48:48	-->	bkhl (~bkhl@208.113.167.196) has joined #i3
+2017-11-07 15:59:12	-->	knidos (~knidos@88.253.189.113) has joined #i3
+2017-11-07 16:00:11	<--	spectr (spectr@nat/redhat/x-ezpkpivtkltocqhc) has quit (Quit: Leaving)
+2017-11-07 16:10:29	-->	rtician (~rtician@187.4.8.68) has joined #i3
+2017-11-07 16:11:12	rtician	Hi, do you guys use the ALT or META key on i3?
+2017-11-07 16:13:57	-->	nac (~nac@p200300ECEBCA6F00CA4F199382248DA3.dip0.t-ipconnect.de) has joined #i3
+2017-11-07 16:14:37	tomeaton17	meta
+2017-11-07 16:27:16	-->	silverhom (~silverhom@c83-252-239-43.bredband.comhem.se) has joined #i3
+2017-11-07 16:27:55	amosbird	Hi, can I have different urgent colors https://la.wentropy.com/kJB2.png  ?
+2017-11-07 16:32:30	-->	tecepe1 (~tcpaiva@c-24-62-206-125.hsd1.ma.comcast.net) has joined #i3
+2017-11-07 16:32:30	<--	tecepe1 (~tcpaiva@c-24-62-206-125.hsd1.ma.comcast.net) has quit (Client Quit)
+2017-11-07 16:33:20	-->	scrote (~jerware@c-98-235-144-190.hsd1.pa.comcast.net) has joined #i3
+2017-11-07 16:33:21	scrote	hi
+2017-11-07 16:33:25	Eyo	hello!
+2017-11-07 16:35:08	<--	tecepe (~tcpaiva@2601:180:8301:24eb:6f6e:421d:c120:84b4) has quit (Ping timeout: 258 seconds)
+2017-11-07 16:44:01	<--	kalbasit (~kalbasit@unaffiliated/kalbasit) has quit (Ping timeout: 250 seconds)
+2017-11-07 16:44:03	nervengift	amosbird: that is polybar I guess?
+2017-11-07 16:50:23	-->	kalbasit (~kalbasit@unaffiliated/kalbasit) has joined #i3
+2017-11-07 16:54:11	-->	anon28 (~textual@c-73-220-41-176.hsd1.ca.comcast.net) has joined #i3
+2017-11-07 16:56:54	-->	rkta (~kt@p5DE85B91.dip0.t-ipconnect.de) has joined #i3
+2017-11-07 16:59:34	tomeaton17	What do you guys use the most for a dotfile manager?
+2017-11-07 17:00:17	<--	sECuRE (~sECuRE@midna.zekjur.net) has quit (Quit: maintenance)
+2017-11-07 17:02:34	-->	choki (~weechat@unaffiliated/choki) has joined #i3
+2017-11-07 17:02:58	nervengift	tomeaton17: I think gnu stow is quite popular, but I myself didn't get to change my setup from manual symlinks (+git) yet
+2017-11-07 17:04:54	nimaje	currently nothing, but https://news.ycombinator.com/item?id=11070797 looks intressting, I want to try that out but to lazy :)
+2017-11-07 17:09:39	nimaje	oh sorry, I throught that was a link only to the top answer, so I only meant that https://news.ycombinator.com/item?id=11071754
+2017-11-07 17:11:04	nervengift	uhh, that's a nice hack
+2017-11-07 17:11:58	-->	Jesin (~Jesin@pool-108-51-89-131.washdc.fios.verizon.net) has joined #i3
+2017-11-07 17:13:44	<--	skontar (skontar@nat/redhat/x-zpaemhaixznzsoic) has quit (Remote host closed the connection)
+2017-11-07 17:14:35	tomeaton17	Yeah gnu stow looks like the way to go. Thanks
+2017-11-07 17:14:39	ScottE	I use stow with a "common" package (.zshrc, .vimrc, etc) and then an additional package by hostname for specific customization (.Xdefaults, etc). The stow repo is propigated by syncthing but also in a gitlab private repository. It's not perfect, but it works pretty well.
+2017-11-07 17:16:05	ScottE	And by syncing all stow packages everywhere, I have configs for other systems handy when I want to refer to something when the other system isn't accessible.
+2017-11-07 17:17:16	nejni-marji	can gnu stow automatically merge changes to the configs for one machine from the configs from another?
+2017-11-07 17:21:07	ScottE	Nope
+2017-11-07 17:21:14	-->	LazyGroot (~Mutter@AStDenis-651-1-323-171.w80-8.abo.wanadoo.fr) has joined #i3
+2017-11-07 17:21:46	<--	LazyGroot (~Mutter@AStDenis-651-1-323-171.w80-8.abo.wanadoo.fr) has quit (Client Quit)

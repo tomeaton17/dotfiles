@@ -1,0 +1,58 @@
+2017-11-07 10:41:16	-->	tomeaton17 (~tomeaton1@129.ip-91-134-134.eu) has joined #mpd
+2017-11-07 10:41:16	--	Topic for #mpd is "Music Player Daemon | Latest 0.20.11 | http://www.musicpd.org/ | Problems? Just ask away, and please provide the info as explained on: http://www.musicpd.org/help/"
+2017-11-07 10:41:16	--	Topic set by cirrus on Wed, 18 Oct 2017 09:20:42
+2017-11-07 10:41:16	--	Channel #mpd: 122 nicks (1 op, 0 voices, 121 normals)
+2017-11-07 10:41:16	--	PvNotice(ChanServ): Welcome to the Music Player Daemon channel.  Before you ask for help, please read and follow http://www.musicpd.org/help/
+2017-11-07 10:41:18	--	Channel created on Sun, 26 Nov 2006 06:42:55
+2017-11-07 10:41:46	tomeaton17	Is is it possible to get mpd to save the previous songs when in random mode so that I can go back to them instead of just removing them from queue?
+2017-11-07 10:44:07	@cirrus	uh, what?  why remove them from the queue in the first place?  I don't understand your question (or its context).
+2017-11-07 11:05:29	tomeaton17	cirrus: When I use random play, after a song is finished, I cannot then go back to that song by pressing previous, it only restarts the current song
+2017-11-07 11:07:58	@cirrus	I can.
+2017-11-07 11:08:10	@cirrus	now is the time you do your homework.  read topic!
+2017-11-07 11:19:34	tomeaton17	Struggling to find it in the docs, can you point me in the right direction please.
+2017-11-07 11:20:20	-->	mmu_man (~revol@vaf26-2-82-244-111-82.fbx.proxad.net) has joined #mpd
+2017-11-07 11:24:20	@cirrus	I already did.  what part of it did you not understand?
+2017-11-07 11:25:57	tomeaton17	Actually it seems like it was a problem with my keybindings :/ Is there a way to make the previous command more advanced, so it restarts the current song if it has played more than e.g 15 seconds, else it goes to the previous song
+2017-11-07 11:31:23	tomeaton17	I assume I had consume mode on at maybe
+2017-11-07 11:34:57	tomeaton17	Solved with this script https://ubuntuforums.org/showthread.php?t=2004841
+2017-11-07 11:37:44	@cirrus	what an ugly and fragile script.  it may break at any time.
+2017-11-07 11:39:21	tomeaton17	Well its not exactly a mission critical application so its good enough for me.
+2017-11-07 11:46:17	<--	cosumu (~cosumu@CPE-123-211-82-164.lnse4.cha.bigpond.net.au) has quit (Quit: WeeChat 1.9.1)
+2017-11-07 12:10:23	<--	minimalism (~none@unaffiliated/minimalism) has quit (Quit: minimalism)
+2017-11-07 12:31:57	-->	cosumu (~cosumu@CPE-123-211-82-164.lnse4.cha.bigpond.net.au) has joined #mpd
+2017-11-07 12:55:14	--	irc: disconnected from server
+2017-11-07 12:55:31	-->	tomeaton17 (~tomeaton1@129.ip-91-134-134.eu) has joined #mpd
+2017-11-07 12:55:31	--	Topic for #mpd is "Music Player Daemon | Latest 0.20.11 | http://www.musicpd.org/ | Problems? Just ask away, and please provide the info as explained on: http://www.musicpd.org/help/"
+2017-11-07 12:55:31	--	Topic set by cirrus on Wed, 18 Oct 2017 09:20:42
+2017-11-07 12:55:31	--	Channel #mpd: 122 nicks (1 op, 0 voices, 121 normals)
+2017-11-07 12:55:46	--	Channel created on Sun, 26 Nov 2006 06:42:55
+2017-11-07 13:01:13	--	irc: disconnected from server
+2017-11-07 13:02:43	-->	tomeaton17 (~tomeaton1@129.ip-91-134-134.eu) has joined #mpd
+2017-11-07 13:02:43	--	Topic for #mpd is "Music Player Daemon | Latest 0.20.11 | http://www.musicpd.org/ | Problems? Just ask away, and please provide the info as explained on: http://www.musicpd.org/help/"
+2017-11-07 13:02:43	--	Topic set by cirrus on Wed, 18 Oct 2017 09:20:42
+2017-11-07 13:02:43	--	Channel #mpd: 122 nicks (1 op, 0 voices, 121 normals)
+2017-11-07 13:02:58	--	Channel created on Sun, 26 Nov 2006 06:42:55
+2017-11-07 13:07:47	<--	cosumu (~cosumu@CPE-123-211-82-164.lnse4.cha.bigpond.net.au) has quit (Ping timeout: 250 seconds)
+2017-11-07 13:17:01	-->	rZr (~RzR@82.236.136.171) has joined #mpd
+2017-11-07 13:17:09	rZr	hi
+2017-11-07 13:17:55	rZr	do you know a REST layer on top of mdp protocol ?
+2017-11-07 13:18:16	@cirrus	no.
+2017-11-07 13:18:34	rZr	or websocket ?
+2017-11-07 13:18:39	@cirrus	no.
+2017-11-07 13:18:55	rZr	just plain tcp
+2017-11-07 13:19:02	@cirrus	can it be any simpler?
+2017-11-07 13:19:36	@cirrus	websocket - the stream protocol built on top of a bloated text-based packet protocol built on top of another stream protocol.
+2017-11-07 13:20:16	@cirrus	doesn't that sound like a stupid idea?
+2017-11-07 13:20:23	rZr	yea for cloudification
+2017-11-07 13:21:27	@cirrus	these days, complexity beats everything.  because we have bloated frameworks!  they do everything for us, adding tons and tons of layers of overhead!
+2017-11-07 13:22:01	@cirrus	but oh no, the MPD protocol doesn't fit in this template - it's too simple, and so today's hipsters can't do it  ;)
+2017-11-07 13:22:33	rZr	and in the end you get fed up with tech and return to analog world
+2017-11-07 13:23:37	@cirrus	why?  the simple world is still there, but only visible to those who know it exists.
+2017-11-07 13:39:29	jast	except if you do web development where you're pretty much forced to buy into the complexity circus if you want to keep up
+2017-11-07 13:45:22	-->	cosumu (~cosumu@CPE-123-211-82-164.lnse4.cha.bigpond.net.au) has joined #mpd
+2017-11-07 13:52:28	@cirrus	I know.  that's part of why I decided to quit doing anything with web 15+ years ago.
+2017-11-07 13:53:34	@cirrus	or, rather, I changed to another aspect of web; these days, much of my dayjob is to maintain a web server.
+2017-11-07 13:53:57	@cirrus	(maintain as in develop the software.)
+2017-11-07 14:10:14	jast	right. I spend most of my time in the backend, at least, where things don't change every day the way they do on the browser side...
+2017-11-07 14:44:57	<--	mmu_man (~revol@vaf26-2-82-244-111-82.fbx.proxad.net) has quit (Ping timeout: 240 seconds)
+2017-11-07 14:50:54	--	dwmw2_gone is now known as dwmw2_DRS

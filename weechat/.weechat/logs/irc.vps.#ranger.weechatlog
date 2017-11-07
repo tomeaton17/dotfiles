@@ -1,0 +1,143 @@
+2017-11-03 17:22:09	-->	tomeaton17 (~tomeaton1@129.ip-91-134-134.eu) has joined #ranger
+2017-11-03 17:22:09	--	Topic for #ranger is "Official ranger file manager channel - http://ranger.nongnu.org - Please note that sometimes it may take hours before a question is answered, thank you for your patience"
+2017-11-03 17:22:09	--	Topic set by h00th00t (qkkAkdiRJY@gateway/shell/uberspace.de/x-obzrbbcheoqvncqi) on Tue, 10 Oct 2017 18:33:02
+2017-11-03 17:22:09	--	Channel #ranger: 56 nicks (0 ops, 0 voices, 56 normals)
+2017-11-03 17:22:11	--	Channel created on Thu, 25 Sep 2014 09:22:46
+2017-11-03 17:28:50	--	irc: disconnected from server
+2017-11-03 18:07:43	-->	tomeaton17 (~tomeaton1@129.ip-91-134-134.eu) has joined #ranger
+2017-11-03 18:07:43	--	Topic for #ranger is "Official ranger file manager channel - http://ranger.nongnu.org - Please note that sometimes it may take hours before a question is answered, thank you for your patience"
+2017-11-03 18:07:43	--	Topic set by h00th00t (qkkAkdiRJY@gateway/shell/uberspace.de/x-obzrbbcheoqvncqi) on Tue, 10 Oct 2017 18:33:02
+2017-11-03 18:07:43	--	Channel #ranger: 56 nicks (0 ops, 0 voices, 56 normals)
+2017-11-03 18:08:04	--	Channel created on Thu, 25 Sep 2014 09:22:46
+2017-11-03 18:09:13	--	irc: disconnected from server
+2017-11-03 18:09:36	-->	tomeaton17 (~tomeaton1@129.ip-91-134-134.eu) has joined #ranger
+2017-11-03 18:09:36	--	Topic for #ranger is "Official ranger file manager channel - http://ranger.nongnu.org - Please note that sometimes it may take hours before a question is answered, thank you for your patience"
+2017-11-03 18:09:36	--	Topic set by h00th00t (qkkAkdiRJY@gateway/shell/uberspace.de/x-obzrbbcheoqvncqi) on Tue, 10 Oct 2017 18:33:02
+2017-11-03 18:09:36	--	Channel #ranger: 56 nicks (0 ops, 0 voices, 56 normals)
+2017-11-03 18:09:57	--	Channel created on Thu, 25 Sep 2014 09:22:46
+2017-11-03 18:13:01	<--	jcbitter (~jcbitter@181.49.87.145) has quit (Ping timeout: 240 seconds)
+2017-11-03 18:20:23	<--	matoro (~matoro@129.62.65.18) has quit (Read error: Connection reset by peer)
+2017-11-03 18:21:21	-->	matoro (~matoro@129.62.65.18) has joined #ranger
+2017-11-03 18:26:30	-->	jcbitter (~jcbitter@181.49.87.145) has joined #ranger
+2017-11-03 19:11:09	-->	voidead (~voidead@unaffiliated/voidead) has joined #ranger
+2017-11-03 20:07:08	-->	blawiz (~DD_comman@unaffiliated/blawiz) has joined #ranger
+2017-11-03 20:34:01	<--	__monty__ (~toonn@unaffiliated/toonn) has quit (Remote host closed the connection)
+2017-11-03 23:08:40	-->	__monty__ (~toonn@unaffiliated/toonn) has joined #ranger
+2017-11-04 00:16:04	<--	roch_mjo (~roch_mjo@89-69-156-17.dynamic.chello.pl) has quit (Quit: gn.)
+2017-11-04 00:24:31	--	irc: disconnected from server
+2017-11-04 11:04:38	-->	tomeaton17 (~tomeaton1@129.ip-91-134-134.eu) has joined #ranger
+2017-11-04 11:04:38	--	Topic for #ranger is "Official ranger file manager channel - http://ranger.nongnu.org - Please note that sometimes it may take hours before a question is answered, thank you for your patience"
+2017-11-04 11:04:38	--	Topic set by h00th00t (qkkAkdiRJY@gateway/shell/uberspace.de/x-obzrbbcheoqvncqi) on Tue, 10 Oct 2017 18:33:02
+2017-11-04 11:04:38	--	Channel #ranger: 55 nicks (0 ops, 0 voices, 55 normals)
+2017-11-04 11:04:56	--	Channel created on Thu, 25 Sep 2014 09:22:46
+2017-11-04 11:12:58	--	irc: disconnected from server
+2017-11-06 09:52:22	-->	tomeaton17 (~tomeaton1@129.ip-91-134-134.eu) has joined #ranger
+2017-11-06 09:52:22	--	Topic for #ranger is "Official ranger file manager channel - http://ranger.nongnu.org - Please note that sometimes it may take hours before a question is answered, thank you for your patience"
+2017-11-06 09:52:22	--	Topic set by h00th00t (qkkAkdiRJY@gateway/shell/uberspace.de/x-obzrbbcheoqvncqi) on Tue, 10 Oct 2017 18:33:02
+2017-11-06 09:52:22	--	Channel #ranger: 49 nicks (0 ops, 0 voices, 49 normals)
+2017-11-06 09:52:22	***	Buffer Playback...
+2017-11-06 09:52:22	vifon	[21:06:10] https://probot.github.io/apps/polls/
+2017-11-06 09:52:22	vifon	[21:06:12] Nice.
+2017-11-06 09:52:22	blawiz	[08:32:00] what do you think of void linux?
+2017-11-06 09:52:22	anantpaatra	[14:23:36] blawiz: desktop usage? I would love to migrate to a really small distro. Alpine and Void are my top contenders. Void is less security oriented but has more desktop focus than Alpine it seems.
+2017-11-06 09:52:22	__monty__	[14:25:51] anantpaatra: Why not nixos?
+2017-11-06 09:52:22	vifon	[14:26:14] Actually what is Void? How does it compare to the others?
+2017-11-06 09:52:22	__monty__	[14:26:58] It's basically equivalent to the unit type in functional languages, vifon, statically typed functional languages really.
+2017-11-06 09:52:22	vifon	[14:27:42] It's for computers I need only for their side effects?
+2017-11-06 09:52:22	vifon	[14:27:50] Like, looking nice on a shelf?
+2017-11-06 09:52:22	vifon	[14:27:53] Noted.
+2017-11-06 09:52:22	__monty__	[14:27:56] Exactly.
+2017-11-06 09:52:22	vifon	[14:28:15] By that analogy, is Arch a bottom type?
+2017-11-06 09:52:22	__monty__	[14:28:30] Like, what would you even do with a box that doesn't have a monadic interface?
+2017-11-06 09:52:22	__monty__	[14:28:47] Arch is definitely a top type.
+2017-11-06 09:52:22	vifon	[14:29:24] I like to treat my women like I treat my values, binding them all the time.
+2017-11-06 09:52:22	vifon	[14:29:33] </haskell humor>
+2017-11-06 09:52:22	__monty__	[14:34:41] Didn't know you were into S *and* M expressions.
+2017-11-06 09:52:22	vifon	[14:34:53] IAL :D
+2017-11-06 09:52:22	__monty__	[14:35:31] Algol?
+2017-11-06 09:52:22	blawiz	[20:56:17] what u girls think of void linux?
+2017-11-06 09:52:22	__monty__	[20:59:06] We already discussed it's inferiority when compared with functional paradigm adherent distros.
+2017-11-06 09:52:22	vifon	[20:59:43] I didn't know that side of you, __monty__.
+2017-11-06 09:52:22	__monty__	[21:00:20] You didn't know I'm not a fan of the imperative, nay imperial paradigm?
+2017-11-06 09:52:22	blawiz	[21:00:53] i say, u walk fine today
+2017-11-06 09:52:22	blawiz	[21:01:28] why u dont like void?
+2017-11-06 09:52:22	__monty__	[21:01:55] Because inhabited types are useless.
+2017-11-06 09:52:22	blawiz	[21:02:16] inhabited types?
+2017-11-06 09:52:22	__monty__	[21:08:23] Void is inhabited by a single value. Bool is inhabited by two values. Add one to each of those if the language has bottoms.
+2017-11-06 09:52:22	__monty__	[21:08:38] I'm just joking if that wasn't obvious btw : )
+2017-11-06 09:52:22	blawiz	[21:10:37] so waht u think of void u glorious bastard
+2017-11-06 09:52:22	__monty__	[21:15:43] Haven't looked at it, so this'll be a first impressions kind of review at best.
+2017-11-06 09:52:22	blawiz	[21:16:31] kk, just tried it a bit on a VM
+2017-11-06 09:52:22	blawiz	[21:16:35] seem nice
+2017-11-06 09:52:22	blawiz	[21:16:47] but eh... not so much difference between distros
+2017-11-06 09:52:22	blawiz	[21:17:01] even bsd seems almost same
+2017-11-06 09:52:22	__monty__	[21:17:37] Nixos is definitely different : )
+2017-11-06 09:52:22	__monty__	[21:18:05] Don't know about xbps nor runit. Nothing revolutionary though.
+2017-11-06 09:52:22	blawiz	[21:18:20] ah ye... i heard a comment about it thought ... that its its not very customizable, just in the ways the developers has specially thought of ...
+2017-11-06 09:52:22	blawiz	[21:18:28] havent tried it much myself though
+2017-11-06 09:52:22	__monty__	[21:22:27] A distro'd have to be really different for me to consider switching from arch. I'll probably switch to nixos in the future. So it'd have to be better than nixos. Maybe guixsd but haven't seen anything else remotely as interesting.
+2017-11-06 09:52:22	blawiz	[21:25:51] hmm hadnt heard of guixsd
+2017-11-06 09:52:22	blawiz	[21:26:42] ye most are not very different i find, got kinda tired of debian and for first time in many years looking on other distros
+2017-11-06 09:52:22	__monty__	[21:27:08] Debian makes some really good decisions though, gotta give them props for that.
+2017-11-06 09:52:22	blawiz	[21:27:30] kinda like openbsd, but at least one package resulted in segmentation fault early on, and its important package for me :P
+2017-11-06 09:52:22	blawiz	[21:27:39] also the software is kinda old
+2017-11-06 09:52:22	blawiz	[21:28:10] yeah im not really unhappy with it, just ... kinda want a change ;P
+2017-11-06 09:52:22	__monty__	[21:28:14] Yeah, I'd probably stick with freebsd, seems like the most maintained one.
+2017-11-06 09:52:22	__monty__	[21:28:37] If I wanted to run bsd that is.
+2017-11-06 09:52:22	blawiz	[21:29:18] hmm i just tried it, dont remember if/what i didnt like about it
+2017-11-06 09:52:22	blawiz	[21:29:22] :S
+2017-11-06 09:52:22	blawiz	[21:30:13]  i like the simple 'pkg install' though
+2017-11-06 09:52:22	__monty__	[21:31:22] Yeah, the ports system is legendary. Also, bsd had features like jails way before linux got containers. But really it's more server than desktop os to me.
+2017-11-06 09:52:22	blawiz	[21:32:13] "GNU Guix The Emacs of Distros"
+2017-11-06 09:52:22	__monty__	[21:33:36] Yes, I think they meant to say GNU Guix The 2nd Emacs of Distros.
+2017-11-06 09:52:22	blawiz	[21:35:17] why? are u joking again? >:/
+2017-11-06 09:52:22	vifon	[21:37:31] Is GNU Guix a part of the same "family of projects" GNU dmd is? Is it a going to be the package manager of GNU/Hurd?
+2017-11-06 09:52:22	vifon	[21:37:41] Oh, GNU dmd changed its name!!!
+2017-11-06 09:52:22	vifon	[21:37:43] https://www.gnu.org/software/shepherd/
+2017-11-06 09:52:22	blawiz	[21:40:16] "powerful and beautiful dependency-based system"
+2017-11-06 09:52:22	__monty__	[21:46:19] Yeah vifon. It's meant to be a gnu/hurd system.
+2017-11-06 09:52:22	vifon	[21:47:58] I wonder if dired is already the official file manager of GNU/Hurd or is the slot still vacant.
+2017-11-06 09:52:22	__monty__	[21:50:51] Is that emacs based?
+2017-11-06 09:52:22	vifon	[21:50:59] Yes.
+2017-11-06 09:52:22	blawiz	[21:51:35] whats the difference between true and full https://en.wikipedia.org/wiki/Rolling_distribution
+2017-11-06 09:52:22	vifon	[21:54:56] No idea but "rolling" is no longer a word for me.
+2017-11-06 09:52:22	vifon	[21:55:08] https://en.wikipedia.org/wiki/Semantic_satiation
+2017-11-06 09:52:22	blawiz	[21:55:37] its not true for arch?
+2017-11-06 09:52:22	blawiz	[21:55:41] or void?
+2017-11-06 09:52:22	vifon	[21:57:06] Fuck, I must install Gentoo again... I miss it.
+2017-11-06 09:52:22	vifon	[21:57:23] (on a secondary machine)
+2017-11-06 09:52:22	__monty__	[21:57:39] Arch is both full and true imo.
+2017-11-06 09:52:22	vifon	[21:57:57] Yeah, but what's the difference?
+2017-11-06 09:52:22	__monty__	[21:58:06] It's a stupid distinction though. A partly rolling release isn't a rolling release.
+2017-11-06 09:52:22	__monty__	[21:58:22] Full means everything, there's no non-rolling core.
+2017-11-06 09:52:22	__monty__	[21:58:31] Acording to that wiki article btw.
+2017-11-06 09:52:22	__monty__	[21:58:47] True means there's only a rolling version.
+2017-11-06 09:52:22	vifon	[21:58:49] That's stupid. I'd consider such model a smart move.
+2017-11-06 09:52:22	blawiz	[21:59:24] a rolling version?
+2017-11-06 09:52:22	vifon	[21:59:24] So true == no such thing as Arch Stable?
+2017-11-06 09:52:22	__monty__	[21:59:57] Nah, rolling's the way to go. Preferably like nixos. Tumbleweed has an interesting approach but is obsoleted by nixos really.
+2017-11-06 09:52:22	__monty__	[22:00:16] blawiz: As opposed to having both a rolling and a non-rolling release.
+2017-11-06 09:52:22	__monty__	[22:00:24] vifon: Yes, according to that article.
+2017-11-06 09:52:22	vifon	[22:00:34] And full?
+2017-11-06 09:52:22	__monty__	[22:00:45] Means there's no non-rolling part.
+2017-11-06 09:52:22	__monty__	[22:01:07] I think suse/tumbleweed is an example of non-true rolling.
+2017-11-06 09:52:22	vifon	[22:01:19] So what's the distinction?
+2017-11-06 09:52:22	vifon	[22:01:25] I'm with blawiz: WTF?
+2017-11-06 09:52:22	__monty__	[22:01:47] true is about having two distinct releases, imagine plain ubuntu and a rolling ubuntu.
+2017-11-06 09:52:22	blawiz	[22:01:49] is there a non-rollng part in "true"?
+2017-11-06 09:52:22	vifon	[22:02:03] Debian Stable and Debian Sid basically. Or even testing.
+2017-11-06 09:52:22	__monty__	[22:02:09] Full is about having a rolling system without a non-rolling core or part.
+2017-11-06 09:52:22	vifon	[22:02:20] As in a set of packages?
+2017-11-06 09:52:22	__monty__	[22:02:29] Nah, debian's not rolling unless they changed.
+2017-11-06 09:52:22	vifon	[22:02:40] How is Sid not rolling?
+2017-11-06 09:52:22	__monty__	[22:03:24] Looked it up, seems like sid is indeed rolling.
+2017-11-06 09:52:22	__monty__	[22:03:51] But it's not actually a release so calling it rolling is useless.
+2017-11-06 09:52:22	vifon	[22:04:11] ...what?
+2017-11-06 09:52:22	__monty__	[22:05:43] It's a development system. You're only meant to run it for testing purposes. Actually, no, you're only meant to be running it for development purposes, testing is probably the one they want you to test.
+2017-11-06 09:52:22	__monty__	[22:06:34] The rolling terminology is very much aimed at average users. It has no business in the context of a development version.
+2017-11-06 09:52:22	vifon	[22:13:07] Sid is not like the Arch Testing branch.
+2017-11-06 09:52:22	vifon	[22:13:23] It's often used as a desktop system in a non-critical places.
+2017-11-06 09:52:22	__monty__	[22:15:14] The way it's used and the way it's marketed don't have to coincide.
+2017-11-06 09:52:22	CyberMuz	[08:23:30] Hi! Is there a way to view full filename? I have folder full of very long filenames with the same name exept for the version at the end. Ranger displays only firs N characters. Can I somehow view full name?
+2017-11-06 09:52:22	***	Playback Complete.
+2017-11-06 09:52:32	--	Channel created on Thu, 25 Sep 2014 09:22:46
