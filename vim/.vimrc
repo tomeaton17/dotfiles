@@ -50,3 +50,6 @@ set number relativenumber
 
 "Mouse
 set mouse=a
+
+"Swapfiles
+set directory=$HOME/.vim/swapfiles//
