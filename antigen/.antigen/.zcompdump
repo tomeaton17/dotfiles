@@ -1,4 +1,4 @@
-#files: 820	version: 5.4.2
+#files: 825	version: 5.4.2
 
 _comps=(
 '-' '_precommand'
@@ -174,6 +174,7 @@ _comps=(
 'console' '_console'
 'convert' '_imagemagick'
 'coredumpctl' '_coredumpctl'
+'cower' '_cower'
 'cowsay' '_cowsay'
 'cowthink' '_cowsay'
 'cp' '_cp'
@@ -761,6 +762,7 @@ _comps=(
 'next' '_mh'
 'ngrep' '_ngrep'
 'nice' '_nice'
+'ninja' '_ninja'
 'nkf' '_nkf'
 'nl' '_nl'
 'nm' '_nm'
@@ -793,14 +795,23 @@ _comps=(
 'optirun' '_optirun'
 'p4' '_perforce'
 'p4d' '_perforce'
+'pacat' '_pulseaudio'
+'pacaur' '_pacaur'
 'pack' '_pack'
 'packf' '_mh'
 'pacman' '_pacman'
 'pacman-key' '_pacman'
 'pacman.static' '_pacman'
+'pacmd' '_pulseaudio'
+'pactl' '_pulseaudio'
+'padsp' '_pulseaudio'
+'paplay' '_pulseaudio'
 '-parameter-' '_parameter'
+'parec' '_pulseaudio'
+'parecord' '_pulseaudio'
 'passwd' '_users'
 'paste' '_paste'
+'pasuspender' '_pulseaudio'
 'patch' '_patch'
 'patool' '_patool'
 'pax' '_pax'
@@ -908,6 +919,7 @@ _comps=(
 'pstops' '_psutils'
 'pstotgif' '_pspdf'
 'pswrap' '_postscript'
+'pulseaudio' '_pulseaudio'
 'pump' '_pump'
 'pushd' '_cd'
 'pwait' '_pids'
@@ -1559,22 +1571,23 @@ autoload -Uz _ack _afew _android _ansible _ansible-galaxy \
             _bitcoin-cli _bootctl _bower _bundle _busctl \
             _caffeinate _cap _cask _cf _chattr \
             _cheat _choc _cmake _coffee _column \
-            _composer _console _coredumpctl _dad _debuild \
-            _dget _dhcpcd _diana _docpad _downgrade \
-            _drush _emulator _envdir _exportfs _fab \
-            _ffind _fleetctl _force _gas _geany \
-            _ghc _gist _git-flow _git-journal _git-pulls \
-            _git-wtf _glances _go _google _gtk-launch \
-            _homestead _hostnamectl _httpie _ibus _jmeter \
-            _jmeter-plugins _jonas _journalctl _jq _jrnl \
-            _kak _kernel-install _kitchen _knife _language_codes \
-            _localectl _loginctl _lsattr _lsblk _lunchy \
-            _machinectl _middleman _mina _mix _mkinitcpio \
-            _mpv _multirust _mussh _mvn _netctl \
-            _networkctl _node _nvm _openssl _optirun \
-            _pacman _paste _patool _perf _periscope \
-            _pgsql_utils _phing _pixz _pkcon _play \
-            _polybar _polybar_msg _port _pygmentize _rails \
+            _composer _console _coredumpctl _cower _curl \
+            _dad _debuild _dget _dhcpcd _diana \
+            _docpad _downgrade _drush _emulator _envdir \
+            _exportfs _fab _ffind _fleetctl _force \
+            _gas _geany _ghc _gist _git-flow \
+            _git-journal _git-pulls _git-wtf _glances _go \
+            _google _gtk-launch _homestead _hostnamectl _httpie \
+            _ibus _jmeter _jmeter-plugins _jonas _journalctl \
+            _jq _jrnl _kak _kernel-install _kitchen \
+            _knife _language_codes _localectl _loginctl _lsattr \
+            _lsblk _lunchy _machinectl _middleman _mina \
+            _mix _mkinitcpio _mpv _multirust _mussh \
+            _mvn _netctl _networkctl _ninja _node \
+            _nvm _openssl _optirun _pacaur _pacman \
+            _paste _patool _perf _periscope _pgsql_utils \
+            _phing _pixz _pkcon _play _polybar \
+            _polybar_msg _port _pulseaudio _pygmentize _rails \
             _ralio _rclone _redis-cli _rfkill _rkt \
             _rslsync _rspec _rsvm _rubocop _rvm \
             _sbt _scala _scl _scrub _sdd \

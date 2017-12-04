@@ -314,6 +314,8 @@ antigen bundle zsh-users/zsh-autosuggestions
 
 antigen bundle zsh-users/zsh-syntax-highlighting
 
+antigen bundle popstas/zsh-command-time
+
 #antigen theme https://github.com/denysdovhan/spaceship-zsh-theme spaceship
 
 antigen apply
@@ -412,3 +414,9 @@ export PATH=/home/tom/go/bin:$PATH
 # kicad
 export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/usr/local/lib64"
 
+# command time
+# If command execution time above min. time, plugins will not output time.
+ZSH_COMMAND_TIME_MIN_SECONDS=3
+
+# Set it to "" for disable echo `time: xx`.
+ZSH_COMMAND_TIME_ECHO=1

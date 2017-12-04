@@ -1,5 +1,5 @@
 #-- START ZCACHE GENERATED FILE
-#-- GENERATED: Fri  3 Nov 12:28:21 GMT 2017
+#-- GENERATED: Mon  4 Dec 14:50:46 GMT 2017
 #-- ANTIGEN v2.0.2
 _antigen () {
 	local -a _1st_arguments
@@ -31,10 +31,10 @@ _antigen () {
 	esac
 }
 antigen () {
-  [[ "$ZSH_EVAL_CONTEXT" =~ "toplevel:*" || "$ZSH_EVAL_CONTEXT" =~ "cmdarg:*" ]] && source "/home/tom/antigen.zsh" && eval antigen $@;
+  [[ "$ZSH_EVAL_CONTEXT" =~ "toplevel:*" || "$ZSH_EVAL_CONTEXT" =~ "cmdarg:*" ]] && source "/home/tom/dotfiles/antigen/antigen.zsh" && eval antigen $@;
   return 0;
 }
-fpath+=(/home/tom/.antigen/bundles/robbyrussell/oh-my-zsh/lib /home/tom/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/git /home/tom/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/virtualenv /home/tom/.antigen/bundles/zsh-users/zsh-autosuggestions /home/tom/.antigen/bundles/zsh-users/zsh-syntax-highlighting); PATH="$PATH:"
+fpath+=(/home/tom/.antigen/bundles/robbyrussell/oh-my-zsh/lib /home/tom/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/git /home/tom/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/virtualenv /home/tom/.antigen/bundles/zsh-users/zsh-autosuggestions /home/tom/.antigen/bundles/zsh-users/zsh-syntax-highlighting /home/tom/.antigen/bundles/popstas/zsh-command-time); PATH="$PATH:"
 _antigen_compinit () {
   autoload -Uz compinit; compinit -C -d "/home/tom/.antigen/.zcompdump"; compdef _antigen antigen
   add-zsh-hook -D precmd _antigen_compinit
@@ -64,7 +64,8 @@ source "/home/tom/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/git/git.plugin
 source "/home/tom/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/virtualenv/virtualenv.plugin.zsh";
 source "/home/tom/.antigen/bundles/zsh-users/zsh-autosuggestions/zsh-autosuggestions.plugin.zsh";
 source "/home/tom/.antigen/bundles/zsh-users/zsh-syntax-highlighting/zsh-syntax-highlighting.plugin.zsh";
-typeset -aU _ANTIGEN_BUNDLE_RECORD;      _ANTIGEN_BUNDLE_RECORD=('https://github.com/robbyrussell/oh-my-zsh.git lib plugin true' 'https://github.com/robbyrussell/oh-my-zsh.git plugins/git plugin true' 'https://github.com/robbyrussell/oh-my-zsh.git plugins/virtualenv plugin true' 'https://github.com/zsh-users/zsh-autosuggestions.git / plugin true' 'https://github.com/zsh-users/zsh-syntax-highlighting.git / plugin true')
+source "/home/tom/.antigen/bundles/popstas/zsh-command-time/command-time.plugin.zsh";
+typeset -aU _ANTIGEN_BUNDLE_RECORD;      _ANTIGEN_BUNDLE_RECORD=('https://github.com/robbyrussell/oh-my-zsh.git lib plugin true' 'https://github.com/robbyrussell/oh-my-zsh.git plugins/git plugin true' 'https://github.com/robbyrussell/oh-my-zsh.git plugins/virtualenv plugin true' 'https://github.com/zsh-users/zsh-autosuggestions.git / plugin true' 'https://github.com/zsh-users/zsh-syntax-highlighting.git / plugin true' 'https://github.com/popstas/zsh-command-time.git / plugin true')
 _ANTIGEN_CACHE_LOADED=true ANTIGEN_CACHE_VERSION='v2.0.2'
 #-- END ZCACHE GENERATED FILE
 
