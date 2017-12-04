@@ -1,18 +1,18 @@
-[2017-11-07 13:02:32] WeeChat 1.9.1 (compiled on Sep 23 2017 19:44:10)
-[2017-11-07 13:02:32] Reading configuration file sec.conf
-[2017-11-07 13:02:32] Reading configuration file weechat.conf
-[2017-11-07 13:02:32] Reading configuration file plugins.conf
-[2017-11-07 13:02:32] Reading configuration file charset.conf
-[2017-11-07 13:02:32] Reading configuration file logger.conf
-[2017-11-07 13:02:32] Reading configuration file exec.conf
-[2017-11-07 13:02:32] Reading configuration file trigger.conf
-[2017-11-07 13:02:32] Reading configuration file aspell.conf
-[2017-11-07 13:02:32] Reading configuration file alias.conf
-[2017-11-07 13:02:32] Reading configuration file buflist.conf
-[2017-11-07 13:02:32] Reading configuration file fifo.conf
-[2017-11-07 13:02:32] Reading configuration file xfer.conf
-[2017-11-07 13:02:32] Reading configuration file irc.conf
-[2017-11-07 13:02:32] Reading configuration file relay.conf
-[2017-11-07 13:02:32] Reading configuration file script.conf
-[2017-11-07 13:02:32] irc: connecting to server 91.134.134.129/6697 (SSL)...
-[2017-11-07 13:02:42] irc: connecting to server 91.134.134.129/6697 (SSL)...
+[2017-12-04 09:45:47] WeeChat 1.9.1 (compiled on Sep 23 2017 19:44:10)
+[2017-12-04 09:45:47] Reading configuration file sec.conf
+[2017-12-04 09:45:47] Reading configuration file weechat.conf
+[2017-12-04 09:45:47] Reading configuration file plugins.conf
+[2017-12-04 09:45:47] Reading configuration file charset.conf
+[2017-12-04 09:45:47] Reading configuration file logger.conf
+[2017-12-04 09:45:47] Reading configuration file exec.conf
+[2017-12-04 09:45:47] Reading configuration file trigger.conf
+[2017-12-04 09:45:47] Reading configuration file aspell.conf
+[2017-12-04 09:45:47] Reading configuration file alias.conf
+[2017-12-04 09:45:47] Reading configuration file buflist.conf
+[2017-12-04 09:45:47] Reading configuration file fifo.conf
+[2017-12-04 09:45:47] Reading configuration file xfer.conf
+[2017-12-04 09:45:47] Reading configuration file irc.conf
+[2017-12-04 09:45:47] Reading configuration file relay.conf
+[2017-12-04 09:45:47] Reading configuration file script.conf
+[2017-12-04 09:45:47] irc: connecting to server 91.134.134.129/6697 (SSL)...
+[2017-12-04 09:45:57] irc: connecting to server 91.134.134.129/6697 (SSL)...

@@ -40,9 +40,13 @@ set backspace=2
 
 "YouCompleteMe
 let g:ycm_autoclose_preview_window_after_completion=1
+let g:ycm_global_ycm_extra_conf = '/home/tom/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/.ycm_extra_conf.py'
 map <leader>g  :YcmCompleter GoToDefinitionElseDeclaration<CR>
 
 "Theme
 colorscheme sourcerer
 
 set number relativenumber
+
+"Mouse
+set mouse=a

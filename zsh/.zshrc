@@ -399,5 +399,16 @@ eval "$(direnv hook zsh)"
 export EDITOR='vim'
 export VISUAL='vim'
 
+# cuda 
+export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/opt/cuda/lib64:/opt/cuda/extras/CUPTI/lib64"
+export CUDA_HOME=/opt/cuda
+
 eval $(keychain --eval --quiet id_rsa ~/.ssh/id_rsa)
+
+# go
+export GOPATH=$HOME/go
+export PATH=/home/tom/go/bin:$PATH
+
+# kicad
+export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/usr/local/lib64"
 
