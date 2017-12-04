@@ -1,2 +1,3 @@
  polybar/.config/polybar/gmail/client_secrets.json
 weechat/.weechat/logs/
+weechat/.weechat/*.log
