@@ -12,6 +12,7 @@ Plugin 'xero/blaquemagick.vim'
 Plugin 'nanotech/jellybeans.vim'
 Plugin 'xero/sourcerer.vim'
 Plugin 'sickill/vim-monokai'
+Plugin 'jiangmiao/auto-pairs'
 " Plugins above here
 " Bundles below here
 Bundle "daylerees/colour-schemes", { "rtp": "vim/" }
