@@ -462,4 +462,4 @@ for_window [title="^Steam Keyboard$"] floating enable
 
 # focussed window
 
-bindsym $mod+Shift+f exec python ~/Documents/scripts/focussed.py
+bindsym $mod+Shift+f exec --no-startup-id python ~/Documents/scripts/focussed.py
