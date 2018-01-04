@@ -18,7 +18,7 @@ XTerm*selectToClipboard:          true
 
 Xft.dpi: 192
 
-URxvt.font: -xos4-terminus-medium-r-normal--28-280-72-72-c-140-iso10646-1
+URxvt.font: -xos4-terminus-medium-r-normal--28-280-72-72-c-140-iso10646-1,xft:Noto Color Emoji
 
 ! alternative font settings with 'terminus':
 !URxvt.font:      -xos4-terminus-medium-r-normal--16-160-72-72-c-80-iso10646-1

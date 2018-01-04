@@ -16,6 +16,8 @@ Plugin 'jiangmiao/auto-pairs'
 " Plugins above here
 " Bundles below here
 Bundle "daylerees/colour-schemes", { "rtp": "vim/" }
+Bundle 'mattn/webapi-vim'
+Bundle 'mattn/gist-vim'
 " Bundles above here
 call vundle#end()
 filetype plugin indent on
@@ -41,7 +43,7 @@ set backspace=2
 
 "YouCompleteMe
 let g:ycm_autoclose_preview_window_after_completion=1
-let g:ycm_global_ycm_extra_conf = '/home/tom/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/.ycm_extra_conf.py'
+"let g:ycm_global_ycm_extra_conf = '/home/tom/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/.ycm_extra_conf.py'
 map <leader>g  :YcmCompleter GoToDefinitionElseDeclaration<CR>
 
 "Theme
@@ -54,3 +56,6 @@ set mouse=a
 
 "Swapfiles
 set directory=$HOME/.vim/swapfiles//
+
+"Clipboard
+set clipboard=unnamedplus
