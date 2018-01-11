@@ -420,3 +420,4 @@ ZSH_COMMAND_TIME_MIN_SECONDS=3
 
 # Set it to "" for disable echo `time: xx`.
 ZSH_COMMAND_TIME_ECHO=1
+export GPG_TTY=$(tty)
